@@ -1,0 +1,5567 @@
+GEOCODIG_M,UF,SIGLA,NOME_MUNIC,REGI_O
+110001,11,RO,"Alta Floresta D'Oeste",Norte
+110002,11,RO,Ariquemes,Norte
+110003,11,RO,Cabixi,Norte
+110004,11,RO,Cacoal,Norte
+110005,11,RO,Cerejeiras,Norte
+110006,11,RO,"Colorado do Oeste",Norte
+110007,11,RO,Corumbiara,Norte
+110008,11,RO,"Costa Marques",Norte
+110009,11,RO,"Espigão D'Oeste",Norte
+110010,11,RO,Guajará-Mirim,Norte
+110011,11,RO,Jaru,Norte
+110012,11,RO,Ji-Paraná,Norte
+110013,11,RO,"Machadinho D'Oeste",Norte
+110014,11,RO,"Nova Brasilândia D'Oeste",Norte
+110015,11,RO,"Ouro Preto do Oeste",Norte
+110018,11,RO,"Pimenta Bueno",Norte
+110020,11,RO,"Porto Velho",Norte
+110025,11,RO,"Presidente Médici",Norte
+110026,11,RO,"Rio Crespo",Norte
+110028,11,RO,"Rolim de Moura",Norte
+110029,11,RO,"Santa Luzia D'Oeste",Norte
+110030,11,RO,Vilhena,Norte
+110032,11,RO,"São Miguel do Guaporé",Norte
+110033,11,RO,"Nova Mamoré",Norte
+110034,11,RO,"Alvorada D'Oeste",Norte
+110037,11,RO,"Alto Alegre dos Parecis",Norte
+110040,11,RO,"Alto Paraíso",Norte
+110045,11,RO,Buritis,Norte
+110050,11,RO,"Novo Horizonte do Oeste",Norte
+110060,11,RO,Cacaulândia,Norte
+110070,11,RO,"Campo Novo de Rondônia",Norte
+110080,11,RO,"Candeias do Jamari",Norte
+110090,11,RO,Castanheiras,Norte
+110092,11,RO,Chupinguaia,Norte
+110094,11,RO,Cujubim,Norte
+110100,11,RO,"Governador Jorge Teixeira",Norte
+110110,11,RO,"Itapuã do Oeste",Norte
+110120,11,RO,"Ministro Andreazza",Norte
+110130,11,RO,"Mirante da Serra",Norte
+110140,11,RO,"Monte Negro",Norte
+110143,11,RO,"Nova União",Norte
+110145,11,RO,Parecis,Norte
+110146,11,RO,"Pimenteiras do Oeste",Norte
+110147,11,RO,"Primavera de Rondônia",Norte
+110148,11,RO,"São Felipe D'Oeste",Norte
+110149,11,RO,"São Francisco do Guaporé",Norte
+110150,11,RO,Seringueiras,Norte
+110155,11,RO,Teixeirópolis,Norte
+110160,11,RO,Theobroma,Norte
+110170,11,RO,Urupá,Norte
+110175,11,RO,"Vale do Anari",Norte
+110180,11,RO,"Vale do Paraíso",Norte
+120001,12,AC,Acrelândia,Norte
+120005,12,AC,"Assis Brasil",Norte
+120010,12,AC,Brasiléia,Norte
+120013,12,AC,Bujari,Norte
+120017,12,AC,Capixaba,Norte
+120020,12,AC,"Cruzeiro do Sul",Norte
+120025,12,AC,Epitaciolândia,Norte
+120030,12,AC,Feijó,Norte
+120032,12,AC,Jordão,Norte
+120033,12,AC,"Mâncio Lima",Norte
+120034,12,AC,"Manoel Urbano",Norte
+120035,12,AC,"Marechal Thaumaturgo",Norte
+120038,12,AC,"Plácido de Castro",Norte
+120039,12,AC,"Porto Walter",Norte
+120040,12,AC,"Rio Branco",Norte
+120042,12,AC,"Rodrigues Alves",Norte
+120043,12,AC,"Santa Rosa do Purus",Norte
+120045,12,AC,"Senador Guiomard",Norte
+120050,12,AC,"Sena Madureira",Norte
+120060,12,AC,Tarauacá,Norte
+120070,12,AC,Xapuri,Norte
+120080,12,AC,"Porto Acre",Norte
+130002,13,AM,Alvarães,Norte
+130006,13,AM,Amaturá,Norte
+130008,13,AM,Anamã,Norte
+130010,13,AM,Anori,Norte
+130014,13,AM,Apuí,Norte
+130020,13,AM,"Atalaia do Norte",Norte
+130030,13,AM,Autazes,Norte
+130040,13,AM,Barcelos,Norte
+130050,13,AM,Barreirinha,Norte
+130060,13,AM,"Benjamin Constant",Norte
+130063,13,AM,Beruri,Norte
+130068,13,AM,"Boa Vista do Ramos",Norte
+130070,13,AM,"Boca do Acre",Norte
+130080,13,AM,Borba,Norte
+130083,13,AM,Caapiranga,Norte
+130090,13,AM,Canutama,Norte
+130100,13,AM,Carauari,Norte
+130110,13,AM,Careiro,Norte
+130115,13,AM,"Careiro da Várzea",Norte
+130120,13,AM,Coari,Norte
+130130,13,AM,Codajás,Norte
+130140,13,AM,Eirunepé,Norte
+130150,13,AM,Envira,Norte
+130160,13,AM,"Fonte Boa",Norte
+130165,13,AM,Guajará,Norte
+130170,13,AM,Humaitá,Norte
+130180,13,AM,Ipixuna,Norte
+130185,13,AM,Iranduba,Norte
+130190,13,AM,Itacoatiara,Norte
+130195,13,AM,Itamarati,Norte
+130200,13,AM,Itapiranga,Norte
+130210,13,AM,Japurá,Norte
+130220,13,AM,Juruá,Norte
+130230,13,AM,Jutaí,Norte
+130240,13,AM,Lábrea,Norte
+130250,13,AM,Manacapuru,Norte
+130255,13,AM,Manaquiri,Norte
+130260,13,AM,Manaus,Norte
+130270,13,AM,Manicoré,Norte
+130280,13,AM,Maraã,Norte
+130290,13,AM,Maués,Norte
+130300,13,AM,Nhamundá,Norte
+130310,13,AM,"Nova Olinda do Norte",Norte
+130320,13,AM,"Novo Airão",Norte
+130330,13,AM,"Novo Aripuanã",Norte
+130340,13,AM,Parintins,Norte
+130350,13,AM,Pauini,Norte
+130353,13,AM,"Presidente Figueiredo",Norte
+130356,13,AM,"Rio Preto da Eva",Norte
+130360,13,AM,"Santa Isabel do Rio Negro",Norte
+130370,13,AM,"Santo Antônio do Içá",Norte
+130380,13,AM,"São Gabriel da Cachoeira",Norte
+130390,13,AM,"São Paulo de Olivença",Norte
+130395,13,AM,"São Sebastião do Uatumã",Norte
+130400,13,AM,Silves,Norte
+130406,13,AM,Tabatinga,Norte
+130410,13,AM,Tapauá,Norte
+130420,13,AM,Tefé,Norte
+130423,13,AM,Tonantins,Norte
+130426,13,AM,Uarini,Norte
+130430,13,AM,Urucará,Norte
+130440,13,AM,Urucurituba,Norte
+140002,14,RR,Amajari,Norte
+140005,14,RR,"Alto Alegre",Norte
+140010,14,RR,"Boa Vista",Norte
+140015,14,RR,Bonfim,Norte
+140017,14,RR,Cantá,Norte
+140020,14,RR,Caracaraí,Norte
+140023,14,RR,Caroebe,Norte
+140028,14,RR,Iracema,Norte
+140030,14,RR,Mucajaí,Norte
+140040,14,RR,Normandia,Norte
+140045,14,RR,Pacaraima,Norte
+140047,14,RR,Rorainópolis,Norte
+140050,14,RR,"São João da Baliza",Norte
+140060,14,RR,"São Luiz",Norte
+140070,14,RR,Uiramutã,Norte
+150010,15,PA,Abaetetuba,Norte
+150013,15,PA,"Abel Figueiredo",Norte
+150020,15,PA,Acará,Norte
+150030,15,PA,Afuá,Norte
+150034,15,PA,"Água Azul do Norte",Norte
+150040,15,PA,Alenquer,Norte
+150050,15,PA,Almeirim,Norte
+150060,15,PA,Altamira,Norte
+150070,15,PA,Anajás,Norte
+150080,15,PA,Ananindeua,Norte
+150085,15,PA,Anapu,Norte
+150090,15,PA,"Augusto Corrêa",Norte
+150095,15,PA,"Aurora do Pará",Norte
+150100,15,PA,Aveiro,Norte
+150110,15,PA,Bagre,Norte
+150120,15,PA,Baião,Norte
+150125,15,PA,Bannach,Norte
+150130,15,PA,Barcarena,Norte
+150140,15,PA,Belém,Norte
+150145,15,PA,Belterra,Norte
+150150,15,PA,Benevides,Norte
+150157,15,PA,"Bom Jesus do Tocantins",Norte
+150160,15,PA,Bonito,Norte
+150170,15,PA,Bragança,Norte
+150172,15,PA,"Brasil Novo",Norte
+150175,15,PA,"Brejo Grande do Araguaia",Norte
+150178,15,PA,"Breu Branco",Norte
+150180,15,PA,Breves,Norte
+150190,15,PA,Bujaru,Norte
+150195,15,PA,"Cachoeira do Piriá",Norte
+150200,15,PA,"Cachoeira do Arari",Norte
+150210,15,PA,Cametá,Norte
+150215,15,PA,"Canaã dos Carajás",Norte
+150220,15,PA,Capanema,Norte
+150230,15,PA,"Capitão Poço",Norte
+150240,15,PA,Castanhal,Norte
+150250,15,PA,Chaves,Norte
+150260,15,PA,Colares,Norte
+150270,15,PA,"Conceição do Araguaia",Norte
+150275,15,PA,"Concórdia do Pará",Norte
+150276,15,PA,"Cumaru do Norte",Norte
+150277,15,PA,Curionópolis,Norte
+150280,15,PA,Curralinho,Norte
+150285,15,PA,Curuá,Norte
+150290,15,PA,Curuçá,Norte
+150293,15,PA,"Dom Eliseu",Norte
+150295,15,PA,"Eldorado dos Carajás",Norte
+150300,15,PA,Faro,Norte
+150304,15,PA,"Floresta do Araguaia",Norte
+150307,15,PA,"Garrafão do Norte",Norte
+150309,15,PA,"Goianésia do Pará",Norte
+150310,15,PA,Gurupá,Norte
+150320,15,PA,Igarapé-Açu,Norte
+150330,15,PA,Igarapé-Miri,Norte
+150340,15,PA,Inhangapi,Norte
+150345,15,PA,"Ipixuna do Pará",Norte
+150350,15,PA,Irituia,Norte
+150360,15,PA,Itaituba,Norte
+150370,15,PA,Itupiranga,Norte
+150375,15,PA,Jacareacanga,Norte
+150380,15,PA,Jacundá,Norte
+150390,15,PA,Juruti,Norte
+150400,15,PA,"Limoeiro do Ajuru",Norte
+150405,15,PA,"Mãe do Rio",Norte
+150410,15,PA,"Magalhães Barata",Norte
+150420,15,PA,Marabá,Norte
+150430,15,PA,Maracanã,Norte
+150440,15,PA,Marapanim,Norte
+150442,15,PA,Marituba,Norte
+150445,15,PA,Medicilândia,Norte
+150450,15,PA,Melgaço,Norte
+150460,15,PA,Mocajuba,Norte
+150470,15,PA,Moju,Norte
+150480,15,PA,"Monte Alegre",Norte
+150490,15,PA,Muaná,Norte
+150495,15,PA,"Nova Esperança do Piriá",Norte
+150497,15,PA,"Nova Ipixuna",Norte
+150500,15,PA,"Nova Timboteua",Norte
+150503,15,PA,"Novo Progresso",Norte
+150506,15,PA,"Novo Repartimento",Norte
+150510,15,PA,Óbidos,Norte
+150520,15,PA,"Oeiras do Pará",Norte
+150530,15,PA,Oriximiná,Norte
+150540,15,PA,Ourém,Norte
+150543,15,PA,"Ourilândia do Norte",Norte
+150548,15,PA,Pacajá,Norte
+150549,15,PA,"Palestina do Pará",Norte
+150550,15,PA,Paragominas,Norte
+150553,15,PA,Parauapebas,Norte
+150555,15,PA,"Pau D'Arco",Norte
+150560,15,PA,Peixe-Boi,Norte
+150563,15,PA,Piçarra,Norte
+150565,15,PA,Placas,Norte
+150570,15,PA,"Ponta de Pedras",Norte
+150580,15,PA,Portel,Norte
+150590,15,PA,"Porto de Moz",Norte
+150600,15,PA,Prainha,Norte
+150610,15,PA,Primavera,Norte
+150611,15,PA,Quatipuru,Norte
+150613,15,PA,Redenção,Norte
+150616,15,PA,"Rio Maria",Norte
+150618,15,PA,"Rondon do Pará",Norte
+150619,15,PA,Rurópolis,Norte
+150620,15,PA,Salinópolis,Norte
+150630,15,PA,Salvaterra,Norte
+150635,15,PA,"Santa Bárbara do Pará",Norte
+150640,15,PA,"Santa Cruz do Arari",Norte
+150650,15,PA,"Santa Isabel do Pará",Norte
+150655,15,PA,"Santa Luzia do Pará",Norte
+150658,15,PA,"Santa Maria das Barreiras",Norte
+150660,15,PA,"Santa Maria do Pará",Norte
+150670,15,PA,"Santana do Araguaia",Norte
+150680,15,PA,Santarém,Norte
+150690,15,PA,"Santarém Novo",Norte
+150700,15,PA,"Santo Antônio do Tauá",Norte
+150710,15,PA,"São Caetano de Odivelas",Norte
+150715,15,PA,"São Domingos do Araguaia",Norte
+150720,15,PA,"São Domingos do Capim",Norte
+150730,15,PA,"São Félix do Xingu",Norte
+150740,15,PA,"São Francisco do Pará",Norte
+150745,15,PA,"São Geraldo do Araguaia",Norte
+150746,15,PA,"São João da Ponta",Norte
+150747,15,PA,"São João de Pirabas",Norte
+150750,15,PA,"São João do Araguaia",Norte
+150760,15,PA,"São Miguel do Guamá",Norte
+150770,15,PA,"São Sebastião da Boa Vista",Norte
+150775,15,PA,Sapucaia,Norte
+150780,15,PA,"Senador José Porfírio",Norte
+150790,15,PA,Soure,Norte
+150795,15,PA,Tailândia,Norte
+150796,15,PA,"Terra Alta",Norte
+150797,15,PA,"Terra Santa",Norte
+150800,15,PA,Tomé-Açu,Norte
+150803,15,PA,Tracuateua,Norte
+150805,15,PA,Trairão,Norte
+150808,15,PA,Tucumã,Norte
+150810,15,PA,Tucuruí,Norte
+150812,15,PA,Ulianópolis,Norte
+150815,15,PA,Uruará,Norte
+150820,15,PA,Vigia,Norte
+150830,15,PA,Viseu,Norte
+150835,15,PA,"Vitória do Xingu",Norte
+150840,15,PA,Xinguara,Norte
+160005,16,AP,"Serra do Navio",Norte
+160010,16,AP,Amapá,Norte
+160015,16,AP,"Pedra Branca do Amapari",Norte
+160020,16,AP,Calçoene,Norte
+160021,16,AP,Cutias,Norte
+160023,16,AP,"Ferreira Gomes",Norte
+160025,16,AP,Itaubal,Norte
+160027,16,AP,"Laranjal do Jari",Norte
+160030,16,AP,Macapá,Norte
+160040,16,AP,Mazagão,Norte
+160050,16,AP,Oiapoque,Norte
+160053,16,AP,"Porto Grande",Norte
+160055,16,AP,Pracuúba,Norte
+160060,16,AP,Santana,Norte
+160070,16,AP,Tartarugalzinho,Norte
+160080,16,AP,"Vitória do Jari",Norte
+170025,17,TO,Abreulândia,Norte
+170030,17,TO,Aguiarnópolis,Norte
+170035,17,TO,"Aliança do Tocantins",Norte
+170040,17,TO,Almas,Norte
+170070,17,TO,Alvorada,Norte
+170100,17,TO,Ananás,Norte
+170105,17,TO,Angico,Norte
+170110,17,TO,"Aparecida do Rio Negro",Norte
+170130,17,TO,Aragominas,Norte
+170190,17,TO,Araguacema,Norte
+170200,17,TO,Araguaçu,Norte
+170210,17,TO,Araguaína,Norte
+170215,17,TO,Araguanã,Norte
+170220,17,TO,Araguatins,Norte
+170230,17,TO,Arapoema,Norte
+170240,17,TO,Arraias,Norte
+170255,17,TO,Augustinópolis,Norte
+170270,17,TO,"Aurora do Tocantins",Norte
+170290,17,TO,"Axixá do Tocantins",Norte
+170300,17,TO,Babaçulândia,Norte
+170305,17,TO,"Bandeirantes do Tocantins",Norte
+170307,17,TO,"Barra do Ouro",Norte
+170310,17,TO,Barrolândia,Norte
+170320,17,TO,"Bernardo Sayão",Norte
+170330,17,TO,"Bom Jesus do Tocantins",Norte
+170360,17,TO,"Brasilândia do Tocantins",Norte
+170370,17,TO,"Brejinho de Nazaré",Norte
+170380,17,TO,"Buriti do Tocantins",Norte
+170382,17,TO,Cachoeirinha,Norte
+170384,17,TO,"Campos Lindos",Norte
+170386,17,TO,"Cariri do Tocantins",Norte
+170388,17,TO,Carmolândia,Norte
+170389,17,TO,"Carrasco Bonito",Norte
+170390,17,TO,Caseara,Norte
+170410,17,TO,Centenário,Norte
+170460,17,TO,"Chapada de Areia",Norte
+170510,17,TO,"Chapada da Natividade",Norte
+170550,17,TO,"Colinas do Tocantins",Norte
+170555,17,TO,Combinado,Norte
+170560,17,TO,"Conceição do Tocantins",Norte
+170600,17,TO,"Couto Magalhães",Norte
+170610,17,TO,Cristalândia,Norte
+170625,17,TO,"Crixás do Tocantins",Norte
+170650,17,TO,Darcinópolis,Norte
+170700,17,TO,Dianópolis,Norte
+170710,17,TO,"Divinópolis do Tocantins",Norte
+170720,17,TO,"Dois Irmãos do Tocantins",Norte
+170730,17,TO,Dueré,Norte
+170740,17,TO,Esperantina,Norte
+170755,17,TO,Fátima,Norte
+170765,17,TO,Figueirópolis,Norte
+170770,17,TO,Filadélfia,Norte
+170820,17,TO,"Formoso do Araguaia",Norte
+170825,17,TO,"Fortaleza do Tabocão",Norte
+170830,17,TO,Goianorte,Norte
+170900,17,TO,Goiatins,Norte
+170930,17,TO,Guaraí,Norte
+170950,17,TO,Gurupi,Norte
+170980,17,TO,Ipueiras,Norte
+171050,17,TO,Itacajá,Norte
+171070,17,TO,Itaguatins,Norte
+171090,17,TO,Itapiratins,Norte
+171110,17,TO,"Itaporã do Tocantins",Norte
+171150,17,TO,"Jaú do Tocantins",Norte
+171180,17,TO,Juarina,Norte
+171190,17,TO,"Lagoa da Confusão",Norte
+171195,17,TO,"Lagoa do Tocantins",Norte
+171200,17,TO,Lajeado,Norte
+171215,17,TO,Lavandeira,Norte
+171240,17,TO,Lizarda,Norte
+171245,17,TO,Luzinópolis,Norte
+171250,17,TO,"Marianópolis do Tocantins",Norte
+171270,17,TO,Mateiros,Norte
+171280,17,TO,"Maurilândia do Tocantins",Norte
+171320,17,TO,"Miracema do Tocantins",Norte
+171330,17,TO,Miranorte,Norte
+171360,17,TO,"Monte do Carmo",Norte
+171370,17,TO,"Monte Santo do Tocantins",Norte
+171380,17,TO,"Palmeiras do Tocantins",Norte
+171395,17,TO,Muricilândia,Norte
+171420,17,TO,Natividade,Norte
+171430,17,TO,Nazaré,Norte
+171488,17,TO,"Nova Olinda",Norte
+171500,17,TO,"Nova Rosalândia",Norte
+171510,17,TO,"Novo Acordo",Norte
+171515,17,TO,"Novo Alegre",Norte
+171525,17,TO,"Novo Jardim",Norte
+171550,17,TO,"Oliveira de Fátima",Norte
+171570,17,TO,Palmeirante,Norte
+171575,17,TO,Palmeirópolis,Norte
+171610,17,TO,"Paraíso do Tocantins",Norte
+171620,17,TO,Paranã,Norte
+171630,17,TO,"Pau D'Arco",Norte
+171650,17,TO,"Pedro Afonso",Norte
+171660,17,TO,Peixe,Norte
+171665,17,TO,Pequizeiro,Norte
+171670,17,TO,Colméia,Norte
+171700,17,TO,"Pindorama do Tocantins",Norte
+171720,17,TO,Piraquê,Norte
+171750,17,TO,Pium,Norte
+171780,17,TO,"Ponte Alta do Bom Jesus",Norte
+171790,17,TO,"Ponte Alta do Tocantins",Norte
+171800,17,TO,"Porto Alegre do Tocantins",Norte
+171820,17,TO,"Porto Nacional",Norte
+171830,17,TO,"Praia Norte",Norte
+171840,17,TO,"Presidente Kennedy",Norte
+171845,17,TO,Pugmil,Norte
+171850,17,TO,Recursolândia,Norte
+171855,17,TO,Riachinho,Norte
+171865,17,TO,"Rio da Conceição",Norte
+171870,17,TO,"Rio dos Bois",Norte
+171875,17,TO,"Rio Sono",Norte
+171880,17,TO,Sampaio,Norte
+171884,17,TO,Sandolândia,Norte
+171886,17,TO,"Santa Fé do Araguaia",Norte
+171888,17,TO,"Santa Maria do Tocantins",Norte
+171889,17,TO,"Santa Rita do Tocantins",Norte
+171890,17,TO,"Santa Rosa do Tocantins",Norte
+171900,17,TO,"Santa Tereza do Tocantins",Norte
+172000,17,TO,"Santa Terezinha do Tocantins",Norte
+172010,17,TO,"São Bento do Tocantins",Norte
+172015,17,TO,"São Félix do Tocantins",Norte
+172020,17,TO,"São Miguel do Tocantins",Norte
+172025,17,TO,"São Salvador do Tocantins",Norte
+172030,17,TO,"São Sebastião do Tocantins",Norte
+172049,17,TO,"São Valério da Natividade",Norte
+172065,17,TO,Silvanópolis,Norte
+172080,17,TO,"Sítio Novo do Tocantins",Norte
+172085,17,TO,Sucupira,Norte
+172090,17,TO,Taguatinga,Norte
+172093,17,TO,"Taipas do Tocantins",Norte
+172097,17,TO,Talismã,Norte
+172100,17,TO,Palmas,Norte
+172110,17,TO,Tocantínia,Norte
+172120,17,TO,Tocantinópolis,Norte
+172125,17,TO,Tupirama,Norte
+172130,17,TO,Tupiratins,Norte
+172208,17,TO,Wanderlândia,Norte
+172210,17,TO,Xambioá,Norte
+210005,21,MA,Açailândia,Nordeste
+210010,21,MA,"Afonso Cunha",Nordeste
+210015,21,MA,"Água Doce do Maranhão",Nordeste
+210020,21,MA,Alcântara,Nordeste
+210030,21,MA,"Aldeias Altas",Nordeste
+210040,21,MA,"Altamira do Maranhão",Nordeste
+210043,21,MA,"Alto Alegre do Maranhão",Nordeste
+210047,21,MA,"Alto Alegre do Pindaré",Nordeste
+210050,21,MA,"Alto Parnaíba",Nordeste
+210055,21,MA,"Amapá do Maranhão",Nordeste
+210060,21,MA,"Amarante do Maranhão",Nordeste
+210070,21,MA,Anajatuba,Nordeste
+210080,21,MA,Anapurus,Nordeste
+210083,21,MA,Apicum-Açu,Nordeste
+210087,21,MA,Araguanã,Nordeste
+210090,21,MA,Araioses,Nordeste
+210095,21,MA,Arame,Nordeste
+210100,21,MA,Arari,Nordeste
+210110,21,MA,Axixá,Nordeste
+210120,21,MA,Bacabal,Nordeste
+210125,21,MA,Bacabeira,Nordeste
+210130,21,MA,Bacuri,Nordeste
+210135,21,MA,Bacurituba,Nordeste
+210140,21,MA,Balsas,Nordeste
+210150,21,MA,"Barão de Grajaú",Nordeste
+210160,21,MA,"Barra do Corda",Nordeste
+210170,21,MA,Barreirinhas,Nordeste
+210173,21,MA,Belágua,Nordeste
+210177,21,MA,"Bela Vista do Maranhão",Nordeste
+210180,21,MA,"Benedito Leite",Nordeste
+210190,21,MA,Bequimão,Nordeste
+210193,21,MA,"Bernardo do Mearim",Nordeste
+210197,21,MA,"Boa Vista do Gurupi",Nordeste
+210200,21,MA,"Bom Jardim",Nordeste
+210203,21,MA,"Bom Jesus das Selvas",Nordeste
+210207,21,MA,"Bom Lugar",Nordeste
+210210,21,MA,Brejo,Nordeste
+210215,21,MA,"Brejo de Areia",Nordeste
+210220,21,MA,Buriti,Nordeste
+210230,21,MA,"Buriti Bravo",Nordeste
+210232,21,MA,Buriticupu,Nordeste
+210235,21,MA,Buritirana,Nordeste
+210237,21,MA,"Cachoeira Grande",Nordeste
+210240,21,MA,Cajapió,Nordeste
+210250,21,MA,Cajari,Nordeste
+210255,21,MA,"Campestre do Maranhão",Nordeste
+210260,21,MA,"Cândido Mendes",Nordeste
+210270,21,MA,Cantanhede,Nordeste
+210275,21,MA,"Capinzal do Norte",Nordeste
+210280,21,MA,Carolina,Nordeste
+210290,21,MA,Carutapera,Nordeste
+210300,21,MA,Caxias,Nordeste
+210310,21,MA,Cedral,Nordeste
+210312,21,MA,"Central do Maranhão",Nordeste
+210315,21,MA,"Centro do Guilherme",Nordeste
+210317,21,MA,"Centro Novo do Maranhão",Nordeste
+210320,21,MA,Chapadinha,Nordeste
+210325,21,MA,Cidelândia,Nordeste
+210330,21,MA,Codó,Nordeste
+210340,21,MA,"Coelho Neto",Nordeste
+210350,21,MA,Colinas,Nordeste
+210355,21,MA,"Conceição do Lago-Açu",Nordeste
+210360,21,MA,Coroatá,Nordeste
+210370,21,MA,Cururupu,Nordeste
+210375,21,MA,Davinópolis,Nordeste
+210380,21,MA,"Dom Pedro",Nordeste
+210390,21,MA,"Duque Bacelar",Nordeste
+210400,21,MA,Esperantinópolis,Nordeste
+210405,21,MA,Estreito,Nordeste
+210407,21,MA,"Feira Nova do Maranhão",Nordeste
+210408,21,MA,"Fernando Falcão",Nordeste
+210409,21,MA,"Formosa da Serra Negra",Nordeste
+210410,21,MA,"Fortaleza dos Nogueiras",Nordeste
+210420,21,MA,Fortuna,Nordeste
+210430,21,MA,"Godofredo Viana",Nordeste
+210440,21,MA,"Gonçalves Dias",Nordeste
+210450,21,MA,"Governador Archer",Nordeste
+210455,21,MA,"Governador Edison Lobão",Nordeste
+210460,21,MA,"Governador Eugênio Barros",Nordeste
+210462,21,MA,"Governador Luiz Rocha",Nordeste
+210465,21,MA,"Governador Newton Bello",Nordeste
+210467,21,MA,"Governador Nunes Freire",Nordeste
+210470,21,MA,"Graça Aranha",Nordeste
+210480,21,MA,Grajaú,Nordeste
+210490,21,MA,Guimarães,Nordeste
+210500,21,MA,"Humberto de Campos",Nordeste
+210510,21,MA,Icatu,Nordeste
+210515,21,MA,"Igarapé do Meio",Nordeste
+210520,21,MA,"Igarapé Grande",Nordeste
+210530,21,MA,Imperatriz,Nordeste
+210535,21,MA,"Itaipava do Grajaú",Nordeste
+210540,21,MA,"Itapecuru Mirim",Nordeste
+210542,21,MA,"Itinga do Maranhão",Nordeste
+210545,21,MA,Jatobá,Nordeste
+210547,21,MA,"Jenipapo dos Vieiras",Nordeste
+210550,21,MA,"João Lisboa",Nordeste
+210560,21,MA,Joselândia,Nordeste
+210565,21,MA,"Junco do Maranhão",Nordeste
+210570,21,MA,"Lago da Pedra",Nordeste
+210580,21,MA,"Lago do Junco",Nordeste
+210590,21,MA,"Lago Verde",Nordeste
+210592,21,MA,"Lagoa do Mato",Nordeste
+210594,21,MA,"Lago dos Rodrigues",Nordeste
+210596,21,MA,"Lagoa Grande do Maranhão",Nordeste
+210598,21,MA,"Lajeado Novo",Nordeste
+210600,21,MA,"Lima Campos",Nordeste
+210610,21,MA,Loreto,Nordeste
+210620,21,MA,"Luís Domingues",Nordeste
+210630,21,MA,"Magalhães de Almeida",Nordeste
+210632,21,MA,Maracaçumé,Nordeste
+210635,21,MA,"Marajá do Sena",Nordeste
+210637,21,MA,Maranhãozinho,Nordeste
+210640,21,MA,"Mata Roma",Nordeste
+210650,21,MA,Matinha,Nordeste
+210660,21,MA,Matões,Nordeste
+210663,21,MA,"Matões do Norte",Nordeste
+210667,21,MA,"Milagres do Maranhão",Nordeste
+210670,21,MA,Mirador,Nordeste
+210675,21,MA,"Miranda do Norte",Nordeste
+210680,21,MA,Mirinzal,Nordeste
+210690,21,MA,Monção,Nordeste
+210700,21,MA,"Montes Altos",Nordeste
+210710,21,MA,Morros,Nordeste
+210720,21,MA,"Nina Rodrigues",Nordeste
+210725,21,MA,"Nova Colinas",Nordeste
+210730,21,MA,"Nova Iorque",Nordeste
+210735,21,MA,"Nova Olinda do Maranhão",Nordeste
+210740,21,MA,"Olho d'Água das Cunhãs",Nordeste
+210745,21,MA,"Olinda Nova do Maranhão",Nordeste
+210750,21,MA,"Paço do Lumiar",Nordeste
+210760,21,MA,Palmeirândia,Nordeste
+210770,21,MA,Paraibano,Nordeste
+210780,21,MA,Parnarama,Nordeste
+210790,21,MA,"Passagem Franca",Nordeste
+210800,21,MA,"Pastos Bons",Nordeste
+210805,21,MA,"Paulino Neves",Nordeste
+210810,21,MA,"Paulo Ramos",Nordeste
+210820,21,MA,Pedreiras,Nordeste
+210825,21,MA,"Pedro do Rosário",Nordeste
+210830,21,MA,Penalva,Nordeste
+210840,21,MA,"Peri Mirim",Nordeste
+210845,21,MA,Peritoró,Nordeste
+210850,21,MA,Pindaré-Mirim,Nordeste
+210860,21,MA,Pinheiro,Nordeste
+210870,21,MA,"Pio XII",Nordeste
+210880,21,MA,Pirapemas,Nordeste
+210890,21,MA,"Poção de Pedras",Nordeste
+210900,21,MA,"Porto Franco",Nordeste
+210905,21,MA,"Porto Rico do Maranhão",Nordeste
+210910,21,MA,"Presidente Dutra",Nordeste
+210920,21,MA,"Presidente Juscelino",Nordeste
+210923,21,MA,"Presidente Médici",Nordeste
+210927,21,MA,"Presidente Sarney",Nordeste
+210930,21,MA,"Presidente Vargas",Nordeste
+210940,21,MA,"Primeira Cruz",Nordeste
+210945,21,MA,Raposa,Nordeste
+210950,21,MA,Riachão,Nordeste
+210955,21,MA,"Ribamar Fiquene",Nordeste
+210960,21,MA,Rosário,Nordeste
+210970,21,MA,Sambaíba,Nordeste
+210975,21,MA,"Santa Filomena do Maranhão",Nordeste
+210980,21,MA,"Santa Helena",Nordeste
+210990,21,MA,"Santa Inês",Nordeste
+211000,21,MA,"Santa Luzia",Nordeste
+211003,21,MA,"Santa Luzia do Paruá",Nordeste
+211010,21,MA,"Santa Quitéria do Maranhão",Nordeste
+211020,21,MA,"Santa Rita",Nordeste
+211023,21,MA,"Santana do Maranhão",Nordeste
+211027,21,MA,"Santo Amaro do Maranhão",Nordeste
+211030,21,MA,"Santo Antônio dos Lopes",Nordeste
+211040,21,MA,"São Benedito do Rio Preto",Nordeste
+211050,21,MA,"São Bento",Nordeste
+211060,21,MA,"São Bernardo",Nordeste
+211065,21,MA,"São Domingos do Azeitão",Nordeste
+211070,21,MA,"São Domingos do Maranhão",Nordeste
+211080,21,MA,"São Félix de Balsas",Nordeste
+211085,21,MA,"São Francisco do Brejão",Nordeste
+211090,21,MA,"São Francisco do Maranhão",Nordeste
+211100,21,MA,"São João Batista",Nordeste
+211102,21,MA,"São João do Carú",Nordeste
+211105,21,MA,"São João do Paraíso",Nordeste
+211107,21,MA,"São João do Soter",Nordeste
+211110,21,MA,"São João dos Patos",Nordeste
+211120,21,MA,"São José de Ribamar",Nordeste
+211125,21,MA,"São José dos Basílios",Nordeste
+211130,21,MA,"São Luís",Nordeste
+211140,21,MA,"São Luís Gonzaga do Maranhão",Nordeste
+211150,21,MA,"São Mateus do Maranhão",Nordeste
+211153,21,MA,"São Pedro da Água Branca",Nordeste
+211157,21,MA,"São Pedro dos Crentes",Nordeste
+211160,21,MA,"São Raimundo das Mangabeiras",Nordeste
+211163,21,MA,"São Raimundo do Doca Bezerra",Nordeste
+211167,21,MA,"São Roberto",Nordeste
+211170,21,MA,"São Vicente Ferrer",Nordeste
+211172,21,MA,Satubinha,Nordeste
+211174,21,MA,"Senador Alexandre Costa",Nordeste
+211176,21,MA,"Senador La Rocque",Nordeste
+211178,21,MA,"Serrano do Maranhão",Nordeste
+211180,21,MA,"Sítio Novo",Nordeste
+211190,21,MA,"Sucupira do Norte",Nordeste
+211195,21,MA,"Sucupira do Riachão",Nordeste
+211200,21,MA,"Tasso Fragoso",Nordeste
+211210,21,MA,Timbiras,Nordeste
+211220,21,MA,Timon,Nordeste
+211223,21,MA,"Trizidela do Vale",Nordeste
+211227,21,MA,Tufilândia,Nordeste
+211230,21,MA,Tuntum,Nordeste
+211240,21,MA,Turiaçu,Nordeste
+211245,21,MA,Turilândia,Nordeste
+211250,21,MA,Tutóia,Nordeste
+211260,21,MA,"Urbano Santos",Nordeste
+211270,21,MA,"Vargem Grande",Nordeste
+211280,21,MA,Viana,Nordeste
+211285,21,MA,"Vila Nova dos Martírios",Nordeste
+211290,21,MA,"Vitória do Mearim",Nordeste
+211300,21,MA,"Vitorino Freire",Nordeste
+211400,21,MA,"Zé Doca",Nordeste
+220005,22,PI,Acauã,Nordeste
+220010,22,PI,Agricolândia,Nordeste
+220020,22,PI,"Água Branca",Nordeste
+220025,22,PI,"Alagoinha do Piauí",Nordeste
+220027,22,PI,"Alegrete do Piauí",Nordeste
+220030,22,PI,"Alto Longá",Nordeste
+220040,22,PI,Altos,Nordeste
+220045,22,PI,"Alvorada do Gurguéia",Nordeste
+220050,22,PI,Amarante,Nordeste
+220060,22,PI,"Angical do Piauí",Nordeste
+220070,22,PI,"Anísio de Abreu",Nordeste
+220080,22,PI,"Antônio Almeida",Nordeste
+220090,22,PI,Aroazes,Nordeste
+220095,22,PI,"Aroeiras do Itaim",Nordeste
+220100,22,PI,Arraial,Nordeste
+220105,22,PI,"Assunção do Piauí",Nordeste
+220110,22,PI,"Avelino Lopes",Nordeste
+220115,22,PI,"Baixa Grande do Ribeiro",Nordeste
+220117,22,PI,"Barra D'Alcântara",Nordeste
+220120,22,PI,Barras,Nordeste
+220130,22,PI,"Barreiras do Piauí",Nordeste
+220140,22,PI,"Barro Duro",Nordeste
+220150,22,PI,Batalha,Nordeste
+220155,22,PI,"Bela Vista do Piauí",Nordeste
+220157,22,PI,"Belém do Piauí",Nordeste
+220160,22,PI,Beneditinos,Nordeste
+220170,22,PI,Bertolínia,Nordeste
+220173,22,PI,"Betânia do Piauí",Nordeste
+220177,22,PI,"Boa Hora",Nordeste
+220180,22,PI,Bocaina,Nordeste
+220190,22,PI,"Bom Jesus",Nordeste
+220191,22,PI,"Bom Princípio do Piauí",Nordeste
+220192,22,PI,"Bonfim do Piauí",Nordeste
+220194,22,PI,"Boqueirão do Piauí",Nordeste
+220196,22,PI,Brasileira,Nordeste
+220198,22,PI,"Brejo do Piauí",Nordeste
+220200,22,PI,"Buriti dos Lopes",Nordeste
+220202,22,PI,"Buriti dos Montes",Nordeste
+220205,22,PI,"Cabeceiras do Piauí",Nordeste
+220207,22,PI,"Cajazeiras do Piauí",Nordeste
+220208,22,PI,"Cajueiro da Praia",Nordeste
+220209,22,PI,"Caldeirão Grande do Piauí",Nordeste
+220210,22,PI,"Campinas do Piauí",Nordeste
+220211,22,PI,"Campo Alegre do Fidalgo",Nordeste
+220213,22,PI,"Campo Grande do Piauí",Nordeste
+220217,22,PI,"Campo Largo do Piauí",Nordeste
+220220,22,PI,"Campo Maior",Nordeste
+220225,22,PI,Canavieira,Nordeste
+220230,22,PI,"Canto do Buriti",Nordeste
+220240,22,PI,"Capitão de Campos",Nordeste
+220245,22,PI,"Capitão Gervásio Oliveira",Nordeste
+220250,22,PI,Caracol,Nordeste
+220253,22,PI,"Caraúbas do Piauí",Nordeste
+220255,22,PI,"Caridade do Piauí",Nordeste
+220260,22,PI,"Castelo do Piauí",Nordeste
+220265,22,PI,Caxingó,Nordeste
+220270,22,PI,Cocal,Nordeste
+220271,22,PI,"Cocal de Telha",Nordeste
+220272,22,PI,"Cocal dos Alves",Nordeste
+220273,22,PI,Coivaras,Nordeste
+220275,22,PI,"Colônia do Gurguéia",Nordeste
+220277,22,PI,"Colônia do Piauí",Nordeste
+220280,22,PI,"Conceição do Canindé",Nordeste
+220285,22,PI,"Coronel José Dias",Nordeste
+220290,22,PI,Corrente,Nordeste
+220300,22,PI,"Cristalândia do Piauí",Nordeste
+220310,22,PI,"Cristino Castro",Nordeste
+220320,22,PI,Curimatá,Nordeste
+220323,22,PI,Currais,Nordeste
+220325,22,PI,Curralinhos,Nordeste
+220327,22,PI,"Curral Novo do Piauí",Nordeste
+220330,22,PI,"Demerval Lobão",Nordeste
+220335,22,PI,"Dirceu Arcoverde",Nordeste
+220340,22,PI,"Dom Expedito Lopes",Nordeste
+220342,22,PI,"Domingos Mourão",Nordeste
+220345,22,PI,"Dom Inocêncio",Nordeste
+220350,22,PI,"Elesbão Veloso",Nordeste
+220360,22,PI,"Eliseu Martins",Nordeste
+220370,22,PI,Esperantina,Nordeste
+220375,22,PI,"Fartura do Piauí",Nordeste
+220380,22,PI,"Flores do Piauí",Nordeste
+220385,22,PI,"Floresta do Piauí",Nordeste
+220390,22,PI,Floriano,Nordeste
+220400,22,PI,Francinópolis,Nordeste
+220410,22,PI,"Francisco Ayres",Nordeste
+220415,22,PI,"Francisco Macedo",Nordeste
+220420,22,PI,"Francisco Santos",Nordeste
+220430,22,PI,Fronteiras,Nordeste
+220435,22,PI,Geminiano,Nordeste
+220440,22,PI,Gilbués,Nordeste
+220450,22,PI,Guadalupe,Nordeste
+220455,22,PI,Guaribas,Nordeste
+220460,22,PI,"Hugo Napoleão",Nordeste
+220465,22,PI,"Ilha Grande",Nordeste
+220470,22,PI,Inhuma,Nordeste
+220480,22,PI,"Ipiranga do Piauí",Nordeste
+220490,22,PI,"Isaías Coelho",Nordeste
+220500,22,PI,Itainópolis,Nordeste
+220510,22,PI,Itaueira,Nordeste
+220515,22,PI,"Jacobina do Piauí",Nordeste
+220520,22,PI,Jaicós,Nordeste
+220525,22,PI,"Jardim do Mulato",Nordeste
+220527,22,PI,"Jatobá do Piauí",Nordeste
+220530,22,PI,Jerumenha,Nordeste
+220535,22,PI,"João Costa",Nordeste
+220540,22,PI,"Joaquim Pires",Nordeste
+220545,22,PI,"Joca Marques",Nordeste
+220550,22,PI,"José de Freitas",Nordeste
+220551,22,PI,"Juazeiro do Piauí",Nordeste
+220552,22,PI,"Júlio Borges",Nordeste
+220553,22,PI,Jurema,Nordeste
+220554,22,PI,"Lagoinha do Piauí",Nordeste
+220555,22,PI,"Lagoa Alegre",Nordeste
+220556,22,PI,"Lagoa do Barro do Piauí",Nordeste
+220557,22,PI,"Lagoa de São Francisco",Nordeste
+220558,22,PI,"Lagoa do Piauí",Nordeste
+220559,22,PI,"Lagoa do Sítio",Nordeste
+220560,22,PI,"Landri Sales",Nordeste
+220570,22,PI,"Luís Correia",Nordeste
+220580,22,PI,Luzilândia,Nordeste
+220585,22,PI,Madeiro,Nordeste
+220590,22,PI,"Manoel Emídio",Nordeste
+220595,22,PI,Marcolândia,Nordeste
+220600,22,PI,"Marcos Parente",Nordeste
+220605,22,PI,"Massapê do Piauí",Nordeste
+220610,22,PI,"Matias Olímpio",Nordeste
+220620,22,PI,"Miguel Alves",Nordeste
+220630,22,PI,"Miguel Leão",Nordeste
+220635,22,PI,"Milton Brandão",Nordeste
+220640,22,PI,"Monsenhor Gil",Nordeste
+220650,22,PI,"Monsenhor Hipólito",Nordeste
+220660,22,PI,"Monte Alegre do Piauí",Nordeste
+220665,22,PI,"Morro Cabeça no Tempo",Nordeste
+220667,22,PI,"Morro do Chapéu do Piauí",Nordeste
+220669,22,PI,"Murici dos Portelas",Nordeste
+220670,22,PI,"Nazaré do Piauí",Nordeste
+220675,22,PI,"Nossa Senhora de Nazaré",Nordeste
+220680,22,PI,"Nossa Senhora dos Remédios",Nordeste
+220690,22,PI,"Novo Oriente do Piauí",Nordeste
+220695,22,PI,"Novo Santo Antônio",Nordeste
+220700,22,PI,Oeiras,Nordeste
+220710,22,PI,"Olho D'Água do Piauí",Nordeste
+220720,22,PI,"Padre Marcos",Nordeste
+220730,22,PI,"Paes Landim",Nordeste
+220735,22,PI,"Pajeú do Piauí",Nordeste
+220740,22,PI,"Palmeira do Piauí",Nordeste
+220750,22,PI,Palmeirais,Nordeste
+220755,22,PI,Paquetá,Nordeste
+220760,22,PI,Parnaguá,Nordeste
+220770,22,PI,Parnaíba,Nordeste
+220775,22,PI,"Passagem Franca do Piauí",Nordeste
+220777,22,PI,"Patos do Piauí",Nordeste
+220779,22,PI,"Pau D'Arco do Piauí",Nordeste
+220780,22,PI,Paulistana,Nordeste
+220785,22,PI,Pavussu,Nordeste
+220790,22,PI,"Pedro II",Nordeste
+220793,22,PI,"Pedro Laurentino",Nordeste
+220795,22,PI,"Nova Santa Rita",Nordeste
+220800,22,PI,Picos,Nordeste
+220810,22,PI,Pimenteiras,Nordeste
+220820,22,PI,"Pio IX",Nordeste
+220830,22,PI,Piracuruca,Nordeste
+220840,22,PI,Piripiri,Nordeste
+220850,22,PI,Porto,Nordeste
+220855,22,PI,"Porto Alegre do Piauí",Nordeste
+220860,22,PI,"Prata do Piauí",Nordeste
+220865,22,PI,"Queimada Nova",Nordeste
+220870,22,PI,"Redenção do Gurguéia",Nordeste
+220880,22,PI,Regeneração,Nordeste
+220885,22,PI,"Riacho Frio",Nordeste
+220887,22,PI,"Ribeira do Piauí",Nordeste
+220890,22,PI,"Ribeiro Gonçalves",Nordeste
+220900,22,PI,"Rio Grande do Piauí",Nordeste
+220910,22,PI,"Santa Cruz do Piauí",Nordeste
+220915,22,PI,"Santa Cruz dos Milagres",Nordeste
+220920,22,PI,"Santa Filomena",Nordeste
+220930,22,PI,"Santa Luz",Nordeste
+220935,22,PI,"Santana do Piauí",Nordeste
+220937,22,PI,"Santa Rosa do Piauí",Nordeste
+220940,22,PI,"Santo Antônio de Lisboa",Nordeste
+220945,22,PI,"Santo Antônio dos Milagres",Nordeste
+220950,22,PI,"Santo Inácio do Piauí",Nordeste
+220955,22,PI,"São Braz do Piauí",Nordeste
+220960,22,PI,"São Félix do Piauí",Nordeste
+220965,22,PI,"São Francisco de Assis do Piauí",Nordeste
+220970,22,PI,"São Francisco do Piauí",Nordeste
+220975,22,PI,"São Gonçalo do Gurguéia",Nordeste
+220980,22,PI,"São Gonçalo do Piauí",Nordeste
+220985,22,PI,"São João da Canabrava",Nordeste
+220987,22,PI,"São João da Fronteira",Nordeste
+220990,22,PI,"São João da Serra",Nordeste
+220995,22,PI,"São João da Varjota",Nordeste
+220997,22,PI,"São João do Arraial",Nordeste
+221000,22,PI,"São João do Piauí",Nordeste
+221005,22,PI,"São José do Divino",Nordeste
+221010,22,PI,"São José do Peixe",Nordeste
+221020,22,PI,"São José do Piauí",Nordeste
+221030,22,PI,"São Julião",Nordeste
+221035,22,PI,"São Lourenço do Piauí",Nordeste
+221037,22,PI,"São Luis do Piauí",Nordeste
+221038,22,PI,"São Miguel da Baixa Grande",Nordeste
+221039,22,PI,"São Miguel do Fidalgo",Nordeste
+221040,22,PI,"São Miguel do Tapuio",Nordeste
+221050,22,PI,"São Pedro do Piauí",Nordeste
+221060,22,PI,"São Raimundo Nonato",Nordeste
+221062,22,PI,"Sebastião Barros",Nordeste
+221063,22,PI,"Sebastião Leal",Nordeste
+221065,22,PI,"Sigefredo Pacheco",Nordeste
+221070,22,PI,Simões,Nordeste
+221080,22,PI,"Simplício Mendes",Nordeste
+221090,22,PI,"Socorro do Piauí",Nordeste
+221093,22,PI,Sussuapara,Nordeste
+221095,22,PI,"Tamboril do Piauí",Nordeste
+221097,22,PI,"Tanque do Piauí",Nordeste
+221100,22,PI,Teresina,Nordeste
+221110,22,PI,União,Nordeste
+221120,22,PI,Uruçuí,Nordeste
+221130,22,PI,"Valença do Piauí",Nordeste
+221135,22,PI,"Várzea Branca",Nordeste
+221140,22,PI,"Várzea Grande",Nordeste
+221150,22,PI,"Vera Mendes",Nordeste
+221160,22,PI,"Vila Nova do Piauí",Nordeste
+221170,22,PI,"Wall Ferraz",Nordeste
+230010,23,CE,Abaiara,Nordeste
+230015,23,CE,Acarape,Nordeste
+230020,23,CE,Acaraú,Nordeste
+230030,23,CE,Acopiara,Nordeste
+230040,23,CE,Aiuaba,Nordeste
+230050,23,CE,Alcântaras,Nordeste
+230060,23,CE,Altaneira,Nordeste
+230070,23,CE,"Alto Santo",Nordeste
+230075,23,CE,Amontada,Nordeste
+230080,23,CE,"Antonina do Norte",Nordeste
+230090,23,CE,Apuiarés,Nordeste
+230100,23,CE,Aquiraz,Nordeste
+230110,23,CE,Aracati,Nordeste
+230120,23,CE,Aracoiaba,Nordeste
+230125,23,CE,Ararendá,Nordeste
+230130,23,CE,Araripe,Nordeste
+230140,23,CE,Aratuba,Nordeste
+230150,23,CE,Arneiroz,Nordeste
+230160,23,CE,Assaré,Nordeste
+230170,23,CE,Aurora,Nordeste
+230180,23,CE,Baixio,Nordeste
+230185,23,CE,Banabuiú,Nordeste
+230190,23,CE,Barbalha,Nordeste
+230195,23,CE,Barreira,Nordeste
+230200,23,CE,Barro,Nordeste
+230205,23,CE,Barroquinha,Nordeste
+230210,23,CE,Baturité,Nordeste
+230220,23,CE,Beberibe,Nordeste
+230230,23,CE,"Bela Cruz",Nordeste
+230240,23,CE,"Boa Viagem",Nordeste
+230250,23,CE,"Brejo Santo",Nordeste
+230260,23,CE,Camocim,Nordeste
+230270,23,CE,"Campos Sales",Nordeste
+230280,23,CE,Canindé,Nordeste
+230290,23,CE,Capistrano,Nordeste
+230300,23,CE,Caridade,Nordeste
+230310,23,CE,Cariré,Nordeste
+230320,23,CE,Caririaçu,Nordeste
+230330,23,CE,Cariús,Nordeste
+230340,23,CE,Carnaubal,Nordeste
+230350,23,CE,Cascavel,Nordeste
+230360,23,CE,Catarina,Nordeste
+230365,23,CE,Catunda,Nordeste
+230370,23,CE,Caucaia,Nordeste
+230380,23,CE,Cedro,Nordeste
+230390,23,CE,Chaval,Nordeste
+230393,23,CE,Choró,Nordeste
+230395,23,CE,Chorozinho,Nordeste
+230400,23,CE,Coreaú,Nordeste
+230410,23,CE,Crateús,Nordeste
+230420,23,CE,Crato,Nordeste
+230423,23,CE,Croatá,Nordeste
+230425,23,CE,Cruz,Nordeste
+230426,23,CE,"Deputado Irapuan Pinheiro",Nordeste
+230427,23,CE,Ererê,Nordeste
+230428,23,CE,Eusébio,Nordeste
+230430,23,CE,"Farias Brito",Nordeste
+230435,23,CE,Forquilha,Nordeste
+230440,23,CE,Fortaleza,Nordeste
+230445,23,CE,Fortim,Nordeste
+230450,23,CE,Frecheirinha,Nordeste
+230460,23,CE,"General Sampaio",Nordeste
+230465,23,CE,Graça,Nordeste
+230470,23,CE,Granja,Nordeste
+230480,23,CE,Granjeiro,Nordeste
+230490,23,CE,Groaíras,Nordeste
+230495,23,CE,Guaiúba,Nordeste
+230500,23,CE,"Guaraciaba do Norte",Nordeste
+230510,23,CE,Guaramiranga,Nordeste
+230520,23,CE,Hidrolândia,Nordeste
+230523,23,CE,Horizonte,Nordeste
+230526,23,CE,Ibaretama,Nordeste
+230530,23,CE,Ibiapina,Nordeste
+230533,23,CE,Ibicuitinga,Nordeste
+230535,23,CE,Icapuí,Nordeste
+230540,23,CE,Icó,Nordeste
+230550,23,CE,Iguatu,Nordeste
+230560,23,CE,Independência,Nordeste
+230565,23,CE,Ipaporanga,Nordeste
+230570,23,CE,Ipaumirim,Nordeste
+230580,23,CE,Ipu,Nordeste
+230590,23,CE,Ipueiras,Nordeste
+230600,23,CE,Iracema,Nordeste
+230610,23,CE,Irauçuba,Nordeste
+230620,23,CE,Itaiçaba,Nordeste
+230625,23,CE,Itaitinga,Nordeste
+230630,23,CE,Itapagé,Nordeste
+230640,23,CE,Itapipoca,Nordeste
+230650,23,CE,Itapiúna,Nordeste
+230655,23,CE,Itarema,Nordeste
+230660,23,CE,Itatira,Nordeste
+230670,23,CE,Jaguaretama,Nordeste
+230680,23,CE,Jaguaribara,Nordeste
+230690,23,CE,Jaguaribe,Nordeste
+230700,23,CE,Jaguaruana,Nordeste
+230710,23,CE,Jardim,Nordeste
+230720,23,CE,Jati,Nordeste
+230725,23,CE,"Jijoca de Jericoacoara",Nordeste
+230730,23,CE,"Juazeiro do Norte",Nordeste
+230740,23,CE,Jucás,Nordeste
+230750,23,CE,"Lavras da Mangabeira",Nordeste
+230760,23,CE,"Limoeiro do Norte",Nordeste
+230763,23,CE,Madalena,Nordeste
+230765,23,CE,Maracanaú,Nordeste
+230770,23,CE,Maranguape,Nordeste
+230780,23,CE,Marco,Nordeste
+230790,23,CE,Martinópole,Nordeste
+230800,23,CE,Massapê,Nordeste
+230810,23,CE,Mauriti,Nordeste
+230820,23,CE,Meruoca,Nordeste
+230830,23,CE,Milagres,Nordeste
+230835,23,CE,Milhã,Nordeste
+230837,23,CE,Miraíma,Nordeste
+230840,23,CE,"Missão Velha",Nordeste
+230850,23,CE,Mombaça,Nordeste
+230860,23,CE,"Monsenhor Tabosa",Nordeste
+230870,23,CE,"Morada Nova",Nordeste
+230880,23,CE,Moraújo,Nordeste
+230890,23,CE,Morrinhos,Nordeste
+230900,23,CE,Mucambo,Nordeste
+230910,23,CE,Mulungu,Nordeste
+230920,23,CE,"Nova Olinda",Nordeste
+230930,23,CE,"Nova Russas",Nordeste
+230940,23,CE,"Novo Oriente",Nordeste
+230945,23,CE,Ocara,Nordeste
+230950,23,CE,Orós,Nordeste
+230960,23,CE,Pacajus,Nordeste
+230970,23,CE,Pacatuba,Nordeste
+230980,23,CE,Pacoti,Nordeste
+230990,23,CE,Pacujá,Nordeste
+231000,23,CE,Palhano,Nordeste
+231010,23,CE,Palmácia,Nordeste
+231020,23,CE,Paracuru,Nordeste
+231025,23,CE,Paraipaba,Nordeste
+231030,23,CE,Parambu,Nordeste
+231040,23,CE,Paramoti,Nordeste
+231050,23,CE,"Pedra Branca",Nordeste
+231060,23,CE,Penaforte,Nordeste
+231070,23,CE,Pentecoste,Nordeste
+231080,23,CE,Pereiro,Nordeste
+231085,23,CE,Pindoretama,Nordeste
+231090,23,CE,"Piquet Carneiro",Nordeste
+231095,23,CE,"Pires Ferreira",Nordeste
+231100,23,CE,Poranga,Nordeste
+231110,23,CE,Porteiras,Nordeste
+231120,23,CE,Potengi,Nordeste
+231123,23,CE,Potiretama,Nordeste
+231126,23,CE,Quiterianópolis,Nordeste
+231130,23,CE,Quixadá,Nordeste
+231135,23,CE,Quixelô,Nordeste
+231140,23,CE,Quixeramobim,Nordeste
+231150,23,CE,Quixeré,Nordeste
+231160,23,CE,Redenção,Nordeste
+231170,23,CE,Reriutaba,Nordeste
+231180,23,CE,Russas,Nordeste
+231190,23,CE,Saboeiro,Nordeste
+231195,23,CE,Salitre,Nordeste
+231200,23,CE,"Santana do Acaraú",Nordeste
+231210,23,CE,"Santana do Cariri",Nordeste
+231220,23,CE,"Santa Quitéria",Nordeste
+231230,23,CE,"São Benedito",Nordeste
+231240,23,CE,"São Gonçalo do Amarante",Nordeste
+231250,23,CE,"São João do Jaguaribe",Nordeste
+231260,23,CE,"São Luís do Curu",Nordeste
+231270,23,CE,"Senador Pompeu",Nordeste
+231280,23,CE,"Senador Sá",Nordeste
+231290,23,CE,Sobral,Nordeste
+231300,23,CE,Solonópole,Nordeste
+231310,23,CE,"Tabuleiro do Norte",Nordeste
+231320,23,CE,Tamboril,Nordeste
+231325,23,CE,Tarrafas,Nordeste
+231330,23,CE,Tauá,Nordeste
+231335,23,CE,Tejuçuoca,Nordeste
+231340,23,CE,Tianguá,Nordeste
+231350,23,CE,Trairi,Nordeste
+231355,23,CE,Tururu,Nordeste
+231360,23,CE,Ubajara,Nordeste
+231370,23,CE,Umari,Nordeste
+231375,23,CE,Umirim,Nordeste
+231380,23,CE,Uruburetama,Nordeste
+231390,23,CE,Uruoca,Nordeste
+231395,23,CE,Varjota,Nordeste
+231400,23,CE,"Várzea Alegre",Nordeste
+231410,23,CE,"Viçosa do Ceará",Nordeste
+240010,24,RN,Acari,Nordeste
+240020,24,RN,Açu,Nordeste
+240030,24,RN,"Afonso Bezerra",Nordeste
+240040,24,RN,"Água Nova",Nordeste
+240050,24,RN,Alexandria,Nordeste
+240060,24,RN,"Almino Afonso",Nordeste
+240070,24,RN,"Alto do Rodrigues",Nordeste
+240080,24,RN,Angicos,Nordeste
+240090,24,RN,"Antônio Martins",Nordeste
+240100,24,RN,Apodi,Nordeste
+240110,24,RN,"Areia Branca",Nordeste
+240120,24,RN,Arês,Nordeste
+240130,24,RN,"Augusto Severo",Nordeste
+240140,24,RN,"Baía Formosa",Nordeste
+240145,24,RN,Baraúna,Nordeste
+240150,24,RN,Barcelona,Nordeste
+240160,24,RN,"Bento Fernandes",Nordeste
+240165,24,RN,Bodó,Nordeste
+240170,24,RN,"Bom Jesus",Nordeste
+240180,24,RN,Brejinho,Nordeste
+240185,24,RN,"Caiçara do Norte",Nordeste
+240190,24,RN,"Caiçara do Rio do Vento",Nordeste
+240200,24,RN,Caicó,Nordeste
+240210,24,RN,"Campo Redondo",Nordeste
+240220,24,RN,Canguaretama,Nordeste
+240230,24,RN,Caraúbas,Nordeste
+240240,24,RN,"Carnaúba dos Dantas",Nordeste
+240250,24,RN,Carnaubais,Nordeste
+240260,24,RN,Ceará-Mirim,Nordeste
+240270,24,RN,"Cerro Corá",Nordeste
+240280,24,RN,"Coronel Ezequiel",Nordeste
+240290,24,RN,"Coronel João Pessoa",Nordeste
+240300,24,RN,Cruzeta,Nordeste
+240310,24,RN,"Currais Novos",Nordeste
+240320,24,RN,"Doutor Severiano",Nordeste
+240325,24,RN,Parnamirim,Nordeste
+240330,24,RN,Encanto,Nordeste
+240340,24,RN,Equador,Nordeste
+240350,24,RN,"Espírito Santo",Nordeste
+240360,24,RN,Extremoz,Nordeste
+240370,24,RN,"Felipe Guerra",Nordeste
+240375,24,RN,"Fernando Pedroza",Nordeste
+240380,24,RN,Florânia,Nordeste
+240390,24,RN,"Francisco Dantas",Nordeste
+240400,24,RN,"Frutuoso Gomes",Nordeste
+240410,24,RN,Galinhos,Nordeste
+240420,24,RN,Goianinha,Nordeste
+240430,24,RN,"Governador Dix-Sept Rosado",Nordeste
+240440,24,RN,Grossos,Nordeste
+240450,24,RN,Guamaré,Nordeste
+240460,24,RN,"Ielmo Marinho",Nordeste
+240470,24,RN,Ipanguaçu,Nordeste
+240480,24,RN,Ipueira,Nordeste
+240485,24,RN,Itajá,Nordeste
+240490,24,RN,Itaú,Nordeste
+240500,24,RN,Jaçanã,Nordeste
+240510,24,RN,Jandaíra,Nordeste
+240520,24,RN,Janduís,Nordeste
+240530,24,RN,"Januário Cicco",Nordeste
+240540,24,RN,Japi,Nordeste
+240550,24,RN,"Jardim de Angicos",Nordeste
+240560,24,RN,"Jardim de Piranhas",Nordeste
+240570,24,RN,"Jardim do Seridó",Nordeste
+240580,24,RN,"João Câmara",Nordeste
+240590,24,RN,"João Dias",Nordeste
+240600,24,RN,"José da Penha",Nordeste
+240610,24,RN,Jucurutu,Nordeste
+240615,24,RN,Jundiá,Nordeste
+240620,24,RN,"Lagoa d'Anta",Nordeste
+240630,24,RN,"Lagoa de Pedras",Nordeste
+240640,24,RN,"Lagoa de Velhos",Nordeste
+240650,24,RN,"Lagoa Nova",Nordeste
+240660,24,RN,"Lagoa Salgada",Nordeste
+240670,24,RN,Lajes,Nordeste
+240680,24,RN,"Lajes Pintadas",Nordeste
+240690,24,RN,Lucrécia,Nordeste
+240700,24,RN,"Luís Gomes",Nordeste
+240710,24,RN,Macaíba,Nordeste
+240720,24,RN,Macau,Nordeste
+240725,24,RN,"Major Sales",Nordeste
+240730,24,RN,"Marcelino Vieira",Nordeste
+240740,24,RN,Martins,Nordeste
+240750,24,RN,Maxaranguape,Nordeste
+240760,24,RN,"Messias Targino",Nordeste
+240770,24,RN,Montanhas,Nordeste
+240780,24,RN,"Monte Alegre",Nordeste
+240790,24,RN,"Monte das Gameleiras",Nordeste
+240800,24,RN,Mossoró,Nordeste
+240810,24,RN,Natal,Nordeste
+240820,24,RN,"Nísia Floresta",Nordeste
+240830,24,RN,"Nova Cruz",Nordeste
+240840,24,RN,"Olho-d'Água do Borges",Nordeste
+240850,24,RN,"Ouro Branco",Nordeste
+240860,24,RN,Paraná,Nordeste
+240870,24,RN,Paraú,Nordeste
+240880,24,RN,Parazinho,Nordeste
+240890,24,RN,Parelhas,Nordeste
+240895,24,RN,"Rio do Fogo",Nordeste
+240910,24,RN,"Passa e Fica",Nordeste
+240920,24,RN,Passagem,Nordeste
+240930,24,RN,Patu,Nordeste
+240933,24,RN,"Santa Maria",Nordeste
+240940,24,RN,"Pau dos Ferros",Nordeste
+240950,24,RN,"Pedra Grande",Nordeste
+240960,24,RN,"Pedra Preta",Nordeste
+240970,24,RN,"Pedro Avelino",Nordeste
+240980,24,RN,"Pedro Velho",Nordeste
+240990,24,RN,Pendências,Nordeste
+241000,24,RN,Pilões,Nordeste
+241010,24,RN,"Poço Branco",Nordeste
+241020,24,RN,Portalegre,Nordeste
+241025,24,RN,"Porto do Mangue",Nordeste
+241030,24,RN,"Presidente Juscelino",Nordeste
+241040,24,RN,Pureza,Nordeste
+241050,24,RN,"Rafael Fernandes",Nordeste
+241060,24,RN,"Rafael Godeiro",Nordeste
+241070,24,RN,"Riacho da Cruz",Nordeste
+241080,24,RN,"Riacho de Santana",Nordeste
+241090,24,RN,Riachuelo,Nordeste
+241100,24,RN,"Rodolfo Fernandes",Nordeste
+241105,24,RN,Tibau,Nordeste
+241110,24,RN,"Ruy Barbosa",Nordeste
+241120,24,RN,"Santa Cruz",Nordeste
+241140,24,RN,"Santana do Matos",Nordeste
+241142,24,RN,"Santana do Seridó",Nordeste
+241150,24,RN,"Santo Antônio",Nordeste
+241160,24,RN,"São Bento do Norte",Nordeste
+241170,24,RN,"São Bento do Trairí",Nordeste
+241180,24,RN,"São Fernando",Nordeste
+241190,24,RN,"São Francisco do Oeste",Nordeste
+241200,24,RN,"São Gonçalo do Amarante",Nordeste
+241210,24,RN,"São João do Sabugi",Nordeste
+241220,24,RN,"São José de Mipibu",Nordeste
+241230,24,RN,"São José do Campestre",Nordeste
+241240,24,RN,"São José do Seridó",Nordeste
+241250,24,RN,"São Miguel",Nordeste
+241255,24,RN,"São Miguel do Gostoso",Nordeste
+241260,24,RN,"São Paulo do Potengi",Nordeste
+241270,24,RN,"São Pedro",Nordeste
+241280,24,RN,"São Rafael",Nordeste
+241290,24,RN,"São Tomé",Nordeste
+241300,24,RN,"São Vicente",Nordeste
+241310,24,RN,"Senador Elói de Souza",Nordeste
+241320,24,RN,"Senador Georgino Avelino",Nordeste
+241330,24,RN,"Serra de São Bento",Nordeste
+241335,24,RN,"Serra do Mel",Nordeste
+241340,24,RN,"Serra Negra do Norte",Nordeste
+241350,24,RN,Serrinha,Nordeste
+241355,24,RN,"Serrinha dos Pintos",Nordeste
+241360,24,RN,"Severiano Melo",Nordeste
+241370,24,RN,"Sítio Novo",Nordeste
+241380,24,RN,"Taboleiro Grande",Nordeste
+241390,24,RN,Taipu,Nordeste
+241400,24,RN,Tangará,Nordeste
+241410,24,RN,"Tenente Ananias",Nordeste
+241415,24,RN,"Tenente Laurentino Cruz",Nordeste
+241420,24,RN,"Tibau do Sul",Nordeste
+241430,24,RN,"Timbaúba dos Batistas",Nordeste
+241440,24,RN,Touros,Nordeste
+241445,24,RN,"Triunfo Potiguar",Nordeste
+241450,24,RN,Umarizal,Nordeste
+241460,24,RN,Upanema,Nordeste
+241470,24,RN,Várzea,Nordeste
+241475,24,RN,Venha-Ver,Nordeste
+241480,24,RN,"Vera Cruz",Nordeste
+241490,24,RN,Viçosa,Nordeste
+241500,24,RN,"Vila Flor",Nordeste
+250010,25,PB,"Água Branca",Nordeste
+250020,25,PB,Aguiar,Nordeste
+250030,25,PB,"Alagoa Grande",Nordeste
+250040,25,PB,"Alagoa Nova",Nordeste
+250050,25,PB,Alagoinha,Nordeste
+250053,25,PB,Alcantil,Nordeste
+250057,25,PB,"Algodão de Jandaíra",Nordeste
+250060,25,PB,Alhandra,Nordeste
+250070,25,PB,"São João do Rio do Peixe",Nordeste
+250073,25,PB,Amparo,Nordeste
+250077,25,PB,Aparecida,Nordeste
+250080,25,PB,Araçagi,Nordeste
+250090,25,PB,Arara,Nordeste
+250100,25,PB,Araruna,Nordeste
+250110,25,PB,Areia,Nordeste
+250115,25,PB,"Areia de Baraúnas",Nordeste
+250120,25,PB,Areial,Nordeste
+250130,25,PB,Aroeiras,Nordeste
+250135,25,PB,Assunção,Nordeste
+250140,25,PB,"Baía da Traição",Nordeste
+250150,25,PB,Bananeiras,Nordeste
+250153,25,PB,Baraúna,Nordeste
+250157,25,PB,"Barra de Santana",Nordeste
+250160,25,PB,"Barra de Santa Rosa",Nordeste
+250170,25,PB,"Barra de São Miguel",Nordeste
+250180,25,PB,Bayeux,Nordeste
+250190,25,PB,Belém,Nordeste
+250200,25,PB,"Belém do Brejo do Cruz",Nordeste
+250205,25,PB,"Bernardino Batista",Nordeste
+250210,25,PB,"Boa Ventura",Nordeste
+250215,25,PB,"Boa Vista",Nordeste
+250220,25,PB,"Bom Jesus",Nordeste
+250230,25,PB,"Bom Sucesso",Nordeste
+250240,25,PB,"Bonito de Santa Fé",Nordeste
+250250,25,PB,Boqueirão,Nordeste
+250260,25,PB,Igaracy,Nordeste
+250270,25,PB,Borborema,Nordeste
+250280,25,PB,"Brejo do Cruz",Nordeste
+250290,25,PB,"Brejo dos Santos",Nordeste
+250300,25,PB,Caaporã,Nordeste
+250310,25,PB,Cabaceiras,Nordeste
+250320,25,PB,Cabedelo,Nordeste
+250330,25,PB,"Cachoeira dos Índios",Nordeste
+250340,25,PB,"Cacimba de Areia",Nordeste
+250350,25,PB,"Cacimba de Dentro",Nordeste
+250355,25,PB,Cacimbas,Nordeste
+250360,25,PB,Caiçara,Nordeste
+250370,25,PB,Cajazeiras,Nordeste
+250375,25,PB,Cajazeirinhas,Nordeste
+250380,25,PB,"Caldas Brandão",Nordeste
+250390,25,PB,Camalaú,Nordeste
+250400,25,PB,"Campina Grande",Nordeste
+250403,25,PB,Capim,Nordeste
+250407,25,PB,Caraúbas,Nordeste
+250410,25,PB,Carrapateira,Nordeste
+250415,25,PB,Casserengue,Nordeste
+250420,25,PB,Catingueira,Nordeste
+250430,25,PB,"Catolé do Rocha",Nordeste
+250435,25,PB,Caturité,Nordeste
+250440,25,PB,Conceição,Nordeste
+250450,25,PB,Condado,Nordeste
+250460,25,PB,Conde,Nordeste
+250470,25,PB,Congo,Nordeste
+250480,25,PB,Coremas,Nordeste
+250485,25,PB,Coxixola,Nordeste
+250490,25,PB,"Cruz do Espírito Santo",Nordeste
+250500,25,PB,Cubati,Nordeste
+250510,25,PB,Cuité,Nordeste
+250520,25,PB,Cuitegi,Nordeste
+250523,25,PB,"Cuité de Mamanguape",Nordeste
+250527,25,PB,"Curral de Cima",Nordeste
+250530,25,PB,"Curral Velho",Nordeste
+250535,25,PB,Damião,Nordeste
+250540,25,PB,Desterro,Nordeste
+250550,25,PB,"Vista Serrana",Nordeste
+250560,25,PB,Diamante,Nordeste
+250570,25,PB,"Dona Inês",Nordeste
+250580,25,PB,"Duas Estradas",Nordeste
+250590,25,PB,Emas,Nordeste
+250600,25,PB,Esperança,Nordeste
+250610,25,PB,Fagundes,Nordeste
+250620,25,PB,"Frei Martinho",Nordeste
+250625,25,PB,"Gado Bravo",Nordeste
+250630,25,PB,Guarabira,Nordeste
+250640,25,PB,Gurinhém,Nordeste
+250650,25,PB,Gurjão,Nordeste
+250660,25,PB,Ibiara,Nordeste
+250670,25,PB,Imaculada,Nordeste
+250680,25,PB,Ingá,Nordeste
+250690,25,PB,Itabaiana,Nordeste
+250700,25,PB,Itaporanga,Nordeste
+250710,25,PB,Itapororoca,Nordeste
+250720,25,PB,Itatuba,Nordeste
+250730,25,PB,Jacaraú,Nordeste
+250740,25,PB,Jericó,Nordeste
+250750,25,PB,"João Pessoa",Nordeste
+250760,25,PB,"Juarez Távora",Nordeste
+250770,25,PB,Juazeirinho,Nordeste
+250780,25,PB,"Junco do Seridó",Nordeste
+250790,25,PB,Juripiranga,Nordeste
+250800,25,PB,Juru,Nordeste
+250810,25,PB,Lagoa,Nordeste
+250820,25,PB,"Lagoa de Dentro",Nordeste
+250830,25,PB,"Lagoa Seca",Nordeste
+250840,25,PB,Lastro,Nordeste
+250850,25,PB,Livramento,Nordeste
+250855,25,PB,Logradouro,Nordeste
+250860,25,PB,Lucena,Nordeste
+250870,25,PB,"Mãe d'Água",Nordeste
+250880,25,PB,Malta,Nordeste
+250890,25,PB,Mamanguape,Nordeste
+250900,25,PB,Manaíra,Nordeste
+250905,25,PB,Marcação,Nordeste
+250910,25,PB,Mari,Nordeste
+250915,25,PB,Marizópolis,Nordeste
+250920,25,PB,Massaranduba,Nordeste
+250930,25,PB,Mataraca,Nordeste
+250933,25,PB,Matinhas,Nordeste
+250937,25,PB,"Mato Grosso",Nordeste
+250939,25,PB,Maturéia,Nordeste
+250940,25,PB,Mogeiro,Nordeste
+250950,25,PB,Montadas,Nordeste
+250960,25,PB,"Monte Horebe",Nordeste
+250970,25,PB,Monteiro,Nordeste
+250980,25,PB,Mulungu,Nordeste
+250990,25,PB,Natuba,Nordeste
+251000,25,PB,Nazarezinho,Nordeste
+251010,25,PB,"Nova Floresta",Nordeste
+251020,25,PB,"Nova Olinda",Nordeste
+251030,25,PB,"Nova Palmeira",Nordeste
+251040,25,PB,"Olho d'Água",Nordeste
+251050,25,PB,Olivedos,Nordeste
+251060,25,PB,"Ouro Velho",Nordeste
+251065,25,PB,Parari,Nordeste
+251070,25,PB,Passagem,Nordeste
+251080,25,PB,Patos,Nordeste
+251090,25,PB,Paulista,Nordeste
+251100,25,PB,"Pedra Branca",Nordeste
+251110,25,PB,"Pedra Lavrada",Nordeste
+251120,25,PB,"Pedras de Fogo",Nordeste
+251130,25,PB,Piancó,Nordeste
+251140,25,PB,Picuí,Nordeste
+251150,25,PB,Pilar,Nordeste
+251160,25,PB,Pilões,Nordeste
+251170,25,PB,Pilõezinhos,Nordeste
+251180,25,PB,Pirpirituba,Nordeste
+251190,25,PB,Pitimbu,Nordeste
+251200,25,PB,Pocinhos,Nordeste
+251203,25,PB,"Poço Dantas",Nordeste
+251207,25,PB,"Poço de José de Moura",Nordeste
+251210,25,PB,Pombal,Nordeste
+251220,25,PB,Prata,Nordeste
+251230,25,PB,"Princesa Isabel",Nordeste
+251240,25,PB,Puxinanã,Nordeste
+251250,25,PB,Queimadas,Nordeste
+251260,25,PB,Quixabá,Nordeste
+251270,25,PB,Remígio,Nordeste
+251272,25,PB,"Pedro Régis",Nordeste
+251274,25,PB,Riachão,Nordeste
+251275,25,PB,"Riachão do Bacamarte",Nordeste
+251276,25,PB,"Riachão do Poço",Nordeste
+251278,25,PB,"Riacho de Santo Antônio",Nordeste
+251280,25,PB,"Riacho dos Cavalos",Nordeste
+251290,25,PB,"Rio Tinto",Nordeste
+251300,25,PB,Salgadinho,Nordeste
+251310,25,PB,"Salgado de São Félix",Nordeste
+251315,25,PB,"Santa Cecília",Nordeste
+251320,25,PB,"Santa Cruz",Nordeste
+251330,25,PB,"Santa Helena",Nordeste
+251335,25,PB,"Santa Inês",Nordeste
+251340,25,PB,"Santa Luzia",Nordeste
+251350,25,PB,"Santana de Mangueira",Nordeste
+251360,25,PB,"Santana dos Garrotes",Nordeste
+251365,25,PB,Santarém,Nordeste
+251370,25,PB,"Santa Rita",Nordeste
+251380,25,PB,"Santa Teresinha",Nordeste
+251385,25,PB,"Santo André",Nordeste
+251390,25,PB,"São Bento",Nordeste
+251392,25,PB,"São Bentinho",Nordeste
+251394,25,PB,"São Domingos do Cariri",Nordeste
+251396,25,PB,"São Domingos",Nordeste
+251398,25,PB,"São Francisco",Nordeste
+251400,25,PB,"São João do Cariri",Nordeste
+251410,25,PB,"São João do Tigre",Nordeste
+251420,25,PB,"São José da Lagoa Tapada",Nordeste
+251430,25,PB,"São José de Caiana",Nordeste
+251440,25,PB,"São José de Espinharas",Nordeste
+251445,25,PB,"São José dos Ramos",Nordeste
+251450,25,PB,"São José de Piranhas",Nordeste
+251455,25,PB,"São José de Princesa",Nordeste
+251460,25,PB,"São José do Bonfim",Nordeste
+251465,25,PB,"São José do Brejo do Cruz",Nordeste
+251470,25,PB,"São José do Sabugi",Nordeste
+251480,25,PB,"São José dos Cordeiros",Nordeste
+251490,25,PB,"São Mamede",Nordeste
+251500,25,PB,"São Miguel de Taipu",Nordeste
+251510,25,PB,"São Sebastião de Lagoa de Roça",Nordeste
+251520,25,PB,"São Sebastião do Umbuzeiro",Nordeste
+251530,25,PB,Sapé,Nordeste
+251540,25,PB,Seridó,Nordeste
+251550,25,PB,"Serra Branca",Nordeste
+251560,25,PB,"Serra da Raiz",Nordeste
+251570,25,PB,"Serra Grande",Nordeste
+251580,25,PB,"Serra Redonda",Nordeste
+251590,25,PB,Serraria,Nordeste
+251593,25,PB,Sertãozinho,Nordeste
+251597,25,PB,Sobrado,Nordeste
+251600,25,PB,Solânea,Nordeste
+251610,25,PB,Soledade,Nordeste
+251615,25,PB,Sossêgo,Nordeste
+251620,25,PB,Sousa,Nordeste
+251630,25,PB,Sumé,Nordeste
+251640,25,PB,"Campo de Santana",Nordeste
+251650,25,PB,Taperoá,Nordeste
+251660,25,PB,Tavares,Nordeste
+251670,25,PB,Teixeira,Nordeste
+251675,25,PB,Tenório,Nordeste
+251680,25,PB,Triunfo,Nordeste
+251690,25,PB,Uiraúna,Nordeste
+251700,25,PB,Umbuzeiro,Nordeste
+251710,25,PB,Várzea,Nordeste
+251720,25,PB,Vieirópolis,Nordeste
+251740,25,PB,Zabelê,Nordeste
+260005,26,PE,"Abreu e Lima",Nordeste
+260010,26,PE,"Afogados da Ingazeira",Nordeste
+260020,26,PE,Afrânio,Nordeste
+260030,26,PE,Agrestina,Nordeste
+260040,26,PE,"Água Preta",Nordeste
+260050,26,PE,"Águas Belas",Nordeste
+260060,26,PE,Alagoinha,Nordeste
+260070,26,PE,Aliança,Nordeste
+260080,26,PE,Altinho,Nordeste
+260090,26,PE,Amaraji,Nordeste
+260100,26,PE,Angelim,Nordeste
+260105,26,PE,Araçoiaba,Nordeste
+260110,26,PE,Araripina,Nordeste
+260120,26,PE,Arcoverde,Nordeste
+260130,26,PE,"Barra de Guabiraba",Nordeste
+260140,26,PE,Barreiros,Nordeste
+260150,26,PE,"Belém de Maria",Nordeste
+260160,26,PE,"Belém de São Francisco",Nordeste
+260170,26,PE,"Belo Jardim",Nordeste
+260180,26,PE,Betânia,Nordeste
+260190,26,PE,Bezerros,Nordeste
+260200,26,PE,Bodocó,Nordeste
+260210,26,PE,"Bom Conselho",Nordeste
+260220,26,PE,"Bom Jardim",Nordeste
+260230,26,PE,Bonito,Nordeste
+260240,26,PE,Brejão,Nordeste
+260250,26,PE,Brejinho,Nordeste
+260260,26,PE,"Brejo da Madre de Deus",Nordeste
+260270,26,PE,"Buenos Aires",Nordeste
+260280,26,PE,Buíque,Nordeste
+260290,26,PE,"Cabo de Santo Agostinho",Nordeste
+260300,26,PE,Cabrobó,Nordeste
+260310,26,PE,Cachoeirinha,Nordeste
+260320,26,PE,Caetés,Nordeste
+260330,26,PE,Calçado,Nordeste
+260340,26,PE,Calumbi,Nordeste
+260345,26,PE,Camaragibe,Nordeste
+260350,26,PE,"Camocim de São Félix",Nordeste
+260360,26,PE,Camutanga,Nordeste
+260370,26,PE,Canhotinho,Nordeste
+260380,26,PE,Capoeiras,Nordeste
+260390,26,PE,Carnaíba,Nordeste
+260392,26,PE,"Carnaubeira da Penha",Nordeste
+260400,26,PE,Carpina,Nordeste
+260410,26,PE,Caruaru,Nordeste
+260415,26,PE,Casinhas,Nordeste
+260420,26,PE,Catende,Nordeste
+260430,26,PE,Cedro,Nordeste
+260440,26,PE,"Chã de Alegria",Nordeste
+260450,26,PE,"Chã Grande",Nordeste
+260460,26,PE,Condado,Nordeste
+260470,26,PE,Correntes,Nordeste
+260480,26,PE,Cortês,Nordeste
+260490,26,PE,Cumaru,Nordeste
+260500,26,PE,Cupira,Nordeste
+260510,26,PE,Custódia,Nordeste
+260515,26,PE,Dormentes,Nordeste
+260520,26,PE,Escada,Nordeste
+260530,26,PE,Exu,Nordeste
+260540,26,PE,"Feira Nova",Nordeste
+260545,26,PE,"Fernando de Noronha",Nordeste
+260550,26,PE,Ferreiros,Nordeste
+260560,26,PE,Flores,Nordeste
+260570,26,PE,Floresta,Nordeste
+260580,26,PE,"Frei Miguelinho",Nordeste
+260590,26,PE,Gameleira,Nordeste
+260600,26,PE,Garanhuns,Nordeste
+260610,26,PE,"Glória do Goitá",Nordeste
+260620,26,PE,Goiana,Nordeste
+260630,26,PE,Granito,Nordeste
+260640,26,PE,Gravatá,Nordeste
+260650,26,PE,Iati,Nordeste
+260660,26,PE,Ibimirim,Nordeste
+260670,26,PE,Ibirajuba,Nordeste
+260680,26,PE,Igarassu,Nordeste
+260690,26,PE,Iguaraci,Nordeste
+260700,26,PE,Inajá,Nordeste
+260710,26,PE,Ingazeira,Nordeste
+260720,26,PE,Ipojuca,Nordeste
+260730,26,PE,Ipubi,Nordeste
+260740,26,PE,Itacuruba,Nordeste
+260750,26,PE,Itaíba,Nordeste
+260760,26,PE,"Ilha de Itamaracá",Nordeste
+260765,26,PE,Itambé,Nordeste
+260770,26,PE,Itapetim,Nordeste
+260775,26,PE,Itapissuma,Nordeste
+260780,26,PE,Itaquitinga,Nordeste
+260790,26,PE,"Jaboatão dos Guararapes",Nordeste
+260795,26,PE,Jaqueira,Nordeste
+260800,26,PE,Jataúba,Nordeste
+260805,26,PE,Jatobá,Nordeste
+260810,26,PE,"João Alfredo",Nordeste
+260820,26,PE,"Joaquim Nabuco",Nordeste
+260825,26,PE,Jucati,Nordeste
+260830,26,PE,Jupi,Nordeste
+260840,26,PE,Jurema,Nordeste
+260845,26,PE,"Lagoa do Carro",Nordeste
+260850,26,PE,"Lagoa do Itaenga",Nordeste
+260860,26,PE,"Lagoa do Ouro",Nordeste
+260870,26,PE,"Lagoa dos Gatos",Nordeste
+260875,26,PE,"Lagoa Grande",Nordeste
+260880,26,PE,Lajedo,Nordeste
+260890,26,PE,Limoeiro,Nordeste
+260900,26,PE,Macaparana,Nordeste
+260910,26,PE,Machados,Nordeste
+260915,26,PE,Manari,Nordeste
+260920,26,PE,Maraial,Nordeste
+260930,26,PE,Mirandiba,Nordeste
+260940,26,PE,Moreno,Nordeste
+260950,26,PE,"Nazaré da Mata",Nordeste
+260960,26,PE,Olinda,Nordeste
+260970,26,PE,Orobó,Nordeste
+260980,26,PE,Orocó,Nordeste
+260990,26,PE,Ouricuri,Nordeste
+261000,26,PE,Palmares,Nordeste
+261010,26,PE,Palmeirina,Nordeste
+261020,26,PE,Panelas,Nordeste
+261030,26,PE,Paranatama,Nordeste
+261040,26,PE,Parnamirim,Nordeste
+261050,26,PE,Passira,Nordeste
+261060,26,PE,Paudalho,Nordeste
+261070,26,PE,Paulista,Nordeste
+261080,26,PE,Pedra,Nordeste
+261090,26,PE,Pesqueira,Nordeste
+261100,26,PE,Petrolândia,Nordeste
+261110,26,PE,Petrolina,Nordeste
+261120,26,PE,Poção,Nordeste
+261130,26,PE,Pombos,Nordeste
+261140,26,PE,Primavera,Nordeste
+261150,26,PE,Quipapá,Nordeste
+261153,26,PE,Quixaba,Nordeste
+261160,26,PE,Recife,Nordeste
+261170,26,PE,"Riacho das Almas",Nordeste
+261180,26,PE,Ribeirão,Nordeste
+261190,26,PE,"Rio Formoso",Nordeste
+261200,26,PE,Sairé,Nordeste
+261210,26,PE,Salgadinho,Nordeste
+261220,26,PE,Salgueiro,Nordeste
+261230,26,PE,Saloá,Nordeste
+261240,26,PE,Sanharó,Nordeste
+261245,26,PE,"Santa Cruz",Nordeste
+261247,26,PE,"Santa Cruz da Baixa Verde",Nordeste
+261250,26,PE,"Santa Cruz do Capibaribe",Nordeste
+261255,26,PE,"Santa Filomena",Nordeste
+261260,26,PE,"Santa Maria da Boa Vista",Nordeste
+261270,26,PE,"Santa Maria do Cambucá",Nordeste
+261280,26,PE,"Santa Terezinha",Nordeste
+261290,26,PE,"São Benedito do Sul",Nordeste
+261300,26,PE,"São Bento do Una",Nordeste
+261310,26,PE,"São Caitano",Nordeste
+261320,26,PE,"São João",Nordeste
+261330,26,PE,"São Joaquim do Monte",Nordeste
+261340,26,PE,"São José da Coroa Grande",Nordeste
+261350,26,PE,"São José do Belmonte",Nordeste
+261360,26,PE,"São José do Egito",Nordeste
+261370,26,PE,"São Lourenço da Mata",Nordeste
+261380,26,PE,"São Vicente Ferrer",Nordeste
+261390,26,PE,"Serra Talhada",Nordeste
+261400,26,PE,Serrita,Nordeste
+261410,26,PE,Sertânia,Nordeste
+261420,26,PE,Sirinhaém,Nordeste
+261430,26,PE,Moreilândia,Nordeste
+261440,26,PE,Solidão,Nordeste
+261450,26,PE,Surubim,Nordeste
+261460,26,PE,Tabira,Nordeste
+261470,26,PE,Tacaimbó,Nordeste
+261480,26,PE,Tacaratu,Nordeste
+261485,26,PE,Tamandaré,Nordeste
+261500,26,PE,"Taquaritinga do Norte",Nordeste
+261510,26,PE,Terezinha,Nordeste
+261520,26,PE,"Terra Nova",Nordeste
+261530,26,PE,Timbaúba,Nordeste
+261540,26,PE,Toritama,Nordeste
+261550,26,PE,Tracunhaém,Nordeste
+261560,26,PE,Trindade,Nordeste
+261570,26,PE,Triunfo,Nordeste
+261580,26,PE,Tupanatinga,Nordeste
+261590,26,PE,Tuparetama,Nordeste
+261600,26,PE,Venturosa,Nordeste
+261610,26,PE,Verdejante,Nordeste
+261618,26,PE,"Vertente do Lério",Nordeste
+261620,26,PE,Vertentes,Nordeste
+261630,26,PE,Vicência,Nordeste
+261640,26,PE,"Vitória de Santo Antão",Nordeste
+261650,26,PE,Xexéu,Nordeste
+270010,27,AL,"Água Branca",Nordeste
+270020,27,AL,Anadia,Nordeste
+270030,27,AL,Arapiraca,Nordeste
+270040,27,AL,Atalaia,Nordeste
+270050,27,AL,"Barra de Santo Antônio",Nordeste
+270060,27,AL,"Barra de São Miguel",Nordeste
+270070,27,AL,Batalha,Nordeste
+270080,27,AL,Belém,Nordeste
+270090,27,AL,"Belo Monte",Nordeste
+270100,27,AL,"Boca da Mata",Nordeste
+270110,27,AL,Branquinha,Nordeste
+270120,27,AL,Cacimbinhas,Nordeste
+270130,27,AL,Cajueiro,Nordeste
+270135,27,AL,Campestre,Nordeste
+270140,27,AL,"Campo Alegre",Nordeste
+270150,27,AL,"Campo Grande",Nordeste
+270160,27,AL,Canapi,Nordeste
+270170,27,AL,Capela,Nordeste
+270180,27,AL,Carneiros,Nordeste
+270190,27,AL,"Chã Preta",Nordeste
+270200,27,AL,"Coité do Nóia",Nordeste
+270210,27,AL,"Colônia Leopoldina",Nordeste
+270220,27,AL,"Coqueiro Seco",Nordeste
+270230,27,AL,Coruripe,Nordeste
+270235,27,AL,Craíbas,Nordeste
+270240,27,AL,"Delmiro Gouveia",Nordeste
+270250,27,AL,"Dois Riachos",Nordeste
+270255,27,AL,"Estrela de Alagoas",Nordeste
+270260,27,AL,"Feira Grande",Nordeste
+270270,27,AL,"Feliz Deserto",Nordeste
+270280,27,AL,Flexeiras,Nordeste
+270290,27,AL,"Girau do Ponciano",Nordeste
+270300,27,AL,Ibateguara,Nordeste
+270310,27,AL,Igaci,Nordeste
+270320,27,AL,"Igreja Nova",Nordeste
+270330,27,AL,Inhapi,Nordeste
+270340,27,AL,"Jacaré dos Homens",Nordeste
+270350,27,AL,Jacuípe,Nordeste
+270360,27,AL,Japaratinga,Nordeste
+270370,27,AL,Jaramataia,Nordeste
+270375,27,AL,"Jequiá da Praia",Nordeste
+270380,27,AL,"Joaquim Gomes",Nordeste
+270390,27,AL,Jundiá,Nordeste
+270400,27,AL,Junqueiro,Nordeste
+270410,27,AL,"Lagoa da Canoa",Nordeste
+270420,27,AL,"Limoeiro de Anadia",Nordeste
+270430,27,AL,Maceió,Nordeste
+270440,27,AL,"Major Isidoro",Nordeste
+270450,27,AL,Maragogi,Nordeste
+270460,27,AL,Maravilha,Nordeste
+270470,27,AL,"Marechal Deodoro",Nordeste
+270480,27,AL,Maribondo,Nordeste
+270490,27,AL,"Mar Vermelho",Nordeste
+270500,27,AL,"Mata Grande",Nordeste
+270510,27,AL,"Matriz de Camaragibe",Nordeste
+270520,27,AL,Messias,Nordeste
+270530,27,AL,"Minador do Negrão",Nordeste
+270540,27,AL,Monteirópolis,Nordeste
+270550,27,AL,Murici,Nordeste
+270560,27,AL,"Novo Lino",Nordeste
+270570,27,AL,"Olho d'Água das Flores",Nordeste
+270580,27,AL,"Olho d'Água do Casado",Nordeste
+270590,27,AL,"Olho d'Água Grande",Nordeste
+270600,27,AL,Olivença,Nordeste
+270610,27,AL,"Ouro Branco",Nordeste
+270620,27,AL,Palestina,Nordeste
+270630,27,AL,"Palmeira dos Índios",Nordeste
+270640,27,AL,"Pão de Açúcar",Nordeste
+270642,27,AL,Pariconha,Nordeste
+270644,27,AL,Paripueira,Nordeste
+270650,27,AL,"Passo de Camaragibe",Nordeste
+270660,27,AL,"Paulo Jacinto",Nordeste
+270670,27,AL,Penedo,Nordeste
+270680,27,AL,Piaçabuçu,Nordeste
+270690,27,AL,Pilar,Nordeste
+270700,27,AL,Pindoba,Nordeste
+270710,27,AL,Piranhas,Nordeste
+270720,27,AL,"Poço das Trincheiras",Nordeste
+270730,27,AL,"Porto Calvo",Nordeste
+270740,27,AL,"Porto de Pedras",Nordeste
+270750,27,AL,"Porto Real do Colégio",Nordeste
+270760,27,AL,Quebrangulo,Nordeste
+270770,27,AL,"Rio Largo",Nordeste
+270780,27,AL,Roteiro,Nordeste
+270790,27,AL,"Santa Luzia do Norte",Nordeste
+270800,27,AL,"Santana do Ipanema",Nordeste
+270810,27,AL,"Santana do Mundaú",Nordeste
+270820,27,AL,"São Brás",Nordeste
+270830,27,AL,"São José da Laje",Nordeste
+270840,27,AL,"São José da Tapera",Nordeste
+270850,27,AL,"São Luís do Quitunde",Nordeste
+270860,27,AL,"São Miguel dos Campos",Nordeste
+270870,27,AL,"São Miguel dos Milagres",Nordeste
+270880,27,AL,"São Sebastião",Nordeste
+270890,27,AL,Satuba,Nordeste
+270895,27,AL,"Senador Rui Palmeira",Nordeste
+270900,27,AL,"Tanque d'Arca",Nordeste
+270910,27,AL,Taquarana,Nordeste
+270915,27,AL,"Teotônio Vilela",Nordeste
+270920,27,AL,Traipu,Nordeste
+270930,27,AL,"União dos Palmares",Nordeste
+270940,27,AL,Viçosa,Nordeste
+280010,28,SE,"Amparo de São Francisco",Nordeste
+280020,28,SE,Aquidabã,Nordeste
+280030,28,SE,Aracaju,Nordeste
+280040,28,SE,Arauá,Nordeste
+280050,28,SE,"Areia Branca",Nordeste
+280060,28,SE,"Barra dos Coqueiros",Nordeste
+280067,28,SE,Boquim,Nordeste
+280070,28,SE,"Brejo Grande",Nordeste
+280100,28,SE,"Campo do Brito",Nordeste
+280110,28,SE,Canhoba,Nordeste
+280120,28,SE,"Canindé de São Francisco",Nordeste
+280130,28,SE,Capela,Nordeste
+280140,28,SE,Carira,Nordeste
+280150,28,SE,Carmópolis,Nordeste
+280160,28,SE,"Cedro de São João",Nordeste
+280170,28,SE,Cristinápolis,Nordeste
+280190,28,SE,Cumbe,Nordeste
+280200,28,SE,"Divina Pastora",Nordeste
+280210,28,SE,Estância,Nordeste
+280220,28,SE,"Feira Nova",Nordeste
+280230,28,SE,"Frei Paulo",Nordeste
+280240,28,SE,Gararu,Nordeste
+280250,28,SE,"General Maynard",Nordeste
+280260,28,SE,"Gracho Cardoso",Nordeste
+280270,28,SE,"Ilha das Flores",Nordeste
+280280,28,SE,Indiaroba,Nordeste
+280290,28,SE,Itabaiana,Nordeste
+280300,28,SE,Itabaianinha,Nordeste
+280310,28,SE,Itabi,Nordeste
+280320,28,SE,"Itaporanga d'Ajuda",Nordeste
+280330,28,SE,Japaratuba,Nordeste
+280340,28,SE,Japoatã,Nordeste
+280350,28,SE,Lagarto,Nordeste
+280360,28,SE,Laranjeiras,Nordeste
+280370,28,SE,Macambira,Nordeste
+280380,28,SE,"Malhada dos Bois",Nordeste
+280390,28,SE,Malhador,Nordeste
+280400,28,SE,Maruim,Nordeste
+280410,28,SE,"Moita Bonita",Nordeste
+280420,28,SE,"Monte Alegre de Sergipe",Nordeste
+280430,28,SE,Muribeca,Nordeste
+280440,28,SE,Neópolis,Nordeste
+280445,28,SE,"Nossa Senhora Aparecida",Nordeste
+280450,28,SE,"Nossa Senhora da Glória",Nordeste
+280460,28,SE,"Nossa Senhora das Dores",Nordeste
+280470,28,SE,"Nossa Senhora de Lourdes",Nordeste
+280480,28,SE,"Nossa Senhora do Socorro",Nordeste
+280490,28,SE,Pacatuba,Nordeste
+280500,28,SE,"Pedra Mole",Nordeste
+280510,28,SE,Pedrinhas,Nordeste
+280520,28,SE,Pinhão,Nordeste
+280530,28,SE,Pirambu,Nordeste
+280540,28,SE,"Poço Redondo",Nordeste
+280550,28,SE,"Poço Verde",Nordeste
+280560,28,SE,"Porto da Folha",Nordeste
+280570,28,SE,Propriá,Nordeste
+280580,28,SE,"Riachão do Dantas",Nordeste
+280590,28,SE,Riachuelo,Nordeste
+280600,28,SE,Ribeirópolis,Nordeste
+280610,28,SE,"Rosário do Catete",Nordeste
+280620,28,SE,Salgado,Nordeste
+280630,28,SE,"Santa Luzia do Itanhy",Nordeste
+280640,28,SE,"Santana do São Francisco",Nordeste
+280650,28,SE,"Santa Rosa de Lima",Nordeste
+280660,28,SE,"Santo Amaro das Brotas",Nordeste
+280670,28,SE,"São Cristóvão",Nordeste
+280680,28,SE,"São Domingos",Nordeste
+280690,28,SE,"São Francisco",Nordeste
+280700,28,SE,"São Miguel do Aleixo",Nordeste
+280710,28,SE,"Simão Dias",Nordeste
+280720,28,SE,Siriri,Nordeste
+280730,28,SE,Telha,Nordeste
+280740,28,SE,"Tobias Barreto",Nordeste
+280750,28,SE,"Tomar do Geru",Nordeste
+280760,28,SE,Umbaúba,Nordeste
+290010,29,BA,Abaíra,Nordeste
+290020,29,BA,Abaré,Nordeste
+290030,29,BA,Acajutiba,Nordeste
+290035,29,BA,Adustina,Nordeste
+290040,29,BA,"Água Fria",Nordeste
+290050,29,BA,"Érico Cardoso",Nordeste
+290060,29,BA,Aiquara,Nordeste
+290070,29,BA,Alagoinhas,Nordeste
+290080,29,BA,Alcobaça,Nordeste
+290090,29,BA,Almadina,Nordeste
+290100,29,BA,Amargosa,Nordeste
+290110,29,BA,"Amélia Rodrigues",Nordeste
+290115,29,BA,"América Dourada",Nordeste
+290120,29,BA,Anagé,Nordeste
+290130,29,BA,Andaraí,Nordeste
+290135,29,BA,Andorinha,Nordeste
+290140,29,BA,Angical,Nordeste
+290150,29,BA,Anguera,Nordeste
+290160,29,BA,Antas,Nordeste
+290170,29,BA,"Antônio Cardoso",Nordeste
+290180,29,BA,"Antônio Gonçalves",Nordeste
+290190,29,BA,Aporá,Nordeste
+290195,29,BA,Apuarema,Nordeste
+290200,29,BA,Aracatu,Nordeste
+290205,29,BA,Araças,Nordeste
+290210,29,BA,Araci,Nordeste
+290220,29,BA,Aramari,Nordeste
+290225,29,BA,Arataca,Nordeste
+290230,29,BA,Aratuípe,Nordeste
+290240,29,BA,"Aurelino Leal",Nordeste
+290250,29,BA,Baianópolis,Nordeste
+290260,29,BA,"Baixa Grande",Nordeste
+290265,29,BA,Banzaê,Nordeste
+290270,29,BA,Barra,Nordeste
+290280,29,BA,"Barra da Estiva",Nordeste
+290290,29,BA,"Barra do Choça",Nordeste
+290300,29,BA,"Barra do Mendes",Nordeste
+290310,29,BA,"Barra do Rocha",Nordeste
+290320,29,BA,Barreiras,Nordeste
+290323,29,BA,"Barro Alto",Nordeste
+290327,29,BA,Barrocas,Nordeste
+290330,29,BA,"Barro Preto",Nordeste
+290340,29,BA,Belmonte,Nordeste
+290350,29,BA,"Belo Campo",Nordeste
+290360,29,BA,Biritinga,Nordeste
+290370,29,BA,"Boa Nova",Nordeste
+290380,29,BA,"Boa Vista do Tupim",Nordeste
+290390,29,BA,"Bom Jesus da Lapa",Nordeste
+290395,29,BA,"Bom Jesus da Serra",Nordeste
+290400,29,BA,Boninal,Nordeste
+290405,29,BA,Bonito,Nordeste
+290410,29,BA,Boquira,Nordeste
+290420,29,BA,Botuporã,Nordeste
+290430,29,BA,Brejões,Nordeste
+290440,29,BA,Brejolândia,Nordeste
+290450,29,BA,"Brotas de Macaúbas",Nordeste
+290460,29,BA,Brumado,Nordeste
+290470,29,BA,Buerarema,Nordeste
+290475,29,BA,Buritirama,Nordeste
+290480,29,BA,Caatiba,Nordeste
+290485,29,BA,"Cabaceiras do Paraguaçu",Nordeste
+290490,29,BA,Cachoeira,Nordeste
+290500,29,BA,Caculé,Nordeste
+290510,29,BA,Caém,Nordeste
+290515,29,BA,Caetanos,Nordeste
+290520,29,BA,Caetité,Nordeste
+290530,29,BA,Cafarnaum,Nordeste
+290540,29,BA,Cairu,Nordeste
+290550,29,BA,"Caldeirão Grande",Nordeste
+290560,29,BA,Camacan,Nordeste
+290570,29,BA,Camaçari,Nordeste
+290580,29,BA,Camamu,Nordeste
+290590,29,BA,"Campo Alegre de Lourdes",Nordeste
+290600,29,BA,"Campo Formoso",Nordeste
+290610,29,BA,Canápolis,Nordeste
+290620,29,BA,Canarana,Nordeste
+290630,29,BA,Canavieiras,Nordeste
+290640,29,BA,Candeal,Nordeste
+290650,29,BA,Candeias,Nordeste
+290660,29,BA,Candiba,Nordeste
+290670,29,BA,"Cândido Sales",Nordeste
+290680,29,BA,Cansanção,Nordeste
+290682,29,BA,Canudos,Nordeste
+290685,29,BA,"Capela do Alto Alegre",Nordeste
+290687,29,BA,"Capim Grosso",Nordeste
+290689,29,BA,Caraíbas,Nordeste
+290690,29,BA,Caravelas,Nordeste
+290700,29,BA,"Cardeal da Silva",Nordeste
+290710,29,BA,Carinhanha,Nordeste
+290720,29,BA,"Casa Nova",Nordeste
+290730,29,BA,"Castro Alves",Nordeste
+290740,29,BA,Catolândia,Nordeste
+290750,29,BA,Catu,Nordeste
+290755,29,BA,Caturama,Nordeste
+290760,29,BA,Central,Nordeste
+290770,29,BA,Chorrochó,Nordeste
+290780,29,BA,"Cícero Dantas",Nordeste
+290790,29,BA,Cipó,Nordeste
+290800,29,BA,Coaraci,Nordeste
+290810,29,BA,Cocos,Nordeste
+290820,29,BA,"Conceição da Feira",Nordeste
+290830,29,BA,"Conceição do Almeida",Nordeste
+290840,29,BA,"Conceição do Coité",Nordeste
+290850,29,BA,"Conceição do Jacuípe",Nordeste
+290860,29,BA,Conde,Nordeste
+290870,29,BA,Condeúba,Nordeste
+290880,29,BA,"Contendas do Sincorá",Nordeste
+290890,29,BA,"Coração de Maria",Nordeste
+290900,29,BA,Cordeiros,Nordeste
+290910,29,BA,Coribe,Nordeste
+290920,29,BA,"Coronel João Sá",Nordeste
+290930,29,BA,Correntina,Nordeste
+290940,29,BA,Cotegipe,Nordeste
+290950,29,BA,Cravolândia,Nordeste
+290960,29,BA,Crisópolis,Nordeste
+290970,29,BA,Cristópolis,Nordeste
+290980,29,BA,"Cruz das Almas",Nordeste
+290990,29,BA,Curaçá,Nordeste
+291000,29,BA,"Dário Meira",Nordeste
+291005,29,BA,"Dias d'Ávila",Nordeste
+291010,29,BA,"Dom Basílio",Nordeste
+291020,29,BA,"Dom Macedo Costa",Nordeste
+291030,29,BA,"Elísio Medrado",Nordeste
+291040,29,BA,Encruzilhada,Nordeste
+291050,29,BA,"Entre Rios",Nordeste
+291060,29,BA,Esplanada,Nordeste
+291070,29,BA,"Euclides da Cunha",Nordeste
+291072,29,BA,Eunápolis,Nordeste
+291075,29,BA,Fátima,Nordeste
+291077,29,BA,"Feira da Mata",Nordeste
+291080,29,BA,"Feira de Santana",Nordeste
+291085,29,BA,Filadélfia,Nordeste
+291090,29,BA,"Firmino Alves",Nordeste
+291100,29,BA,"Floresta Azul",Nordeste
+291110,29,BA,"Formosa do Rio Preto",Nordeste
+291120,29,BA,Gandu,Nordeste
+291125,29,BA,Gavião,Nordeste
+291130,29,BA,"Gentio do Ouro",Nordeste
+291140,29,BA,Glória,Nordeste
+291150,29,BA,Gongogi,Nordeste
+291160,29,BA,"Governador Mangabeira",Nordeste
+291165,29,BA,Guajeru,Nordeste
+291170,29,BA,Guanambi,Nordeste
+291180,29,BA,Guaratinga,Nordeste
+291185,29,BA,Heliópolis,Nordeste
+291190,29,BA,Iaçu,Nordeste
+291200,29,BA,Ibiassucê,Nordeste
+291210,29,BA,Ibicaraí,Nordeste
+291220,29,BA,Ibicoara,Nordeste
+291230,29,BA,Ibicuí,Nordeste
+291240,29,BA,Ibipeba,Nordeste
+291250,29,BA,Ibipitanga,Nordeste
+291260,29,BA,Ibiquera,Nordeste
+291270,29,BA,Ibirapitanga,Nordeste
+291280,29,BA,Ibirapuã,Nordeste
+291290,29,BA,Ibirataia,Nordeste
+291300,29,BA,Ibitiara,Nordeste
+291310,29,BA,Ibititá,Nordeste
+291320,29,BA,Ibotirama,Nordeste
+291330,29,BA,Ichu,Nordeste
+291340,29,BA,Igaporã,Nordeste
+291345,29,BA,Igrapiúna,Nordeste
+291350,29,BA,Iguaí,Nordeste
+291360,29,BA,Ilhéus,Nordeste
+291370,29,BA,Inhambupe,Nordeste
+291380,29,BA,Ipecaetá,Nordeste
+291390,29,BA,Ipiaú,Nordeste
+291400,29,BA,Ipirá,Nordeste
+291410,29,BA,Ipupiara,Nordeste
+291420,29,BA,Irajuba,Nordeste
+291430,29,BA,Iramaia,Nordeste
+291440,29,BA,Iraquara,Nordeste
+291450,29,BA,Irará,Nordeste
+291460,29,BA,Irecê,Nordeste
+291465,29,BA,Itabela,Nordeste
+291470,29,BA,Itaberaba,Nordeste
+291480,29,BA,Itabuna,Nordeste
+291490,29,BA,Itacaré,Nordeste
+291500,29,BA,Itaeté,Nordeste
+291510,29,BA,Itagi,Nordeste
+291520,29,BA,Itagibá,Nordeste
+291530,29,BA,Itagimirim,Nordeste
+291535,29,BA,"Itaguaçu da Bahia",Nordeste
+291540,29,BA,"Itaju do Colônia",Nordeste
+291550,29,BA,Itajuípe,Nordeste
+291560,29,BA,Itamaraju,Nordeste
+291570,29,BA,Itamari,Nordeste
+291580,29,BA,Itambé,Nordeste
+291590,29,BA,Itanagra,Nordeste
+291600,29,BA,Itanhém,Nordeste
+291610,29,BA,Itaparica,Nordeste
+291620,29,BA,Itapé,Nordeste
+291630,29,BA,Itapebi,Nordeste
+291640,29,BA,Itapetinga,Nordeste
+291650,29,BA,Itapicuru,Nordeste
+291660,29,BA,Itapitanga,Nordeste
+291670,29,BA,Itaquara,Nordeste
+291680,29,BA,Itarantim,Nordeste
+291685,29,BA,Itatim,Nordeste
+291690,29,BA,Itiruçu,Nordeste
+291700,29,BA,Itiúba,Nordeste
+291710,29,BA,Itororó,Nordeste
+291720,29,BA,Ituaçu,Nordeste
+291730,29,BA,Ituberá,Nordeste
+291733,29,BA,Iuiú,Nordeste
+291735,29,BA,Jaborandi,Nordeste
+291740,29,BA,Jacaraci,Nordeste
+291750,29,BA,Jacobina,Nordeste
+291760,29,BA,Jaguaquara,Nordeste
+291770,29,BA,Jaguarari,Nordeste
+291780,29,BA,Jaguaripe,Nordeste
+291790,29,BA,Jandaíra,Nordeste
+291800,29,BA,Jequié,Nordeste
+291810,29,BA,Jeremoabo,Nordeste
+291820,29,BA,Jiquiriçá,Nordeste
+291830,29,BA,Jitaúna,Nordeste
+291835,29,BA,"João Dourado",Nordeste
+291840,29,BA,Juazeiro,Nordeste
+291845,29,BA,Jucuruçu,Nordeste
+291850,29,BA,Jussara,Nordeste
+291855,29,BA,Jussari,Nordeste
+291860,29,BA,Jussiape,Nordeste
+291870,29,BA,"Lafaiete Coutinho",Nordeste
+291875,29,BA,"Lagoa Real",Nordeste
+291880,29,BA,Laje,Nordeste
+291890,29,BA,Lajedão,Nordeste
+291900,29,BA,Lajedinho,Nordeste
+291905,29,BA,"Lajedo do Tabocal",Nordeste
+291910,29,BA,Lamarão,Nordeste
+291915,29,BA,Lapão,Nordeste
+291920,29,BA,"Lauro de Freitas",Nordeste
+291930,29,BA,Lençóis,Nordeste
+291940,29,BA,"Licínio de Almeida",Nordeste
+291950,29,BA,"Livramento de Nossa Senhora",Nordeste
+291955,29,BA,"Luís Eduardo Magalhães",Nordeste
+291960,29,BA,Macajuba,Nordeste
+291970,29,BA,Macarani,Nordeste
+291980,29,BA,Macaúbas,Nordeste
+291990,29,BA,Macururé,Nordeste
+291992,29,BA,"Madre de Deus",Nordeste
+291995,29,BA,Maetinga,Nordeste
+292000,29,BA,Maiquinique,Nordeste
+292010,29,BA,Mairi,Nordeste
+292020,29,BA,Malhada,Nordeste
+292030,29,BA,"Malhada de Pedras",Nordeste
+292040,29,BA,"Manoel Vitorino",Nordeste
+292045,29,BA,Mansidão,Nordeste
+292050,29,BA,Maracás,Nordeste
+292060,29,BA,Maragogipe,Nordeste
+292070,29,BA,Maraú,Nordeste
+292080,29,BA,"Marcionílio Souza",Nordeste
+292090,29,BA,Mascote,Nordeste
+292100,29,BA,"Mata de São João",Nordeste
+292105,29,BA,Matina,Nordeste
+292110,29,BA,"Medeiros Neto",Nordeste
+292120,29,BA,"Miguel Calmon",Nordeste
+292130,29,BA,Milagres,Nordeste
+292140,29,BA,Mirangaba,Nordeste
+292145,29,BA,Mirante,Nordeste
+292150,29,BA,"Monte Santo",Nordeste
+292160,29,BA,Morpará,Nordeste
+292170,29,BA,"Morro do Chapéu",Nordeste
+292180,29,BA,Mortugaba,Nordeste
+292190,29,BA,Mucugê,Nordeste
+292200,29,BA,Mucuri,Nordeste
+292205,29,BA,"Mulungu do Morro",Nordeste
+292210,29,BA,"Mundo Novo",Nordeste
+292220,29,BA,"Muniz Ferreira",Nordeste
+292225,29,BA,"Muquém de São Francisco",Nordeste
+292230,29,BA,Muritiba,Nordeste
+292240,29,BA,Mutuípe,Nordeste
+292250,29,BA,Nazaré,Nordeste
+292260,29,BA,"Nilo Peçanha",Nordeste
+292265,29,BA,Nordestina,Nordeste
+292270,29,BA,"Nova Canaã",Nordeste
+292273,29,BA,"Nova Fátima",Nordeste
+292275,29,BA,"Nova Ibiá",Nordeste
+292280,29,BA,"Nova Itarana",Nordeste
+292285,29,BA,"Nova Redenção",Nordeste
+292290,29,BA,"Nova Soure",Nordeste
+292300,29,BA,"Nova Viçosa",Nordeste
+292303,29,BA,"Novo Horizonte",Nordeste
+292305,29,BA,"Novo Triunfo",Nordeste
+292310,29,BA,Olindina,Nordeste
+292320,29,BA,"Oliveira dos Brejinhos",Nordeste
+292330,29,BA,Ouriçangas,Nordeste
+292335,29,BA,Ourolândia,Nordeste
+292340,29,BA,"Palmas de Monte Alto",Nordeste
+292350,29,BA,Palmeiras,Nordeste
+292360,29,BA,Paramirim,Nordeste
+292370,29,BA,Paratinga,Nordeste
+292380,29,BA,Paripiranga,Nordeste
+292390,29,BA,"Pau Brasil",Nordeste
+292400,29,BA,"Paulo Afonso",Nordeste
+292405,29,BA,"Pé de Serra",Nordeste
+292410,29,BA,Pedrão,Nordeste
+292420,29,BA,"Pedro Alexandre",Nordeste
+292430,29,BA,Piatã,Nordeste
+292440,29,BA,"Pilão Arcado",Nordeste
+292450,29,BA,Pindaí,Nordeste
+292460,29,BA,Pindobaçu,Nordeste
+292465,29,BA,Pintadas,Nordeste
+292467,29,BA,"Piraí do Norte",Nordeste
+292470,29,BA,Piripá,Nordeste
+292480,29,BA,Piritiba,Nordeste
+292490,29,BA,Planaltino,Nordeste
+292500,29,BA,Planalto,Nordeste
+292510,29,BA,Poções,Nordeste
+292520,29,BA,Pojuca,Nordeste
+292525,29,BA,"Ponto Novo",Nordeste
+292530,29,BA,"Porto Seguro",Nordeste
+292540,29,BA,Potiraguá,Nordeste
+292550,29,BA,Prado,Nordeste
+292560,29,BA,"Presidente Dutra",Nordeste
+292570,29,BA,"Presidente Jânio Quadros",Nordeste
+292575,29,BA,"Presidente Tancredo Neves",Nordeste
+292580,29,BA,Queimadas,Nordeste
+292590,29,BA,Quijingue,Nordeste
+292593,29,BA,Quixabeira,Nordeste
+292595,29,BA,"Rafael Jambeiro",Nordeste
+292600,29,BA,Remanso,Nordeste
+292610,29,BA,Retirolândia,Nordeste
+292620,29,BA,"Riachão das Neves",Nordeste
+292630,29,BA,"Riachão do Jacuípe",Nordeste
+292640,29,BA,"Riacho de Santana",Nordeste
+292650,29,BA,"Ribeira do Amparo",Nordeste
+292660,29,BA,"Ribeira do Pombal",Nordeste
+292665,29,BA,"Ribeirão do Largo",Nordeste
+292670,29,BA,"Rio de Contas",Nordeste
+292680,29,BA,"Rio do Antônio",Nordeste
+292690,29,BA,"Rio do Pires",Nordeste
+292700,29,BA,"Rio Real",Nordeste
+292710,29,BA,Rodelas,Nordeste
+292720,29,BA,"Ruy Barbosa",Nordeste
+292730,29,BA,"Salinas da Margarida",Nordeste
+292740,29,BA,Salvador,Nordeste
+292750,29,BA,"Santa Bárbara",Nordeste
+292760,29,BA,"Santa Brígida",Nordeste
+292770,29,BA,"Santa Cruz Cabrália",Nordeste
+292780,29,BA,"Santa Cruz da Vitória",Nordeste
+292790,29,BA,"Santa Inês",Nordeste
+292800,29,BA,Santaluz,Nordeste
+292805,29,BA,"Santa Luzia",Nordeste
+292810,29,BA,"Santa Maria da Vitória",Nordeste
+292820,29,BA,Santana,Nordeste
+292830,29,BA,Santanópolis,Nordeste
+292840,29,BA,"Santa Rita de Cássia",Nordeste
+292850,29,BA,"Santa Teresinha",Nordeste
+292860,29,BA,"Santo Amaro",Nordeste
+292870,29,BA,"Santo Antônio de Jesus",Nordeste
+292880,29,BA,"Santo Estêvão",Nordeste
+292890,29,BA,"São Desidério",Nordeste
+292895,29,BA,"São Domingos",Nordeste
+292900,29,BA,"São Félix",Nordeste
+292905,29,BA,"São Félix do Coribe",Nordeste
+292910,29,BA,"São Felipe",Nordeste
+292920,29,BA,"São Francisco do Conde",Nordeste
+292925,29,BA,"São Gabriel",Nordeste
+292930,29,BA,"São Gonçalo dos Campos",Nordeste
+292935,29,BA,"São José da Vitória",Nordeste
+292937,29,BA,"São José do Jacuípe",Nordeste
+292940,29,BA,"São Miguel das Matas",Nordeste
+292950,29,BA,"São Sebastião do Passé",Nordeste
+292960,29,BA,Sapeaçu,Nordeste
+292970,29,BA,"Sátiro Dias",Nordeste
+292975,29,BA,Saubara,Nordeste
+292980,29,BA,Saúde,Nordeste
+292990,29,BA,Seabra,Nordeste
+293000,29,BA,"Sebastião Laranjeiras",Nordeste
+293010,29,BA,"Senhor do Bonfim",Nordeste
+293015,29,BA,"Serra do Ramalho",Nordeste
+293020,29,BA,"Sento Sé",Nordeste
+293030,29,BA,"Serra Dourada",Nordeste
+293040,29,BA,"Serra Preta",Nordeste
+293050,29,BA,Serrinha,Nordeste
+293060,29,BA,Serrolândia,Nordeste
+293070,29,BA,"Simões Filho",Nordeste
+293075,29,BA,"Sítio do Mato",Nordeste
+293076,29,BA,"Sítio do Quinto",Nordeste
+293077,29,BA,Sobradinho,Nordeste
+293080,29,BA,"Souto Soares",Nordeste
+293090,29,BA,"Tabocas do Brejo Velho",Nordeste
+293100,29,BA,Tanhaçu,Nordeste
+293105,29,BA,"Tanque Novo",Nordeste
+293110,29,BA,Tanquinho,Nordeste
+293120,29,BA,Taperoá,Nordeste
+293130,29,BA,Tapiramutá,Nordeste
+293135,29,BA,"Teixeira de Freitas",Nordeste
+293140,29,BA,"Teodoro Sampaio",Nordeste
+293150,29,BA,Teofilândia,Nordeste
+293160,29,BA,Teolândia,Nordeste
+293170,29,BA,"Terra Nova",Nordeste
+293180,29,BA,Tremedal,Nordeste
+293190,29,BA,Tucano,Nordeste
+293200,29,BA,Uauá,Nordeste
+293210,29,BA,Ubaíra,Nordeste
+293220,29,BA,Ubaitaba,Nordeste
+293230,29,BA,Ubatã,Nordeste
+293240,29,BA,Uibaí,Nordeste
+293245,29,BA,Umburanas,Nordeste
+293250,29,BA,Una,Nordeste
+293260,29,BA,Urandi,Nordeste
+293270,29,BA,Uruçuca,Nordeste
+293280,29,BA,Utinga,Nordeste
+293290,29,BA,Valença,Nordeste
+293300,29,BA,Valente,Nordeste
+293305,29,BA,"Várzea da Roça",Nordeste
+293310,29,BA,"Várzea do Poço",Nordeste
+293315,29,BA,"Várzea Nova",Nordeste
+293317,29,BA,Varzedo,Nordeste
+293320,29,BA,"Vera Cruz",Nordeste
+293325,29,BA,Vereda,Nordeste
+293330,29,BA,"Vitória da Conquista",Nordeste
+293340,29,BA,Wagner,Nordeste
+293345,29,BA,Wanderley,Nordeste
+293350,29,BA,"Wenceslau Guimarães",Nordeste
+293360,29,BA,Xique-Xique,Nordeste
+310010,31,MG,"Abadia dos Dourados",Sudeste
+310020,31,MG,Abaeté,Sudeste
+310030,31,MG,"Abre Campo",Sudeste
+310040,31,MG,Acaiaca,Sudeste
+310050,31,MG,Açucena,Sudeste
+310060,31,MG,"Água Boa",Sudeste
+310070,31,MG,"Água Comprida",Sudeste
+310080,31,MG,Aguanil,Sudeste
+310090,31,MG,"Águas Formosas",Sudeste
+310100,31,MG,"Águas Vermelhas",Sudeste
+310110,31,MG,Aimorés,Sudeste
+310120,31,MG,Aiuruoca,Sudeste
+310130,31,MG,Alagoa,Sudeste
+310140,31,MG,Albertina,Sudeste
+310150,31,MG,"Além Paraíba",Sudeste
+310160,31,MG,Alfenas,Sudeste
+310163,31,MG,"Alfredo Vasconcelos",Sudeste
+310170,31,MG,Almenara,Sudeste
+310180,31,MG,Alpercata,Sudeste
+310190,31,MG,Alpinópolis,Sudeste
+310200,31,MG,Alterosa,Sudeste
+310205,31,MG,"Alto Caparaó",Sudeste
+310210,31,MG,"Alto Rio Doce",Sudeste
+310220,31,MG,Alvarenga,Sudeste
+310230,31,MG,Alvinópolis,Sudeste
+310240,31,MG,"Alvorada de Minas",Sudeste
+310250,31,MG,"Amparo do Serra",Sudeste
+310260,31,MG,Andradas,Sudeste
+310270,31,MG,"Cachoeira de Pajeú",Sudeste
+310280,31,MG,Andrelândia,Sudeste
+310285,31,MG,Angelândia,Sudeste
+310290,31,MG,"Antônio Carlos",Sudeste
+310300,31,MG,"Antônio Dias",Sudeste
+310310,31,MG,"Antônio Prado de Minas",Sudeste
+310320,31,MG,Araçaí,Sudeste
+310330,31,MG,Aracitaba,Sudeste
+310340,31,MG,Araçuaí,Sudeste
+310350,31,MG,Araguari,Sudeste
+310360,31,MG,Arantina,Sudeste
+310370,31,MG,Araponga,Sudeste
+310375,31,MG,Araporã,Sudeste
+310380,31,MG,Arapuá,Sudeste
+310390,31,MG,Araújos,Sudeste
+310400,31,MG,Araxá,Sudeste
+310410,31,MG,Arceburgo,Sudeste
+310420,31,MG,Arcos,Sudeste
+310430,31,MG,Areado,Sudeste
+310440,31,MG,Argirita,Sudeste
+310445,31,MG,Aricanduva,Sudeste
+310450,31,MG,Arinos,Sudeste
+310460,31,MG,"Astolfo Dutra",Sudeste
+310470,31,MG,Ataléia,Sudeste
+310480,31,MG,"Augusto de Lima",Sudeste
+310490,31,MG,Baependi,Sudeste
+310500,31,MG,Baldim,Sudeste
+310510,31,MG,Bambuí,Sudeste
+310520,31,MG,Bandeira,Sudeste
+310530,31,MG,"Bandeira do Sul",Sudeste
+310540,31,MG,"Barão de Cocais",Sudeste
+310550,31,MG,"Barão de Monte Alto",Sudeste
+310560,31,MG,Barbacena,Sudeste
+310570,31,MG,"Barra Longa",Sudeste
+310590,31,MG,Barroso,Sudeste
+310600,31,MG,"Bela Vista de Minas",Sudeste
+310610,31,MG,"Belmiro Braga",Sudeste
+310620,31,MG,"Belo Horizonte",Sudeste
+310630,31,MG,"Belo Oriente",Sudeste
+310640,31,MG,"Belo Vale",Sudeste
+310650,31,MG,Berilo,Sudeste
+310660,31,MG,Bertópolis,Sudeste
+310665,31,MG,Berizal,Sudeste
+310670,31,MG,Betim,Sudeste
+310680,31,MG,"Bias Fortes",Sudeste
+310690,31,MG,Bicas,Sudeste
+310700,31,MG,Biquinhas,Sudeste
+310710,31,MG,"Boa Esperança",Sudeste
+310720,31,MG,"Bocaina de Minas",Sudeste
+310730,31,MG,Bocaiúva,Sudeste
+310740,31,MG,"Bom Despacho",Sudeste
+310750,31,MG,"Bom Jardim de Minas",Sudeste
+310760,31,MG,"Bom Jesus da Penha",Sudeste
+310770,31,MG,"Bom Jesus do Amparo",Sudeste
+310780,31,MG,"Bom Jesus do Galho",Sudeste
+310790,31,MG,"Bom Repouso",Sudeste
+310800,31,MG,"Bom Sucesso",Sudeste
+310810,31,MG,Bonfim,Sudeste
+310820,31,MG,"Bonfinópolis de Minas",Sudeste
+310825,31,MG,"Bonito de Minas",Sudeste
+310830,31,MG,"Borda da Mata",Sudeste
+310840,31,MG,Botelhos,Sudeste
+310850,31,MG,Botumirim,Sudeste
+310855,31,MG,"Brasilândia de Minas",Sudeste
+310860,31,MG,"Brasília de Minas",Sudeste
+310870,31,MG,"Brás Pires",Sudeste
+310880,31,MG,Braúnas,Sudeste
+310890,31,MG,Brasópolis,Sudeste
+310900,31,MG,Brumadinho,Sudeste
+310910,31,MG,"Bueno Brandão",Sudeste
+310920,31,MG,Buenópolis,Sudeste
+310925,31,MG,Bugre,Sudeste
+310930,31,MG,Buritis,Sudeste
+310940,31,MG,Buritizeiro,Sudeste
+310945,31,MG,"Cabeceira Grande",Sudeste
+310950,31,MG,"Cabo Verde",Sudeste
+310960,31,MG,"Cachoeira da Prata",Sudeste
+310970,31,MG,"Cachoeira de Minas",Sudeste
+310980,31,MG,"Cachoeira Dourada",Sudeste
+310990,31,MG,Caetanópolis,Sudeste
+311000,31,MG,Caeté,Sudeste
+311010,31,MG,Caiana,Sudeste
+311020,31,MG,Cajuri,Sudeste
+311030,31,MG,Caldas,Sudeste
+311040,31,MG,Camacho,Sudeste
+311050,31,MG,Camanducaia,Sudeste
+311060,31,MG,Cambuí,Sudeste
+311070,31,MG,Cambuquira,Sudeste
+311080,31,MG,Campanário,Sudeste
+311090,31,MG,Campanha,Sudeste
+311100,31,MG,Campestre,Sudeste
+311110,31,MG,"Campina Verde",Sudeste
+311115,31,MG,"Campo Azul",Sudeste
+311120,31,MG,"Campo Belo",Sudeste
+311130,31,MG,"Campo do Meio",Sudeste
+311140,31,MG,"Campo Florido",Sudeste
+311150,31,MG,"Campos Altos",Sudeste
+311160,31,MG,"Campos Gerais",Sudeste
+311170,31,MG,Canaã,Sudeste
+311180,31,MG,Canápolis,Sudeste
+311190,31,MG,"Cana Verde",Sudeste
+311200,31,MG,Candeias,Sudeste
+311205,31,MG,Cantagalo,Sudeste
+311210,31,MG,Caparaó,Sudeste
+311220,31,MG,"Capela Nova",Sudeste
+311230,31,MG,Capelinha,Sudeste
+311240,31,MG,Capetinga,Sudeste
+311250,31,MG,"Capim Branco",Sudeste
+311260,31,MG,Capinópolis,Sudeste
+311265,31,MG,"Capitão Andrade",Sudeste
+311270,31,MG,"Capitão Enéas",Sudeste
+311280,31,MG,Capitólio,Sudeste
+311290,31,MG,Caputira,Sudeste
+311300,31,MG,Caraí,Sudeste
+311310,31,MG,Caranaíba,Sudeste
+311320,31,MG,Carandaí,Sudeste
+311330,31,MG,Carangola,Sudeste
+311340,31,MG,Caratinga,Sudeste
+311350,31,MG,Carbonita,Sudeste
+311360,31,MG,Careaçu,Sudeste
+311370,31,MG,"Carlos Chagas",Sudeste
+311380,31,MG,Carmésia,Sudeste
+311390,31,MG,"Carmo da Cachoeira",Sudeste
+311400,31,MG,"Carmo da Mata",Sudeste
+311410,31,MG,"Carmo de Minas",Sudeste
+311420,31,MG,"Carmo do Cajuru",Sudeste
+311430,31,MG,"Carmo do Paranaíba",Sudeste
+311440,31,MG,"Carmo do Rio Claro",Sudeste
+311450,31,MG,"Carmópolis de Minas",Sudeste
+311455,31,MG,Carneirinho,Sudeste
+311460,31,MG,Carrancas,Sudeste
+311470,31,MG,Carvalhópolis,Sudeste
+311480,31,MG,Carvalhos,Sudeste
+311490,31,MG,"Casa Grande",Sudeste
+311500,31,MG,"Cascalho Rico",Sudeste
+311510,31,MG,Cássia,Sudeste
+311520,31,MG,"Conceição da Barra de Minas",Sudeste
+311530,31,MG,Cataguases,Sudeste
+311535,31,MG,"Catas Altas",Sudeste
+311540,31,MG,"Catas Altas da Noruega",Sudeste
+311545,31,MG,Catuji,Sudeste
+311547,31,MG,Catuti,Sudeste
+311550,31,MG,Caxambu,Sudeste
+311560,31,MG,"Cedro do Abaeté",Sudeste
+311570,31,MG,"Central de Minas",Sudeste
+311580,31,MG,Centralina,Sudeste
+311590,31,MG,Chácara,Sudeste
+311600,31,MG,Chalé,Sudeste
+311610,31,MG,"Chapada do Norte",Sudeste
+311615,31,MG,"Chapada Gaúcha",Sudeste
+311620,31,MG,Chiador,Sudeste
+311630,31,MG,Cipotânea,Sudeste
+311640,31,MG,Claraval,Sudeste
+311650,31,MG,"Claro dos Poções",Sudeste
+311660,31,MG,Cláudio,Sudeste
+311670,31,MG,Coimbra,Sudeste
+311680,31,MG,Coluna,Sudeste
+311690,31,MG,"Comendador Gomes",Sudeste
+311700,31,MG,Comercinho,Sudeste
+311710,31,MG,"Conceição da Aparecida",Sudeste
+311720,31,MG,"Conceição das Pedras",Sudeste
+311730,31,MG,"Conceição das Alagoas",Sudeste
+311740,31,MG,"Conceição de Ipanema",Sudeste
+311750,31,MG,"Conceição do Mato Dentro",Sudeste
+311760,31,MG,"Conceição do Pará",Sudeste
+311770,31,MG,"Conceição do Rio Verde",Sudeste
+311780,31,MG,"Conceição dos Ouros",Sudeste
+311783,31,MG,"Cônego Marinho",Sudeste
+311787,31,MG,Confins,Sudeste
+311790,31,MG,Congonhal,Sudeste
+311800,31,MG,Congonhas,Sudeste
+311810,31,MG,"Congonhas do Norte",Sudeste
+311820,31,MG,Conquista,Sudeste
+311830,31,MG,"Conselheiro Lafaiete",Sudeste
+311840,31,MG,"Conselheiro Pena",Sudeste
+311850,31,MG,Consolação,Sudeste
+311860,31,MG,Contagem,Sudeste
+311870,31,MG,Coqueiral,Sudeste
+311880,31,MG,"Coração de Jesus",Sudeste
+311890,31,MG,Cordisburgo,Sudeste
+311900,31,MG,Cordislândia,Sudeste
+311910,31,MG,Corinto,Sudeste
+311920,31,MG,Coroaci,Sudeste
+311930,31,MG,Coromandel,Sudeste
+311940,31,MG,"Coronel Fabriciano",Sudeste
+311950,31,MG,"Coronel Murta",Sudeste
+311960,31,MG,"Coronel Pacheco",Sudeste
+311970,31,MG,"Coronel Xavier Chaves",Sudeste
+311980,31,MG,"Córrego Danta",Sudeste
+311990,31,MG,"Córrego do Bom Jesus",Sudeste
+311995,31,MG,"Córrego Fundo",Sudeste
+312000,31,MG,"Córrego Novo",Sudeste
+312010,31,MG,"Couto de Magalhães de Minas",Sudeste
+312015,31,MG,Crisólita,Sudeste
+312020,31,MG,Cristais,Sudeste
+312030,31,MG,Cristália,Sudeste
+312040,31,MG,"Cristiano Otoni",Sudeste
+312050,31,MG,Cristina,Sudeste
+312060,31,MG,Crucilândia,Sudeste
+312070,31,MG,"Cruzeiro da Fortaleza",Sudeste
+312080,31,MG,Cruzília,Sudeste
+312083,31,MG,Cuparaque,Sudeste
+312087,31,MG,"Curral de Dentro",Sudeste
+312090,31,MG,Curvelo,Sudeste
+312100,31,MG,Datas,Sudeste
+312110,31,MG,"Delfim Moreira",Sudeste
+312120,31,MG,Delfinópolis,Sudeste
+312125,31,MG,Delta,Sudeste
+312130,31,MG,Descoberto,Sudeste
+312140,31,MG,"Desterro de Entre Rios",Sudeste
+312150,31,MG,"Desterro do Melo",Sudeste
+312160,31,MG,Diamantina,Sudeste
+312170,31,MG,"Diogo de Vasconcelos",Sudeste
+312180,31,MG,Dionísio,Sudeste
+312190,31,MG,Divinésia,Sudeste
+312200,31,MG,Divino,Sudeste
+312210,31,MG,"Divino das Laranjeiras",Sudeste
+312220,31,MG,"Divinolândia de Minas",Sudeste
+312230,31,MG,Divinópolis,Sudeste
+312235,31,MG,"Divisa Alegre",Sudeste
+312240,31,MG,"Divisa Nova",Sudeste
+312245,31,MG,Divisópolis,Sudeste
+312247,31,MG,"Dom Bosco",Sudeste
+312250,31,MG,"Dom Cavati",Sudeste
+312260,31,MG,"Dom Joaquim",Sudeste
+312270,31,MG,"Dom Silvério",Sudeste
+312280,31,MG,"Dom Viçoso",Sudeste
+312290,31,MG,"Dona Eusébia",Sudeste
+312300,31,MG,"Dores de Campos",Sudeste
+312310,31,MG,"Dores de Guanhães",Sudeste
+312320,31,MG,"Dores do Indaiá",Sudeste
+312330,31,MG,"Dores do Turvo",Sudeste
+312340,31,MG,Doresópolis,Sudeste
+312350,31,MG,Douradoquara,Sudeste
+312352,31,MG,Durandé,Sudeste
+312360,31,MG,"Elói Mendes",Sudeste
+312370,31,MG,"Engenheiro Caldas",Sudeste
+312380,31,MG,"Engenheiro Navarro",Sudeste
+312385,31,MG,"Entre Folhas",Sudeste
+312390,31,MG,"Entre Rios de Minas",Sudeste
+312400,31,MG,Ervália,Sudeste
+312410,31,MG,Esmeraldas,Sudeste
+312420,31,MG,"Espera Feliz",Sudeste
+312430,31,MG,Espinosa,Sudeste
+312440,31,MG,"Espírito Santo do Dourado",Sudeste
+312450,31,MG,Estiva,Sudeste
+312460,31,MG,"Estrela Dalva",Sudeste
+312470,31,MG,"Estrela do Indaiá",Sudeste
+312480,31,MG,"Estrela do Sul",Sudeste
+312490,31,MG,Eugenópolis,Sudeste
+312500,31,MG,"Ewbank da Câmara",Sudeste
+312510,31,MG,Extrema,Sudeste
+312520,31,MG,Fama,Sudeste
+312530,31,MG,"Faria Lemos",Sudeste
+312540,31,MG,"Felício dos Santos",Sudeste
+312550,31,MG,"São Gonçalo do Rio Preto",Sudeste
+312560,31,MG,Felisburgo,Sudeste
+312570,31,MG,Felixlândia,Sudeste
+312580,31,MG,"Fernandes Tourinho",Sudeste
+312590,31,MG,Ferros,Sudeste
+312595,31,MG,Fervedouro,Sudeste
+312600,31,MG,Florestal,Sudeste
+312610,31,MG,Formiga,Sudeste
+312620,31,MG,Formoso,Sudeste
+312630,31,MG,"Fortaleza de Minas",Sudeste
+312640,31,MG,"Fortuna de Minas",Sudeste
+312650,31,MG,"Francisco Badaró",Sudeste
+312660,31,MG,"Francisco Dumont",Sudeste
+312670,31,MG,"Francisco Sá",Sudeste
+312675,31,MG,Franciscópolis,Sudeste
+312680,31,MG,"Frei Gaspar",Sudeste
+312690,31,MG,"Frei Inocêncio",Sudeste
+312695,31,MG,"Frei Lagonegro",Sudeste
+312700,31,MG,Fronteira,Sudeste
+312705,31,MG,"Fronteira dos Vales",Sudeste
+312707,31,MG,"Fruta de Leite",Sudeste
+312710,31,MG,Frutal,Sudeste
+312720,31,MG,Funilândia,Sudeste
+312730,31,MG,Galiléia,Sudeste
+312733,31,MG,Gameleiras,Sudeste
+312735,31,MG,Glaucilândia,Sudeste
+312737,31,MG,Goiabeira,Sudeste
+312738,31,MG,Goianá,Sudeste
+312740,31,MG,Gonçalves,Sudeste
+312750,31,MG,Gonzaga,Sudeste
+312760,31,MG,Gouveia,Sudeste
+312770,31,MG,"Governador Valadares",Sudeste
+312780,31,MG,"Grão Mogol",Sudeste
+312790,31,MG,Grupiara,Sudeste
+312800,31,MG,Guanhães,Sudeste
+312810,31,MG,Guapé,Sudeste
+312820,31,MG,Guaraciaba,Sudeste
+312825,31,MG,Guaraciama,Sudeste
+312830,31,MG,Guaranésia,Sudeste
+312840,31,MG,Guarani,Sudeste
+312850,31,MG,Guarará,Sudeste
+312860,31,MG,Guarda-Mor,Sudeste
+312870,31,MG,Guaxupé,Sudeste
+312880,31,MG,Guidoval,Sudeste
+312890,31,MG,Guimarânia,Sudeste
+312900,31,MG,Guiricema,Sudeste
+312910,31,MG,Gurinhatã,Sudeste
+312920,31,MG,Heliodora,Sudeste
+312930,31,MG,Iapu,Sudeste
+312940,31,MG,Ibertioga,Sudeste
+312950,31,MG,Ibiá,Sudeste
+312960,31,MG,Ibiaí,Sudeste
+312965,31,MG,Ibiracatu,Sudeste
+312970,31,MG,Ibiraci,Sudeste
+312980,31,MG,Ibirité,Sudeste
+312990,31,MG,"Ibitiúra de Minas",Sudeste
+313000,31,MG,Ibituruna,Sudeste
+313005,31,MG,"Icaraí de Minas",Sudeste
+313010,31,MG,Igarapé,Sudeste
+313020,31,MG,Igaratinga,Sudeste
+313030,31,MG,Iguatama,Sudeste
+313040,31,MG,Ijaci,Sudeste
+313050,31,MG,Ilicínea,Sudeste
+313055,31,MG,"Imbé de Minas",Sudeste
+313060,31,MG,Inconfidentes,Sudeste
+313065,31,MG,Indaiabira,Sudeste
+313070,31,MG,Indianópolis,Sudeste
+313080,31,MG,Ingaí,Sudeste
+313090,31,MG,Inhapim,Sudeste
+313100,31,MG,Inhaúma,Sudeste
+313110,31,MG,Inimutaba,Sudeste
+313115,31,MG,Ipaba,Sudeste
+313120,31,MG,Ipanema,Sudeste
+313130,31,MG,Ipatinga,Sudeste
+313140,31,MG,Ipiaçu,Sudeste
+313150,31,MG,Ipuiúna,Sudeste
+313160,31,MG,"Iraí de Minas",Sudeste
+313170,31,MG,Itabira,Sudeste
+313180,31,MG,Itabirinha,Sudeste
+313190,31,MG,Itabirito,Sudeste
+313200,31,MG,Itacambira,Sudeste
+313210,31,MG,Itacarambi,Sudeste
+313220,31,MG,Itaguara,Sudeste
+313230,31,MG,Itaipé,Sudeste
+313240,31,MG,Itajubá,Sudeste
+313250,31,MG,Itamarandiba,Sudeste
+313260,31,MG,"Itamarati de Minas",Sudeste
+313270,31,MG,Itambacuri,Sudeste
+313280,31,MG,"Itambé do Mato Dentro",Sudeste
+313290,31,MG,Itamogi,Sudeste
+313300,31,MG,Itamonte,Sudeste
+313310,31,MG,Itanhandu,Sudeste
+313320,31,MG,Itanhomi,Sudeste
+313330,31,MG,Itaobim,Sudeste
+313340,31,MG,Itapagipe,Sudeste
+313350,31,MG,Itapecerica,Sudeste
+313360,31,MG,Itapeva,Sudeste
+313370,31,MG,Itatiaiuçu,Sudeste
+313375,31,MG,"Itaú de Minas",Sudeste
+313380,31,MG,Itaúna,Sudeste
+313390,31,MG,Itaverava,Sudeste
+313400,31,MG,Itinga,Sudeste
+313410,31,MG,Itueta,Sudeste
+313420,31,MG,Ituiutaba,Sudeste
+313430,31,MG,Itumirim,Sudeste
+313440,31,MG,Iturama,Sudeste
+313450,31,MG,Itutinga,Sudeste
+313460,31,MG,Jaboticatubas,Sudeste
+313470,31,MG,Jacinto,Sudeste
+313480,31,MG,Jacuí,Sudeste
+313490,31,MG,Jacutinga,Sudeste
+313500,31,MG,Jaguaraçu,Sudeste
+313505,31,MG,Jaíba,Sudeste
+313507,31,MG,Jampruca,Sudeste
+313510,31,MG,Janaúba,Sudeste
+313520,31,MG,Januária,Sudeste
+313530,31,MG,Japaraíba,Sudeste
+313535,31,MG,Japonvar,Sudeste
+313540,31,MG,Jeceaba,Sudeste
+313545,31,MG,"Jenipapo de Minas",Sudeste
+313550,31,MG,Jequeri,Sudeste
+313560,31,MG,Jequitaí,Sudeste
+313570,31,MG,Jequitibá,Sudeste
+313580,31,MG,Jequitinhonha,Sudeste
+313590,31,MG,Jesuânia,Sudeste
+313600,31,MG,Joaíma,Sudeste
+313610,31,MG,Joanésia,Sudeste
+313620,31,MG,"João Monlevade",Sudeste
+313630,31,MG,"João Pinheiro",Sudeste
+313640,31,MG,"Joaquim Felício",Sudeste
+313650,31,MG,Jordânia,Sudeste
+313652,31,MG,"José Gonçalves de Minas",Sudeste
+313655,31,MG,"José Raydan",Sudeste
+313657,31,MG,Josenópolis,Sudeste
+313660,31,MG,"Nova União",Sudeste
+313665,31,MG,Juatuba,Sudeste
+313670,31,MG,"Juiz de Fora",Sudeste
+313680,31,MG,Juramento,Sudeste
+313690,31,MG,Juruaia,Sudeste
+313695,31,MG,Juvenília,Sudeste
+313700,31,MG,Ladainha,Sudeste
+313710,31,MG,Lagamar,Sudeste
+313720,31,MG,"Lagoa da Prata",Sudeste
+313730,31,MG,"Lagoa dos Patos",Sudeste
+313740,31,MG,"Lagoa Dourada",Sudeste
+313750,31,MG,"Lagoa Formosa",Sudeste
+313753,31,MG,"Lagoa Grande",Sudeste
+313760,31,MG,"Lagoa Santa",Sudeste
+313770,31,MG,Lajinha,Sudeste
+313780,31,MG,Lambari,Sudeste
+313790,31,MG,Lamim,Sudeste
+313800,31,MG,Laranjal,Sudeste
+313810,31,MG,Lassance,Sudeste
+313820,31,MG,Lavras,Sudeste
+313830,31,MG,"Leandro Ferreira",Sudeste
+313835,31,MG,"Leme do Prado",Sudeste
+313840,31,MG,Leopoldina,Sudeste
+313850,31,MG,Liberdade,Sudeste
+313860,31,MG,"Lima Duarte",Sudeste
+313862,31,MG,"Limeira do Oeste",Sudeste
+313865,31,MG,Lontra,Sudeste
+313867,31,MG,Luisburgo,Sudeste
+313868,31,MG,Luislândia,Sudeste
+313870,31,MG,Luminárias,Sudeste
+313880,31,MG,Luz,Sudeste
+313890,31,MG,Machacalis,Sudeste
+313900,31,MG,Machado,Sudeste
+313910,31,MG,"Madre de Deus de Minas",Sudeste
+313920,31,MG,Malacacheta,Sudeste
+313925,31,MG,Mamonas,Sudeste
+313930,31,MG,Manga,Sudeste
+313940,31,MG,Manhuaçu,Sudeste
+313950,31,MG,Manhumirim,Sudeste
+313960,31,MG,Mantena,Sudeste
+313970,31,MG,Maravilhas,Sudeste
+313980,31,MG,"Mar de Espanha",Sudeste
+313990,31,MG,"Maria da Fé",Sudeste
+314000,31,MG,Mariana,Sudeste
+314010,31,MG,Marilac,Sudeste
+314015,31,MG,"Mário Campos",Sudeste
+314020,31,MG,"Maripá de Minas",Sudeste
+314030,31,MG,Marliéria,Sudeste
+314040,31,MG,Marmelópolis,Sudeste
+314050,31,MG,"Martinho Campos",Sudeste
+314053,31,MG,"Martins Soares",Sudeste
+314055,31,MG,"Mata Verde",Sudeste
+314060,31,MG,Materlândia,Sudeste
+314070,31,MG,"Mateus Leme",Sudeste
+314080,31,MG,"Matias Barbosa",Sudeste
+314085,31,MG,"Matias Cardoso",Sudeste
+314090,31,MG,Matipó,Sudeste
+314100,31,MG,"Mato Verde",Sudeste
+314110,31,MG,Matozinhos,Sudeste
+314120,31,MG,Matutina,Sudeste
+314130,31,MG,Medeiros,Sudeste
+314140,31,MG,Medina,Sudeste
+314150,31,MG,"Mendes Pimentel",Sudeste
+314160,31,MG,Mercês,Sudeste
+314170,31,MG,Mesquita,Sudeste
+314180,31,MG,"Minas Novas",Sudeste
+314190,31,MG,Minduri,Sudeste
+314200,31,MG,Mirabela,Sudeste
+314210,31,MG,Miradouro,Sudeste
+314220,31,MG,Miraí,Sudeste
+314225,31,MG,Miravânia,Sudeste
+314230,31,MG,Moeda,Sudeste
+314240,31,MG,Moema,Sudeste
+314250,31,MG,Monjolos,Sudeste
+314260,31,MG,"Monsenhor Paulo",Sudeste
+314270,31,MG,Montalvânia,Sudeste
+314280,31,MG,"Monte Alegre de Minas",Sudeste
+314290,31,MG,"Monte Azul",Sudeste
+314300,31,MG,"Monte Belo",Sudeste
+314310,31,MG,"Monte Carmelo",Sudeste
+314315,31,MG,"Monte Formoso",Sudeste
+314320,31,MG,"Monte Santo de Minas",Sudeste
+314330,31,MG,"Montes Claros",Sudeste
+314340,31,MG,"Monte Sião",Sudeste
+314345,31,MG,Montezuma,Sudeste
+314350,31,MG,"Morada Nova de Minas",Sudeste
+314360,31,MG,"Morro da Garça",Sudeste
+314370,31,MG,"Morro do Pilar",Sudeste
+314380,31,MG,Munhoz,Sudeste
+314390,31,MG,Muriaé,Sudeste
+314400,31,MG,Mutum,Sudeste
+314410,31,MG,Muzambinho,Sudeste
+314420,31,MG,"Nacip Raydan",Sudeste
+314430,31,MG,Nanuque,Sudeste
+314435,31,MG,Naque,Sudeste
+314437,31,MG,Natalândia,Sudeste
+314440,31,MG,Natércia,Sudeste
+314450,31,MG,Nazareno,Sudeste
+314460,31,MG,Nepomuceno,Sudeste
+314465,31,MG,Ninheira,Sudeste
+314467,31,MG,"Nova Belém",Sudeste
+314470,31,MG,"Nova Era",Sudeste
+314480,31,MG,"Nova Lima",Sudeste
+314490,31,MG,"Nova Módica",Sudeste
+314500,31,MG,"Nova Ponte",Sudeste
+314505,31,MG,"Nova Porteirinha",Sudeste
+314510,31,MG,"Nova Resende",Sudeste
+314520,31,MG,"Nova Serrana",Sudeste
+314530,31,MG,"Novo Cruzeiro",Sudeste
+314535,31,MG,"Novo Oriente de Minas",Sudeste
+314537,31,MG,Novorizonte,Sudeste
+314540,31,MG,Olaria,Sudeste
+314545,31,MG,Olhos-d'Água,Sudeste
+314550,31,MG,"Olímpio Noronha",Sudeste
+314560,31,MG,Oliveira,Sudeste
+314570,31,MG,"Oliveira Fortes",Sudeste
+314580,31,MG,"Onça de Pitangui",Sudeste
+314585,31,MG,Oratórios,Sudeste
+314587,31,MG,Orizânia,Sudeste
+314590,31,MG,"Ouro Branco",Sudeste
+314600,31,MG,"Ouro Fino",Sudeste
+314610,31,MG,"Ouro Preto",Sudeste
+314620,31,MG,"Ouro Verde de Minas",Sudeste
+314625,31,MG,"Padre Carvalho",Sudeste
+314630,31,MG,"Padre Paraíso",Sudeste
+314640,31,MG,Paineiras,Sudeste
+314650,31,MG,Pains,Sudeste
+314655,31,MG,"Pai Pedro",Sudeste
+314660,31,MG,Paiva,Sudeste
+314670,31,MG,Palma,Sudeste
+314675,31,MG,Palmópolis,Sudeste
+314690,31,MG,Papagaios,Sudeste
+314700,31,MG,Paracatu,Sudeste
+314710,31,MG,"Pará de Minas",Sudeste
+314720,31,MG,Paraguaçu,Sudeste
+314730,31,MG,Paraisópolis,Sudeste
+314740,31,MG,Paraopeba,Sudeste
+314750,31,MG,Passabém,Sudeste
+314760,31,MG,"Passa Quatro",Sudeste
+314770,31,MG,"Passa Tempo",Sudeste
+314780,31,MG,Passa-Vinte,Sudeste
+314790,31,MG,Passos,Sudeste
+314795,31,MG,Patis,Sudeste
+314800,31,MG,"Patos de Minas",Sudeste
+314810,31,MG,Patrocínio,Sudeste
+314820,31,MG,"Patrocínio do Muriaé",Sudeste
+314830,31,MG,"Paula Cândido",Sudeste
+314840,31,MG,Paulistas,Sudeste
+314850,31,MG,Pavão,Sudeste
+314860,31,MG,Peçanha,Sudeste
+314870,31,MG,"Pedra Azul",Sudeste
+314875,31,MG,"Pedra Bonita",Sudeste
+314880,31,MG,"Pedra do Anta",Sudeste
+314890,31,MG,"Pedra do Indaiá",Sudeste
+314900,31,MG,"Pedra Dourada",Sudeste
+314910,31,MG,Pedralva,Sudeste
+314915,31,MG,"Pedras de Maria da Cruz",Sudeste
+314920,31,MG,Pedrinópolis,Sudeste
+314930,31,MG,"Pedro Leopoldo",Sudeste
+314940,31,MG,"Pedro Teixeira",Sudeste
+314950,31,MG,Pequeri,Sudeste
+314960,31,MG,Pequi,Sudeste
+314970,31,MG,Perdigão,Sudeste
+314980,31,MG,Perdizes,Sudeste
+314990,31,MG,Perdões,Sudeste
+314995,31,MG,Periquito,Sudeste
+315000,31,MG,Pescador,Sudeste
+315010,31,MG,Piau,Sudeste
+315015,31,MG,"Piedade de Caratinga",Sudeste
+315020,31,MG,"Piedade de Ponte Nova",Sudeste
+315030,31,MG,"Piedade do Rio Grande",Sudeste
+315040,31,MG,"Piedade dos Gerais",Sudeste
+315050,31,MG,Pimenta,Sudeste
+315053,31,MG,Pingo-d'Água,Sudeste
+315057,31,MG,Pintópolis,Sudeste
+315060,31,MG,Piracema,Sudeste
+315070,31,MG,Pirajuba,Sudeste
+315080,31,MG,Piranga,Sudeste
+315090,31,MG,Piranguçu,Sudeste
+315100,31,MG,Piranguinho,Sudeste
+315110,31,MG,Pirapetinga,Sudeste
+315120,31,MG,Pirapora,Sudeste
+315130,31,MG,Piraúba,Sudeste
+315140,31,MG,Pitangui,Sudeste
+315150,31,MG,Piumhi,Sudeste
+315160,31,MG,Planura,Sudeste
+315170,31,MG,"Poço Fundo",Sudeste
+315180,31,MG,"Poços de Caldas",Sudeste
+315190,31,MG,Pocrane,Sudeste
+315200,31,MG,Pompéu,Sudeste
+315210,31,MG,"Ponte Nova",Sudeste
+315213,31,MG,"Ponto Chique",Sudeste
+315217,31,MG,"Ponto dos Volantes",Sudeste
+315220,31,MG,Porteirinha,Sudeste
+315230,31,MG,"Porto Firme",Sudeste
+315240,31,MG,Poté,Sudeste
+315250,31,MG,"Pouso Alegre",Sudeste
+315260,31,MG,"Pouso Alto",Sudeste
+315270,31,MG,Prados,Sudeste
+315280,31,MG,Prata,Sudeste
+315290,31,MG,Pratápolis,Sudeste
+315300,31,MG,Pratinha,Sudeste
+315310,31,MG,"Presidente Bernardes",Sudeste
+315320,31,MG,"Presidente Juscelino",Sudeste
+315330,31,MG,"Presidente Kubitschek",Sudeste
+315340,31,MG,"Presidente Olegário",Sudeste
+315350,31,MG,"Alto Jequitibá",Sudeste
+315360,31,MG,"Prudente de Morais",Sudeste
+315370,31,MG,"Quartel Geral",Sudeste
+315380,31,MG,Queluzito,Sudeste
+315390,31,MG,Raposos,Sudeste
+315400,31,MG,"Raul Soares",Sudeste
+315410,31,MG,Recreio,Sudeste
+315415,31,MG,Reduto,Sudeste
+315420,31,MG,"Resende Costa",Sudeste
+315430,31,MG,Resplendor,Sudeste
+315440,31,MG,Ressaquinha,Sudeste
+315445,31,MG,Riachinho,Sudeste
+315450,31,MG,"Riacho dos Machados",Sudeste
+315460,31,MG,"Ribeirão das Neves",Sudeste
+315470,31,MG,"Ribeirão Vermelho",Sudeste
+315480,31,MG,"Rio Acima",Sudeste
+315490,31,MG,"Rio Casca",Sudeste
+315500,31,MG,"Rio Doce",Sudeste
+315510,31,MG,"Rio do Prado",Sudeste
+315520,31,MG,"Rio Espera",Sudeste
+315530,31,MG,"Rio Manso",Sudeste
+315540,31,MG,"Rio Novo",Sudeste
+315550,31,MG,"Rio Paranaíba",Sudeste
+315560,31,MG,"Rio Pardo de Minas",Sudeste
+315570,31,MG,"Rio Piracicaba",Sudeste
+315580,31,MG,"Rio Pomba",Sudeste
+315590,31,MG,"Rio Preto",Sudeste
+315600,31,MG,"Rio Vermelho",Sudeste
+315610,31,MG,Ritápolis,Sudeste
+315620,31,MG,"Rochedo de Minas",Sudeste
+315630,31,MG,Rodeiro,Sudeste
+315640,31,MG,Romaria,Sudeste
+315645,31,MG,"Rosário da Limeira",Sudeste
+315650,31,MG,Rubelita,Sudeste
+315660,31,MG,Rubim,Sudeste
+315670,31,MG,Sabará,Sudeste
+315680,31,MG,Sabinópolis,Sudeste
+315690,31,MG,Sacramento,Sudeste
+315700,31,MG,Salinas,Sudeste
+315710,31,MG,"Salto da Divisa",Sudeste
+315720,31,MG,"Santa Bárbara",Sudeste
+315725,31,MG,"Santa Bárbara do Leste",Sudeste
+315727,31,MG,"Santa Bárbara do Monte Verde",Sudeste
+315730,31,MG,"Santa Bárbara do Tugúrio",Sudeste
+315733,31,MG,"Santa Cruz de Minas",Sudeste
+315737,31,MG,"Santa Cruz de Salinas",Sudeste
+315740,31,MG,"Santa Cruz do Escalvado",Sudeste
+315750,31,MG,"Santa Efigênia de Minas",Sudeste
+315760,31,MG,"Santa Fé de Minas",Sudeste
+315765,31,MG,"Santa Helena de Minas",Sudeste
+315770,31,MG,"Santa Juliana",Sudeste
+315780,31,MG,"Santa Luzia",Sudeste
+315790,31,MG,"Santa Margarida",Sudeste
+315800,31,MG,"Santa Maria de Itabira",Sudeste
+315810,31,MG,"Santa Maria do Salto",Sudeste
+315820,31,MG,"Santa Maria do Suaçuí",Sudeste
+315830,31,MG,"Santana da Vargem",Sudeste
+315840,31,MG,"Santana de Cataguases",Sudeste
+315850,31,MG,"Santana de Pirapama",Sudeste
+315860,31,MG,"Santana do Deserto",Sudeste
+315870,31,MG,"Santana do Garambéu",Sudeste
+315880,31,MG,"Santana do Jacaré",Sudeste
+315890,31,MG,"Santana do Manhuaçu",Sudeste
+315895,31,MG,"Santana do Paraíso",Sudeste
+315900,31,MG,"Santana do Riacho",Sudeste
+315910,31,MG,"Santana dos Montes",Sudeste
+315920,31,MG,"Santa Rita de Caldas",Sudeste
+315930,31,MG,"Santa Rita de Jacutinga",Sudeste
+315935,31,MG,"Santa Rita de Minas",Sudeste
+315940,31,MG,"Santa Rita de Ibitipoca",Sudeste
+315950,31,MG,"Santa Rita do Itueto",Sudeste
+315960,31,MG,"Santa Rita do Sapucaí",Sudeste
+315970,31,MG,"Santa Rosa da Serra",Sudeste
+315980,31,MG,"Santa Vitória",Sudeste
+315990,31,MG,"Santo Antônio do Amparo",Sudeste
+316000,31,MG,"Santo Antônio do Aventureiro",Sudeste
+316010,31,MG,"Santo Antônio do Grama",Sudeste
+316020,31,MG,"Santo Antônio do Itambé",Sudeste
+316030,31,MG,"Santo Antônio do Jacinto",Sudeste
+316040,31,MG,"Santo Antônio do Monte",Sudeste
+316045,31,MG,"Santo Antônio do Retiro",Sudeste
+316050,31,MG,"Santo Antônio do Rio Abaixo",Sudeste
+316060,31,MG,"Santo Hipólito",Sudeste
+316070,31,MG,"Santos Dumont",Sudeste
+316080,31,MG,"São Bento Abade",Sudeste
+316090,31,MG,"São Brás do Suaçuí",Sudeste
+316095,31,MG,"São Domingos das Dores",Sudeste
+316100,31,MG,"São Domingos do Prata",Sudeste
+316105,31,MG,"São Félix de Minas",Sudeste
+316110,31,MG,"São Francisco",Sudeste
+316120,31,MG,"São Francisco de Paula",Sudeste
+316130,31,MG,"São Francisco de Sales",Sudeste
+316140,31,MG,"São Francisco do Glória",Sudeste
+316150,31,MG,"São Geraldo",Sudeste
+316160,31,MG,"São Geraldo da Piedade",Sudeste
+316165,31,MG,"São Geraldo do Baixio",Sudeste
+316170,31,MG,"São Gonçalo do Abaeté",Sudeste
+316180,31,MG,"São Gonçalo do Pará",Sudeste
+316190,31,MG,"São Gonçalo do Rio Abaixo",Sudeste
+316200,31,MG,"São Gonçalo do Sapucaí",Sudeste
+316210,31,MG,"São Gotardo",Sudeste
+316220,31,MG,"São João Batista do Glória",Sudeste
+316225,31,MG,"São João da Lagoa",Sudeste
+316230,31,MG,"São João da Mata",Sudeste
+316240,31,MG,"São João da Ponte",Sudeste
+316245,31,MG,"São João das Missões",Sudeste
+316250,31,MG,"São João del Rei",Sudeste
+316255,31,MG,"São João do Manhuaçu",Sudeste
+316257,31,MG,"São João do Manteninha",Sudeste
+316260,31,MG,"São João do Oriente",Sudeste
+316265,31,MG,"São João do Pacuí",Sudeste
+316270,31,MG,"São João do Paraíso",Sudeste
+316280,31,MG,"São João Evangelista",Sudeste
+316290,31,MG,"São João Nepomuceno",Sudeste
+316292,31,MG,"São Joaquim de Bicas",Sudeste
+316294,31,MG,"São José da Barra",Sudeste
+316295,31,MG,"São José da Lapa",Sudeste
+316300,31,MG,"São José da Safira",Sudeste
+316310,31,MG,"São José da Varginha",Sudeste
+316320,31,MG,"São José do Alegre",Sudeste
+316330,31,MG,"São José do Divino",Sudeste
+316340,31,MG,"São José do Goiabal",Sudeste
+316350,31,MG,"São José do Jacuri",Sudeste
+316360,31,MG,"São José do Mantimento",Sudeste
+316370,31,MG,"São Lourenço",Sudeste
+316380,31,MG,"São Miguel do Anta",Sudeste
+316390,31,MG,"São Pedro da União",Sudeste
+316400,31,MG,"São Pedro dos Ferros",Sudeste
+316410,31,MG,"São Pedro do Suaçuí",Sudeste
+316420,31,MG,"São Romão",Sudeste
+316430,31,MG,"São Roque de Minas",Sudeste
+316440,31,MG,"São Sebastião da Bela Vista",Sudeste
+316443,31,MG,"São Sebastião da Vargem Alegre",Sudeste
+316447,31,MG,"São Sebastião do Anta",Sudeste
+316450,31,MG,"São Sebastião do Maranhão",Sudeste
+316460,31,MG,"São Sebastião do Oeste",Sudeste
+316470,31,MG,"São Sebastião do Paraíso",Sudeste
+316480,31,MG,"São Sebastião do Rio Preto",Sudeste
+316490,31,MG,"São Sebastião do Rio Verde",Sudeste
+316500,31,MG,"São Tiago",Sudeste
+316510,31,MG,"São Tomás de Aquino",Sudeste
+316520,31,MG,"São Thomé das Letras",Sudeste
+316530,31,MG,"São Vicente de Minas",Sudeste
+316540,31,MG,Sapucaí-Mirim,Sudeste
+316550,31,MG,Sardoá,Sudeste
+316553,31,MG,Sarzedo,Sudeste
+316555,31,MG,Setubinha,Sudeste
+316556,31,MG,Sem-Peixe,Sudeste
+316557,31,MG,"Senador Amaral",Sudeste
+316560,31,MG,"Senador Cortes",Sudeste
+316570,31,MG,"Senador Firmino",Sudeste
+316580,31,MG,"Senador José Bento",Sudeste
+316590,31,MG,"Senador Modestino Gonçalves",Sudeste
+316600,31,MG,"Senhora de Oliveira",Sudeste
+316610,31,MG,"Senhora do Porto",Sudeste
+316620,31,MG,"Senhora dos Remédios",Sudeste
+316630,31,MG,Sericita,Sudeste
+316640,31,MG,Seritinga,Sudeste
+316650,31,MG,"Serra Azul de Minas",Sudeste
+316660,31,MG,"Serra da Saudade",Sudeste
+316670,31,MG,"Serra dos Aimorés",Sudeste
+316680,31,MG,"Serra do Salitre",Sudeste
+316690,31,MG,Serrania,Sudeste
+316695,31,MG,"Serranópolis de Minas",Sudeste
+316700,31,MG,Serranos,Sudeste
+316710,31,MG,Serro,Sudeste
+316720,31,MG,"Sete Lagoas",Sudeste
+316730,31,MG,Silveirânia,Sudeste
+316740,31,MG,Silvianópolis,Sudeste
+316750,31,MG,"Simão Pereira",Sudeste
+316760,31,MG,Simonésia,Sudeste
+316770,31,MG,Sobrália,Sudeste
+316780,31,MG,"Soledade de Minas",Sudeste
+316790,31,MG,Tabuleiro,Sudeste
+316800,31,MG,Taiobeiras,Sudeste
+316805,31,MG,Taparuba,Sudeste
+316810,31,MG,Tapira,Sudeste
+316820,31,MG,Tapiraí,Sudeste
+316830,31,MG,"Taquaraçu de Minas",Sudeste
+316840,31,MG,Tarumirim,Sudeste
+316850,31,MG,Teixeiras,Sudeste
+316860,31,MG,"Teófilo Otoni",Sudeste
+316870,31,MG,Timóteo,Sudeste
+316880,31,MG,Tiradentes,Sudeste
+316890,31,MG,Tiros,Sudeste
+316900,31,MG,Tocantins,Sudeste
+316905,31,MG,"Tocos do Moji",Sudeste
+316910,31,MG,Toledo,Sudeste
+316920,31,MG,Tombos,Sudeste
+316930,31,MG,"Três Corações",Sudeste
+316935,31,MG,"Três Marias",Sudeste
+316940,31,MG,"Três Pontas",Sudeste
+316950,31,MG,Tumiritinga,Sudeste
+316960,31,MG,Tupaciguara,Sudeste
+316970,31,MG,Turmalina,Sudeste
+316980,31,MG,Turvolândia,Sudeste
+316990,31,MG,Ubá,Sudeste
+317000,31,MG,Ubaí,Sudeste
+317005,31,MG,Ubaporanga,Sudeste
+317010,31,MG,Uberaba,Sudeste
+317020,31,MG,Uberlândia,Sudeste
+317030,31,MG,Umburatiba,Sudeste
+317040,31,MG,Unaí,Sudeste
+317043,31,MG,"União de Minas",Sudeste
+317047,31,MG,"Uruana de Minas",Sudeste
+317050,31,MG,Urucânia,Sudeste
+317052,31,MG,Urucuia,Sudeste
+317057,31,MG,"Vargem Alegre",Sudeste
+317060,31,MG,"Vargem Bonita",Sudeste
+317065,31,MG,"Vargem Grande do Rio Pardo",Sudeste
+317070,31,MG,Varginha,Sudeste
+317075,31,MG,"Varjão de Minas",Sudeste
+317080,31,MG,"Várzea da Palma",Sudeste
+317090,31,MG,Varzelândia,Sudeste
+317100,31,MG,Vazante,Sudeste
+317103,31,MG,Verdelândia,Sudeste
+317107,31,MG,Veredinha,Sudeste
+317110,31,MG,Veríssimo,Sudeste
+317115,31,MG,"Vermelho Novo",Sudeste
+317120,31,MG,Vespasiano,Sudeste
+317130,31,MG,Viçosa,Sudeste
+317140,31,MG,Vieiras,Sudeste
+317150,31,MG,"Mathias Lobato",Sudeste
+317160,31,MG,"Virgem da Lapa",Sudeste
+317170,31,MG,Virgínia,Sudeste
+317180,31,MG,Virginópolis,Sudeste
+317190,31,MG,Virgolândia,Sudeste
+317200,31,MG,"Visconde do Rio Branco",Sudeste
+317210,31,MG,"Volta Grande",Sudeste
+317220,31,MG,"Wenceslau Braz",Sudeste
+320010,32,ES,"Afonso Cláudio",Sudeste
+320013,32,ES,"Águia Branca",Sudeste
+320016,32,ES,"Água Doce do Norte",Sudeste
+320020,32,ES,Alegre,Sudeste
+320030,32,ES,"Alfredo Chaves",Sudeste
+320035,32,ES,"Alto Rio Novo",Sudeste
+320040,32,ES,Anchieta,Sudeste
+320050,32,ES,Apiacá,Sudeste
+320060,32,ES,Aracruz,Sudeste
+320070,32,ES,"Atilio Vivacqua",Sudeste
+320080,32,ES,"Baixo Guandu",Sudeste
+320090,32,ES,"Barra de São Francisco",Sudeste
+320100,32,ES,"Boa Esperança",Sudeste
+320110,32,ES,"Bom Jesus do Norte",Sudeste
+320115,32,ES,Brejetuba,Sudeste
+320120,32,ES,"Cachoeiro de Itapemirim",Sudeste
+320130,32,ES,Cariacica,Sudeste
+320140,32,ES,Castelo,Sudeste
+320150,32,ES,Colatina,Sudeste
+320160,32,ES,"Conceição da Barra",Sudeste
+320170,32,ES,"Conceição do Castelo",Sudeste
+320180,32,ES,"Divino de São Lourenço",Sudeste
+320190,32,ES,"Domingos Martins",Sudeste
+320200,32,ES,"Dores do Rio Preto",Sudeste
+320210,32,ES,Ecoporanga,Sudeste
+320220,32,ES,Fundão,Sudeste
+320225,32,ES,"Governador Lindenberg",Sudeste
+320230,32,ES,Guaçuí,Sudeste
+320240,32,ES,Guarapari,Sudeste
+320245,32,ES,Ibatiba,Sudeste
+320250,32,ES,Ibiraçu,Sudeste
+320255,32,ES,Ibitirama,Sudeste
+320260,32,ES,Iconha,Sudeste
+320265,32,ES,Irupi,Sudeste
+320270,32,ES,Itaguaçu,Sudeste
+320280,32,ES,Itapemirim,Sudeste
+320290,32,ES,Itarana,Sudeste
+320300,32,ES,Iúna,Sudeste
+320305,32,ES,Jaguaré,Sudeste
+320310,32,ES,"Jerônimo Monteiro",Sudeste
+320313,32,ES,"João Neiva",Sudeste
+320316,32,ES,"Laranja da Terra",Sudeste
+320320,32,ES,Linhares,Sudeste
+320330,32,ES,Mantenópolis,Sudeste
+320332,32,ES,Marataízes,Sudeste
+320334,32,ES,"Marechal Floriano",Sudeste
+320335,32,ES,Marilândia,Sudeste
+320340,32,ES,"Mimoso do Sul",Sudeste
+320350,32,ES,Montanha,Sudeste
+320360,32,ES,Mucurici,Sudeste
+320370,32,ES,"Muniz Freire",Sudeste
+320380,32,ES,Muqui,Sudeste
+320390,32,ES,"Nova Venécia",Sudeste
+320400,32,ES,Pancas,Sudeste
+320405,32,ES,"Pedro Canário",Sudeste
+320410,32,ES,Pinheiros,Sudeste
+320420,32,ES,Piúma,Sudeste
+320425,32,ES,"Ponto Belo",Sudeste
+320430,32,ES,"Presidente Kennedy",Sudeste
+320435,32,ES,"Rio Bananal",Sudeste
+320440,32,ES,"Rio Novo do Sul",Sudeste
+320450,32,ES,"Santa Leopoldina",Sudeste
+320455,32,ES,"Santa Maria de Jetibá",Sudeste
+320460,32,ES,"Santa Teresa",Sudeste
+320465,32,ES,"São Domingos do Norte",Sudeste
+320470,32,ES,"São Gabriel da Palha",Sudeste
+320480,32,ES,"São José do Calçado",Sudeste
+320490,32,ES,"São Mateus",Sudeste
+320495,32,ES,"São Roque do Canaã",Sudeste
+320500,32,ES,Serra,Sudeste
+320501,32,ES,Sooretama,Sudeste
+320503,32,ES,"Vargem Alta",Sudeste
+320506,32,ES,"Venda Nova do Imigrante",Sudeste
+320510,32,ES,Viana,Sudeste
+320515,32,ES,"Vila Pavão",Sudeste
+320517,32,ES,"Vila Valério",Sudeste
+320520,32,ES,"Vila Velha",Sudeste
+320530,32,ES,Vitória,Sudeste
+330010,33,RJ,"Angra dos Reis",Sudeste
+330015,33,RJ,Aperibé,Sudeste
+330020,33,RJ,Araruama,Sudeste
+330022,33,RJ,Areal,Sudeste
+330023,33,RJ,"Armação dos Búzios",Sudeste
+330025,33,RJ,"Arraial do Cabo",Sudeste
+330030,33,RJ,"Barra do Piraí",Sudeste
+330040,33,RJ,"Barra Mansa",Sudeste
+330045,33,RJ,"Belford Roxo",Sudeste
+330050,33,RJ,"Bom Jardim",Sudeste
+330060,33,RJ,"Bom Jesus do Itabapoana",Sudeste
+330070,33,RJ,"Cabo Frio",Sudeste
+330080,33,RJ,"Cachoeiras de Macacu",Sudeste
+330090,33,RJ,Cambuci,Sudeste
+330093,33,RJ,Carapebus,Sudeste
+330095,33,RJ,"Comendador Levy Gasparian",Sudeste
+330100,33,RJ,"Campos dos Goytacazes",Sudeste
+330110,33,RJ,Cantagalo,Sudeste
+330115,33,RJ,"Cardoso Moreira",Sudeste
+330120,33,RJ,Carmo,Sudeste
+330130,33,RJ,"Casimiro de Abreu",Sudeste
+330140,33,RJ,"Conceição de Macabu",Sudeste
+330150,33,RJ,Cordeiro,Sudeste
+330160,33,RJ,"Duas Barras",Sudeste
+330170,33,RJ,"Duque de Caxias",Sudeste
+330180,33,RJ,"Engenheiro Paulo de Frontin",Sudeste
+330185,33,RJ,Guapimirim,Sudeste
+330187,33,RJ,"Iguaba Grande",Sudeste
+330190,33,RJ,Itaboraí,Sudeste
+330200,33,RJ,Itaguaí,Sudeste
+330205,33,RJ,Italva,Sudeste
+330210,33,RJ,Itaocara,Sudeste
+330220,33,RJ,Itaperuna,Sudeste
+330225,33,RJ,Itatiaia,Sudeste
+330227,33,RJ,Japeri,Sudeste
+330230,33,RJ,"Laje do Muriaé",Sudeste
+330240,33,RJ,Macaé,Sudeste
+330245,33,RJ,Macuco,Sudeste
+330250,33,RJ,Magé,Sudeste
+330260,33,RJ,Mangaratiba,Sudeste
+330270,33,RJ,Maricá,Sudeste
+330280,33,RJ,Mendes,Sudeste
+330285,33,RJ,Mesquita,Sudeste
+330290,33,RJ,"Miguel Pereira",Sudeste
+330300,33,RJ,Miracema,Sudeste
+330310,33,RJ,Natividade,Sudeste
+330320,33,RJ,Nilópolis,Sudeste
+330330,33,RJ,Niterói,Sudeste
+330340,33,RJ,"Nova Friburgo",Sudeste
+330350,33,RJ,"Nova Iguaçu",Sudeste
+330360,33,RJ,Paracambi,Sudeste
+330370,33,RJ,"Paraíba do Sul",Sudeste
+330380,33,RJ,Paraty,Sudeste
+330385,33,RJ,"Paty do Alferes",Sudeste
+330390,33,RJ,Petrópolis,Sudeste
+330395,33,RJ,Pinheiral,Sudeste
+330400,33,RJ,Piraí,Sudeste
+330410,33,RJ,Porciúncula,Sudeste
+330411,33,RJ,"Porto Real",Sudeste
+330412,33,RJ,Quatis,Sudeste
+330414,33,RJ,Queimados,Sudeste
+330415,33,RJ,Quissamã,Sudeste
+330420,33,RJ,Resende,Sudeste
+330430,33,RJ,"Rio Bonito",Sudeste
+330440,33,RJ,"Rio Claro",Sudeste
+330450,33,RJ,"Rio das Flores",Sudeste
+330452,33,RJ,"Rio das Ostras",Sudeste
+330455,33,RJ,"Rio de Janeiro",Sudeste
+330460,33,RJ,"Santa Maria Madalena",Sudeste
+330470,33,RJ,"Santo Antônio de Pádua",Sudeste
+330475,33,RJ,"São Francisco de Itabapoana",Sudeste
+330480,33,RJ,"São Fidélis",Sudeste
+330490,33,RJ,"São Gonçalo",Sudeste
+330500,33,RJ,"São João da Barra",Sudeste
+330510,33,RJ,"São João de Meriti",Sudeste
+330513,33,RJ,"São José de Ubá",Sudeste
+330515,33,RJ,"São José do Vale do Rio Preto",Sudeste
+330520,33,RJ,"São Pedro da Aldeia",Sudeste
+330530,33,RJ,"São Sebastião do Alto",Sudeste
+330540,33,RJ,Sapucaia,Sudeste
+330550,33,RJ,Saquarema,Sudeste
+330555,33,RJ,Seropédica,Sudeste
+330560,33,RJ,"Silva Jardim",Sudeste
+330570,33,RJ,Sumidouro,Sudeste
+330575,33,RJ,Tanguá,Sudeste
+330580,33,RJ,Teresópolis,Sudeste
+330590,33,RJ,"Trajano de Moraes",Sudeste
+330600,33,RJ,"Três Rios",Sudeste
+330610,33,RJ,Valença,Sudeste
+330615,33,RJ,Varre-Sai,Sudeste
+330620,33,RJ,Vassouras,Sudeste
+330630,33,RJ,"Volta Redonda",Sudeste
+350010,35,SP,Adamantina,Sudeste
+350020,35,SP,Adolfo,Sudeste
+350030,35,SP,Aguaí,Sudeste
+350040,35,SP,"Águas da Prata",Sudeste
+350050,35,SP,"Águas de Lindóia",Sudeste
+350055,35,SP,"Águas de Santa Bárbara",Sudeste
+350060,35,SP,"Águas de São Pedro",Sudeste
+350070,35,SP,Agudos,Sudeste
+350075,35,SP,Alambari,Sudeste
+350080,35,SP,"Alfredo Marcondes",Sudeste
+350090,35,SP,Altair,Sudeste
+350100,35,SP,Altinópolis,Sudeste
+350110,35,SP,"Alto Alegre",Sudeste
+350115,35,SP,Alumínio,Sudeste
+350120,35,SP,"Álvares Florence",Sudeste
+350130,35,SP,"Álvares Machado",Sudeste
+350140,35,SP,"Álvaro de Carvalho",Sudeste
+350150,35,SP,Alvinlândia,Sudeste
+350160,35,SP,Americana,Sudeste
+350170,35,SP,"Américo Brasiliense",Sudeste
+350180,35,SP,"Américo de Campos",Sudeste
+350190,35,SP,Amparo,Sudeste
+350200,35,SP,Analândia,Sudeste
+350210,35,SP,Andradina,Sudeste
+350220,35,SP,Angatuba,Sudeste
+350230,35,SP,Anhembi,Sudeste
+350240,35,SP,Anhumas,Sudeste
+350250,35,SP,Aparecida,Sudeste
+350260,35,SP,"Aparecida d'Oeste",Sudeste
+350270,35,SP,Apiaí,Sudeste
+350275,35,SP,Araçariguama,Sudeste
+350280,35,SP,Araçatuba,Sudeste
+350290,35,SP,"Araçoiaba da Serra",Sudeste
+350300,35,SP,Aramina,Sudeste
+350310,35,SP,Arandu,Sudeste
+350315,35,SP,Arapeí,Sudeste
+350320,35,SP,Araraquara,Sudeste
+350330,35,SP,Araras,Sudeste
+350335,35,SP,Arco-Íris,Sudeste
+350340,35,SP,Arealva,Sudeste
+350350,35,SP,Areias,Sudeste
+350360,35,SP,Areiópolis,Sudeste
+350370,35,SP,Ariranha,Sudeste
+350380,35,SP,"Artur Nogueira",Sudeste
+350390,35,SP,Arujá,Sudeste
+350395,35,SP,Aspásia,Sudeste
+350400,35,SP,Assis,Sudeste
+350410,35,SP,Atibaia,Sudeste
+350420,35,SP,Auriflama,Sudeste
+350430,35,SP,Avaí,Sudeste
+350440,35,SP,Avanhandava,Sudeste
+350450,35,SP,Avaré,Sudeste
+350460,35,SP,"Bady Bassitt",Sudeste
+350470,35,SP,Balbinos,Sudeste
+350480,35,SP,Bálsamo,Sudeste
+350490,35,SP,Bananal,Sudeste
+350500,35,SP,"Barão de Antonina",Sudeste
+350510,35,SP,Barbosa,Sudeste
+350520,35,SP,Bariri,Sudeste
+350530,35,SP,"Barra Bonita",Sudeste
+350535,35,SP,"Barra do Chapéu",Sudeste
+350540,35,SP,"Barra do Turvo",Sudeste
+350550,35,SP,Barretos,Sudeste
+350560,35,SP,Barrinha,Sudeste
+350570,35,SP,Barueri,Sudeste
+350580,35,SP,Bastos,Sudeste
+350590,35,SP,Batatais,Sudeste
+350600,35,SP,Bauru,Sudeste
+350610,35,SP,Bebedouro,Sudeste
+350620,35,SP,"Bento de Abreu",Sudeste
+350630,35,SP,"Bernardino de Campos",Sudeste
+350635,35,SP,Bertioga,Sudeste
+350640,35,SP,Bilac,Sudeste
+350650,35,SP,Birigui,Sudeste
+350660,35,SP,Biritiba-Mirim,Sudeste
+350670,35,SP,"Boa Esperança do Sul",Sudeste
+350680,35,SP,Bocaina,Sudeste
+350690,35,SP,Bofete,Sudeste
+350700,35,SP,Boituva,Sudeste
+350710,35,SP,"Bom Jesus dos Perdões",Sudeste
+350715,35,SP,"Bom Sucesso de Itararé",Sudeste
+350720,35,SP,Borá,Sudeste
+350730,35,SP,Boracéia,Sudeste
+350740,35,SP,Borborema,Sudeste
+350745,35,SP,Borebi,Sudeste
+350750,35,SP,Botucatu,Sudeste
+350760,35,SP,"Bragança Paulista",Sudeste
+350770,35,SP,Braúna,Sudeste
+350775,35,SP,"Brejo Alegre",Sudeste
+350780,35,SP,Brodowski,Sudeste
+350790,35,SP,Brotas,Sudeste
+350800,35,SP,Buri,Sudeste
+350810,35,SP,Buritama,Sudeste
+350820,35,SP,Buritizal,Sudeste
+350830,35,SP,"Cabrália Paulista",Sudeste
+350840,35,SP,Cabreúva,Sudeste
+350850,35,SP,Caçapava,Sudeste
+350860,35,SP,"Cachoeira Paulista",Sudeste
+350870,35,SP,Caconde,Sudeste
+350880,35,SP,Cafelândia,Sudeste
+350890,35,SP,Caiabu,Sudeste
+350900,35,SP,Caieiras,Sudeste
+350910,35,SP,Caiuá,Sudeste
+350920,35,SP,Cajamar,Sudeste
+350925,35,SP,Cajati,Sudeste
+350930,35,SP,Cajobi,Sudeste
+350940,35,SP,Cajuru,Sudeste
+350945,35,SP,"Campina do Monte Alegre",Sudeste
+350950,35,SP,Campinas,Sudeste
+350960,35,SP,"Campo Limpo Paulista",Sudeste
+350970,35,SP,"Campos do Jordão",Sudeste
+350980,35,SP,"Campos Novos Paulista",Sudeste
+350990,35,SP,Cananéia,Sudeste
+350995,35,SP,Canas,Sudeste
+351000,35,SP,"Cândido Mota",Sudeste
+351010,35,SP,"Cândido Rodrigues",Sudeste
+351015,35,SP,Canitar,Sudeste
+351020,35,SP,"Capão Bonito",Sudeste
+351030,35,SP,"Capela do Alto",Sudeste
+351040,35,SP,Capivari,Sudeste
+351050,35,SP,Caraguatatuba,Sudeste
+351060,35,SP,Carapicuíba,Sudeste
+351070,35,SP,Cardoso,Sudeste
+351080,35,SP,"Casa Branca",Sudeste
+351090,35,SP,"Cássia dos Coqueiros",Sudeste
+351100,35,SP,Castilho,Sudeste
+351110,35,SP,Catanduva,Sudeste
+351120,35,SP,Catiguá,Sudeste
+351130,35,SP,Cedral,Sudeste
+351140,35,SP,"Cerqueira César",Sudeste
+351150,35,SP,Cerquilho,Sudeste
+351160,35,SP,"Cesário Lange",Sudeste
+351170,35,SP,Charqueada,Sudeste
+351190,35,SP,Clementina,Sudeste
+351200,35,SP,Colina,Sudeste
+351210,35,SP,Colômbia,Sudeste
+351220,35,SP,Conchal,Sudeste
+351230,35,SP,Conchas,Sudeste
+351240,35,SP,Cordeirópolis,Sudeste
+351250,35,SP,Coroados,Sudeste
+351260,35,SP,"Coronel Macedo",Sudeste
+351270,35,SP,Corumbataí,Sudeste
+351280,35,SP,Cosmópolis,Sudeste
+351290,35,SP,Cosmorama,Sudeste
+351300,35,SP,Cotia,Sudeste
+351310,35,SP,Cravinhos,Sudeste
+351320,35,SP,"Cristais Paulista",Sudeste
+351330,35,SP,Cruzália,Sudeste
+351340,35,SP,Cruzeiro,Sudeste
+351350,35,SP,Cubatão,Sudeste
+351360,35,SP,Cunha,Sudeste
+351370,35,SP,Descalvado,Sudeste
+351380,35,SP,Diadema,Sudeste
+351385,35,SP,"Dirce Reis",Sudeste
+351390,35,SP,Divinolândia,Sudeste
+351400,35,SP,Dobrada,Sudeste
+351410,35,SP,"Dois Córregos",Sudeste
+351420,35,SP,Dolcinópolis,Sudeste
+351430,35,SP,Dourado,Sudeste
+351440,35,SP,Dracena,Sudeste
+351450,35,SP,Duartina,Sudeste
+351460,35,SP,Dumont,Sudeste
+351470,35,SP,Echaporã,Sudeste
+351480,35,SP,Eldorado,Sudeste
+351490,35,SP,"Elias Fausto",Sudeste
+351492,35,SP,Elisiário,Sudeste
+351495,35,SP,Embaúba,Sudeste
+351500,35,SP,Embu,Sudeste
+351510,35,SP,Embu-Guaçu,Sudeste
+351512,35,SP,Emilianópolis,Sudeste
+351515,35,SP,"Engenheiro Coelho",Sudeste
+351518,35,SP,"Espírito Santo do Pinhal",Sudeste
+351519,35,SP,"Espírito Santo do Turvo",Sudeste
+351520,35,SP,"Estrela d'Oeste",Sudeste
+351530,35,SP,"Estrela do Norte",Sudeste
+351535,35,SP,"Euclides da Cunha Paulista",Sudeste
+351540,35,SP,Fartura,Sudeste
+351550,35,SP,Fernandópolis,Sudeste
+351560,35,SP,"Fernando Prestes",Sudeste
+351565,35,SP,Fernão,Sudeste
+351570,35,SP,"Ferraz de Vasconcelos",Sudeste
+351580,35,SP,"Flora Rica",Sudeste
+351590,35,SP,Floreal,Sudeste
+351600,35,SP,"Flórida Paulista",Sudeste
+351610,35,SP,Florínia,Sudeste
+351620,35,SP,Franca,Sudeste
+351630,35,SP,"Francisco Morato",Sudeste
+351640,35,SP,"Franco da Rocha",Sudeste
+351650,35,SP,"Gabriel Monteiro",Sudeste
+351660,35,SP,Gália,Sudeste
+351670,35,SP,Garça,Sudeste
+351680,35,SP,"Gastão Vidigal",Sudeste
+351685,35,SP,"Gavião Peixoto",Sudeste
+351690,35,SP,"General Salgado",Sudeste
+351700,35,SP,Getulina,Sudeste
+351710,35,SP,Glicério,Sudeste
+351720,35,SP,Guaiçara,Sudeste
+351730,35,SP,Guaimbê,Sudeste
+351740,35,SP,Guaíra,Sudeste
+351750,35,SP,Guapiaçu,Sudeste
+351760,35,SP,Guapiara,Sudeste
+351770,35,SP,Guará,Sudeste
+351780,35,SP,Guaraçaí,Sudeste
+351790,35,SP,Guaraci,Sudeste
+351800,35,SP,"Guarani d'Oeste",Sudeste
+351810,35,SP,Guarantã,Sudeste
+351820,35,SP,Guararapes,Sudeste
+351830,35,SP,Guararema,Sudeste
+351840,35,SP,Guaratinguetá,Sudeste
+351850,35,SP,Guareí,Sudeste
+351860,35,SP,Guariba,Sudeste
+351870,35,SP,Guarujá,Sudeste
+351880,35,SP,Guarulhos,Sudeste
+351885,35,SP,Guatapará,Sudeste
+351890,35,SP,Guzolândia,Sudeste
+351900,35,SP,Herculândia,Sudeste
+351905,35,SP,Holambra,Sudeste
+351907,35,SP,Hortolândia,Sudeste
+351910,35,SP,Iacanga,Sudeste
+351920,35,SP,Iacri,Sudeste
+351925,35,SP,Iaras,Sudeste
+351930,35,SP,Ibaté,Sudeste
+351940,35,SP,Ibirá,Sudeste
+351950,35,SP,Ibirarema,Sudeste
+351960,35,SP,Ibitinga,Sudeste
+351970,35,SP,Ibiúna,Sudeste
+351980,35,SP,Icém,Sudeste
+351990,35,SP,Iepê,Sudeste
+352000,35,SP,"Igaraçu do Tietê",Sudeste
+352010,35,SP,Igarapava,Sudeste
+352020,35,SP,Igaratá,Sudeste
+352030,35,SP,Iguape,Sudeste
+352040,35,SP,Ilhabela,Sudeste
+352042,35,SP,"Ilha Comprida",Sudeste
+352044,35,SP,"Ilha Solteira",Sudeste
+352050,35,SP,Indaiatuba,Sudeste
+352060,35,SP,Indiana,Sudeste
+352070,35,SP,Indiaporã,Sudeste
+352080,35,SP,"Inúbia Paulista",Sudeste
+352090,35,SP,Ipaussu,Sudeste
+352100,35,SP,Iperó,Sudeste
+352110,35,SP,Ipeúna,Sudeste
+352115,35,SP,Ipiguá,Sudeste
+352120,35,SP,Iporanga,Sudeste
+352130,35,SP,Ipuã,Sudeste
+352140,35,SP,Iracemápolis,Sudeste
+352150,35,SP,Irapuã,Sudeste
+352160,35,SP,Irapuru,Sudeste
+352170,35,SP,Itaberá,Sudeste
+352180,35,SP,Itaí,Sudeste
+352190,35,SP,Itajobi,Sudeste
+352200,35,SP,Itaju,Sudeste
+352210,35,SP,Itanhaém,Sudeste
+352215,35,SP,Itaóca,Sudeste
+352220,35,SP,"Itapecerica da Serra",Sudeste
+352230,35,SP,Itapetininga,Sudeste
+352240,35,SP,Itapeva,Sudeste
+352250,35,SP,Itapevi,Sudeste
+352260,35,SP,Itapira,Sudeste
+352265,35,SP,"Itapirapuã Paulista",Sudeste
+352270,35,SP,Itápolis,Sudeste
+352280,35,SP,Itaporanga,Sudeste
+352290,35,SP,Itapuí,Sudeste
+352300,35,SP,Itapura,Sudeste
+352310,35,SP,Itaquaquecetuba,Sudeste
+352320,35,SP,Itararé,Sudeste
+352330,35,SP,Itariri,Sudeste
+352340,35,SP,Itatiba,Sudeste
+352350,35,SP,Itatinga,Sudeste
+352360,35,SP,Itirapina,Sudeste
+352370,35,SP,Itirapuã,Sudeste
+352380,35,SP,Itobi,Sudeste
+352390,35,SP,Itu,Sudeste
+352400,35,SP,Itupeva,Sudeste
+352410,35,SP,Ituverava,Sudeste
+352420,35,SP,Jaborandi,Sudeste
+352430,35,SP,Jaboticabal,Sudeste
+352440,35,SP,Jacareí,Sudeste
+352450,35,SP,Jaci,Sudeste
+352460,35,SP,Jacupiranga,Sudeste
+352470,35,SP,Jaguariúna,Sudeste
+352480,35,SP,Jales,Sudeste
+352490,35,SP,Jambeiro,Sudeste
+352500,35,SP,Jandira,Sudeste
+352510,35,SP,Jardinópolis,Sudeste
+352520,35,SP,Jarinu,Sudeste
+352530,35,SP,Jaú,Sudeste
+352540,35,SP,Jeriquara,Sudeste
+352550,35,SP,Joanópolis,Sudeste
+352560,35,SP,"João Ramalho",Sudeste
+352570,35,SP,"José Bonifácio",Sudeste
+352580,35,SP,"Júlio Mesquita",Sudeste
+352585,35,SP,Jumirim,Sudeste
+352590,35,SP,Jundiaí,Sudeste
+352600,35,SP,Junqueirópolis,Sudeste
+352610,35,SP,Juquiá,Sudeste
+352620,35,SP,Juquitiba,Sudeste
+352630,35,SP,Lagoinha,Sudeste
+352640,35,SP,"Laranjal Paulista",Sudeste
+352650,35,SP,Lavínia,Sudeste
+352660,35,SP,Lavrinhas,Sudeste
+352670,35,SP,Leme,Sudeste
+352680,35,SP,"Lençóis Paulista",Sudeste
+352690,35,SP,Limeira,Sudeste
+352700,35,SP,Lindóia,Sudeste
+352710,35,SP,Lins,Sudeste
+352720,35,SP,Lorena,Sudeste
+352725,35,SP,Lourdes,Sudeste
+352730,35,SP,Louveira,Sudeste
+352740,35,SP,Lucélia,Sudeste
+352750,35,SP,Lucianópolis,Sudeste
+352760,35,SP,"Luís Antônio",Sudeste
+352770,35,SP,Luiziânia,Sudeste
+352780,35,SP,Lupércio,Sudeste
+352790,35,SP,Lutécia,Sudeste
+352800,35,SP,Macatuba,Sudeste
+352810,35,SP,Macaubal,Sudeste
+352820,35,SP,Macedônia,Sudeste
+352830,35,SP,Magda,Sudeste
+352840,35,SP,Mairinque,Sudeste
+352850,35,SP,Mairiporã,Sudeste
+352860,35,SP,Manduri,Sudeste
+352870,35,SP,"Marabá Paulista",Sudeste
+352880,35,SP,Maracaí,Sudeste
+352885,35,SP,Marapoama,Sudeste
+352890,35,SP,Mariápolis,Sudeste
+352900,35,SP,Marília,Sudeste
+352910,35,SP,Marinópolis,Sudeste
+352920,35,SP,Martinópolis,Sudeste
+352930,35,SP,Matão,Sudeste
+352940,35,SP,Mauá,Sudeste
+352950,35,SP,Mendonça,Sudeste
+352960,35,SP,Meridiano,Sudeste
+352965,35,SP,Mesópolis,Sudeste
+352970,35,SP,Miguelópolis,Sudeste
+352980,35,SP,"Mineiros do Tietê",Sudeste
+352990,35,SP,Miracatu,Sudeste
+353000,35,SP,"Mira Estrela",Sudeste
+353010,35,SP,Mirandópolis,Sudeste
+353020,35,SP,"Mirante do Paranapanema",Sudeste
+353030,35,SP,Mirassol,Sudeste
+353040,35,SP,Mirassolândia,Sudeste
+353050,35,SP,Mococa,Sudeste
+353060,35,SP,"Mogi das Cruzes",Sudeste
+353070,35,SP,"Mogi Guaçu",Sudeste
+353080,35,SP,"Moji Mirim",Sudeste
+353090,35,SP,Mombuca,Sudeste
+353100,35,SP,Monções,Sudeste
+353110,35,SP,Mongaguá,Sudeste
+353120,35,SP,"Monte Alegre do Sul",Sudeste
+353130,35,SP,"Monte Alto",Sudeste
+353140,35,SP,"Monte Aprazível",Sudeste
+353150,35,SP,"Monte Azul Paulista",Sudeste
+353160,35,SP,"Monte Castelo",Sudeste
+353170,35,SP,"Monteiro Lobato",Sudeste
+353180,35,SP,"Monte Mor",Sudeste
+353190,35,SP,"Morro Agudo",Sudeste
+353200,35,SP,Morungaba,Sudeste
+353205,35,SP,Motuca,Sudeste
+353210,35,SP,"Murutinga do Sul",Sudeste
+353215,35,SP,Nantes,Sudeste
+353220,35,SP,Narandiba,Sudeste
+353230,35,SP,"Natividade da Serra",Sudeste
+353240,35,SP,"Nazaré Paulista",Sudeste
+353250,35,SP,"Neves Paulista",Sudeste
+353260,35,SP,Nhandeara,Sudeste
+353270,35,SP,Nipoã,Sudeste
+353280,35,SP,"Nova Aliança",Sudeste
+353282,35,SP,"Nova Campina",Sudeste
+353284,35,SP,"Nova Canaã Paulista",Sudeste
+353286,35,SP,"Nova Castilho",Sudeste
+353290,35,SP,"Nova Europa",Sudeste
+353300,35,SP,"Nova Granada",Sudeste
+353310,35,SP,"Nova Guataporanga",Sudeste
+353320,35,SP,"Nova Independência",Sudeste
+353325,35,SP,Novais,Sudeste
+353330,35,SP,"Nova Luzitânia",Sudeste
+353340,35,SP,"Nova Odessa",Sudeste
+353350,35,SP,"Novo Horizonte",Sudeste
+353360,35,SP,Nuporanga,Sudeste
+353370,35,SP,Ocauçu,Sudeste
+353380,35,SP,Óleo,Sudeste
+353390,35,SP,Olímpia,Sudeste
+353400,35,SP,"Onda Verde",Sudeste
+353410,35,SP,Oriente,Sudeste
+353420,35,SP,Orindiúva,Sudeste
+353430,35,SP,Orlândia,Sudeste
+353440,35,SP,Osasco,Sudeste
+353450,35,SP,"Oscar Bressane",Sudeste
+353460,35,SP,"Osvaldo Cruz",Sudeste
+353470,35,SP,Ourinhos,Sudeste
+353475,35,SP,Ouroeste,Sudeste
+353480,35,SP,"Ouro Verde",Sudeste
+353490,35,SP,Pacaembu,Sudeste
+353500,35,SP,Palestina,Sudeste
+353510,35,SP,"Palmares Paulista",Sudeste
+353520,35,SP,"Palmeira d'Oeste",Sudeste
+353530,35,SP,Palmital,Sudeste
+353540,35,SP,Panorama,Sudeste
+353550,35,SP,"Paraguaçu Paulista",Sudeste
+353560,35,SP,Paraibuna,Sudeste
+353570,35,SP,Paraíso,Sudeste
+353580,35,SP,Paranapanema,Sudeste
+353590,35,SP,Paranapuã,Sudeste
+353600,35,SP,Parapuã,Sudeste
+353610,35,SP,Pardinho,Sudeste
+353620,35,SP,Pariquera-Açu,Sudeste
+353625,35,SP,Parisi,Sudeste
+353630,35,SP,"Patrocínio Paulista",Sudeste
+353640,35,SP,Paulicéia,Sudeste
+353650,35,SP,Paulínia,Sudeste
+353657,35,SP,Paulistânia,Sudeste
+353660,35,SP,"Paulo de Faria",Sudeste
+353670,35,SP,Pederneiras,Sudeste
+353680,35,SP,"Pedra Bela",Sudeste
+353690,35,SP,Pedranópolis,Sudeste
+353700,35,SP,Pedregulho,Sudeste
+353710,35,SP,Pedreira,Sudeste
+353715,35,SP,"Pedrinhas Paulista",Sudeste
+353720,35,SP,"Pedro de Toledo",Sudeste
+353730,35,SP,Penápolis,Sudeste
+353740,35,SP,"Pereira Barreto",Sudeste
+353750,35,SP,Pereiras,Sudeste
+353760,35,SP,Peruíbe,Sudeste
+353770,35,SP,Piacatu,Sudeste
+353780,35,SP,Piedade,Sudeste
+353790,35,SP,"Pilar do Sul",Sudeste
+353800,35,SP,Pindamonhangaba,Sudeste
+353810,35,SP,Pindorama,Sudeste
+353820,35,SP,Pinhalzinho,Sudeste
+353830,35,SP,Piquerobi,Sudeste
+353850,35,SP,Piquete,Sudeste
+353860,35,SP,Piracaia,Sudeste
+353870,35,SP,Piracicaba,Sudeste
+353880,35,SP,Piraju,Sudeste
+353890,35,SP,Pirajuí,Sudeste
+353900,35,SP,Pirangi,Sudeste
+353910,35,SP,"Pirapora do Bom Jesus",Sudeste
+353920,35,SP,Pirapozinho,Sudeste
+353930,35,SP,Pirassununga,Sudeste
+353940,35,SP,Piratininga,Sudeste
+353950,35,SP,Pitangueiras,Sudeste
+353960,35,SP,Planalto,Sudeste
+353970,35,SP,Platina,Sudeste
+353980,35,SP,Poá,Sudeste
+353990,35,SP,Poloni,Sudeste
+354000,35,SP,Pompéia,Sudeste
+354010,35,SP,Pongaí,Sudeste
+354020,35,SP,Pontal,Sudeste
+354025,35,SP,Pontalinda,Sudeste
+354030,35,SP,"Pontes Gestal",Sudeste
+354040,35,SP,Populina,Sudeste
+354050,35,SP,Porangaba,Sudeste
+354060,35,SP,"Porto Feliz",Sudeste
+354070,35,SP,"Porto Ferreira",Sudeste
+354075,35,SP,Potim,Sudeste
+354080,35,SP,Potirendaba,Sudeste
+354085,35,SP,Pracinha,Sudeste
+354090,35,SP,Pradópolis,Sudeste
+354100,35,SP,"Praia Grande",Sudeste
+354105,35,SP,Pratânia,Sudeste
+354110,35,SP,"Presidente Alves",Sudeste
+354120,35,SP,"Presidente Bernardes",Sudeste
+354130,35,SP,"Presidente Epitácio",Sudeste
+354140,35,SP,"Presidente Prudente",Sudeste
+354150,35,SP,"Presidente Venceslau",Sudeste
+354160,35,SP,Promissão,Sudeste
+354165,35,SP,Quadra,Sudeste
+354170,35,SP,Quatá,Sudeste
+354180,35,SP,Queiroz,Sudeste
+354190,35,SP,Queluz,Sudeste
+354200,35,SP,Quintana,Sudeste
+354210,35,SP,Rafard,Sudeste
+354220,35,SP,Rancharia,Sudeste
+354230,35,SP,"Redenção da Serra",Sudeste
+354240,35,SP,"Regente Feijó",Sudeste
+354250,35,SP,Reginópolis,Sudeste
+354260,35,SP,Registro,Sudeste
+354270,35,SP,Restinga,Sudeste
+354280,35,SP,Ribeira,Sudeste
+354290,35,SP,"Ribeirão Bonito",Sudeste
+354300,35,SP,"Ribeirão Branco",Sudeste
+354310,35,SP,"Ribeirão Corrente",Sudeste
+354320,35,SP,"Ribeirão do Sul",Sudeste
+354323,35,SP,"Ribeirão dos Índios",Sudeste
+354325,35,SP,"Ribeirão Grande",Sudeste
+354330,35,SP,"Ribeirão Pires",Sudeste
+354340,35,SP,"Ribeirão Preto",Sudeste
+354350,35,SP,Riversul,Sudeste
+354360,35,SP,Rifaina,Sudeste
+354370,35,SP,Rincão,Sudeste
+354380,35,SP,Rinópolis,Sudeste
+354390,35,SP,"Rio Claro",Sudeste
+354400,35,SP,"Rio das Pedras",Sudeste
+354410,35,SP,"Rio Grande da Serra",Sudeste
+354420,35,SP,Riolândia,Sudeste
+354425,35,SP,Rosana,Sudeste
+354430,35,SP,Roseira,Sudeste
+354440,35,SP,Rubiácea,Sudeste
+354450,35,SP,Rubinéia,Sudeste
+354460,35,SP,Sabino,Sudeste
+354470,35,SP,Sagres,Sudeste
+354480,35,SP,Sales,Sudeste
+354490,35,SP,"Sales Oliveira",Sudeste
+354500,35,SP,Salesópolis,Sudeste
+354510,35,SP,Salmourão,Sudeste
+354515,35,SP,Saltinho,Sudeste
+354520,35,SP,Salto,Sudeste
+354530,35,SP,"Salto de Pirapora",Sudeste
+354540,35,SP,"Salto Grande",Sudeste
+354550,35,SP,Sandovalina,Sudeste
+354560,35,SP,"Santa Adélia",Sudeste
+354570,35,SP,"Santa Albertina",Sudeste
+354580,35,SP,"Santa Bárbara d'Oeste",Sudeste
+354600,35,SP,"Santa Branca",Sudeste
+354610,35,SP,"Santa Clara d'Oeste",Sudeste
+354620,35,SP,"Santa Cruz da Conceição",Sudeste
+354625,35,SP,"Santa Cruz da Esperança",Sudeste
+354630,35,SP,"Santa Cruz das Palmeiras",Sudeste
+354640,35,SP,"Santa Cruz do Rio Pardo",Sudeste
+354650,35,SP,"Santa Ernestina",Sudeste
+354660,35,SP,"Santa Fé do Sul",Sudeste
+354670,35,SP,"Santa Gertrudes",Sudeste
+354680,35,SP,"Santa Isabel",Sudeste
+354690,35,SP,"Santa Lúcia",Sudeste
+354700,35,SP,"Santa Maria da Serra",Sudeste
+354710,35,SP,"Santa Mercedes",Sudeste
+354720,35,SP,"Santana da Ponte Pensa",Sudeste
+354730,35,SP,"Santana de Parnaíba",Sudeste
+354740,35,SP,"Santa Rita d'Oeste",Sudeste
+354750,35,SP,"Santa Rita do Passa Quatro",Sudeste
+354760,35,SP,"Santa Rosa de Viterbo",Sudeste
+354765,35,SP,"Santa Salete",Sudeste
+354770,35,SP,"Santo Anastácio",Sudeste
+354780,35,SP,"Santo André",Sudeste
+354790,35,SP,"Santo Antônio da Alegria",Sudeste
+354800,35,SP,"Santo Antônio de Posse",Sudeste
+354805,35,SP,"Santo Antônio do Aracanguá",Sudeste
+354810,35,SP,"Santo Antônio do Jardim",Sudeste
+354820,35,SP,"Santo Antônio do Pinhal",Sudeste
+354830,35,SP,"Santo Expedito",Sudeste
+354840,35,SP,"Santópolis do Aguapeí",Sudeste
+354850,35,SP,Santos,Sudeste
+354860,35,SP,"São Bento do Sapucaí",Sudeste
+354870,35,SP,"São Bernardo do Campo",Sudeste
+354880,35,SP,"São Caetano do Sul",Sudeste
+354890,35,SP,"São Carlos",Sudeste
+354900,35,SP,"São Francisco",Sudeste
+354910,35,SP,"São João da Boa Vista",Sudeste
+354920,35,SP,"São João das Duas Pontes",Sudeste
+354925,35,SP,"São João de Iracema",Sudeste
+354930,35,SP,"São João do Pau d'Alho",Sudeste
+354940,35,SP,"São Joaquim da Barra",Sudeste
+354950,35,SP,"São José da Bela Vista",Sudeste
+354960,35,SP,"São José do Barreiro",Sudeste
+354970,35,SP,"São José do Rio Pardo",Sudeste
+354980,35,SP,"São José do Rio Preto",Sudeste
+354990,35,SP,"São José dos Campos",Sudeste
+354995,35,SP,"São Lourenço da Serra",Sudeste
+355000,35,SP,"São Luís do Paraitinga",Sudeste
+355010,35,SP,"São Manuel",Sudeste
+355020,35,SP,"São Miguel Arcanjo",Sudeste
+355030,35,SP,"São Paulo",Sudeste
+355040,35,SP,"São Pedro",Sudeste
+355050,35,SP,"São Pedro do Turvo",Sudeste
+355060,35,SP,"São Roque",Sudeste
+355070,35,SP,"São Sebastião",Sudeste
+355080,35,SP,"São Sebastião da Grama",Sudeste
+355090,35,SP,"São Simão",Sudeste
+355100,35,SP,"São Vicente",Sudeste
+355110,35,SP,Sarapuí,Sudeste
+355120,35,SP,Sarutaiá,Sudeste
+355130,35,SP,"Sebastianópolis do Sul",Sudeste
+355140,35,SP,"Serra Azul",Sudeste
+355150,35,SP,Serrana,Sudeste
+355160,35,SP,"Serra Negra",Sudeste
+355170,35,SP,Sertãozinho,Sudeste
+355180,35,SP,"Sete Barras",Sudeste
+355190,35,SP,Severínia,Sudeste
+355200,35,SP,Silveiras,Sudeste
+355210,35,SP,Socorro,Sudeste
+355220,35,SP,Sorocaba,Sudeste
+355230,35,SP,"Sud Mennucci",Sudeste
+355240,35,SP,Sumaré,Sudeste
+355250,35,SP,Suzano,Sudeste
+355255,35,SP,Suzanápolis,Sudeste
+355260,35,SP,Tabapuã,Sudeste
+355270,35,SP,Tabatinga,Sudeste
+355280,35,SP,"Taboão da Serra",Sudeste
+355290,35,SP,Taciba,Sudeste
+355300,35,SP,Taguaí,Sudeste
+355310,35,SP,Taiaçu,Sudeste
+355320,35,SP,Taiúva,Sudeste
+355330,35,SP,Tambaú,Sudeste
+355340,35,SP,Tanabi,Sudeste
+355350,35,SP,Tapiraí,Sudeste
+355360,35,SP,Tapiratiba,Sudeste
+355365,35,SP,Taquaral,Sudeste
+355370,35,SP,Taquaritinga,Sudeste
+355380,35,SP,Taquarituba,Sudeste
+355385,35,SP,Taquarivaí,Sudeste
+355390,35,SP,Tarabai,Sudeste
+355395,35,SP,Tarumã,Sudeste
+355400,35,SP,Tatuí,Sudeste
+355410,35,SP,Taubaté,Sudeste
+355420,35,SP,Tejupá,Sudeste
+355430,35,SP,"Teodoro Sampaio",Sudeste
+355440,35,SP,"Terra Roxa",Sudeste
+355450,35,SP,Tietê,Sudeste
+355460,35,SP,Timburi,Sudeste
+355465,35,SP,"Torre de Pedra",Sudeste
+355470,35,SP,Torrinha,Sudeste
+355475,35,SP,Trabiju,Sudeste
+355480,35,SP,Tremembé,Sudeste
+355490,35,SP,"Três Fronteiras",Sudeste
+355495,35,SP,Tuiuti,Sudeste
+355500,35,SP,Tupã,Sudeste
+355510,35,SP,"Tupi Paulista",Sudeste
+355520,35,SP,Turiúba,Sudeste
+355530,35,SP,Turmalina,Sudeste
+355535,35,SP,Ubarana,Sudeste
+355540,35,SP,Ubatuba,Sudeste
+355550,35,SP,Ubirajara,Sudeste
+355560,35,SP,Uchoa,Sudeste
+355570,35,SP,"União Paulista",Sudeste
+355580,35,SP,Urânia,Sudeste
+355590,35,SP,Uru,Sudeste
+355600,35,SP,Urupês,Sudeste
+355610,35,SP,"Valentim Gentil",Sudeste
+355620,35,SP,Valinhos,Sudeste
+355630,35,SP,Valparaíso,Sudeste
+355635,35,SP,Vargem,Sudeste
+355640,35,SP,"Vargem Grande do Sul",Sudeste
+355645,35,SP,"Vargem Grande Paulista",Sudeste
+355650,35,SP,"Várzea Paulista",Sudeste
+355660,35,SP,"Vera Cruz",Sudeste
+355670,35,SP,Vinhedo,Sudeste
+355680,35,SP,Viradouro,Sudeste
+355690,35,SP,"Vista Alegre do Alto",Sudeste
+355695,35,SP,"Vitória Brasil",Sudeste
+355700,35,SP,Votorantim,Sudeste
+355710,35,SP,Votuporanga,Sudeste
+355715,35,SP,Zacarias,Sudeste
+355720,35,SP,Chavantes,Sudeste
+355730,35,SP,"Estiva Gerbi",Sudeste
+410010,41,PR,Abatiá,Sul
+410020,41,PR,Adrianópolis,Sul
+410030,41,PR,"Agudos do Sul",Sul
+410040,41,PR,"Almirante Tamandaré",Sul
+410045,41,PR,"Altamira do Paraná",Sul
+410050,41,PR,Altônia,Sul
+410060,41,PR,"Alto Paraná",Sul
+410070,41,PR,"Alto Piquiri",Sul
+410080,41,PR,"Alvorada do Sul",Sul
+410090,41,PR,Amaporã,Sul
+410100,41,PR,Ampére,Sul
+410105,41,PR,Anahy,Sul
+410110,41,PR,Andirá,Sul
+410115,41,PR,Ângulo,Sul
+410120,41,PR,Antonina,Sul
+410130,41,PR,"Antônio Olinto",Sul
+410140,41,PR,Apucarana,Sul
+410150,41,PR,Arapongas,Sul
+410160,41,PR,Arapoti,Sul
+410165,41,PR,Arapuã,Sul
+410170,41,PR,Araruna,Sul
+410180,41,PR,Araucária,Sul
+410185,41,PR,"Ariranha do Ivaí",Sul
+410190,41,PR,Assaí,Sul
+410200,41,PR,"Assis Chateaubriand",Sul
+410210,41,PR,Astorga,Sul
+410220,41,PR,Atalaia,Sul
+410230,41,PR,"Balsa Nova",Sul
+410240,41,PR,Bandeirantes,Sul
+410250,41,PR,"Barbosa Ferraz",Sul
+410260,41,PR,Barracão,Sul
+410270,41,PR,"Barra do Jacaré",Sul
+410275,41,PR,"Bela Vista da Caroba",Sul
+410280,41,PR,"Bela Vista do Paraíso",Sul
+410290,41,PR,Bituruna,Sul
+410300,41,PR,"Boa Esperança",Sul
+410302,41,PR,"Boa Esperança do Iguaçu",Sul
+410304,41,PR,"Boa Ventura de São Roque",Sul
+410305,41,PR,"Boa Vista da Aparecida",Sul
+410310,41,PR,"Bocaiúva do Sul",Sul
+410315,41,PR,"Bom Jesus do Sul",Sul
+410320,41,PR,"Bom Sucesso",Sul
+410322,41,PR,"Bom Sucesso do Sul",Sul
+410330,41,PR,Borrazópolis,Sul
+410335,41,PR,Braganey,Sul
+410337,41,PR,"Brasilândia do Sul",Sul
+410340,41,PR,Cafeara,Sul
+410345,41,PR,Cafelândia,Sul
+410347,41,PR,"Cafezal do Sul",Sul
+410350,41,PR,Califórnia,Sul
+410360,41,PR,Cambará,Sul
+410370,41,PR,Cambé,Sul
+410380,41,PR,Cambira,Sul
+410390,41,PR,"Campina da Lagoa",Sul
+410395,41,PR,"Campina do Simão",Sul
+410400,41,PR,"Campina Grande do Sul",Sul
+410405,41,PR,"Campo Bonito",Sul
+410410,41,PR,"Campo do Tenente",Sul
+410420,41,PR,"Campo Largo",Sul
+410425,41,PR,"Campo Magro",Sul
+410430,41,PR,"Campo Mourão",Sul
+410440,41,PR,"Cândido de Abreu",Sul
+410442,41,PR,Candói,Sul
+410445,41,PR,Cantagalo,Sul
+410450,41,PR,Capanema,Sul
+410460,41,PR,"Capitão Leônidas Marques",Sul
+410465,41,PR,Carambeí,Sul
+410470,41,PR,Carlópolis,Sul
+410480,41,PR,Cascavel,Sul
+410490,41,PR,Castro,Sul
+410500,41,PR,Catanduvas,Sul
+410510,41,PR,"Centenário do Sul",Sul
+410520,41,PR,"Cerro Azul",Sul
+410530,41,PR,"Céu Azul",Sul
+410540,41,PR,Chopinzinho,Sul
+410550,41,PR,Cianorte,Sul
+410560,41,PR,"Cidade Gaúcha",Sul
+410570,41,PR,Clevelândia,Sul
+410580,41,PR,Colombo,Sul
+410590,41,PR,Colorado,Sul
+410600,41,PR,Congonhinhas,Sul
+410610,41,PR,"Conselheiro Mairinck",Sul
+410620,41,PR,Contenda,Sul
+410630,41,PR,Corbélia,Sul
+410640,41,PR,"Cornélio Procópio",Sul
+410645,41,PR,"Coronel Domingos Soares",Sul
+410650,41,PR,"Coronel Vivida",Sul
+410655,41,PR,"Corumbataí do Sul",Sul
+410657,41,PR,"Cruzeiro do Iguaçu",Sul
+410660,41,PR,"Cruzeiro do Oeste",Sul
+410670,41,PR,"Cruzeiro do Sul",Sul
+410680,41,PR,"Cruz Machado",Sul
+410685,41,PR,Cruzmaltina,Sul
+410690,41,PR,Curitiba,Sul
+410700,41,PR,Curiúva,Sul
+410710,41,PR,"Diamante do Norte",Sul
+410712,41,PR,"Diamante do Sul",Sul
+410715,41,PR,"Diamante D'Oeste",Sul
+410720,41,PR,"Dois Vizinhos",Sul
+410725,41,PR,Douradina,Sul
+410730,41,PR,"Doutor Camargo",Sul
+410740,41,PR,"Enéas Marques",Sul
+410750,41,PR,"Engenheiro Beltrão",Sul
+410752,41,PR,"Esperança Nova",Sul
+410753,41,PR,"Entre Rios do Oeste",Sul
+410754,41,PR,"Espigão Alto do Iguaçu",Sul
+410755,41,PR,Farol,Sul
+410760,41,PR,Faxinal,Sul
+410765,41,PR,"Fazenda Rio Grande",Sul
+410770,41,PR,Fênix,Sul
+410773,41,PR,"Fernandes Pinheiro",Sul
+410775,41,PR,Figueira,Sul
+410780,41,PR,Floraí,Sul
+410785,41,PR,"Flor da Serra do Sul",Sul
+410790,41,PR,Floresta,Sul
+410800,41,PR,Florestópolis,Sul
+410810,41,PR,Flórida,Sul
+410820,41,PR,"Formosa do Oeste",Sul
+410830,41,PR,"Foz do Iguaçu",Sul
+410832,41,PR,"Francisco Alves",Sul
+410840,41,PR,"Francisco Beltrão",Sul
+410845,41,PR,"Foz do Jordão",Sul
+410850,41,PR,"General Carneiro",Sul
+410855,41,PR,"Godoy Moreira",Sul
+410860,41,PR,Goioerê,Sul
+410865,41,PR,Goioxim,Sul
+410870,41,PR,"Grandes Rios",Sul
+410880,41,PR,Guaíra,Sul
+410890,41,PR,Guairaçá,Sul
+410895,41,PR,Guamiranga,Sul
+410900,41,PR,Guapirama,Sul
+410910,41,PR,Guaporema,Sul
+410920,41,PR,Guaraci,Sul
+410930,41,PR,Guaraniaçu,Sul
+410940,41,PR,Guarapuava,Sul
+410950,41,PR,Guaraqueçaba,Sul
+410960,41,PR,Guaratuba,Sul
+410965,41,PR,"Honório Serpa",Sul
+410970,41,PR,Ibaiti,Sul
+410975,41,PR,Ibema,Sul
+410980,41,PR,Ibiporã,Sul
+410990,41,PR,Icaraíma,Sul
+411000,41,PR,Iguaraçu,Sul
+411005,41,PR,Iguatu,Sul
+411007,41,PR,Imbaú,Sul
+411010,41,PR,Imbituva,Sul
+411020,41,PR,"Inácio Martins",Sul
+411030,41,PR,Inajá,Sul
+411040,41,PR,Indianópolis,Sul
+411050,41,PR,Ipiranga,Sul
+411060,41,PR,Iporã,Sul
+411065,41,PR,"Iracema do Oeste",Sul
+411070,41,PR,Irati,Sul
+411080,41,PR,Iretama,Sul
+411090,41,PR,Itaguajé,Sul
+411095,41,PR,Itaipulândia,Sul
+411100,41,PR,Itambaracá,Sul
+411110,41,PR,Itambé,Sul
+411120,41,PR,"Itapejara d'Oeste",Sul
+411125,41,PR,Itaperuçu,Sul
+411130,41,PR,"Itaúna do Sul",Sul
+411140,41,PR,Ivaí,Sul
+411150,41,PR,Ivaiporã,Sul
+411155,41,PR,Ivaté,Sul
+411160,41,PR,Ivatuba,Sul
+411170,41,PR,Jaboti,Sul
+411180,41,PR,Jacarezinho,Sul
+411190,41,PR,Jaguapitã,Sul
+411200,41,PR,Jaguariaíva,Sul
+411210,41,PR,"Jandaia do Sul",Sul
+411220,41,PR,Janiópolis,Sul
+411230,41,PR,Japira,Sul
+411240,41,PR,Japurá,Sul
+411250,41,PR,"Jardim Alegre",Sul
+411260,41,PR,"Jardim Olinda",Sul
+411270,41,PR,Jataizinho,Sul
+411275,41,PR,Jesuítas,Sul
+411280,41,PR,"Joaquim Távora",Sul
+411290,41,PR,"Jundiaí do Sul",Sul
+411295,41,PR,Juranda,Sul
+411300,41,PR,Jussara,Sul
+411310,41,PR,Kaloré,Sul
+411320,41,PR,Lapa,Sul
+411325,41,PR,Laranjal,Sul
+411330,41,PR,"Laranjeiras do Sul",Sul
+411340,41,PR,Leópolis,Sul
+411342,41,PR,Lidianópolis,Sul
+411345,41,PR,Lindoeste,Sul
+411350,41,PR,Loanda,Sul
+411360,41,PR,Lobato,Sul
+411370,41,PR,Londrina,Sul
+411373,41,PR,Luiziana,Sul
+411375,41,PR,Lunardelli,Sul
+411380,41,PR,Lupionópolis,Sul
+411390,41,PR,Mallet,Sul
+411400,41,PR,Mamborê,Sul
+411410,41,PR,Mandaguaçu,Sul
+411420,41,PR,Mandaguari,Sul
+411430,41,PR,Mandirituba,Sul
+411435,41,PR,Manfrinópolis,Sul
+411440,41,PR,Mangueirinha,Sul
+411450,41,PR,"Manoel Ribas",Sul
+411460,41,PR,"Marechal Cândido Rondon",Sul
+411470,41,PR,"Maria Helena",Sul
+411480,41,PR,Marialva,Sul
+411490,41,PR,"Marilândia do Sul",Sul
+411500,41,PR,Marilena,Sul
+411510,41,PR,Mariluz,Sul
+411520,41,PR,Maringá,Sul
+411530,41,PR,Mariópolis,Sul
+411535,41,PR,Maripá,Sul
+411540,41,PR,Marmeleiro,Sul
+411545,41,PR,Marquinho,Sul
+411550,41,PR,Marumbi,Sul
+411560,41,PR,Matelândia,Sul
+411570,41,PR,Matinhos,Sul
+411573,41,PR,"Mato Rico",Sul
+411575,41,PR,"Mauá da Serra",Sul
+411580,41,PR,Medianeira,Sul
+411585,41,PR,Mercedes,Sul
+411590,41,PR,Mirador,Sul
+411600,41,PR,Miraselva,Sul
+411605,41,PR,Missal,Sul
+411610,41,PR,"Moreira Sales",Sul
+411620,41,PR,Morretes,Sul
+411630,41,PR,"Munhoz de Melo",Sul
+411640,41,PR,"Nossa Senhora das Graças",Sul
+411650,41,PR,"Nova Aliança do Ivaí",Sul
+411660,41,PR,"Nova América da Colina",Sul
+411670,41,PR,"Nova Aurora",Sul
+411680,41,PR,"Nova Cantu",Sul
+411690,41,PR,"Nova Esperança",Sul
+411695,41,PR,"Nova Esperança do Sudoeste",Sul
+411700,41,PR,"Nova Fátima",Sul
+411705,41,PR,"Nova Laranjeiras",Sul
+411710,41,PR,"Nova Londrina",Sul
+411720,41,PR,"Nova Olímpia",Sul
+411721,41,PR,"Nova Santa Bárbara",Sul
+411722,41,PR,"Nova Santa Rosa",Sul
+411725,41,PR,"Nova Prata do Iguaçu",Sul
+411727,41,PR,"Nova Tebas",Sul
+411729,41,PR,"Novo Itacolomi",Sul
+411730,41,PR,Ortigueira,Sul
+411740,41,PR,Ourizona,Sul
+411745,41,PR,"Ouro Verde do Oeste",Sul
+411750,41,PR,Paiçandu,Sul
+411760,41,PR,Palmas,Sul
+411770,41,PR,Palmeira,Sul
+411780,41,PR,Palmital,Sul
+411790,41,PR,Palotina,Sul
+411800,41,PR,"Paraíso do Norte",Sul
+411810,41,PR,Paranacity,Sul
+411820,41,PR,Paranaguá,Sul
+411830,41,PR,Paranapoema,Sul
+411840,41,PR,Paranavaí,Sul
+411845,41,PR,"Pato Bragado",Sul
+411850,41,PR,"Pato Branco",Sul
+411860,41,PR,"Paula Freitas",Sul
+411870,41,PR,"Paulo Frontin",Sul
+411880,41,PR,Peabiru,Sul
+411885,41,PR,Perobal,Sul
+411890,41,PR,Pérola,Sul
+411900,41,PR,"Pérola d'Oeste",Sul
+411910,41,PR,Piên,Sul
+411915,41,PR,Pinhais,Sul
+411920,41,PR,Pinhalão,Sul
+411925,41,PR,"Pinhal de São Bento",Sul
+411930,41,PR,Pinhão,Sul
+411940,41,PR,"Piraí do Sul",Sul
+411950,41,PR,Piraquara,Sul
+411960,41,PR,Pitanga,Sul
+411965,41,PR,Pitangueiras,Sul
+411970,41,PR,"Planaltina do Paraná",Sul
+411980,41,PR,Planalto,Sul
+411990,41,PR,"Ponta Grossa",Sul
+411995,41,PR,"Pontal do Paraná",Sul
+412000,41,PR,Porecatu,Sul
+412010,41,PR,"Porto Amazonas",Sul
+412015,41,PR,"Porto Barreiro",Sul
+412020,41,PR,"Porto Rico",Sul
+412030,41,PR,"Porto Vitória",Sul
+412033,41,PR,"Prado Ferreira",Sul
+412035,41,PR,Pranchita,Sul
+412040,41,PR,"Presidente Castelo Branco",Sul
+412050,41,PR,"Primeiro de Maio",Sul
+412060,41,PR,Prudentópolis,Sul
+412065,41,PR,"Quarto Centenário",Sul
+412070,41,PR,Quatiguá,Sul
+412080,41,PR,"Quatro Barras",Sul
+412085,41,PR,"Quatro Pontes",Sul
+412090,41,PR,"Quedas do Iguaçu",Sul
+412100,41,PR,"Querência do Norte",Sul
+412110,41,PR,"Quinta do Sol",Sul
+412120,41,PR,Quitandinha,Sul
+412125,41,PR,Ramilândia,Sul
+412130,41,PR,"Rancho Alegre",Sul
+412135,41,PR,"Rancho Alegre D'Oeste",Sul
+412140,41,PR,Realeza,Sul
+412150,41,PR,Rebouças,Sul
+412160,41,PR,Renascença,Sul
+412170,41,PR,Reserva,Sul
+412175,41,PR,"Reserva do Iguaçu",Sul
+412180,41,PR,"Ribeirão Claro",Sul
+412190,41,PR,"Ribeirão do Pinhal",Sul
+412200,41,PR,"Rio Azul",Sul
+412210,41,PR,"Rio Bom",Sul
+412215,41,PR,"Rio Bonito do Iguaçu",Sul
+412217,41,PR,"Rio Branco do Ivaí",Sul
+412220,41,PR,"Rio Branco do Sul",Sul
+412230,41,PR,"Rio Negro",Sul
+412240,41,PR,Rolândia,Sul
+412250,41,PR,Roncador,Sul
+412260,41,PR,Rondon,Sul
+412265,41,PR,"Rosário do Ivaí",Sul
+412270,41,PR,Sabáudia,Sul
+412280,41,PR,"Salgado Filho",Sul
+412290,41,PR,"Salto do Itararé",Sul
+412300,41,PR,"Salto do Lontra",Sul
+412310,41,PR,"Santa Amélia",Sul
+412320,41,PR,"Santa Cecília do Pavão",Sul
+412330,41,PR,"Santa Cruz de Monte Castelo",Sul
+412340,41,PR,"Santa Fé",Sul
+412350,41,PR,"Santa Helena",Sul
+412360,41,PR,"Santa Inês",Sul
+412370,41,PR,"Santa Isabel do Ivaí",Sul
+412380,41,PR,"Santa Izabel do Oeste",Sul
+412382,41,PR,"Santa Lúcia",Sul
+412385,41,PR,"Santa Maria do Oeste",Sul
+412390,41,PR,"Santa Mariana",Sul
+412395,41,PR,"Santa Mônica",Sul
+412400,41,PR,"Santana do Itararé",Sul
+412402,41,PR,"Santa Tereza do Oeste",Sul
+412405,41,PR,"Santa Terezinha de Itaipu",Sul
+412410,41,PR,"Santo Antônio da Platina",Sul
+412420,41,PR,"Santo Antônio do Caiuá",Sul
+412430,41,PR,"Santo Antônio do Paraíso",Sul
+412440,41,PR,"Santo Antônio do Sudoeste",Sul
+412450,41,PR,"Santo Inácio",Sul
+412460,41,PR,"São Carlos do Ivaí",Sul
+412470,41,PR,"São Jerônimo da Serra",Sul
+412480,41,PR,"São João",Sul
+412490,41,PR,"São João do Caiuá",Sul
+412500,41,PR,"São João do Ivaí",Sul
+412510,41,PR,"São João do Triunfo",Sul
+412520,41,PR,"São Jorge d'Oeste",Sul
+412530,41,PR,"São Jorge do Ivaí",Sul
+412535,41,PR,"São Jorge do Patrocínio",Sul
+412540,41,PR,"São José da Boa Vista",Sul
+412545,41,PR,"São José das Palmeiras",Sul
+412550,41,PR,"São José dos Pinhais",Sul
+412555,41,PR,"São Manoel do Paraná",Sul
+412560,41,PR,"São Mateus do Sul",Sul
+412570,41,PR,"São Miguel do Iguaçu",Sul
+412575,41,PR,"São Pedro do Iguaçu",Sul
+412580,41,PR,"São Pedro do Ivaí",Sul
+412590,41,PR,"São Pedro do Paraná",Sul
+412600,41,PR,"São Sebastião da Amoreira",Sul
+412610,41,PR,"São Tomé",Sul
+412620,41,PR,Sapopema,Sul
+412625,41,PR,Sarandi,Sul
+412627,41,PR,"Saudade do Iguaçu",Sul
+412630,41,PR,Sengés,Sul
+412635,41,PR,"Serranópolis do Iguaçu",Sul
+412640,41,PR,Sertaneja,Sul
+412650,41,PR,Sertanópolis,Sul
+412660,41,PR,"Siqueira Campos",Sul
+412665,41,PR,Sulina,Sul
+412667,41,PR,Tamarana,Sul
+412670,41,PR,Tamboara,Sul
+412680,41,PR,Tapejara,Sul
+412690,41,PR,Tapira,Sul
+412700,41,PR,"Teixeira Soares",Sul
+412710,41,PR,"Telêmaco Borba",Sul
+412720,41,PR,"Terra Boa",Sul
+412730,41,PR,"Terra Rica",Sul
+412740,41,PR,"Terra Roxa",Sul
+412750,41,PR,Tibagi,Sul
+412760,41,PR,"Tijucas do Sul",Sul
+412770,41,PR,Toledo,Sul
+412780,41,PR,Tomazina,Sul
+412785,41,PR,"Três Barras do Paraná",Sul
+412788,41,PR,"Tunas do Paraná",Sul
+412790,41,PR,"Tuneiras do Oeste",Sul
+412795,41,PR,Tupãssi,Sul
+412796,41,PR,Turvo,Sul
+412800,41,PR,Ubiratã,Sul
+412810,41,PR,Umuarama,Sul
+412820,41,PR,"União da Vitória",Sul
+412830,41,PR,Uniflor,Sul
+412840,41,PR,Uraí,Sul
+412850,41,PR,"Wenceslau Braz",Sul
+412853,41,PR,Ventania,Sul
+412855,41,PR,"Vera Cruz do Oeste",Sul
+412860,41,PR,Verê,Sul
+412862,41,PR,"Alto Paraíso",Sul
+412863,41,PR,"Doutor Ulysses",Sul
+412865,41,PR,Virmond,Sul
+412870,41,PR,Vitorino,Sul
+412880,41,PR,Xambrê,Sul
+420005,42,SC,"Abdon Batista",Sul
+420010,42,SC,"Abelardo Luz",Sul
+420020,42,SC,Agrolândia,Sul
+420030,42,SC,Agronômica,Sul
+420040,42,SC,"Água Doce",Sul
+420050,42,SC,"Águas de Chapecó",Sul
+420055,42,SC,"Águas Frias",Sul
+420060,42,SC,"Águas Mornas",Sul
+420070,42,SC,"Alfredo Wagner",Sul
+420075,42,SC,"Alto Bela Vista",Sul
+420080,42,SC,Anchieta,Sul
+420090,42,SC,Angelina,Sul
+420100,42,SC,"Anita Garibaldi",Sul
+420110,42,SC,Anitápolis,Sul
+420120,42,SC,"Antônio Carlos",Sul
+420125,42,SC,Apiúna,Sul
+420127,42,SC,Arabutã,Sul
+420130,42,SC,Araquari,Sul
+420140,42,SC,Araranguá,Sul
+420150,42,SC,Armazém,Sul
+420160,42,SC,"Arroio Trinta",Sul
+420165,42,SC,Arvoredo,Sul
+420170,42,SC,Ascurra,Sul
+420180,42,SC,Atalanta,Sul
+420190,42,SC,Aurora,Sul
+420195,42,SC,"Balneário Arroio do Silva",Sul
+420200,42,SC,"Balneário Camboriú",Sul
+420205,42,SC,"Balneário Barra do Sul",Sul
+420207,42,SC,"Balneário Gaivota",Sul
+420208,42,SC,Bandeirante,Sul
+420209,42,SC,"Barra Bonita",Sul
+420210,42,SC,"Barra Velha",Sul
+420213,42,SC,"Bela Vista do Toldo",Sul
+420215,42,SC,Belmonte,Sul
+420220,42,SC,"Benedito Novo",Sul
+420230,42,SC,Biguaçu,Sul
+420240,42,SC,Blumenau,Sul
+420243,42,SC,"Bocaina do Sul",Sul
+420245,42,SC,Bombinhas,Sul
+420250,42,SC,"Bom Jardim da Serra",Sul
+420253,42,SC,"Bom Jesus",Sul
+420257,42,SC,"Bom Jesus do Oeste",Sul
+420260,42,SC,"Bom Retiro",Sul
+420270,42,SC,Botuverá,Sul
+420280,42,SC,"Braço do Norte",Sul
+420285,42,SC,"Braço do Trombudo",Sul
+420287,42,SC,Brunópolis,Sul
+420290,42,SC,Brusque,Sul
+420300,42,SC,Caçador,Sul
+420310,42,SC,Caibi,Sul
+420315,42,SC,Calmon,Sul
+420320,42,SC,Camboriú,Sul
+420325,42,SC,"Capão Alto",Sul
+420330,42,SC,"Campo Alegre",Sul
+420340,42,SC,"Campo Belo do Sul",Sul
+420350,42,SC,"Campo Erê",Sul
+420360,42,SC,"Campos Novos",Sul
+420370,42,SC,Canelinha,Sul
+420380,42,SC,Canoinhas,Sul
+420390,42,SC,Capinzal,Sul
+420395,42,SC,"Capivari de Baixo",Sul
+420400,42,SC,Catanduvas,Sul
+420410,42,SC,"Caxambu do Sul",Sul
+420415,42,SC,"Celso Ramos",Sul
+420417,42,SC,"Cerro Negro",Sul
+420419,42,SC,"Chapadão do Lageado",Sul
+420420,42,SC,Chapecó,Sul
+420425,42,SC,"Cocal do Sul",Sul
+420430,42,SC,Concórdia,Sul
+420435,42,SC,"Cordilheira Alta",Sul
+420440,42,SC,"Coronel Freitas",Sul
+420445,42,SC,"Coronel Martins",Sul
+420450,42,SC,Corupá,Sul
+420455,42,SC,"Correia Pinto",Sul
+420460,42,SC,Criciúma,Sul
+420470,42,SC,"Cunha Porã",Sul
+420475,42,SC,Cunhataí,Sul
+420480,42,SC,Curitibanos,Sul
+420490,42,SC,Descanso,Sul
+420500,42,SC,"Dionísio Cerqueira",Sul
+420510,42,SC,"Dona Emma",Sul
+420515,42,SC,"Doutor Pedrinho",Sul
+420517,42,SC,"Entre Rios",Sul
+420519,42,SC,Ermo,Sul
+420520,42,SC,"Erval Velho",Sul
+420530,42,SC,"Faxinal dos Guedes",Sul
+420535,42,SC,"Flor do Sertão",Sul
+420540,42,SC,Florianópolis,Sul
+420543,42,SC,"Formosa do Sul",Sul
+420545,42,SC,Forquilhinha,Sul
+420550,42,SC,Fraiburgo,Sul
+420555,42,SC,"Frei Rogério",Sul
+420560,42,SC,Galvão,Sul
+420570,42,SC,Garopaba,Sul
+420580,42,SC,Garuva,Sul
+420590,42,SC,Gaspar,Sul
+420600,42,SC,"Governador Celso Ramos",Sul
+420610,42,SC,"Grão Pará",Sul
+420620,42,SC,Gravatal,Sul
+420630,42,SC,Guabiruba,Sul
+420640,42,SC,Guaraciaba,Sul
+420650,42,SC,Guaramirim,Sul
+420660,42,SC,"Guarujá do Sul",Sul
+420665,42,SC,Guatambú,Sul
+420670,42,SC,"Herval d'Oeste",Sul
+420675,42,SC,Ibiam,Sul
+420680,42,SC,Ibicaré,Sul
+420690,42,SC,Ibirama,Sul
+420700,42,SC,Içara,Sul
+420710,42,SC,Ilhota,Sul
+420720,42,SC,Imaruí,Sul
+420730,42,SC,Imbituba,Sul
+420740,42,SC,Imbuia,Sul
+420750,42,SC,Indaial,Sul
+420757,42,SC,Iomerê,Sul
+420760,42,SC,Ipira,Sul
+420765,42,SC,"Iporã do Oeste",Sul
+420768,42,SC,Ipuaçu,Sul
+420770,42,SC,Ipumirim,Sul
+420775,42,SC,Iraceminha,Sul
+420780,42,SC,Irani,Sul
+420785,42,SC,Irati,Sul
+420790,42,SC,Irineópolis,Sul
+420800,42,SC,Itá,Sul
+420810,42,SC,Itaiópolis,Sul
+420820,42,SC,Itajaí,Sul
+420830,42,SC,Itapema,Sul
+420840,42,SC,Itapiranga,Sul
+420845,42,SC,Itapoá,Sul
+420850,42,SC,Ituporanga,Sul
+420860,42,SC,Jaborá,Sul
+420870,42,SC,"Jacinto Machado",Sul
+420880,42,SC,Jaguaruna,Sul
+420890,42,SC,"Jaraguá do Sul",Sul
+420895,42,SC,Jardinópolis,Sul
+420900,42,SC,Joaçaba,Sul
+420910,42,SC,Joinville,Sul
+420915,42,SC,"José Boiteux",Sul
+420917,42,SC,Jupiá,Sul
+420920,42,SC,Lacerdópolis,Sul
+420930,42,SC,Lages,Sul
+420940,42,SC,Laguna,Sul
+420945,42,SC,"Lajeado Grande",Sul
+420950,42,SC,Laurentino,Sul
+420960,42,SC,"Lauro Muller",Sul
+420970,42,SC,"Lebon Régis",Sul
+420980,42,SC,"Leoberto Leal",Sul
+420985,42,SC,"Lindóia do Sul",Sul
+420990,42,SC,Lontras,Sul
+421000,42,SC,"Luiz Alves",Sul
+421003,42,SC,Luzerna,Sul
+421005,42,SC,Macieira,Sul
+421010,42,SC,Mafra,Sul
+421020,42,SC,"Major Gercino",Sul
+421030,42,SC,"Major Vieira",Sul
+421040,42,SC,Maracajá,Sul
+421050,42,SC,Maravilha,Sul
+421055,42,SC,Marema,Sul
+421060,42,SC,Massaranduba,Sul
+421070,42,SC,"Matos Costa",Sul
+421080,42,SC,Meleiro,Sul
+421085,42,SC,"Mirim Doce",Sul
+421090,42,SC,Modelo,Sul
+421100,42,SC,Mondaí,Sul
+421105,42,SC,"Monte Carlo",Sul
+421110,42,SC,"Monte Castelo",Sul
+421120,42,SC,"Morro da Fumaça",Sul
+421125,42,SC,"Morro Grande",Sul
+421130,42,SC,Navegantes,Sul
+421140,42,SC,"Nova Erechim",Sul
+421145,42,SC,"Nova Itaberaba",Sul
+421150,42,SC,"Nova Trento",Sul
+421160,42,SC,"Nova Veneza",Sul
+421165,42,SC,"Novo Horizonte",Sul
+421170,42,SC,Orleans,Sul
+421175,42,SC,"Otacílio Costa",Sul
+421180,42,SC,Ouro,Sul
+421185,42,SC,"Ouro Verde",Sul
+421187,42,SC,Paial,Sul
+421189,42,SC,Painel,Sul
+421190,42,SC,Palhoça,Sul
+421200,42,SC,"Palma Sola",Sul
+421205,42,SC,Palmeira,Sul
+421210,42,SC,Palmitos,Sul
+421220,42,SC,Papanduva,Sul
+421223,42,SC,Paraíso,Sul
+421225,42,SC,"Passo de Torres",Sul
+421227,42,SC,"Passos Maia",Sul
+421230,42,SC,"Paulo Lopes",Sul
+421240,42,SC,"Pedras Grandes",Sul
+421250,42,SC,Penha,Sul
+421260,42,SC,Peritiba,Sul
+421270,42,SC,Petrolândia,Sul
+421280,42,SC,"Balneário Piçarras",Sul
+421290,42,SC,Pinhalzinho,Sul
+421300,42,SC,"Pinheiro Preto",Sul
+421310,42,SC,Piratuba,Sul
+421315,42,SC,"Planalto Alegre",Sul
+421320,42,SC,Pomerode,Sul
+421330,42,SC,"Ponte Alta",Sul
+421335,42,SC,"Ponte Alta do Norte",Sul
+421340,42,SC,"Ponte Serrada",Sul
+421350,42,SC,"Porto Belo",Sul
+421360,42,SC,"Porto União",Sul
+421370,42,SC,"Pouso Redondo",Sul
+421380,42,SC,"Praia Grande",Sul
+421390,42,SC,"Presidente Castello Branco",Sul
+421400,42,SC,"Presidente Getúlio",Sul
+421410,42,SC,"Presidente Nereu",Sul
+421415,42,SC,Princesa,Sul
+421420,42,SC,Quilombo,Sul
+421430,42,SC,"Rancho Queimado",Sul
+421440,42,SC,"Rio das Antas",Sul
+421450,42,SC,"Rio do Campo",Sul
+421460,42,SC,"Rio do Oeste",Sul
+421470,42,SC,"Rio dos Cedros",Sul
+421480,42,SC,"Rio do Sul",Sul
+421490,42,SC,"Rio Fortuna",Sul
+421500,42,SC,"Rio Negrinho",Sul
+421505,42,SC,"Rio Rufino",Sul
+421507,42,SC,Riqueza,Sul
+421510,42,SC,Rodeio,Sul
+421520,42,SC,Romelândia,Sul
+421530,42,SC,Salete,Sul
+421535,42,SC,Saltinho,Sul
+421540,42,SC,"Salto Veloso",Sul
+421545,42,SC,Sangão,Sul
+421550,42,SC,"Santa Cecília",Sul
+421555,42,SC,"Santa Helena",Sul
+421560,42,SC,"Santa Rosa de Lima",Sul
+421565,42,SC,"Santa Rosa do Sul",Sul
+421567,42,SC,"Santa Terezinha",Sul
+421568,42,SC,"Santa Terezinha do Progresso",Sul
+421569,42,SC,"Santiago do Sul",Sul
+421570,42,SC,"Santo Amaro da Imperatriz",Sul
+421575,42,SC,"São Bernardino",Sul
+421580,42,SC,"São Bento do Sul",Sul
+421590,42,SC,"São Bonifácio",Sul
+421600,42,SC,"São Carlos",Sul
+421605,42,SC,"São Cristovão do Sul",Sul
+421610,42,SC,"São Domingos",Sul
+421620,42,SC,"São Francisco do Sul",Sul
+421625,42,SC,"São João do Oeste",Sul
+421630,42,SC,"São João Batista",Sul
+421635,42,SC,"São João do Itaperiú",Sul
+421640,42,SC,"São João do Sul",Sul
+421650,42,SC,"São Joaquim",Sul
+421660,42,SC,"São José",Sul
+421670,42,SC,"São José do Cedro",Sul
+421680,42,SC,"São José do Cerrito",Sul
+421690,42,SC,"São Lourenço do Oeste",Sul
+421700,42,SC,"São Ludgero",Sul
+421710,42,SC,"São Martinho",Sul
+421715,42,SC,"São Miguel da Boa Vista",Sul
+421720,42,SC,"São Miguel do Oeste",Sul
+421725,42,SC,"São Pedro de Alcântara",Sul
+421730,42,SC,Saudades,Sul
+421740,42,SC,Schroeder,Sul
+421750,42,SC,Seara,Sul
+421755,42,SC,"Serra Alta",Sul
+421760,42,SC,Siderópolis,Sul
+421770,42,SC,Sombrio,Sul
+421775,42,SC,"Sul Brasil",Sul
+421780,42,SC,Taió,Sul
+421790,42,SC,Tangará,Sul
+421795,42,SC,Tigrinhos,Sul
+421800,42,SC,Tijucas,Sul
+421810,42,SC,"Timbé do Sul",Sul
+421820,42,SC,Timbó,Sul
+421825,42,SC,"Timbó Grande",Sul
+421830,42,SC,"Três Barras",Sul
+421835,42,SC,Treviso,Sul
+421840,42,SC,"Treze de Maio",Sul
+421850,42,SC,"Treze Tílias",Sul
+421860,42,SC,"Trombudo Central",Sul
+421870,42,SC,Tubarão,Sul
+421875,42,SC,Tunápolis,Sul
+421880,42,SC,Turvo,Sul
+421885,42,SC,"União do Oeste",Sul
+421890,42,SC,Urubici,Sul
+421895,42,SC,Urupema,Sul
+421900,42,SC,Urussanga,Sul
+421910,42,SC,Vargeão,Sul
+421915,42,SC,Vargem,Sul
+421917,42,SC,"Vargem Bonita",Sul
+421920,42,SC,"Vidal Ramos",Sul
+421930,42,SC,Videira,Sul
+421935,42,SC,"Vitor Meireles",Sul
+421940,42,SC,Witmarsum,Sul
+421950,42,SC,Xanxerê,Sul
+421960,42,SC,Xavantina,Sul
+421970,42,SC,Xaxim,Sul
+421985,42,SC,Zortéa,Sul
+430000,,,,
+430000,,,,
+430003,43,RS,Aceguá,Sul
+430005,43,RS,"Água Santa",Sul
+430010,43,RS,Agudo,Sul
+430020,43,RS,Ajuricaba,Sul
+430030,43,RS,Alecrim,Sul
+430040,43,RS,Alegrete,Sul
+430045,43,RS,Alegria,Sul
+430047,43,RS,"Almirante Tamandaré do Sul",Sul
+430050,43,RS,Alpestre,Sul
+430055,43,RS,"Alto Alegre",Sul
+430057,43,RS,"Alto Feliz",Sul
+430060,43,RS,Alvorada,Sul
+430063,43,RS,"Amaral Ferrador",Sul
+430064,43,RS,"Ametista do Sul",Sul
+430066,43,RS,"André da Rocha",Sul
+430070,43,RS,"Anta Gorda",Sul
+430080,43,RS,"Antônio Prado",Sul
+430085,43,RS,Arambaré,Sul
+430087,43,RS,Araricá,Sul
+430090,43,RS,Aratiba,Sul
+430100,43,RS,"Arroio do Meio",Sul
+430105,43,RS,"Arroio do Sal",Sul
+430107,43,RS,"Arroio do Padre",Sul
+430110,43,RS,"Arroio dos Ratos",Sul
+430120,43,RS,"Arroio do Tigre",Sul
+430130,43,RS,"Arroio Grande",Sul
+430140,43,RS,Arvorezinha,Sul
+430150,43,RS,"Augusto Pestana",Sul
+430155,43,RS,Áurea,Sul
+430160,43,RS,Bagé,Sul
+430163,43,RS,"Balneário Pinhal",Sul
+430165,43,RS,Barão,Sul
+430170,43,RS,"Barão de Cotegipe",Sul
+430175,43,RS,"Barão do Triunfo",Sul
+430180,43,RS,Barracão,Sul
+430185,43,RS,"Barra do Guarita",Sul
+430187,43,RS,"Barra do Quaraí",Sul
+430190,43,RS,"Barra do Ribeiro",Sul
+430192,43,RS,"Barra do Rio Azul",Sul
+430195,43,RS,"Barra Funda",Sul
+430200,43,RS,"Barros Cassal",Sul
+430205,43,RS,"Benjamin Constant do Sul",Sul
+430210,43,RS,"Bento Gonçalves",Sul
+430215,43,RS,"Boa Vista das Missões",Sul
+430220,43,RS,"Boa Vista do Buricá",Sul
+430222,43,RS,"Boa Vista do Cadeado",Sul
+430223,43,RS,"Boa Vista do Incra",Sul
+430225,43,RS,"Boa Vista do Sul",Sul
+430230,43,RS,"Bom Jesus",Sul
+430235,43,RS,"Bom Princípio",Sul
+430237,43,RS,"Bom Progresso",Sul
+430240,43,RS,"Bom Retiro do Sul",Sul
+430245,43,RS,"Boqueirão do Leão",Sul
+430250,43,RS,Bossoroca,Sul
+430258,43,RS,Bozano,Sul
+430260,43,RS,Braga,Sul
+430265,43,RS,Brochier,Sul
+430270,43,RS,Butiá,Sul
+430280,43,RS,"Caçapava do Sul",Sul
+430290,43,RS,Cacequi,Sul
+430300,43,RS,"Cachoeira do Sul",Sul
+430310,43,RS,Cachoeirinha,Sul
+430320,43,RS,"Cacique Doble",Sul
+430330,43,RS,Caibaté,Sul
+430340,43,RS,Caiçara,Sul
+430350,43,RS,Camaquã,Sul
+430355,43,RS,Camargo,Sul
+430360,43,RS,"Cambará do Sul",Sul
+430367,43,RS,"Campestre da Serra",Sul
+430370,43,RS,"Campina das Missões",Sul
+430380,43,RS,"Campinas do Sul",Sul
+430390,43,RS,"Campo Bom",Sul
+430400,43,RS,"Campo Novo",Sul
+430410,43,RS,"Campos Borges",Sul
+430420,43,RS,Candelária,Sul
+430430,43,RS,"Cândido Godói",Sul
+430435,43,RS,Candiota,Sul
+430440,43,RS,Canela,Sul
+430450,43,RS,Canguçu,Sul
+430460,43,RS,Canoas,Sul
+430461,43,RS,"Canudos do Vale",Sul
+430462,43,RS,"Capão Bonito do Sul",Sul
+430463,43,RS,"Capão da Canoa",Sul
+430465,43,RS,"Capão do Cipó",Sul
+430466,43,RS,"Capão do Leão",Sul
+430467,43,RS,"Capivari do Sul",Sul
+430468,43,RS,"Capela de Santana",Sul
+430469,43,RS,Capitão,Sul
+430470,43,RS,Carazinho,Sul
+430471,43,RS,Caraá,Sul
+430480,43,RS,"Carlos Barbosa",Sul
+430485,43,RS,"Carlos Gomes",Sul
+430490,43,RS,Casca,Sul
+430495,43,RS,Caseiros,Sul
+430500,43,RS,Catuípe,Sul
+430510,43,RS,"Caxias do Sul",Sul
+430511,43,RS,Centenário,Sul
+430512,43,RS,Cerrito,Sul
+430513,43,RS,"Cerro Branco",Sul
+430515,43,RS,"Cerro Grande",Sul
+430517,43,RS,"Cerro Grande do Sul",Sul
+430520,43,RS,"Cerro Largo",Sul
+430530,43,RS,Chapada,Sul
+430535,43,RS,Charqueadas,Sul
+430537,43,RS,Charrua,Sul
+430540,43,RS,Chiapetta,Sul
+430543,43,RS,Chuí,Sul
+430544,43,RS,Chuvisca,Sul
+430545,43,RS,Cidreira,Sul
+430550,43,RS,Ciríaco,Sul
+430558,43,RS,Colinas,Sul
+430560,43,RS,Colorado,Sul
+430570,43,RS,Condor,Sul
+430580,43,RS,Constantina,Sul
+430583,43,RS,"Coqueiro Baixo",Sul
+430585,43,RS,"Coqueiros do Sul",Sul
+430587,43,RS,"Coronel Barros",Sul
+430590,43,RS,"Coronel Bicaco",Sul
+430593,43,RS,"Coronel Pilar",Sul
+430595,43,RS,Cotiporã,Sul
+430597,43,RS,Coxilha,Sul
+430600,43,RS,Crissiumal,Sul
+430605,43,RS,Cristal,Sul
+430607,43,RS,"Cristal do Sul",Sul
+430610,43,RS,"Cruz Alta",Sul
+430613,43,RS,Cruzaltense,Sul
+430620,43,RS,"Cruzeiro do Sul",Sul
+430630,43,RS,"David Canabarro",Sul
+430632,43,RS,Derrubadas,Sul
+430635,43,RS,"Dezesseis de Novembro",Sul
+430637,43,RS,"Dilermando de Aguiar",Sul
+430640,43,RS,"Dois Irmãos",Sul
+430642,43,RS,"Dois Irmãos das Missões",Sul
+430645,43,RS,"Dois Lajeados",Sul
+430650,43,RS,"Dom Feliciano",Sul
+430655,43,RS,"Dom Pedro de Alcântara",Sul
+430660,43,RS,"Dom Pedrito",Sul
+430670,43,RS,"Dona Francisca",Sul
+430673,43,RS,"Doutor Maurício Cardoso",Sul
+430675,43,RS,"Doutor Ricardo",Sul
+430676,43,RS,"Eldorado do Sul",Sul
+430680,43,RS,Encantado,Sul
+430690,43,RS,"Encruzilhada do Sul",Sul
+430692,43,RS,"Engenho Velho",Sul
+430693,43,RS,Entre-Ijuís,Sul
+430695,43,RS,"Entre Rios do Sul",Sul
+430697,43,RS,Erebango,Sul
+430700,43,RS,Erechim,Sul
+430705,43,RS,Ernestina,Sul
+430710,43,RS,Herval,Sul
+430720,43,RS,"Erval Grande",Sul
+430730,43,RS,"Erval Seco",Sul
+430740,43,RS,Esmeralda,Sul
+430745,43,RS,"Esperança do Sul",Sul
+430750,43,RS,Espumoso,Sul
+430755,43,RS,Estação,Sul
+430760,43,RS,"Estância Velha",Sul
+430770,43,RS,Esteio,Sul
+430780,43,RS,Estrela,Sul
+430781,43,RS,"Estrela Velha",Sul
+430783,43,RS,"Eugênio de Castro",Sul
+430786,43,RS,"Fagundes Varela",Sul
+430790,43,RS,Farroupilha,Sul
+430800,43,RS,"Faxinal do Soturno",Sul
+430805,43,RS,Faxinalzinho,Sul
+430807,43,RS,"Fazenda Vilanova",Sul
+430810,43,RS,Feliz,Sul
+430820,43,RS,"Flores da Cunha",Sul
+430825,43,RS,"Floriano Peixoto",Sul
+430830,43,RS,"Fontoura Xavier",Sul
+430840,43,RS,Formigueiro,Sul
+430843,43,RS,Forquetinha,Sul
+430845,43,RS,"Fortaleza dos Valos",Sul
+430850,43,RS,"Frederico Westphalen",Sul
+430860,43,RS,Garibaldi,Sul
+430865,43,RS,Garruchos,Sul
+430870,43,RS,Gaurama,Sul
+430880,43,RS,"General Câmara",Sul
+430885,43,RS,Gentil,Sul
+430890,43,RS,"Getúlio Vargas",Sul
+430900,43,RS,Giruá,Sul
+430905,43,RS,Glorinha,Sul
+430910,43,RS,Gramado,Sul
+430912,43,RS,"Gramado dos Loureiros",Sul
+430915,43,RS,"Gramado Xavier",Sul
+430920,43,RS,Gravataí,Sul
+430925,43,RS,Guabiju,Sul
+430930,43,RS,Guaíba,Sul
+430940,43,RS,Guaporé,Sul
+430950,43,RS,"Guarani das Missões",Sul
+430955,43,RS,Harmonia,Sul
+430957,43,RS,Herveiras,Sul
+430960,43,RS,Horizontina,Sul
+430965,43,RS,"Hulha Negra",Sul
+430970,43,RS,Humaitá,Sul
+430975,43,RS,Ibarama,Sul
+430980,43,RS,Ibiaçá,Sul
+430990,43,RS,Ibiraiaras,Sul
+430995,43,RS,Ibirapuitã,Sul
+431000,43,RS,Ibirubá,Sul
+431010,43,RS,Igrejinha,Sul
+431020,43,RS,Ijuí,Sul
+431030,43,RS,Ilópolis,Sul
+431033,43,RS,Imbé,Sul
+431036,43,RS,Imigrante,Sul
+431040,43,RS,Independência,Sul
+431041,43,RS,Inhacorá,Sul
+431043,43,RS,Ipê,Sul
+431046,43,RS,"Ipiranga do Sul",Sul
+431050,43,RS,Iraí,Sul
+431053,43,RS,Itaara,Sul
+431055,43,RS,Itacurubi,Sul
+431057,43,RS,Itapuca,Sul
+431060,43,RS,Itaqui,Sul
+431065,43,RS,Itati,Sul
+431070,43,RS,"Itatiba do Sul",Sul
+431075,43,RS,Ivorá,Sul
+431080,43,RS,Ivoti,Sul
+431085,43,RS,Jaboticaba,Sul
+431087,43,RS,Jacuizinho,Sul
+431090,43,RS,Jacutinga,Sul
+431100,43,RS,Jaguarão,Sul
+431110,43,RS,Jaguari,Sul
+431112,43,RS,Jaquirana,Sul
+431113,43,RS,Jari,Sul
+431115,43,RS,Jóia,Sul
+431120,43,RS,"Júlio de Castilhos",Sul
+431123,43,RS,"Lagoa Bonita do Sul",Sul
+431125,43,RS,Lagoão,Sul
+431127,43,RS,"Lagoa dos Três Cantos",Sul
+431130,43,RS,"Lagoa Vermelha",Sul
+431140,43,RS,Lajeado,Sul
+431142,43,RS,"Lajeado do Bugre",Sul
+431150,43,RS,"Lavras do Sul",Sul
+431160,43,RS,"Liberato Salzano",Sul
+431162,43,RS,"Lindolfo Collor",Sul
+431164,43,RS,"Linha Nova",Sul
+431170,43,RS,Machadinho,Sul
+431171,43,RS,Maçambará,Sul
+431173,43,RS,Mampituba,Sul
+431175,43,RS,"Manoel Viana",Sul
+431177,43,RS,Maquiné,Sul
+431179,43,RS,Maratá,Sul
+431180,43,RS,Marau,Sul
+431190,43,RS,"Marcelino Ramos",Sul
+431198,43,RS,"Mariana Pimentel",Sul
+431200,43,RS,"Mariano Moro",Sul
+431205,43,RS,"Marques de Souza",Sul
+431210,43,RS,Mata,Sul
+431213,43,RS,"Mato Castelhano",Sul
+431215,43,RS,"Mato Leitão",Sul
+431217,43,RS,"Mato Queimado",Sul
+431220,43,RS,"Maximiliano de Almeida",Sul
+431225,43,RS,"Minas do Leão",Sul
+431230,43,RS,Miraguaí,Sul
+431235,43,RS,Montauri,Sul
+431237,43,RS,"Monte Alegre dos Campos",Sul
+431238,43,RS,"Monte Belo do Sul",Sul
+431240,43,RS,Montenegro,Sul
+431242,43,RS,Mormaço,Sul
+431244,43,RS,"Morrinhos do Sul",Sul
+431245,43,RS,"Morro Redondo",Sul
+431247,43,RS,"Morro Reuter",Sul
+431250,43,RS,Mostardas,Sul
+431260,43,RS,Muçum,Sul
+431261,43,RS,"Muitos Capões",Sul
+431262,43,RS,Muliterno,Sul
+431265,43,RS,Não-Me-Toque,Sul
+431267,43,RS,"Nicolau Vergueiro",Sul
+431270,43,RS,Nonoai,Sul
+431275,43,RS,"Nova Alvorada",Sul
+431280,43,RS,"Nova Araçá",Sul
+431290,43,RS,"Nova Bassano",Sul
+431295,43,RS,"Nova Boa Vista",Sul
+431300,43,RS,"Nova Bréscia",Sul
+431301,43,RS,"Nova Candelária",Sul
+431303,43,RS,"Nova Esperança do Sul",Sul
+431306,43,RS,"Nova Hartz",Sul
+431308,43,RS,"Nova Pádua",Sul
+431310,43,RS,"Nova Palma",Sul
+431320,43,RS,"Nova Petrópolis",Sul
+431330,43,RS,"Nova Prata",Sul
+431333,43,RS,"Nova Ramada",Sul
+431335,43,RS,"Nova Roma do Sul",Sul
+431337,43,RS,"Nova Santa Rita",Sul
+431339,43,RS,"Novo Cabrais",Sul
+431340,43,RS,"Novo Hamburgo",Sul
+431342,43,RS,"Novo Machado",Sul
+431344,43,RS,"Novo Tiradentes",Sul
+431346,43,RS,"Novo Xingu",Sul
+431349,43,RS,"Novo Barreiro",Sul
+431350,43,RS,Osório,Sul
+431360,43,RS,"Paim Filho",Sul
+431365,43,RS,"Palmares do Sul",Sul
+431370,43,RS,"Palmeira das Missões",Sul
+431380,43,RS,Palmitinho,Sul
+431390,43,RS,Panambi,Sul
+431395,43,RS,"Pantano Grande",Sul
+431400,43,RS,Paraí,Sul
+431402,43,RS,"Paraíso do Sul",Sul
+431403,43,RS,"Pareci Novo",Sul
+431405,43,RS,Parobé,Sul
+431406,43,RS,"Passa Sete",Sul
+431407,43,RS,"Passo do Sobrado",Sul
+431410,43,RS,"Passo Fundo",Sul
+431413,43,RS,"Paulo Bento",Sul
+431415,43,RS,Paverama,Sul
+431417,43,RS,"Pedras Altas",Sul
+431420,43,RS,"Pedro Osório",Sul
+431430,43,RS,Pejuçara,Sul
+431440,43,RS,Pelotas,Sul
+431442,43,RS,"Picada Café",Sul
+431445,43,RS,Pinhal,Sul
+431446,43,RS,"Pinhal da Serra",Sul
+431447,43,RS,"Pinhal Grande",Sul
+431449,43,RS,"Pinheirinho do Vale",Sul
+431450,43,RS,"Pinheiro Machado",Sul
+431455,43,RS,Pirapó,Sul
+431460,43,RS,Piratini,Sul
+431470,43,RS,Planalto,Sul
+431475,43,RS,"Poço das Antas",Sul
+431477,43,RS,Pontão,Sul
+431478,43,RS,"Ponte Preta",Sul
+431480,43,RS,Portão,Sul
+431490,43,RS,"Porto Alegre",Sul
+431500,43,RS,"Porto Lucena",Sul
+431505,43,RS,"Porto Mauá",Sul
+431507,43,RS,"Porto Vera Cruz",Sul
+431510,43,RS,"Porto Xavier",Sul
+431513,43,RS,"Pouso Novo",Sul
+431514,43,RS,"Presidente Lucena",Sul
+431515,43,RS,Progresso,Sul
+431517,43,RS,"Protásio Alves",Sul
+431520,43,RS,Putinga,Sul
+431530,43,RS,Quaraí,Sul
+431531,43,RS,"Quatro Irmãos",Sul
+431532,43,RS,Quevedos,Sul
+431535,43,RS,"Quinze de Novembro",Sul
+431540,43,RS,Redentora,Sul
+431545,43,RS,Relvado,Sul
+431550,43,RS,"Restinga Seca",Sul
+431555,43,RS,"Rio dos Índios",Sul
+431560,43,RS,"Rio Grande",Sul
+431570,43,RS,"Rio Pardo",Sul
+431575,43,RS,Riozinho,Sul
+431580,43,RS,"Roca Sales",Sul
+431590,43,RS,"Rodeio Bonito",Sul
+431595,43,RS,Rolador,Sul
+431600,43,RS,Rolante,Sul
+431610,43,RS,"Ronda Alta",Sul
+431620,43,RS,Rondinha,Sul
+431630,43,RS,"Roque Gonzales",Sul
+431640,43,RS,"Rosário do Sul",Sul
+431642,43,RS,"Sagrada Família",Sul
+431643,43,RS,"Saldanha Marinho",Sul
+431645,43,RS,"Salto do Jacuí",Sul
+431647,43,RS,"Salvador das Missões",Sul
+431650,43,RS,"Salvador do Sul",Sul
+431660,43,RS,Sananduva,Sul
+431670,43,RS,"Santa Bárbara do Sul",Sul
+431673,43,RS,"Santa Cecília do Sul",Sul
+431675,43,RS,"Santa Clara do Sul",Sul
+431680,43,RS,"Santa Cruz do Sul",Sul
+431690,43,RS,"Santa Maria",Sul
+431695,43,RS,"Santa Maria do Herval",Sul
+431697,43,RS,"Santa Margarida do Sul",Sul
+431700,43,RS,"Santana da Boa Vista",Sul
+431710,43,RS,"Sant' Ana do Livramento",Sul
+431720,43,RS,"Santa Rosa",Sul
+431725,43,RS,"Santa Tereza",Sul
+431730,43,RS,"Santa Vitória do Palmar",Sul
+431740,43,RS,Santiago,Sul
+431750,43,RS,"Santo Ângelo",Sul
+431755,43,RS,"Santo Antônio do Palma",Sul
+431760,43,RS,"Santo Antônio da Patrulha",Sul
+431770,43,RS,"Santo Antônio das Missões",Sul
+431775,43,RS,"Santo Antônio do Planalto",Sul
+431780,43,RS,"Santo Augusto",Sul
+431790,43,RS,"Santo Cristo",Sul
+431795,43,RS,"Santo Expedito do Sul",Sul
+431800,43,RS,"São Borja",Sul
+431805,43,RS,"São Domingos do Sul",Sul
+431810,43,RS,"São Francisco de Assis",Sul
+431820,43,RS,"São Francisco de Paula",Sul
+431830,43,RS,"São Gabriel",Sul
+431840,43,RS,"São Jerônimo",Sul
+431842,43,RS,"São João da Urtiga",Sul
+431843,43,RS,"São João do Polêsine",Sul
+431844,43,RS,"São Jorge",Sul
+431845,43,RS,"São José das Missões",Sul
+431846,43,RS,"São José do Herval",Sul
+431848,43,RS,"São José do Hortêncio",Sul
+431849,43,RS,"São José do Inhacorá",Sul
+431850,43,RS,"São José do Norte",Sul
+431860,43,RS,"São José do Ouro",Sul
+431861,43,RS,"São José do Sul",Sul
+431862,43,RS,"São José dos Ausentes",Sul
+431870,43,RS,"São Leopoldo",Sul
+431880,43,RS,"São Lourenço do Sul",Sul
+431890,43,RS,"São Luiz Gonzaga",Sul
+431900,43,RS,"São Marcos",Sul
+431910,43,RS,"São Martinho",Sul
+431912,43,RS,"São Martinho da Serra",Sul
+431915,43,RS,"São Miguel das Missões",Sul
+431920,43,RS,"São Nicolau",Sul
+431930,43,RS,"São Paulo das Missões",Sul
+431935,43,RS,"São Pedro da Serra",Sul
+431936,43,RS,"São Pedro das Missões",Sul
+431937,43,RS,"São Pedro do Butiá",Sul
+431940,43,RS,"São Pedro do Sul",Sul
+431950,43,RS,"São Sebastião do Caí",Sul
+431960,43,RS,"São Sepé",Sul
+431970,43,RS,"São Valentim",Sul
+431971,43,RS,"São Valentim do Sul",Sul
+431973,43,RS,"São Valério do Sul",Sul
+431975,43,RS,"São Vendelino",Sul
+431980,43,RS,"São Vicente do Sul",Sul
+431990,43,RS,Sapiranga,Sul
+432000,43,RS,"Sapucaia do Sul",Sul
+432010,43,RS,Sarandi,Sul
+432020,43,RS,Seberi,Sul
+432023,43,RS,"Sede Nova",Sul
+432026,43,RS,Segredo,Sul
+432030,43,RS,Selbach,Sul
+432032,43,RS,"Senador Salgado Filho",Sul
+432035,43,RS,"Sentinela do Sul",Sul
+432040,43,RS,"Serafina Corrêa",Sul
+432045,43,RS,Sério,Sul
+432050,43,RS,Sertão,Sul
+432055,43,RS,"Sertão Santana",Sul
+432057,43,RS,"Sete de Setembro",Sul
+432060,43,RS,"Severiano de Almeida",Sul
+432065,43,RS,"Silveira Martins",Sul
+432067,43,RS,Sinimbu,Sul
+432070,43,RS,Sobradinho,Sul
+432080,43,RS,Soledade,Sul
+432085,43,RS,Tabaí,Sul
+432090,43,RS,Tapejara,Sul
+432100,43,RS,Tapera,Sul
+432110,43,RS,Tapes,Sul
+432120,43,RS,Taquara,Sul
+432130,43,RS,Taquari,Sul
+432132,43,RS,"Taquaruçu do Sul",Sul
+432135,43,RS,Tavares,Sul
+432140,43,RS,"Tenente Portela",Sul
+432143,43,RS,"Terra de Areia",Sul
+432145,43,RS,Teutônia,Sul
+432146,43,RS,"Tio Hugo",Sul
+432147,43,RS,"Tiradentes do Sul",Sul
+432149,43,RS,Toropi,Sul
+432150,43,RS,Torres,Sul
+432160,43,RS,Tramandaí,Sul
+432162,43,RS,Travesseiro,Sul
+432163,43,RS,"Três Arroios",Sul
+432166,43,RS,"Três Cachoeiras",Sul
+432170,43,RS,"Três Coroas",Sul
+432180,43,RS,"Três de Maio",Sul
+432183,43,RS,"Três Forquilhas",Sul
+432185,43,RS,"Três Palmeiras",Sul
+432190,43,RS,"Três Passos",Sul
+432195,43,RS,"Trindade do Sul",Sul
+432200,43,RS,Triunfo,Sul
+432210,43,RS,Tucunduva,Sul
+432215,43,RS,Tunas,Sul
+432218,43,RS,"Tupanci do Sul",Sul
+432220,43,RS,Tupanciretã,Sul
+432225,43,RS,Tupandi,Sul
+432230,43,RS,Tuparendi,Sul
+432232,43,RS,Turuçu,Sul
+432234,43,RS,Ubiretama,Sul
+432235,43,RS,"União da Serra",Sul
+432237,43,RS,Unistalda,Sul
+432240,43,RS,Uruguaiana,Sul
+432250,43,RS,Vacaria,Sul
+432252,43,RS,"Vale Verde",Sul
+432253,43,RS,"Vale do Sol",Sul
+432254,43,RS,"Vale Real",Sul
+432255,43,RS,Vanini,Sul
+432260,43,RS,"Venâncio Aires",Sul
+432270,43,RS,"Vera Cruz",Sul
+432280,43,RS,Veranópolis,Sul
+432285,43,RS,"Vespasiano Correa",Sul
+432290,43,RS,Viadutos,Sul
+432300,43,RS,Viamão,Sul
+432310,43,RS,"Vicente Dutra",Sul
+432320,43,RS,"Victor Graeff",Sul
+432330,43,RS,"Vila Flores",Sul
+432335,43,RS,"Vila Lângaro",Sul
+432340,43,RS,"Vila Maria",Sul
+432345,43,RS,"Vila Nova do Sul",Sul
+432350,43,RS,"Vista Alegre",Sul
+432360,43,RS,"Vista Alegre do Prata",Sul
+432370,43,RS,"Vista Gaúcha",Sul
+432375,43,RS,"Vitória das Missões",Sul
+432377,43,RS,Westfalia,Sul
+432380,43,RS,Xangri-lá,Sul
+500020,50,MS,"Água Clara",Centro-Oeste
+500025,50,MS,Alcinópolis,Centro-Oeste
+500060,50,MS,Amambai,Centro-Oeste
+500070,50,MS,Anastácio,Centro-Oeste
+500080,50,MS,Anaurilândia,Centro-Oeste
+500085,50,MS,Angélica,Centro-Oeste
+500090,50,MS,"Antônio João",Centro-Oeste
+500100,50,MS,"Aparecida do Taboado",Centro-Oeste
+500110,50,MS,Aquidauana,Centro-Oeste
+500124,50,MS,"Aral Moreira",Centro-Oeste
+500150,50,MS,Bandeirantes,Centro-Oeste
+500190,50,MS,Bataguassu,Centro-Oeste
+500200,50,MS,Batayporã,Centro-Oeste
+500210,50,MS,"Bela Vista",Centro-Oeste
+500215,50,MS,Bodoquena,Centro-Oeste
+500220,50,MS,Bonito,Centro-Oeste
+500230,50,MS,Brasilândia,Centro-Oeste
+500240,50,MS,Caarapó,Centro-Oeste
+500260,50,MS,Camapuã,Centro-Oeste
+500270,50,MS,"Campo Grande",Centro-Oeste
+500280,50,MS,Caracol,Centro-Oeste
+500290,50,MS,Cassilândia,Centro-Oeste
+500295,50,MS,"Chapadão do Sul",Centro-Oeste
+500310,50,MS,Corguinho,Centro-Oeste
+500315,50,MS,"Coronel Sapucaia",Centro-Oeste
+500320,50,MS,Corumbá,Centro-Oeste
+500325,50,MS,"Costa Rica",Centro-Oeste
+500330,50,MS,Coxim,Centro-Oeste
+500345,50,MS,Deodápolis,Centro-Oeste
+500348,50,MS,"Dois Irmãos do Buriti",Centro-Oeste
+500350,50,MS,Douradina,Centro-Oeste
+500370,50,MS,Dourados,Centro-Oeste
+500375,50,MS,Eldorado,Centro-Oeste
+500380,50,MS,"Fátima do Sul",Centro-Oeste
+500390,50,MS,Figueirão,Centro-Oeste
+500400,50,MS,"Glória de Dourados",Centro-Oeste
+500410,50,MS,"Guia Lopes da Laguna",Centro-Oeste
+500430,50,MS,Iguatemi,Centro-Oeste
+500440,50,MS,Inocência,Centro-Oeste
+500450,50,MS,Itaporã,Centro-Oeste
+500460,50,MS,Itaquiraí,Centro-Oeste
+500470,50,MS,Ivinhema,Centro-Oeste
+500480,50,MS,Japorã,Centro-Oeste
+500490,50,MS,Jaraguari,Centro-Oeste
+500500,50,MS,Jardim,Centro-Oeste
+500510,50,MS,Jateí,Centro-Oeste
+500515,50,MS,Juti,Centro-Oeste
+500520,50,MS,Ladário,Centro-Oeste
+500525,50,MS,"Laguna Carapã",Centro-Oeste
+500540,50,MS,Maracaju,Centro-Oeste
+500560,50,MS,Miranda,Centro-Oeste
+500568,50,MS,"Mundo Novo",Centro-Oeste
+500570,50,MS,Naviraí,Centro-Oeste
+500580,50,MS,Nioaque,Centro-Oeste
+500600,50,MS,"Nova Alvorada do Sul",Centro-Oeste
+500620,50,MS,"Nova Andradina",Centro-Oeste
+500625,50,MS,"Novo Horizonte do Sul",Centro-Oeste
+500630,50,MS,Paranaíba,Centro-Oeste
+500635,50,MS,Paranhos,Centro-Oeste
+500640,50,MS,"Pedro Gomes",Centro-Oeste
+500660,50,MS,"Ponta Porã",Centro-Oeste
+500690,50,MS,"Porto Murtinho",Centro-Oeste
+500710,50,MS,"Ribas do Rio Pardo",Centro-Oeste
+500720,50,MS,"Rio Brilhante",Centro-Oeste
+500730,50,MS,"Rio Negro",Centro-Oeste
+500740,50,MS,"Rio Verde de Mato Grosso",Centro-Oeste
+500750,50,MS,Rochedo,Centro-Oeste
+500755,50,MS,"Santa Rita do Pardo",Centro-Oeste
+500769,50,MS,"São Gabriel do Oeste",Centro-Oeste
+500770,50,MS,"Sete Quedas",Centro-Oeste
+500780,50,MS,Selvíria,Centro-Oeste
+500790,50,MS,Sidrolândia,Centro-Oeste
+500793,50,MS,Sonora,Centro-Oeste
+500795,50,MS,Tacuru,Centro-Oeste
+500797,50,MS,Taquarussu,Centro-Oeste
+500800,50,MS,Terenos,Centro-Oeste
+500830,50,MS,"Três Lagoas",Centro-Oeste
+500840,50,MS,Vicentina,Centro-Oeste
+510010,51,MT,Acorizal,Centro-Oeste
+510020,51,MT,"Água Boa",Centro-Oeste
+510025,51,MT,"Alta Floresta",Centro-Oeste
+510030,51,MT,"Alto Araguaia",Centro-Oeste
+510035,51,MT,"Alto Boa Vista",Centro-Oeste
+510040,51,MT,"Alto Garças",Centro-Oeste
+510050,51,MT,"Alto Paraguai",Centro-Oeste
+510060,51,MT,"Alto Taquari",Centro-Oeste
+510080,51,MT,Apiacás,Centro-Oeste
+510100,51,MT,Araguaiana,Centro-Oeste
+510120,51,MT,Araguainha,Centro-Oeste
+510125,51,MT,Araputanga,Centro-Oeste
+510130,51,MT,Arenápolis,Centro-Oeste
+510140,51,MT,Aripuanã,Centro-Oeste
+510160,51,MT,"Barão de Melgaço",Centro-Oeste
+510170,51,MT,"Barra do Bugres",Centro-Oeste
+510180,51,MT,"Barra do Garças",Centro-Oeste
+510185,51,MT,"Bom Jesus do Araguaia",Centro-Oeste
+510190,51,MT,Brasnorte,Centro-Oeste
+510250,51,MT,Cáceres,Centro-Oeste
+510260,51,MT,Campinápolis,Centro-Oeste
+510263,51,MT,"Campo Novo do Parecis",Centro-Oeste
+510267,51,MT,"Campo Verde",Centro-Oeste
+510268,51,MT,"Campos de Júlio",Centro-Oeste
+510269,51,MT,"Canabrava do Norte",Centro-Oeste
+510270,51,MT,Canarana,Centro-Oeste
+510279,51,MT,Carlinda,Centro-Oeste
+510285,51,MT,Castanheira,Centro-Oeste
+510300,51,MT,"Chapada dos Guimarães",Centro-Oeste
+510305,51,MT,Cláudia,Centro-Oeste
+510310,51,MT,Cocalinho,Centro-Oeste
+510320,51,MT,Colíder,Centro-Oeste
+510325,51,MT,Colniza,Centro-Oeste
+510330,51,MT,Comodoro,Centro-Oeste
+510335,51,MT,Confresa,Centro-Oeste
+510336,51,MT,"Conquista D'Oeste",Centro-Oeste
+510337,51,MT,Cotriguaçu,Centro-Oeste
+510340,51,MT,Cuiabá,Centro-Oeste
+510343,51,MT,Curvelândia,Centro-Oeste
+510345,51,MT,Denise,Centro-Oeste
+510350,51,MT,Diamantino,Centro-Oeste
+510360,51,MT,"Dom Aquino",Centro-Oeste
+510370,51,MT,"Feliz Natal",Centro-Oeste
+510380,51,MT,"Figueirópolis D'Oeste",Centro-Oeste
+510385,51,MT,"Gaúcha do Norte",Centro-Oeste
+510390,51,MT,"General Carneiro",Centro-Oeste
+510395,51,MT,"Glória D'Oeste",Centro-Oeste
+510410,51,MT,"Guarantã do Norte",Centro-Oeste
+510420,51,MT,Guiratinga,Centro-Oeste
+510450,51,MT,Indiavaí,Centro-Oeste
+510452,51,MT,"Ipiranga do Norte",Centro-Oeste
+510454,51,MT,Itanhangá,Centro-Oeste
+510455,51,MT,Itaúba,Centro-Oeste
+510460,51,MT,Itiquira,Centro-Oeste
+510480,51,MT,Jaciara,Centro-Oeste
+510490,51,MT,Jangada,Centro-Oeste
+510500,51,MT,Jauru,Centro-Oeste
+510510,51,MT,Juara,Centro-Oeste
+510515,51,MT,Juína,Centro-Oeste
+510517,51,MT,Juruena,Centro-Oeste
+510520,51,MT,Juscimeira,Centro-Oeste
+510523,51,MT,"Lambari D'Oeste",Centro-Oeste
+510525,51,MT,"Lucas do Rio Verde",Centro-Oeste
+510530,51,MT,Luciara,Centro-Oeste
+510550,51,MT,"Vila Bela da Santíssima Trindade",Centro-Oeste
+510558,51,MT,Marcelândia,Centro-Oeste
+510560,51,MT,Matupá,Centro-Oeste
+510562,51,MT,"Mirassol d'Oeste",Centro-Oeste
+510590,51,MT,Nobres,Centro-Oeste
+510600,51,MT,Nortelândia,Centro-Oeste
+510610,51,MT,"Nossa Senhora do Livramento",Centro-Oeste
+510615,51,MT,"Nova Bandeirantes",Centro-Oeste
+510617,51,MT,"Nova Nazaré",Centro-Oeste
+510618,51,MT,"Nova Lacerda",Centro-Oeste
+510619,51,MT,"Nova Santa Helena",Centro-Oeste
+510620,51,MT,"Nova Brasilândia",Centro-Oeste
+510621,51,MT,"Nova Canaã do Norte",Centro-Oeste
+510622,51,MT,"Nova Mutum",Centro-Oeste
+510623,51,MT,"Nova Olímpia",Centro-Oeste
+510624,51,MT,"Nova Ubiratã",Centro-Oeste
+510625,51,MT,"Nova Xavantina",Centro-Oeste
+510626,51,MT,"Novo Mundo",Centro-Oeste
+510627,51,MT,"Novo Horizonte do Norte",Centro-Oeste
+510628,51,MT,"Novo São Joaquim",Centro-Oeste
+510629,51,MT,Paranaíta,Centro-Oeste
+510630,51,MT,Paranatinga,Centro-Oeste
+510631,51,MT,"Novo Santo Antônio",Centro-Oeste
+510637,51,MT,"Pedra Preta",Centro-Oeste
+510642,51,MT,"Peixoto de Azevedo",Centro-Oeste
+510645,51,MT,"Planalto da Serra",Centro-Oeste
+510650,51,MT,Poconé,Centro-Oeste
+510665,51,MT,"Pontal do Araguaia",Centro-Oeste
+510670,51,MT,"Ponte Branca",Centro-Oeste
+510675,51,MT,"Pontes e Lacerda",Centro-Oeste
+510677,51,MT,"Porto Alegre do Norte",Centro-Oeste
+510680,51,MT,"Porto dos Gaúchos",Centro-Oeste
+510682,51,MT,"Porto Esperidião",Centro-Oeste
+510685,51,MT,"Porto Estrela",Centro-Oeste
+510700,51,MT,Poxoréo,Centro-Oeste
+510704,51,MT,"Primavera do Leste",Centro-Oeste
+510706,51,MT,Querência,Centro-Oeste
+510710,51,MT,"São José dos Quatro Marcos",Centro-Oeste
+510715,51,MT,"Reserva do Cabaçal",Centro-Oeste
+510718,51,MT,"Ribeirão Cascalheira",Centro-Oeste
+510719,51,MT,Ribeirãozinho,Centro-Oeste
+510720,51,MT,"Rio Branco",Centro-Oeste
+510724,51,MT,"Santa Carmem",Centro-Oeste
+510726,51,MT,"Santo Afonso",Centro-Oeste
+510729,51,MT,"São José do Povo",Centro-Oeste
+510730,51,MT,"São José do Rio Claro",Centro-Oeste
+510735,51,MT,"São José do Xingu",Centro-Oeste
+510740,51,MT,"São Pedro da Cipa",Centro-Oeste
+510757,51,MT,Rondolândia,Centro-Oeste
+510760,51,MT,Rondonópolis,Centro-Oeste
+510770,51,MT,"Rosário Oeste",Centro-Oeste
+510774,51,MT,"Santa Cruz do Xingu",Centro-Oeste
+510775,51,MT,"Salto do Céu",Centro-Oeste
+510776,51,MT,"Santa Rita do Trivelato",Centro-Oeste
+510777,51,MT,"Santa Terezinha",Centro-Oeste
+510779,51,MT,"Santo Antônio do Leste",Centro-Oeste
+510780,51,MT,"Santo Antônio do Leverger",Centro-Oeste
+510785,51,MT,"São Félix do Araguaia",Centro-Oeste
+510787,51,MT,Sapezal,Centro-Oeste
+510788,51,MT,"Serra Nova Dourada",Centro-Oeste
+510790,51,MT,Sinop,Centro-Oeste
+510792,51,MT,Sorriso,Centro-Oeste
+510794,51,MT,Tabaporã,Centro-Oeste
+510795,51,MT,"Tangará da Serra",Centro-Oeste
+510800,51,MT,Tapurah,Centro-Oeste
+510805,51,MT,"Terra Nova do Norte",Centro-Oeste
+510810,51,MT,Tesouro,Centro-Oeste
+510820,51,MT,Torixoréu,Centro-Oeste
+510830,51,MT,"União do Sul",Centro-Oeste
+510835,51,MT,"Vale de São Domingos",Centro-Oeste
+510840,51,MT,"Várzea Grande",Centro-Oeste
+510850,51,MT,Vera,Centro-Oeste
+510860,51,MT,"Vila Rica",Centro-Oeste
+510880,51,MT,"Nova Guarita",Centro-Oeste
+510885,51,MT,"Nova Marilândia",Centro-Oeste
+510890,51,MT,"Nova Maringá",Centro-Oeste
+510895,51,MT,"Nova Monte Verde",Centro-Oeste
+520005,52,GO,"Abadia de Goiás",Centro-Oeste
+520010,52,GO,Abadiânia,Centro-Oeste
+520013,52,GO,Acreúna,Centro-Oeste
+520015,52,GO,Adelândia,Centro-Oeste
+520017,52,GO,"Água Fria de Goiás",Centro-Oeste
+520020,52,GO,"Água Limpa",Centro-Oeste
+520025,52,GO,"Águas Lindas de Goiás",Centro-Oeste
+520030,52,GO,Alexânia,Centro-Oeste
+520050,52,GO,Aloândia,Centro-Oeste
+520055,52,GO,"Alto Horizonte",Centro-Oeste
+520060,52,GO,"Alto Paraíso de Goiás",Centro-Oeste
+520080,52,GO,"Alvorada do Norte",Centro-Oeste
+520082,52,GO,Amaralina,Centro-Oeste
+520085,52,GO,"Americano do Brasil",Centro-Oeste
+520090,52,GO,Amorinópolis,Centro-Oeste
+520110,52,GO,Anápolis,Centro-Oeste
+520120,52,GO,Anhanguera,Centro-Oeste
+520130,52,GO,Anicuns,Centro-Oeste
+520140,52,GO,"Aparecida de Goiânia",Centro-Oeste
+520145,52,GO,"Aparecida do Rio Doce",Centro-Oeste
+520150,52,GO,Aporé,Centro-Oeste
+520160,52,GO,Araçu,Centro-Oeste
+520170,52,GO,Aragarças,Centro-Oeste
+520180,52,GO,Aragoiânia,Centro-Oeste
+520215,52,GO,Araguapaz,Centro-Oeste
+520235,52,GO,Arenópolis,Centro-Oeste
+520250,52,GO,Aruanã,Centro-Oeste
+520260,52,GO,Aurilândia,Centro-Oeste
+520280,52,GO,Avelinópolis,Centro-Oeste
+520310,52,GO,Baliza,Centro-Oeste
+520320,52,GO,"Barro Alto",Centro-Oeste
+520330,52,GO,"Bela Vista de Goiás",Centro-Oeste
+520340,52,GO,"Bom Jardim de Goiás",Centro-Oeste
+520350,52,GO,"Bom Jesus de Goiás",Centro-Oeste
+520355,52,GO,Bonfinópolis,Centro-Oeste
+520357,52,GO,Bonópolis,Centro-Oeste
+520360,52,GO,Brazabrantes,Centro-Oeste
+520380,52,GO,Britânia,Centro-Oeste
+520390,52,GO,"Buriti Alegre",Centro-Oeste
+520393,52,GO,"Buriti de Goiás",Centro-Oeste
+520396,52,GO,Buritinópolis,Centro-Oeste
+520400,52,GO,Cabeceiras,Centro-Oeste
+520410,52,GO,"Cachoeira Alta",Centro-Oeste
+520420,52,GO,"Cachoeira de Goiás",Centro-Oeste
+520425,52,GO,"Cachoeira Dourada",Centro-Oeste
+520430,52,GO,Caçu,Centro-Oeste
+520440,52,GO,Caiapônia,Centro-Oeste
+520450,52,GO,"Caldas Novas",Centro-Oeste
+520455,52,GO,Caldazinha,Centro-Oeste
+520460,52,GO,"Campestre de Goiás",Centro-Oeste
+520465,52,GO,Campinaçu,Centro-Oeste
+520470,52,GO,Campinorte,Centro-Oeste
+520480,52,GO,"Campo Alegre de Goiás",Centro-Oeste
+520485,52,GO,"Campo Limpo de Goiás",Centro-Oeste
+520490,52,GO,"Campos Belos",Centro-Oeste
+520495,52,GO,"Campos Verdes",Centro-Oeste
+520500,52,GO,"Carmo do Rio Verde",Centro-Oeste
+520505,52,GO,Castelândia,Centro-Oeste
+520510,52,GO,Catalão,Centro-Oeste
+520520,52,GO,Caturaí,Centro-Oeste
+520530,52,GO,Cavalcante,Centro-Oeste
+520540,52,GO,Ceres,Centro-Oeste
+520545,52,GO,Cezarina,Centro-Oeste
+520547,52,GO,"Chapadão do Céu",Centro-Oeste
+520549,52,GO,"Cidade Ocidental",Centro-Oeste
+520551,52,GO,"Cocalzinho de Goiás",Centro-Oeste
+520552,52,GO,"Colinas do Sul",Centro-Oeste
+520570,52,GO,"Córrego do Ouro",Centro-Oeste
+520580,52,GO,"Corumbá de Goiás",Centro-Oeste
+520590,52,GO,Corumbaíba,Centro-Oeste
+520620,52,GO,Cristalina,Centro-Oeste
+520630,52,GO,Cristianópolis,Centro-Oeste
+520640,52,GO,Crixás,Centro-Oeste
+520650,52,GO,Cromínia,Centro-Oeste
+520660,52,GO,Cumari,Centro-Oeste
+520670,52,GO,Damianópolis,Centro-Oeste
+520680,52,GO,Damolândia,Centro-Oeste
+520690,52,GO,Davinópolis,Centro-Oeste
+520710,52,GO,Diorama,Centro-Oeste
+520725,52,GO,Doverlândia,Centro-Oeste
+520735,52,GO,Edealina,Centro-Oeste
+520740,52,GO,Edéia,Centro-Oeste
+520750,52,GO,"Estrela do Norte",Centro-Oeste
+520753,52,GO,Faina,Centro-Oeste
+520760,52,GO,"Fazenda Nova",Centro-Oeste
+520780,52,GO,Firminópolis,Centro-Oeste
+520790,52,GO,"Flores de Goiás",Centro-Oeste
+520800,52,GO,Formosa,Centro-Oeste
+520810,52,GO,Formoso,Centro-Oeste
+520815,52,GO,"Gameleira de Goiás",Centro-Oeste
+520830,52,GO,"Divinópolis de Goiás",Centro-Oeste
+520840,52,GO,Goianápolis,Centro-Oeste
+520850,52,GO,Goiandira,Centro-Oeste
+520860,52,GO,Goianésia,Centro-Oeste
+520870,52,GO,Goiânia,Centro-Oeste
+520880,52,GO,Goianira,Centro-Oeste
+520890,52,GO,Goiás,Centro-Oeste
+520910,52,GO,Goiatuba,Centro-Oeste
+520915,52,GO,Gouvelândia,Centro-Oeste
+520920,52,GO,Guapó,Centro-Oeste
+520929,52,GO,Guaraíta,Centro-Oeste
+520940,52,GO,"Guarani de Goiás",Centro-Oeste
+520945,52,GO,Guarinos,Centro-Oeste
+520960,52,GO,Heitoraí,Centro-Oeste
+520970,52,GO,Hidrolândia,Centro-Oeste
+520980,52,GO,Hidrolina,Centro-Oeste
+520990,52,GO,Iaciara,Centro-Oeste
+520993,52,GO,Inaciolândia,Centro-Oeste
+520995,52,GO,Indiara,Centro-Oeste
+521000,52,GO,Inhumas,Centro-Oeste
+521010,52,GO,Ipameri,Centro-Oeste
+521015,52,GO,"Ipiranga de Goiás",Centro-Oeste
+521020,52,GO,Iporá,Centro-Oeste
+521030,52,GO,Israelândia,Centro-Oeste
+521040,52,GO,Itaberaí,Centro-Oeste
+521056,52,GO,Itaguari,Centro-Oeste
+521060,52,GO,Itaguaru,Centro-Oeste
+521080,52,GO,Itajá,Centro-Oeste
+521090,52,GO,Itapaci,Centro-Oeste
+521100,52,GO,Itapirapuã,Centro-Oeste
+521120,52,GO,Itapuranga,Centro-Oeste
+521130,52,GO,Itarumã,Centro-Oeste
+521140,52,GO,Itauçu,Centro-Oeste
+521150,52,GO,Itumbiara,Centro-Oeste
+521160,52,GO,Ivolândia,Centro-Oeste
+521170,52,GO,Jandaia,Centro-Oeste
+521180,52,GO,Jaraguá,Centro-Oeste
+521190,52,GO,Jataí,Centro-Oeste
+521200,52,GO,Jaupaci,Centro-Oeste
+521205,52,GO,Jesúpolis,Centro-Oeste
+521210,52,GO,Joviânia,Centro-Oeste
+521220,52,GO,Jussara,Centro-Oeste
+521225,52,GO,"Lagoa Santa",Centro-Oeste
+521230,52,GO,"Leopoldo de Bulhões",Centro-Oeste
+521250,52,GO,Luziânia,Centro-Oeste
+521260,52,GO,Mairipotaba,Centro-Oeste
+521270,52,GO,Mambaí,Centro-Oeste
+521280,52,GO,"Mara Rosa",Centro-Oeste
+521290,52,GO,Marzagão,Centro-Oeste
+521295,52,GO,Matrinchã,Centro-Oeste
+521300,52,GO,Maurilândia,Centro-Oeste
+521305,52,GO,"Mimoso de Goiás",Centro-Oeste
+521308,52,GO,Minaçu,Centro-Oeste
+521310,52,GO,Mineiros,Centro-Oeste
+521340,52,GO,Moiporá,Centro-Oeste
+521350,52,GO,"Monte Alegre de Goiás",Centro-Oeste
+521370,52,GO,"Montes Claros de Goiás",Centro-Oeste
+521375,52,GO,Montividiu,Centro-Oeste
+521377,52,GO,"Montividiu do Norte",Centro-Oeste
+521380,52,GO,Morrinhos,Centro-Oeste
+521385,52,GO,"Morro Agudo de Goiás",Centro-Oeste
+521390,52,GO,Mossâmedes,Centro-Oeste
+521400,52,GO,Mozarlândia,Centro-Oeste
+521405,52,GO,"Mundo Novo",Centro-Oeste
+521410,52,GO,Mutunópolis,Centro-Oeste
+521440,52,GO,Nazário,Centro-Oeste
+521450,52,GO,Nerópolis,Centro-Oeste
+521460,52,GO,Niquelândia,Centro-Oeste
+521470,52,GO,"Nova América",Centro-Oeste
+521480,52,GO,"Nova Aurora",Centro-Oeste
+521483,52,GO,"Nova Crixás",Centro-Oeste
+521486,52,GO,"Nova Glória",Centro-Oeste
+521487,52,GO,"Nova Iguaçu de Goiás",Centro-Oeste
+521490,52,GO,"Nova Roma",Centro-Oeste
+521500,52,GO,"Nova Veneza",Centro-Oeste
+521520,52,GO,"Novo Brasil",Centro-Oeste
+521523,52,GO,"Novo Gama",Centro-Oeste
+521525,52,GO,"Novo Planalto",Centro-Oeste
+521530,52,GO,Orizona,Centro-Oeste
+521540,52,GO,"Ouro Verde de Goiás",Centro-Oeste
+521550,52,GO,Ouvidor,Centro-Oeste
+521560,52,GO,"Padre Bernardo",Centro-Oeste
+521565,52,GO,"Palestina de Goiás",Centro-Oeste
+521570,52,GO,"Palmeiras de Goiás",Centro-Oeste
+521580,52,GO,Palmelo,Centro-Oeste
+521590,52,GO,Palminópolis,Centro-Oeste
+521600,52,GO,Panamá,Centro-Oeste
+521630,52,GO,Paranaiguara,Centro-Oeste
+521640,52,GO,Paraúna,Centro-Oeste
+521645,52,GO,Perolândia,Centro-Oeste
+521680,52,GO,"Petrolina de Goiás",Centro-Oeste
+521690,52,GO,"Pilar de Goiás",Centro-Oeste
+521710,52,GO,Piracanjuba,Centro-Oeste
+521720,52,GO,Piranhas,Centro-Oeste
+521730,52,GO,Pirenópolis,Centro-Oeste
+521740,52,GO,"Pires do Rio",Centro-Oeste
+521760,52,GO,Planaltina,Centro-Oeste
+521770,52,GO,Pontalina,Centro-Oeste
+521800,52,GO,Porangatu,Centro-Oeste
+521805,52,GO,Porteirão,Centro-Oeste
+521810,52,GO,Portelândia,Centro-Oeste
+521830,52,GO,Posse,Centro-Oeste
+521839,52,GO,"Professor Jamil",Centro-Oeste
+521850,52,GO,Quirinópolis,Centro-Oeste
+521860,52,GO,Rialma,Centro-Oeste
+521870,52,GO,Rianápolis,Centro-Oeste
+521878,52,GO,"Rio Quente",Centro-Oeste
+521880,52,GO,"Rio Verde",Centro-Oeste
+521890,52,GO,Rubiataba,Centro-Oeste
+521900,52,GO,Sanclerlândia,Centro-Oeste
+521910,52,GO,"Santa Bárbara de Goiás",Centro-Oeste
+521920,52,GO,"Santa Cruz de Goiás",Centro-Oeste
+521925,52,GO,"Santa Fé de Goiás",Centro-Oeste
+521930,52,GO,"Santa Helena de Goiás",Centro-Oeste
+521935,52,GO,"Santa Isabel",Centro-Oeste
+521940,52,GO,"Santa Rita do Araguaia",Centro-Oeste
+521945,52,GO,"Santa Rita do Novo Destino",Centro-Oeste
+521950,52,GO,"Santa Rosa de Goiás",Centro-Oeste
+521960,52,GO,"Santa Tereza de Goiás",Centro-Oeste
+521970,52,GO,"Santa Terezinha de Goiás",Centro-Oeste
+521971,52,GO,"Santo Antônio da Barra",Centro-Oeste
+521973,52,GO,"Santo Antônio de Goiás",Centro-Oeste
+521975,52,GO,"Santo Antônio do Descoberto",Centro-Oeste
+521980,52,GO,"São Domingos",Centro-Oeste
+521990,52,GO,"São Francisco de Goiás",Centro-Oeste
+522000,52,GO,"São João d'Aliança",Centro-Oeste
+522005,52,GO,"São João da Paraúna",Centro-Oeste
+522010,52,GO,"São Luís de Montes Belos",Centro-Oeste
+522015,52,GO,"São Luíz do Norte",Centro-Oeste
+522020,52,GO,"São Miguel do Araguaia",Centro-Oeste
+522026,52,GO,"São Miguel do Passa Quatro",Centro-Oeste
+522028,52,GO,"São Patrício",Centro-Oeste
+522040,52,GO,"São Simão",Centro-Oeste
+522045,52,GO,"Senador Canedo",Centro-Oeste
+522050,52,GO,Serranópolis,Centro-Oeste
+522060,52,GO,Silvânia,Centro-Oeste
+522068,52,GO,Simolândia,Centro-Oeste
+522070,52,GO,"Sítio d'Abadia",Centro-Oeste
+522100,52,GO,"Taquaral de Goiás",Centro-Oeste
+522108,52,GO,"Teresina de Goiás",Centro-Oeste
+522119,52,GO,"Terezópolis de Goiás",Centro-Oeste
+522130,52,GO,"Três Ranchos",Centro-Oeste
+522140,52,GO,Trindade,Centro-Oeste
+522145,52,GO,Trombas,Centro-Oeste
+522150,52,GO,Turvânia,Centro-Oeste
+522155,52,GO,Turvelândia,Centro-Oeste
+522157,52,GO,Uirapuru,Centro-Oeste
+522160,52,GO,Uruaçu,Centro-Oeste
+522170,52,GO,Uruana,Centro-Oeste
+522180,52,GO,Urutaí,Centro-Oeste
+522185,52,GO,"Valparaíso de Goiás",Centro-Oeste
+522190,52,GO,Varjão,Centro-Oeste
+522200,52,GO,Vianópolis,Centro-Oeste
+522205,52,GO,Vicentinópolis,Centro-Oeste
+522220,52,GO,"Vila Boa",Centro-Oeste
+522230,52,GO,"Vila Propício",Centro-Oeste
+530010,53,DF,Brasília,Centro-Oeste
