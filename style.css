@@ -1253,6 +1253,12 @@ label ~ span.required {
 	margin-bottom: 1rem;
 }
 
+.template-front-page .site-content {
+    width: 45%;
+}
+.template-front-page .widget-area {
+    width:50%;
+}
 .template-front-page .widget-area .widget li {
 	margin: 8px 0 0;
 	margin: 0.571428571rem 0 0;
@@ -1496,6 +1502,16 @@ img#wpstats {
 		float: none;
 		width: auto;
 	}
+    /* New stuff: botões da 1a sidebar da home */
+    .first.front-widgets H3.widget-title {
+        display: block;
+        text-align: center;
+        background-color: #A1D76A;
+        color: #FFF;
+        padding: 10px;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+	}
 }
 
 /* Minimum width of 960 pixels. */
@@ -1675,15 +1691,6 @@ img#wpstats {
 /* New Stuff
 ----------------------------------------------- */
 
-iframe {
-    width: 250px;
-    height: 250px;
-    margin: 15px;
-    padding: 10px;
-    border: 1px solid black;
-    float: left;
-}
-
 .ficha {
     margin: 10px;
     margin-bottom: 20px;
@@ -1728,12 +1735,31 @@ iframe {
 
 .arquivo li:first-child{
     list-style-type: circle;
+    }
 
-//search stuff
+/* Seatch Stuff
+----------------------------------------------- */
+#searchform {
+    width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+#s {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#searchsubmit {
+    width: 20%;
+    height: 100%;
+    float: right;
+    font-size: 1em;
+}
+
 #autocomplete {
-        display: block;
-        position:absolute;
-        z-index:100;
+    display: block;
+    position:absolute;
+    z-index:100;
 	width:255px;
 	font-size:80%;
 	color:#555;

@@ -35,8 +35,9 @@
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<?php else : ?>
-		<div class="entry-content">
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
+		<div class="entry-content" style="float:left"> <!-- retirar!! -->
+            <?php echo do_shortcode("[mapbox layers='acaoeducativa.mapadosplanos' api='' options='' lat='-13.3255' lon='-51.1523' z='7' width='250' height='250']"); ?>
+			<!-- <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?> -->
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 		<?php endif; ?>
