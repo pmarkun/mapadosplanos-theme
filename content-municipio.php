@@ -45,35 +45,61 @@
 
 		<!-- EXIBICAO DOS CUSTOMFIELDS -->
 		<div class="ficha">
-			<?php
-				$custom_fields = get_post_custom(the_ID());
-				foreach ( $custom_fields as $key => $value )
-					echo $key . " => " . $custom_fields[$key][0] . "<br />";
-			?>
+			<?php 
+                $custom_fields = get_post_custom(the_ID());
+				//foreach ( $custom_fields as $key => $value )
+				//	echo $key . " => " . $custom_fields[$key][0] . "<br />";
+                echo '<div id="pergunta1">Tem plano?</div> <div id="resposta">' . $custom_fields['A187'][0] . '</div>';
+                
+                echo '<spam><hr /></spam>';
+                echo '<div id="pergunta1">Instâncias de Gestão Democrática:</div>';
+                echo '<div id="pergunta2">Sistema Municipal de Ensino</div> <div id="resposta">' . $custom_fields['A171'][0]. '</div>';
+                echo '<div id="pergunta2">Fundo Municipal de Educação</div> <div id="resposta">' . $custom_fields['A219'][0]. '</div>';
+                echo '<div id="pergunta2">Conselho Municipal de Educação</div> <div id="resposta">' . $custom_fields['A211'][0]. '</div>';
+                echo '<div id="pergunta2">Conselho de Controle e Acompanhamento Social do FUNDEF</div> <div id="resposta">'. $custom_fields['A181'][0]. '</div>';
+                echo '<div id="pergunta2">Conselhos Escolares</div> <div id="resposta">' . $custom_fields['A182'][0]. '</div>';
+                echo '<div id="pergunta2">Conselho de Alimentação Escolar</div> <div id="resposta">' . $custom_fields['A183'][0]. '</div>';
+                echo '<div id="pergunta2">Conselho do Transporte Escolar</div> <div id="resposta">' .	$custom_fields['A184'][0]. '</div>';
+                
+                echo '<spam><hr /></spam>';
+                echo '<div id="pergunta1">O Plano Municipal de Educação incorpora educação em direitos humanos no currículo?</div> <div id="resposta">'. $custom_fields['A188'][0]. '</div>';
+                
+                echo '<spam><hr /></spam>';
+                echo '<div id="pergunta1">Na rede municipal de ensino existe capacitação de professores em:</div>';
+                echo '<div id="pergunta2">Direitos Humanos</div> <div id="resposta">' . $custom_fields['A189'][0]. '</div>';
+                echo '<div id="pergunta2">Gênero</div> <div id="resposta">' . $custom_fields['A190'][0]. '</div>';
+                echo '<div id="pergunta2">Raça/etnia</div> <div id="resposta">' . $custom_fields['A191'][0]. '</div>';
+                echo '<div id="pergunta2">Orientação Sexual</div> <div id="resposta">' . $custom_fields['A192'][0]. '</div>';
+                
+                echo '<spam><hr /></spam>';
+                echo '<div id="pergunta1">Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</div> <div id="resposta">' . $custom_fields['A194'][0]. '</div>';
+            ?>
 			<?php endif; ?>
 		</div>
 		<!-- FIM DA EXIBICAO DOS CUSTOMFIELDS -->
 		
 		<!-- EXIBICAO DOS ATTACHMENTS -->
-		<h1>lere</h1>
-		<?php
-		  if( function_exists( 'attachments_get_attachments' ) )
-		  {
-			$attachments = attachments_get_attachments();
-			$total_attachments = count( $attachments );
-			if( $total_attachments ) : ?>
-			  <ul>
-			  <?php for( $i=0; $i<$total_attachments; $i++ ) : ?>
-				<li><?php echo $attachments[$i]['title']; ?></li>
-				<li><?php echo $attachments[$i]['caption']; ?></li>
-				<li><?php echo $attachments[$i]['id']; ?></li>
-				<li><?php echo $attachments[$i]['location']; ?></li>
-				<li><?php echo $attachments[$i]['mime']; ?></li>
-				<li><?php echo $attachments[$i]['filesize']; ?></li>
-			  <?php endfor; ?>
-			  </ul>
-			<?php endif; ?>
-		<?php } ?>
+        <h2></h2>
+        <div class="anexos">
+            <h2>Anexos para download:</h2>
+            <?php
+              if( function_exists( 'attachments_get_attachments' ) )
+              {
+                $attachments = attachments_get_attachments();
+                $total_attachments = count( $attachments );
+                if( $total_attachments ) : ?>
+                  <?php for( $i=0; $i<$total_attachments; $i++ ) : ?>
+                  <div id="arquivo-<?php echo $i; ?>" class="arquivo">
+                  <ul>               
+                    <li><?php echo '<a href="' . $attachments[$i]['location'] . '">'.$attachments[$i]['title'].'</a>'; ?></li>
+                    <li><?php echo $attachments[$i]['caption']; ?></li>
+                    <li><?php echo $attachments[$i]['filesize']; ?></li>
+                  </ul>
+                  </div>
+                  <?php endfor; ?>
+                <?php endif; ?>
+            <?php } ?>
+        </div>
 		<!-- FIM DOS ATTACHMENTS -->
 		
 		<footer class="entry-meta">

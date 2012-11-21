@@ -1671,3 +1671,61 @@ img#wpstats {
 .ie img.wp-post-image {
 	width: auto; /* Prevent stretching of full-size and large-size images with height and width attributes in IE8 */
 }
+
+/* New Stuff
+----------------------------------------------- */
+
+iframe {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.ficha {
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    float: right;
+}
+
+#pergunta1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#pergunta2 {
+    margin-bottom: 2px;
+}
+
+#resposta {
+    color: #143C4D;
+    margin-bottom: 5px;
+}
+
+.anexos {
+}
+
+.anexos h2 {
+    border-bottom: 0px none;
+    color: rgb(106, 106, 106);
+    line-height: 3.69231;
+    text-transform: uppercase;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 0.857142857rem;
+    font-weight: 200;
+}
+
+.arquivo {
+    margin: 6px;
+}
+
+.arquivo a{
+    color: #444450;
+}
+
+.arquivo li:first-child{
+    list-style-type: circle;
+}
