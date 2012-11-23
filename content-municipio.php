@@ -47,11 +47,12 @@
 		<!-- EXIBICAO DOS CUSTOMFIELDS -->
 
         <?php
-            echo '<div id="fichaae">';
+		$custom_fields = get_post_custom(the_ID());
+		echo '<div id="fichaae">';
                 echo '<h2>Respostas do município</h2>';
-                echo '<div class="questaoae">Seu município possui plano de educação em vigência?</div> <div id="resposta">' . $custom_fields['Q1'][0]. '</div>';
-                echo '<div class="questaoae"> Quando o plano de educação foi aprovado?</div> <div id="resposta">' . $custom_fields['Q2'][0]. '</div>';
-                echo '<div class="questaoae"> O plano de educação já foi revisado nos últimos quatro anos?</div> <div id="resposta">' . $custom_fields['Q3'][0]. '</div>';
+                echo '<div class="questaoae">Seu município possui plano de educação em vigência?</div> <div id="resposta">' . $custom_fields['Q1'][0] . '</div>';
+                echo '<div class="questaoae"> Quando o plano de educação foi aprovado?</div> <div id="resposta">' . $custom_fields['Q2'][0] . '</div>';
+                echo '<div class="questaoae"> O plano de educação já foi revisado nos últimos quatro anos?</div> <div id="resposta">' . $custom_fields['Q3'][0] . '</div>';
                 echo '<div class="questaoae">Seu município está elaborando um plano de educação?</div> <div id="resposta">' . $custom_fields['Q4'][0]. '</div>';
                 echo '<div class="questaoae">Seu município pretende elaborar um plano de educação nesta gestão (2013-2016)?</div> <div id="resposta">' . $custom_fields['Q5'][0]. '</div>';
                 echo '<div class="questaoae">Seu município pretende revisar o plano de educação nesta gestão (2013-2016)?</div> <div id="resposta">' . $custom_fields['Q6'][0]. '</div>';
@@ -70,9 +71,9 @@
                 echo '<div class="questaoae">A construção do plano envolveu/envolve as seguintes etapas/modalidades e níveis da educação?</div> <div id="resposta">' . $custom_fields['Q19'][0]. '</div>';
                 echo '<div class="questaoae">Houve ou há um investimento na participação de crianças e adolescentes na construção do Plano de Educação?</div> <div id="resposta">' . $custom_fields['Q20'][0]. '</div>';
                 echo '<div class="questaoae">Se sim, de que forma?</div> <div id="resposta">' . $custom_fields['Q21'][0]. '</div>';
-            echo '</div>';
-            echo '<div id="fichaibge">';
-                $custom_fields = get_post_custom(the_ID());
+		echo '</div>';
+            
+		echo '<div id="fichaibge">';
                 echo '<div class="pergunta1">Tem plano?</div> <div class="resposta">' . $custom_fields['A187'][0] . '</div>';
                 
                 echo '<div class="pergunta1">Instâncias de Gestão Democrática:</div>';
