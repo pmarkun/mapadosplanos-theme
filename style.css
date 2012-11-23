@@ -1734,9 +1734,18 @@ img#wpstats {
     float: right;
 }
 
+.fichas .titulo {
+	font-size: 1.2em;
+	font-weight:bold;
+	}
+.fichas hr {
+	margin-bottom:10px;
+	}
+	
 .questaoae{
     margin-top: 10px;
     margin-bottom: 5px;
+    font-weight:bold;
 }
 
 .anexos {

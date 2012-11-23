@@ -48,8 +48,10 @@
 
         <?php
 		$custom_fields = get_post_custom(the_ID());
-		echo '<div id="fichaae">';
-                echo '<h2>Respostas do município</h2>';
+		echo '<div id="fichaae" class="fichas">';
+                echo '<span class="titulo" >Respostas do município </span>';
+		echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' );
+		echo '<hr />';
                 echo '<div class="questaoae">Seu município possui plano de educação em vigência?</div> <div id="resposta">' . $custom_fields['Q1'][0] . '</div>';
                 echo '<div class="questaoae"> Quando o plano de educação foi aprovado?</div> <div id="resposta">' . $custom_fields['Q2'][0] . '</div>';
                 echo '<div class="questaoae"> O plano de educação já foi revisado nos últimos quatro anos?</div> <div id="resposta">' . $custom_fields['Q3'][0] . '</div>';
@@ -73,7 +75,9 @@
                 echo '<div class="questaoae">Se sim, de que forma?</div> <div id="resposta">' . $custom_fields['Q21'][0]. '</div>';
 		echo '</div>';
             
-		echo '<div id="fichaibge">';
+		echo '<div id="fichaibge" class="fichas">';
+		echo '<span class="titulo">IBGE Munic 2009</span>';
+		echo '<hr />';
                 echo '<div class="pergunta1">Tem plano?</div> <div class="resposta">' . $custom_fields['A187'][0] . '</div>';
                 
                 echo '<div class="pergunta1">Instâncias de Gestão Democrática:</div>';
