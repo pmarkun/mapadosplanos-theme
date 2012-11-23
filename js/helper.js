@@ -47,7 +47,9 @@ $(document).ready(function () {
 				$("#autocomplete").html(results);
 				$("#autocomplete a").hover(function() {
 				    map.setView([this.dataset.lat, this.dataset.lng], 6);
-				}, function() {
+				});
+				
+				$("#autocomplete ul").hover(null, function() {
 				    map.setView(brasil, 4);
 				});
 				
