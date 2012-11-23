@@ -1280,6 +1280,9 @@ label ~ span.required {
 	margin: 0.571428571rem 1.714285714rem 0.571428571rem 0;
 }
 
+.template-front-page #map {
+	height: 450px;
+	}
 
 /* =Widgets
 -------------------------------------------------------------- */
