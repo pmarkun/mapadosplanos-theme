@@ -7,6 +7,10 @@
  * @since Twenty Twelve 1.0
  */
 ?>
+	<?php 
+	    global $custom_fields;
+	    $custom_fields = get_post_custom(the_ID());
+	?>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
@@ -36,7 +40,9 @@
 		</div><!-- .entry-summary -->
 		<?php else : ?>
 		<div class="entry-content" id="mapa">
-            <?php echo do_shortcode("[mapbox layers='acaoeducativa.mapadosplanos' api='' options='' lat='-13.3255' lon='-51.1523' z='7' width='250' height='250']"); ?>
+            <?php 
+		global $custom_fields;
+		echo do_shortcode("[mapbox layers='acaoeducativa.mapadosplanos' api='' options='' lat='" . $custom_fields['lat'][0] . "' lon='" . $custom_fields['lng'][0] . "' z='7' width='250' height='250']"); ?>
 			<!-- <?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?> -->
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
@@ -47,7 +53,7 @@
 		<!-- EXIBICAO DOS CUSTOMFIELDS -->
 
         <?php
-		$custom_fields = get_post_custom(the_ID());
+		global $custom_fields;
 		echo '<div id="fichaae" class="fichas">';
                 echo '<span class="titulo" >Respostas do município </span>';
 		echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' );
@@ -128,23 +134,6 @@
 		<!-- FIM DOS ATTACHMENTS -->
 		
 		<footer class="entry-meta">
-			<?php twentytwelve_entry_meta(); ?>
-			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
-			<?php if ( is_singular() && get_the_author_meta( 'description' ) && is_multi_author() ) : // If a user has filled out their description and this is a multi-author blog, show a bio on their entries. ?>
-				<div class="author-info">
-					<div class="author-avatar">
-						<?php echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'twentytwelve_author_bio_avatar_size', 68 ) ); ?>
-					</div><!-- .author-avatar -->
-					<div class="author-description">
-						<h2><?php printf( __( 'About %s', 'twentytwelve' ), get_the_author() ); ?></h2>
-						<p><?php the_author_meta( 'description' ); ?></p>
-						<div class="author-link">
-							<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
-								<?php printf( __( 'View all posts by %s <span class="meta-nav">&rarr;</span>', 'twentytwelve' ), get_the_author() ); ?>
-							</a>
-						</div><!-- .author-link	-->
-					</div><!-- .author-description -->
-				</div><!-- .author-info -->
-			<?php endif; ?>
+		
 		</footer><!-- .entry-meta -->
 	</article><!-- #post -->
