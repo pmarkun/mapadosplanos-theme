@@ -12,7 +12,7 @@
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
-        <img src="<?php echo bloginfo(stylesheet_url); ?>/../img/acao.jpg">
+        <img src="<?php echo child_template_directory; ?>/../img/acao.jpg">
 		<div class="site-info">
 			<?php do_action( 'twentytwelve_credits' ); ?>
 			<!-- <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?></a>-->
