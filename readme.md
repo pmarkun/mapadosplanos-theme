@@ -13,6 +13,7 @@ Na pasta de temas:
     
 # Plugins utilizados
 
+* [WP Carousel](http://wordpress.org/extend/plugins/wp-carousel/)
 * [mapbox](http://wordpress.org/extend/plugins/mapbox/)
 * [Contact Form 7](http://wordpress.org/extend/plugins/contact-form-7/)
 * [Attachments](http://wordpress.org/extend/plugins/attachments/)
