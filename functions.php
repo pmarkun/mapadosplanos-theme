@@ -58,4 +58,46 @@ function acaoeducativa_styles_basic() {
 add_action( 'wp_enqueue_scripts', 'acaoeducativa_scripts_basic' );  
 add_action( 'wp_enqueue_scripts', 'acaoeducativa_styles_basic' );  
 
+
+//Front Page Widget Big
+register_sidebar( array(
+		'name' => __( 'Front Page Big', 'twentytwelve' ),
+		'id' => 'frontpage-big',
+		'description' => __( 'Front Page Big', 'twentytwelve' ),
+		'before_widget' => '<div id="%1$s" class="span2 widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="widget-title">',
+		'after_title' => '</h5>',
+	) );
+
+
+
+//Footer widgets
+
+register_sidebar( array(
+		'name' => __( 'Footer A', 'twentytwelve' ),
+		'id' => 'footer-a',
+		'description' => __( 'Footer A', 'twentytwelve' ),
+		'before_widget' => '<div id="%1$s" class="span2 widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="widget-title">',
+		'after_title' => '</h5>',
+	) );
+
+register_sidebar( array(
+		'name' => __( 'Footer B', 'twentytwelve' ),
+		'id' => 'footer-b',
+		'description' => __( 'Footer B', 'twentytwelve' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="widget-title">',
+		'after_title' => '</h5>',
+	) );
+
+// admin favicon	
+function admin_favicon() {
+	echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/favicon-admin.png" />';
+}
+add_action('admin_head', 'admin_favicon');
+
 ?>

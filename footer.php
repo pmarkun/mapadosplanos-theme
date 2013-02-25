@@ -12,11 +12,16 @@
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
-        <img src="<?php echo child_template_directory; ?>/../img/acao.jpg">
-		<div class="site-info">
-			<?php do_action( 'twentytwelve_credits' ); ?>
-			<!-- <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?></a>-->
-		</div><!-- .site-info -->
+		<div class="row-fluid">
+			<?php if ( is_active_sidebar( 'footer-a' ) ) : ?>
+				<?php dynamic_sidebar( 'footer-a' ); ?>
+			<?php endif; ?>
+		</div>
+		<div class="row-fluid">
+			<?php if ( is_active_sidebar( 'footer-b' ) ) : ?>
+				<?php dynamic_sidebar( 'footer-b' ); ?>
+			<?php endif; ?>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
