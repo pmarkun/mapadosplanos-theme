@@ -70,6 +70,15 @@ register_sidebar( array(
 		'after_title' => '</h5>',
 	) );
 
+register_sidebar( array(
+		'name' => __( 'Abaixo do Mapa', 'twentytwelve' ),
+		'id' => 'frontpage-below-map',
+		'description' => __( 'Abaixo do Mapa', 'twentytwelve' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="widget-title">',
+		'after_title' => '</h5>',
+	) );
 
 
 //Footer widgets
@@ -94,10 +103,22 @@ register_sidebar( array(
 		'after_title' => '</h5>',
 	) );
 
+
 // admin favicon	
 function admin_favicon() {
 	echo '<link rel="shortcut icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/favicon-admin.png" />';
 }
 add_action('admin_head', 'admin_favicon');
 
+
+//redirect query var
+add_filter('query_vars', 'redirect_var');
+function redirect_var($public_query_vars) {
+	$public_query_vars[] = 'redirect';
+	return $public_query_vars;
+	}
+
+
 ?>
+
+

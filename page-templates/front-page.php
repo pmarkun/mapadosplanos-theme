@@ -16,6 +16,13 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
+			<?php $blurb = get_post_meta($post->ID, 'blurb', true);
+				$blurb;
+				if( $blurb ): ?>
+				<div class="frontpage-blurb">
+				<?php echo $blurb; ?>
+				</div>
+				<?php endif; ?>
 			<?php get_template_part( 'searchform' ); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -23,6 +30,12 @@ get_header(); ?>
 				<div class="entry-content">
 					<!-- <?php the_content(); ?> -->
 					<div id="map" class="img-polaroid"></div><br/>
+					<?php if ( is_active_sidebar( 'frontpage-below-map' ) ) : ?>
+						<div class="below-map front-widgets">
+							<?php dynamic_sidebar( 'frontpage-below-map' ); ?>
+						</div><!-- .first -->
+					<?php endif; ?>
+					
 					<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 				</div><!-- .entry-content -->
 				<footer class="entry-meta">

@@ -13,11 +13,14 @@ Na pasta de temas:
     
 # Plugins utilizados
 
+* [Email Alerts](http://wordpress.org/extend/plugins/email-alerts/)
 * [WP Carousel](http://wordpress.org/extend/plugins/wp-carousel/)
 * [mapbox](http://wordpress.org/extend/plugins/mapbox/)
 * [Contact Form 7](http://wordpress.org/extend/plugins/contact-form-7/)
 * [Attachments](http://wordpress.org/extend/plugins/attachments/)
 * [Mapa dos Planos (customizado)](https://github.com/pmarkun/mapadosplanos-plugin)
+* [WP CSV](http://wordpress.org/extend/plugins/wp-csv/)
+* [Types](http://wordpress.org/extend/plugins/types/)
 
 Apenas para desenvolvimento:
  
@@ -38,6 +41,9 @@ Na pasta de plugins:
     wget http://downloads.wordpress.org/plugin/contact-form-7.3.3.1.zip
     wget http://downloads.wordpress.org/plugin/csv-importer.0.3.7.zip
     wget http://downloads.wordpress.org/plugin/import-users-from-csv.0.5.1.zip
+    wget http://downloads.wordpress.org/plugin/wp-csv.1.3.6.zip
+    wget http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.4.2.8.zip
+    wget http://downloads.wordpress.org/plugin/types.1.1.3.4.zip
     
     git clone git://github.com/pmarkun/mapadosplanos-plugin.git
     
