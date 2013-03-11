@@ -120,5 +120,3 @@ function redirect_var($public_query_vars) {
 
 
 ?>
-
-
