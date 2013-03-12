@@ -82,34 +82,15 @@ echo '<div class="tab-content">'; // começa tab content
 
 echo '<div class="tab-pane active" id="parte1">'; // começa parte 1
 
-
-echo '<div class="questaoae">Seu município possui plano de educação em vigência?</div> <div id="resposta" class="text-info">' . $custom_fields['Q1'][0] . '</div>';
-echo '<div class="questaoae"> Quando o plano de educação foi aprovado?</div> <div id="resposta" class="text-info">' . $custom_fields['Q2'][0] . '</div>';
-echo '<div class="questaoae"> O plano de educação já foi revisado nos últimos quatro anos?</div> <div id="resposta" class="text-info">' . $custom_fields['Q3'][0] . '</div>';
-echo '<div class="questaoae">Seu município está elaborando um plano de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q4'][0]. '</div>';
-echo '<div class="questaoae">Seu município pretende elaborar um plano de educação nesta gestão (2013-2016)?</div> <div id="resposta" class="text-info">' . $custom_fields['Q5'][0]. '</div>';
-echo '<div class="questaoae">Seu município pretende revisar o plano de educação nesta gestão (2013-2016)?</div> <div id="resposta" class="text-info">' . $custom_fields['Q6'][0]. '</div>';
-echo '<div class="questaoae">Em qual momento da elaboração se encontra?</div> <div id="resposta" class="text-info">' . $custom_fields['Q7'][0]. '</div>';
-echo '<div class="questaoae">O município contratou ou pretende contratar algum tipo de consultoria externa para elaboração do plano de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q8'][0]. '</div>';
-echo '<div class="questaoae">Quais dos órgãos/instâncias abaixo participam ou participaram da elaboração do plano de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q9'][0]. '</div>';
-echo '<div class="questaoae">Quais das organizações/movimentos abaixo participam ou participaram da elaboração do plano de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q10'][0]. '</div>';
-echo '<div class="questaoae">Dos segmentos da comunidade escolar descritos abaixo, quais participaram ou estão participando da elaboração do plano de educação de seu município.</div> <div id="resposta" class="text-info">' . $custom_fields['Q11'][0]. '</div>';
-
+echo(types_render_field("conselho", array("show_name" => "true", "output" => "html") ));
+echo(types_render_field("cargo", array("show_name" => "true", "output" => "html") ));
 
 echo '</div>'; // fim parte 1
 
 echo '<div class="tab-pane" id="parte2">'; // começa parte 2
 
 echo '<div class="questaoae">Quais foram ou estão sendo os dados utilizados para a elaboração do diagnóstico do município a ser utilizado no plano de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q12'][0]. '</div>';
-echo '<div class="questaoae">Quais foram ou estão sendo as principais metodologias utilizadas para a elaboração do plano de educação de seu município?</div> <div id="resposta" class="text-info">' . $custom_fields['Q13'][0]. '</div>';
-echo '<div class="questaoae">O processo de elaboração do plano de educação mobilizou ou vem mobilizando</div> <div id="resposta" class="text-info">' . $custom_fields['Q14'][0]. '</div>';
-echo '<div class="questaoae">Houve ou há um investimento na comunicação sobre o processo de construção/revisão do Plano?</div> <div id="resposta" class="text-info">' . $custom_fields['Q15'][0]. '</div>';
-echo '<div class="questaoae">Caso positivo, a comunicação do processo se deu:</div> <div id="resposta" class="text-info">' . $custom_fields['Q16'][0]. '</div>';
-echo '<div class="questaoae">Seu município está preparado para cumprir a lei de acesso à informação pública (lei 12.527/2011) com relação à área de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q17'][0]. '</div>';
-echo '<div class="questaoae">Além da gestão municipal, participam ou participaram do processo de construção/revisão dos Planos</div> <div id="resposta" class="text-info">' . $custom_fields['Q18'][0]. '</div>';
-echo '<div class="questaoae">A construção do plano envolveu/envolve as seguintes etapas/modalidades e níveis da educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q19'][0]. '</div>';
-echo '<div class="questaoae">Houve ou há um investimento na participação de crianças e adolescentes na construção do Plano de Educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q20'][0]. '</div>';
-echo '<div class="questaoae">Se sim, de que forma?</div> <div id="resposta" class="text-info">' . $custom_fields['Q21'][0]. '</div>';
+
 echo '</div>';
 
 echo '</div>'; // fim parte 2
@@ -119,60 +100,58 @@ echo '</div>'; // termina tab content
 //ficha IBGE
 
 echo '<div id="fichaibge" class="well fichas">';
-echo '<span class="titulo">IBGE Munic 2009</span>';
+echo '<span class="titulo">IBGE Munic 2011</span>';
 echo '<hr /><table class="table table-bordered">';
 echo '<tr>
 <th>Tem plano?</th>
-<td><span class="resposta label label-info">' . $custom_fields['A187'][0] . '</span></td>
+<td><span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0] . '</span></td>
 </tr></table>';
 
 echo '<table class="table table-bordered">
 <tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>';
 echo '<tr><td>Sistema Municipal de Ensino</td> 
 	<td>
-	<span class="resposta label label-info">' . $custom_fields['A171'][0]. '</span>
+	<span class="resposta label label-info">' . $custom_fields['wpcf-a171'][0]. '</span>
 	</td></tr>';
 echo '<tr>
 	<td>Fundo Municipal de Educação</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['A219'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a195'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho Municipal de Educação</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['A211'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a188'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
-	<td>Conselho de Controle e Acompanhamento Social do FUNDEF</td> <td>
-		<span class="resposta label label-info">'. $custom_fields['A181'][0]. '</span>
+	<td>Conselho de Controle e Acompanhamento Social do FUNDEB</td> <td>
+		<span class="resposta label label-info">'. $custom_fields['wpcf-a183'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselhos Escolares</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['A182'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a184'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho de Alimentação Escolar</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['A183'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a185'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho do Transporte Escolar</td> <td>
-		<span class="resposta label label-info">' .	$custom_fields['A184'][0]. '</span>
+		<span class="resposta label label-info">' .	$custom_fields['wpcf-a186'][0]. '</span>
 	</td>
 </tr></table>';
 
-echo '<table class="table table-bordered"><tr><th>O Plano Municipal de Educação incorpora educação em direitos humanos no currículo?</th></tr><tr><td> <span class="resposta label label-info">'. $custom_fields['A188'][0]. '</span></td></tr></table>';
+echo '<table class="table table-bordered"><tr><th>No município, há programa ou ações de educação em direitos humanos??</th></tr><tr><td> <span class="resposta label label-info">'. $custom_fields['wpcf-a489'][0]. '</span></td></tr></table>';
 
 echo '<table class="table table-bordered">
-<tr><th colspan="2">Na rede municipal de ensino existe capacitação de professores em:</th></tr>';
-echo '<tr><td>Direitos Humanos</td> <td><span class="resposta label label-info">' . $custom_fields['A189'][0]. '</span></td></tr>';
-echo '<tr><td>Gênero</td> <td><span class="resposta label label-info">' . $custom_fields['A190'][0]. '</span></td></tr>';
-echo '<tr><td>Raça/etnia</td> <td> <span class="resposta label label-info">' . $custom_fields['A191'][0]. '</span></td></tr>';
-echo '<tr><td>Orientação Sexual</td> <td> <span class="resposta label label-info">' . $custom_fields['A192'][0]. '</span></td></tr>';
+<tr><th colspan="2">Na rede municipal de ensino há programas e ações de:</th></tr>';
+echo '<tr><td>Combate à discriminação</td> <td><span class="resposta label label-info">' . $custom_fields['wpcf-a168'][0]. '</span></td></tr>';
+echo '<tr><td>Combate à violência</td> <td><span class="resposta label label-info">' . $custom_fields['A190'][0]. '</span></td></tr>';
 
-echo '<table class="table table-bordered"><tr><th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th></tr><tr><td> <span class="resposta label label-info">' . $custom_fields['A194'][0]. '</span></td></tr></table>';
+echo '<table class="table table-bordered"><tr><th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th></tr><tr><td> <span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0]. '</span></td></tr></table>';
 echo '</table></div>';
         ?>
         

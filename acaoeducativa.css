@@ -27,32 +27,7 @@ img {
   display: block;
   white-space: normal;
 }
-.pergunta1 {
-  font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 8px;
-}
-.pergunta2 {
-  display: block;
-  margin-bottom: 3px;
-}
-/*.resposta {
-    color: #FFF;
-    margin-bottom: 5px;
-    display: block;
-    width: 30%;
-    text-align: center;
-    padding: 2px;
-    background-color: #AD8699;
-    font-weight: bold;
-    border-radius: 2px;
 
-}*/
-#resposta {
-  border-bottom: 1px dotted #ccc;
-  padding: 0 0 10px 0;
-  margin-bottom: 10px;
-}
 #fichaae {
   width: 630px;
   float: right;
@@ -70,11 +45,19 @@ img {
 .fichas hr {
   margin-bottom: 10px;
 }
-.questaoae {
+
+#fichaae .wpcf-field-name {
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: bold;
+  display:block;
 }
+
+#fichaae .wpcf-field-value {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 10px;
+}
+
 /*.anexos {
     margin-top: 20px;
     display: block;
