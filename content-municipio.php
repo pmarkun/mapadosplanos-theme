@@ -105,7 +105,48 @@ echo '<hr /><table class="table table-bordered">';
 echo '<tr>
 <th>Tem plano?</th>
 <td><span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0] . '</span></td>
-</tr></table>';
+</tr>';
+
+echo '<tr><td colspan="2">
+<span>Modalidades abrangidas</span>';
+
+//Exibe os niveis do plano
+if ($custom_fields['wpcf-a173'][0] == "Sim") :
+    echo "<span class='a187'>Ensino fundamental</span>";
+    endif;
+if ($custom_fields['wpcf-a174'][0] == "Sim") :
+    echo "<span class='a187'>Infantil</span>";
+    endif;
+if ($custom_fields['wpcf-a175'][0] == "Sim") :
+    echo "<span class='a187'>EJA</span>";
+    endif;
+if ($custom_fields['wpcf-a176'][0] == "Sim") :
+    echo "<span class='a187'>Especial</span>";
+    endif;
+if ($custom_fields['wpcf-a177'][0] == "Sim") :
+    echo "<span class='a187'>Ensino médio</span>";
+    endif;
+if ($custom_fields['wpcf-a178'][0] == "Sim") :
+    echo "<span class='a187'>Profissional</span>";
+    endif;
+if ($custom_fields['wpcf-a179'][0] == "Sim") :
+    echo "<span class='a187'>Ensino superior</span>";
+    endif;
+if ($custom_fields['wpcf-a180'][0] == "Sim") :
+    echo "<span class='a187'>No campo</span>";
+    endif;
+if ($custom_fields['wpcf-a181'][0] == "Sim") :
+    echo "<span class='a187'>Indigena</span>";
+    endif;
+if ($custom_fields['wpcf-a182'][0] == "Sim") :
+    echo "<span class='a187'>Ambiental</span>";
+    endif;
+
+
+
+
+echo '</td></tr>
+</table>';
 
 echo '<table class="table table-bordered">
 <tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>';
