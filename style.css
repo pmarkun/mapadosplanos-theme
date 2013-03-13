@@ -648,12 +648,12 @@ footer[role="contentinfo"] a:hover {
 	border-bottom: 0 !important;
 }
 
-.resposta .ibge-Não {
-	background-color: #EE023A;
+.ibge-Não {
+	background-color: #EE023A !important;
 }
 
-.resposta .ibge-Sim {
-	background-color: #466200;
+.ibge-Sim {
+	background-color: #466200 !important;
 }
 
 

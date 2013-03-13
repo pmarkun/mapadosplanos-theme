@@ -104,7 +104,7 @@ echo '<span class="titulo">IBGE Munic 2011</span>';
 echo '<hr /><table class="table table-bordered">';
 echo '<tr>
 <th>Tem plano?</th>
-<td><span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0] . '</span></td>
+<td><span class="resposta label label-info ibge-' . $custom_fields['wpcf-a187'][0] . '">' . $custom_fields['wpcf-a187'][0] . '</span></td>
 </tr>';
 
 echo '<tr><td colspan="2">
@@ -152,47 +152,47 @@ echo '<table class="table table-bordered">
 <tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>';
 echo '<tr><td>Sistema Municipal de Ensino</td> 
 	<td>
-	<span class="resposta label label-info">' . $custom_fields['wpcf-a171'][0]. '</span>
+	<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a171'][0] . '">' . $custom_fields['wpcf-a171'][0]. '</span>
 	</td></tr>';
 echo '<tr>
 	<td>Fundo Municipal de Educação</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a195'][0]. '</span>
+		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a195'][0]. '">' . $custom_fields['wpcf-a195'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho Municipal de Educação</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a188'][0]. '</span>
+		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a188'][0]. '">' . $custom_fields['wpcf-a188'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho de Controle e Acompanhamento Social do FUNDEB</td> <td>
-		<span class="resposta label label-info">'. $custom_fields['wpcf-a183'][0]. '</span>
+		<span class="resposta label label-info ibge-'. $custom_fields['wpcf-a183'][0]. '">'. $custom_fields['wpcf-a183'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselhos Escolares</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a184'][0]. '</span>
+		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a184'][0]. '">' . $custom_fields['wpcf-a184'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho de Alimentação Escolar</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a185'][0]. '</span>
+		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a185'][0]. '">' . $custom_fields['wpcf-a185'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho do Transporte Escolar</td> <td>
-		<span class="resposta label label-info">' .	$custom_fields['wpcf-a186'][0]. '</span>
+		<span class="resposta label label-info ibge-' .	$custom_fields['wpcf-a186'][0]. '">' .	$custom_fields['wpcf-a186'][0]. '</span>
 	</td>
 </tr></table>';
 
-echo '<table class="table table-bordered"><tr><th>No município, há programa ou ações de educação em direitos humanos??</th></tr><tr><td> <span class="resposta label label-info">'. $custom_fields['wpcf-a489'][0]. '</span></td></tr></table>';
+echo '<table class="table table-bordered"><tr><th>No município, há programa ou ações de educação em direitos humanos??</th></tr><tr><td> <span class="resposta label label-info ibge-'. $custom_fields['wpcf-a489'][0]. '">'. $custom_fields['wpcf-a489'][0]. '</span></td></tr></table>';
 
 echo '<table class="table table-bordered">
 <tr><th colspan="2">Na rede municipal de ensino há programas e ações de:</th></tr>';
-echo '<tr><td>Combate à discriminação</td> <td><span class="resposta label label-info">' . $custom_fields['wpcf-a168'][0]. '</span></td></tr>';
-echo '<tr><td>Combate à violência</td> <td><span class="resposta label label-info">' . $custom_fields['A190'][0]. '</span></td></tr>';
+echo '<tr><td>Combate à discriminação</td> <td><span class="resposta label label-info ibge-' . $custom_fields['wpcf-a168'][0]. '">' . $custom_fields['wpcf-a168'][0]. '</span></td></tr>';
+echo '<tr><td>Combate à violência</td> <td><span class="resposta label label-info ibge-' . $custom_fields['A190'][0]. '">' . $custom_fields['A190'][0]. '</span></td></tr>';
 
-echo '<table class="table table-bordered"><tr><th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th></tr><tr><td> <span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0]. '</span></td></tr></table>';
+echo '<table class="table table-bordered"><tr><th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th></tr><tr><td> <span class="resposta label label-info ibge-' . $custom_fields['wpcf-a187'][0]. '">' . $custom_fields['wpcf-a187'][0]. '</span></td></tr></table>';
 echo '</table></div>';
         ?>
         
