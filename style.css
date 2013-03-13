@@ -405,6 +405,10 @@ img.wp-smiley,
 	margin: 3.428571429rem 0;
 }
 
+ul .sub-menu{
+	z-index: 9999;
+}
+
 /* Author profiles */
 .author .archive-header {
 	margin-bottom: 24px;
@@ -484,8 +488,7 @@ a:hover {
 
 /* Header */
 .site-header {
-	padding: 24px 0;
-	padding: 1.714285714rem 0;
+	width: 960px;
 }
 .site-header h1,
 .site-header h2 {
@@ -605,14 +608,52 @@ footer[role="contentinfo"] {
 	margin-top: 1.714285714rem;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 24px 0;
-	padding: 1.714285714rem 0;
+	padding: 24px 20px;
 }
 footer[role="contentinfo"] a {
 	color: #686868;
 }
 footer[role="contentinfo"] a:hover {
 	color: #21759b;
+}
+
+/* =Dani
+-------------------------------------------------------------- */
+
+.frontpage-blurb {
+	background-color: #EBEBEB;
+	padding: 10px 5px 10px 5px;
+	margin-bottom: 15px;
+	border: solid 1px #CCCCCC;
+}
+
+.widget h5.widget-title{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.widget_wp_carousel_widget {
+	margin-left:0px !important;
+	z-index: 0;
+}
+
+.widget_wp_carousel_widget .nivo-caption p {
+	font-size: 18px;
+	line-height: 20px;
+	font-family: 'Open Sans', helvetica, arial;
+}
+
+.page-template-page-templateslogin-box-php .site-content article {
+	margin-bottom: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.resposta .ibge-Não {
+	background-color: #EE023A;
+}
+
+.resposta .ibge-Sim {
+	background-color: #466200;
 }
 
 
@@ -1424,7 +1465,7 @@ img#wpstats {
 		padding: 0;
 		position: absolute;
 		top: 100%;
-		z-index: 1;
+		z-index: 10000;
 	}
 	.main-navigation li ul ul {
 		top: 0;
@@ -1577,6 +1618,7 @@ img#wpstats {
 		margin-bottom: 72px;
 		margin-bottom: 5.142857143rem;
 		text-align: left;
+		background: rgba(116, 162, 0, 0.8);
 	}
 	.site-header h1 {
 		font-size: 21pt;

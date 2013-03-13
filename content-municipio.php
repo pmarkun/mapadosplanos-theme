@@ -104,33 +104,33 @@ echo '<span class="titulo">IBGE Munic 2011</span>';
 echo '<hr /><table class="table table-bordered">';
 echo '<tr>
 <th>Tem plano?</th>
-<td><span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0] . '</span></td>
+<td><span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a187'][0] . '</span></td>
 </tr></table>';
 
 echo '<table class="table table-bordered">
 <tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>';
 echo '<tr><td>Sistema Municipal de Ensino</td> 
 	<td>
-	<span class="resposta label label-info">' . $custom_fields['wpcf-a171'][0]. '</span>
+	<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a171'][0]. '</span>
 	</td></tr>';
 echo '<tr>
 	<td>Fundo Municipal de Educação</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a195'][0]. '</span>
+		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a195'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho Municipal de Educação</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a188'][0]. '</span>
+		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a188'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho de Controle e Acompanhamento Social do FUNDEB</td> <td>
-		<span class="resposta label label-info">'. $custom_fields['wpcf-a183'][0]. '</span>
+		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">'. $custom_fields['wpcf-a183'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselhos Escolares</td> <td>
-		<span class="resposta label label-info">' . $custom_fields['wpcf-a184'][0]. '</span>
+		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a184'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>

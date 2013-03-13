@@ -148,14 +148,20 @@ img {
   margin: 5px 0 0 0;
 }
 #page {
-  margin-top: 150px;
+  margin-top: 30px;
+  padding: 0 !important;
+}
+
+#main {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #masthead {
   padding: 5px 20px 5px;
   background: rgba(116, 162, 0, 0.8);
-  position: fixed;
-  top: 0;
-  width: 100%;
+  /*position: fixed;*/
+  /*top: 20px;*/
+  width: 960px;
   z-index: 9000;
   -webkit-box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.3);
   -moz-box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.3);
