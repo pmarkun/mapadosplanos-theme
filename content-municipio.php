@@ -104,33 +104,74 @@ echo '<span class="titulo">IBGE Munic 2011</span>';
 echo '<hr /><table class="table table-bordered">';
 echo '<tr>
 <th>Tem plano?</th>
-<td><span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a187'][0] . '</span></td>
-</tr></table>';
+<td><span class="resposta label label-info">' . $custom_fields['wpcf-a187'][0] . '</span></td>
+</tr>';
+
+echo '<tr><td colspan="2">
+<span>Modalidades abrangidas</span>';
+
+//Exibe os niveis do plano
+if ($custom_fields['wpcf-a173'][0] == "Sim") :
+    echo "<span class='a187'>Ensino fundamental</span>";
+    endif;
+if ($custom_fields['wpcf-a174'][0] == "Sim") :
+    echo "<span class='a187'>Infantil</span>";
+    endif;
+if ($custom_fields['wpcf-a175'][0] == "Sim") :
+    echo "<span class='a187'>EJA</span>";
+    endif;
+if ($custom_fields['wpcf-a176'][0] == "Sim") :
+    echo "<span class='a187'>Especial</span>";
+    endif;
+if ($custom_fields['wpcf-a177'][0] == "Sim") :
+    echo "<span class='a187'>Ensino médio</span>";
+    endif;
+if ($custom_fields['wpcf-a178'][0] == "Sim") :
+    echo "<span class='a187'>Profissional</span>";
+    endif;
+if ($custom_fields['wpcf-a179'][0] == "Sim") :
+    echo "<span class='a187'>Ensino superior</span>";
+    endif;
+if ($custom_fields['wpcf-a180'][0] == "Sim") :
+    echo "<span class='a187'>No campo</span>";
+    endif;
+if ($custom_fields['wpcf-a181'][0] == "Sim") :
+    echo "<span class='a187'>Indigena</span>";
+    endif;
+if ($custom_fields['wpcf-a182'][0] == "Sim") :
+    echo "<span class='a187'>Ambiental</span>";
+    endif;
+
+
+
+
+echo '</td></tr>
+</table>';
 
 echo '<table class="table table-bordered">
 <tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>';
 echo '<tr><td>Sistema Municipal de Ensino</td> 
 	<td>
-	<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a171'][0]. '</span>
+	<span class="resposta label label-info">' . $custom_fields['wpcf-a171'][0]. '</span>
 	</td></tr>';
 echo '<tr>
 	<td>Fundo Municipal de Educação</td> <td>
-		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a195'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a195'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho Municipal de Educação</td> <td>
-		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a188'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a188'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselho de Controle e Acompanhamento Social do FUNDEB</td> <td>
-		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">'. $custom_fields['wpcf-a183'][0]. '</span>
+		<span class="resposta label label-info">'. $custom_fields['wpcf-a183'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
 	<td>Conselhos Escolares</td> <td>
-		<span class="resposta label label-info ibge-'.$custom_fields['wpcf-a188'][0].'">' . $custom_fields['wpcf-a184'][0]. '</span>
+		<span class="resposta label label-info">' . $custom_fields['wpcf-a184'][0]. '</span>
 	</td>
 </tr>';
 echo '<tr>
@@ -200,3 +241,4 @@ echo '</table></div>';
 	</article><!-- #post -->
 	
 	
+
