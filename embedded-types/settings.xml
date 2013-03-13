@@ -642,4 +642,51 @@
             </data>
         </field>
     </fields>
+    <types>
+        <type>
+            <wpcf-post-type>municipio</wpcf-post-type>
+            <labels>
+                <name>Municípios</name>
+                <singular_name>Município</singular_name>
+                <add_new>Adicionar novo</add_new>
+                <add_new_item>Adicionar %s</add_new_item>
+                <edit_item>Editar %s</edit_item>
+                <new_item>Novo %s</new_item>
+                <view_item>Ver %s</view_item>
+                <search_items>Buscar %s</search_items>
+                <not_found>Nenhum %s encontrado</not_found>
+                <not_found_in_trash>Nenhum %s encontrado na Lixeira</not_found_in_trash>
+                <parent_item_colon>%s mãe</parent_item_colon>
+                <all_items>%s</all_items>
+            </labels>
+            <slug>municipio</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position>5</menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <revisions>1</revisions>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>municipio</id>
+        </type>
+    </types>
 </types>
