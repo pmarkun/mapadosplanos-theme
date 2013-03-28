@@ -61,15 +61,15 @@
 
 
 		<ul class="nav nav-tabs">
-  			<li class="active"><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
-  			<li><a href="#parte2" data-toggle="tab">Questionário</a></li>
-  			<li><a href="#parte3" data-toggle="tab">Sociedade</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
+  			<li class="disabled"><a href="#parte3" data-toggle="tab">Sociedade</a></li>  			
 		</ul>
 
-
+		
 		<!-- TABS -->
 		<div class="tab-content">
-			<div class="tab-pane active" id="parte1">
+			<div class="tab-pane <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'active' : '');  ?>" id="parte1">
 				<span class="titulo">IBGE Munic 2011</span>
 				<hr />
 				<table class="table table-bordered">
@@ -77,40 +77,40 @@
 						<th>Tem plano?</th>
 						<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0]; ?></span></td>
 					</tr>
-					<tr><td colspan="2"><span>Modalidades abrangidas</span>
-					<!-- <?php
+					<tr><td colspan="2"><b><div>Modalidades abrangidas</div></b>
+					<?php
 						//Exibe os niveis do plano
 						if ($custom_fields['wpcf-a173'][0] == "Sim") :
-						    echo "<span class='a187'>Ensino fundamental</span>";
+						    echo "<span class='label label-info'>Ensino fundamental</span>";
 						    endif;
 						if ($custom_fields['wpcf-a174'][0] == "Sim") :
-						    echo "<span class='a187'>Infantil</span>";
+						    echo "<span class='label label-info'>Infantil</span>";
 						    endif;
 						if ($custom_fields['wpcf-a175'][0] == "Sim") :
-						    echo "<span class='a187'>EJA</span>";
+						    echo "<span class='label label-info'>EJA</span>";
 						    endif;
 						if ($custom_fields['wpcf-a176'][0] == "Sim") :
-						    echo "<span class='a187'>Especial</span>";
+						    echo "<span class='label label-info'>Especial</span>";
 						    endif;
 						if ($custom_fields['wpcf-a177'][0] == "Sim") :
-						    echo "<span class='a187'>Ensino médio</span>";
+						    echo "<span class='label label-info'>Ensino médio</span>";
 						    endif;
 						if ($custom_fields['wpcf-a178'][0] == "Sim") :
-						    echo "<span class='a187'>Profissional</span>";
+						    echo "<span class='label label-info'>Profissional</span>";
 						    endif;
 						if ($custom_fields['wpcf-a179'][0] == "Sim") :
-						    echo "<span class='a187'>Ensino superior</span>";
+						    echo "<span class='label label-info'>Ensino superior</span>";
 						    endif;
 						if ($custom_fields['wpcf-a180'][0] == "Sim") :
-						    echo "<span class='a187'>No campo</span>";
+						    echo "<span class='label label-info'>No campo</span>";
 						    endif;
 						if ($custom_fields['wpcf-a181'][0] == "Sim") :
-						    echo "<span class='a187'>Indigena</span>";
+						    echo "<span class='label label-info'>Indigena</span>";
 						    endif;
 						if ($custom_fields['wpcf-a182'][0] == "Sim") :
-						    echo "<span class='a187'>Ambiental</span>";
+						    echo "<span class='label label-info'>Ambiental</span>";
 						    endif;
-				    ?> -->
+				    ?>
 					</td>
 				</tr>
 			</table>
@@ -180,8 +180,15 @@
 
 		<!-- Questionário Gestor -->
 
-		<div class="tab-pane" id="parte2">
-			Lorem ipsum!
+		<div class="tab-pane <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'active');  ?>" id="parte2">
+			<span class="titulo">Questionário</span>
+			<hr />
+			<table class="table table-bordered">
+				<tr>
+					<th>Tem plano?</th>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0]; ?></span></td>
+				</tr>
+			</table>
 		</div>
 
 		<!-- Questionário Sociedade -->
