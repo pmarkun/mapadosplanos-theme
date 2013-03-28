@@ -54,153 +54,148 @@
 		<?php if ( is_single() ) : ?>
 
 		<!-- EXIBICAO DOS CUSTOMFIELDS -->
-		
-		
-
-        <?php
-		global $custom_fields;
-echo '<div id="fichaae" class="well fichas">'; 
-echo '<span class="titulo" >Respostas do município </span>';
+		<div id="fichaae" class="well fichas">
+			<span class="titulo" >Respostas do município </span>
+        	<?php echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' ); ?>
+		<hr />
 
 
-echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' );
-echo '<hr />';
-
-?>
-
-
-
-<ul class="nav nav-tabs">
-  <li class="active"><a href="#parte1" data-toggle="tab">Parte 1</a></li>
-  <li><a href="#parte2" data-toggle="tab">Parte 2</a></li>
-</ul>
+		<ul class="nav nav-tabs">
+  			<li class="active"><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
+  			<li><a href="#parte2" data-toggle="tab">Questionário</a></li>
+  			<li><a href="#parte3" data-toggle="tab">Sociedade</a></li>
+		</ul>
 
 
-<?php
+		<!-- TABS -->
+		<div class="tab-content">
+			<div class="tab-pane active" id="parte1">
+				<span class="titulo">IBGE Munic 2011</span>
+				<hr />
+				<table class="table table-bordered">
+					<tr>
+						<th>Tem plano?</th>
+						<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0]; ?></span></td>
+					</tr>
+					<tr><td colspan="2"><span>Modalidades abrangidas</span>
+					<!-- <?php
+						//Exibe os niveis do plano
+						if ($custom_fields['wpcf-a173'][0] == "Sim") :
+						    echo "<span class='a187'>Ensino fundamental</span>";
+						    endif;
+						if ($custom_fields['wpcf-a174'][0] == "Sim") :
+						    echo "<span class='a187'>Infantil</span>";
+						    endif;
+						if ($custom_fields['wpcf-a175'][0] == "Sim") :
+						    echo "<span class='a187'>EJA</span>";
+						    endif;
+						if ($custom_fields['wpcf-a176'][0] == "Sim") :
+						    echo "<span class='a187'>Especial</span>";
+						    endif;
+						if ($custom_fields['wpcf-a177'][0] == "Sim") :
+						    echo "<span class='a187'>Ensino médio</span>";
+						    endif;
+						if ($custom_fields['wpcf-a178'][0] == "Sim") :
+						    echo "<span class='a187'>Profissional</span>";
+						    endif;
+						if ($custom_fields['wpcf-a179'][0] == "Sim") :
+						    echo "<span class='a187'>Ensino superior</span>";
+						    endif;
+						if ($custom_fields['wpcf-a180'][0] == "Sim") :
+						    echo "<span class='a187'>No campo</span>";
+						    endif;
+						if ($custom_fields['wpcf-a181'][0] == "Sim") :
+						    echo "<span class='a187'>Indigena</span>";
+						    endif;
+						if ($custom_fields['wpcf-a182'][0] == "Sim") :
+						    echo "<span class='a187'>Ambiental</span>";
+						    endif;
+				    ?> -->
+					</td>
+				</tr>
+			</table>
+			
+			<table class="table table-bordered">
+				<tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>
+				<tr>
+					<td>Sistema Municipal de Ensino</td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a171'][0]; ?>"><?php echo $custom_fields['wpcf-a171'][0]; ?></span></td>
+				</tr>
+				<tr>
+					<td>Fundo Municipal de Educação</td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a195'][0]; ?>"><?php echo $custom_fields['wpcf-a195'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Conselho Municipal de Educação</td> 
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a188'][0]; ?>"><?php echo $custom_fields['wpcf-a188'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Conselho de Controle e Acompanhamento Social do FUNDEB</td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a183'][0]; ?>"><?php echo $custom_fields['wpcf-a183'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Conselhos Escolares</td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a184'][0]; ?>"><?php echo $custom_fields['wpcf-a184'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Conselho de Alimentação Escolar</td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a185'][0]; ?>"><?php echo $custom_fields['wpcf-a185'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Conselho do Transporte Escolar</td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a186'][0]; ?>"><?php echo $custom_fields['wpcf-a186'][0] ?></span></td>
+				</tr>
+			</table>
 
-echo '<div class="tab-content">'; // começa tab content
+			<table class="table table-bordered">
+				<tr>
+					<th>No município, há programa ou ações de educação em direitos humanos??</th>
+				</tr>
+				<tr>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a489'][0]; ?>"><?php echo $custom_fields['wpcf-a489'][0] ?></span></td>
+				</tr>
+			</table>
 
-echo '<div class="tab-pane active" id="parte1">'; // começa parte 1
+			<table class="table table-bordered">
+				<tr>
+					<th colspan="2">Na rede municipal de ensino há programas e ações de:</th>
+				</tr>
+				<tr>
+					<td>Combate à discriminação</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a168'][0]; ?>"><?php echo $custom_fields['wpcf-a168'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['A190'][0]; ?>"><?php echo $custom_fields['A190'][0] ?></span></td>
+				</tr>
+			</table>
 
-echo(types_render_field("conselho", array("show_name" => "true", "output" => "html") ));
-echo(types_render_field("cargo", array("show_name" => "true", "output" => "html") ));
+			<table class="table table-bordered">
+				<tr>
+					<th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th>
+				</tr>
+				<tr>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0] ?></span></td>
+				</tr>
+			</table>
+		</div>
 
-echo '</div>'; // fim parte 1
+		<!-- Questionário Gestor -->
 
-echo '<div class="tab-pane" id="parte2">'; // começa parte 2
+		<div class="tab-pane" id="parte2">
+			Lorem ipsum!
+		</div>
 
-echo '<div class="questaoae">Quais foram ou estão sendo os dados utilizados para a elaboração do diagnóstico do município a ser utilizado no plano de educação?</div> <div id="resposta" class="text-info">' . $custom_fields['Q12'][0]. '</div>';
+		<!-- Questionário Sociedade -->
 
-echo '</div>';
-
-echo '</div>'; // fim parte 2
-
-echo '</div>'; // termina tab content
-
-//ficha IBGE
-
-echo '<div id="fichaibge" class="well fichas">';
-echo '<span class="titulo">IBGE Munic 2011</span>';
-echo '<hr /><table class="table table-bordered">';
-echo '<tr>
-<th>Tem plano?</th>
-<td><span class="resposta label label-info ibge-' . $custom_fields['wpcf-a187'][0] . '">' . $custom_fields['wpcf-a187'][0] . '</span></td>
-</tr>';
-
-echo '<tr><td colspan="2">
-<span>Modalidades abrangidas</span>';
-
-//Exibe os niveis do plano
-if ($custom_fields['wpcf-a173'][0] == "Sim") :
-    echo "<span class='a187'>Ensino fundamental</span>";
-    endif;
-if ($custom_fields['wpcf-a174'][0] == "Sim") :
-    echo "<span class='a187'>Infantil</span>";
-    endif;
-if ($custom_fields['wpcf-a175'][0] == "Sim") :
-    echo "<span class='a187'>EJA</span>";
-    endif;
-if ($custom_fields['wpcf-a176'][0] == "Sim") :
-    echo "<span class='a187'>Especial</span>";
-    endif;
-if ($custom_fields['wpcf-a177'][0] == "Sim") :
-    echo "<span class='a187'>Ensino médio</span>";
-    endif;
-if ($custom_fields['wpcf-a178'][0] == "Sim") :
-    echo "<span class='a187'>Profissional</span>";
-    endif;
-if ($custom_fields['wpcf-a179'][0] == "Sim") :
-    echo "<span class='a187'>Ensino superior</span>";
-    endif;
-if ($custom_fields['wpcf-a180'][0] == "Sim") :
-    echo "<span class='a187'>No campo</span>";
-    endif;
-if ($custom_fields['wpcf-a181'][0] == "Sim") :
-    echo "<span class='a187'>Indigena</span>";
-    endif;
-if ($custom_fields['wpcf-a182'][0] == "Sim") :
-    echo "<span class='a187'>Ambiental</span>";
-    endif;
+		<div class="tab-pane" id="parte3">
+			Sic dolor!
+		</div>
+	</div>
 
 
-
-
-echo '</td></tr>
-</table>';
-
-echo '<table class="table table-bordered">
-<tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>';
-echo '<tr><td>Sistema Municipal de Ensino</td> 
-	<td>
-	<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a171'][0] . '">' . $custom_fields['wpcf-a171'][0]. '</span>
-	</td></tr>';
-echo '<tr>
-	<td>Fundo Municipal de Educação</td> <td>
-		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a195'][0]. '">' . $custom_fields['wpcf-a195'][0]. '</span>
-	</td>
-</tr>';
-echo '<tr>
-	<td>Conselho Municipal de Educação</td> <td>
-		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a188'][0]. '">' . $custom_fields['wpcf-a188'][0]. '</span>
-	</td>
-</tr>';
-echo '<tr>
-	<td>Conselho de Controle e Acompanhamento Social do FUNDEB</td> <td>
-		<span class="resposta label label-info ibge-'. $custom_fields['wpcf-a183'][0]. '">'. $custom_fields['wpcf-a183'][0]. '</span>
-	</td>
-</tr>';
-echo '<tr>
-	<td>Conselhos Escolares</td> <td>
-		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a184'][0]. '">' . $custom_fields['wpcf-a184'][0]. '</span>
-	</td>
-</tr>';
-echo '<tr>
-	<td>Conselho de Alimentação Escolar</td> <td>
-		<span class="resposta label label-info ibge-' . $custom_fields['wpcf-a185'][0]. '">' . $custom_fields['wpcf-a185'][0]. '</span>
-	</td>
-</tr>';
-echo '<tr>
-	<td>Conselho do Transporte Escolar</td> <td>
-		<span class="resposta label label-info ibge-' .	$custom_fields['wpcf-a186'][0]. '">' .	$custom_fields['wpcf-a186'][0]. '</span>
-	</td>
-</tr></table>';
-
-echo '<table class="table table-bordered"><tr><th>No município, há programa ou ações de educação em direitos humanos??</th></tr><tr><td> <span class="resposta label label-info ibge-'. $custom_fields['wpcf-a489'][0]. '">'. $custom_fields['wpcf-a489'][0]. '</span></td></tr></table>';
-
-echo '<table class="table table-bordered">
-<tr><th colspan="2">Na rede municipal de ensino há programas e ações de:</th></tr>';
-echo '<tr><td>Combate à discriminação</td> <td><span class="resposta label label-info ibge-' . $custom_fields['wpcf-a168'][0]. '">' . $custom_fields['wpcf-a168'][0]. '</span></td></tr>';
-echo '<tr><td>Combate à violência</td> <td><span class="resposta label label-info ibge-' . $custom_fields['A190'][0]. '">' . $custom_fields['A190'][0]. '</span></td></tr>';
-
-echo '<table class="table table-bordered"><tr><th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th></tr><tr><td> <span class="resposta label label-info ibge-' . $custom_fields['wpcf-a187'][0]. '">' . $custom_fields['wpcf-a187'][0]. '</span></td></tr></table>';
-echo '</table></div>';
-        ?>
         
         <?php endif; ?>
 		<!-- FIM DA EXIBICAO DOS CUSTOMFIELDS -->
-		
-
-		
+				
 		<footer class="entry-meta">
 		
 		</footer><!-- .entry-meta -->
