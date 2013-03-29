@@ -130,4 +130,60 @@ function types_render_checkboxes($checkboxes, $classes) {
 	return $html;
 }
 
+//Cleaning up admin area
+
+function remove_menu_items() {
+	global $menu;
+	global $submenu;
+    unset($submenu['edit.php?post_type=municipio'][10]);
+	$restricted = array(__('Posts'),__('Links'), __('Comments'), __('Media'),
+	__('Plugins'), __('Tools'), __('Users'));
+	end ($menu);
+	while (prev($menu)){
+		$value = explode(' ',$menu[key($menu)][0]);
+		if(in_array($value[0] != NULL?$value[0]:"" , $restricted)) {
+			unset($menu[key($menu)]);
+		}
+	}
+}
+
+
+function mapadosplanos_admin_bar_render() {
+    global $wp_admin_bar;
+    $wp_admin_bar->remove_menu('comments');
+    $wp_admin_bar->remove_menu('new-content');
+}
+
+function remove_dashboard_widgets() {
+	global $wp_meta_boxes;
+
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_drafts']);
+	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+
+}
+
+function hide_that_stuff() {
+    if('municipio' == get_post_type())
+  echo '<style type="text/css">
+    #favorite-actions {display:none;}
+    .add-new-h2{display:none;}
+    .tablenav{display:none;}
+    </style>';
+}
+
+
+if ( !is_super_admin() ) {
+	add_action('admin_menu', 'remove_menu_items');
+	add_action( 'wp_before_admin_bar_render', 'mapadosplanos_admin_bar_render' );
+	add_action('wp_dashboard_setup', 'remove_dashboard_widgets' );
+	add_action('admin_head', 'hide_that_stuff');
+}
+
+
 ?>
