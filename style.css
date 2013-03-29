@@ -660,6 +660,31 @@ footer[role="contentinfo"] a:hover {
 	white-space:normal;
 }
 
+
+/* Mapa */
+
+.info {
+	background-color:#fff;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.info .legenda .marker {
+	width: 16px;
+	height:16px;
+	display:block;
+	float:left;
+}
+
+.info .leg_elaboracao .marker {
+	background-color:green;
+}
+.info .leg_complano .marker {
+	background-color:blue;
+}
+.info .leg_semplano .marker {
+	background-color:red;
+}
 /* =Main content
 -------------------------------------------------------------- */
 

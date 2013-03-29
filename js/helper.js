@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     // method that we will use to update the control based on feature properties passed
     info.update = function (props) {
-	this._div.innerHTML = '<h4>Verde: Com Plano<br>Rosa: Sem Plano</h4>'
+	this._div.innerHTML = '<h2>Planos de Educação</h2><div class="legenda"><div class="leg_elaboracao"><span class="marker"></span><span>Em elaboração</span></div><div class="leg_complano"><span class="marker"></span><span>Com plano</span></div><div class="leg_semplano"><span class="marker"></span><span>Sem plano</span></div><div class="leg_gestor"><span class="marker"></span><span>Resposta do/a gestor/a</span></div></div>'
     };
 
     info.setPosition("bottomright");
