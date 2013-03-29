@@ -177,13 +177,21 @@ function hide_that_stuff() {
     </style>';
 }
 
+//Cleaning up Municipios Post interface
+function mapadosplanos_remove_post_meta_boxes() {
+	remove_meta_box('slugdiv', 'municipio', 'normal');
+	remove_meta_box('wpcf-marketing', 'municipio', 'side');
+	remove_meta_box('munic2011', 'municipio', 'normal');
+}
+
 
 if ( !is_super_admin() ) {
 	add_action('admin_menu', 'remove_menu_items');
 	add_action( 'wp_before_admin_bar_render', 'mapadosplanos_admin_bar_render' );
 	add_action('wp_dashboard_setup', 'remove_dashboard_widgets' );
 	add_action('admin_head', 'hide_that_stuff');
+	add_action( 'add_meta_boxes', 'mapadosplanos_remove_post_meta_boxes' );
 }
 
-
+	
 ?>
