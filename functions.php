@@ -193,5 +193,23 @@ if ( !is_super_admin() ) {
 	add_action( 'add_meta_boxes', 'mapadosplanos_remove_post_meta_boxes' );
 }
 
+// Redirect by IBGE
+
+function ibge_redirect() {
+  if (isset($_GET['ibge'])) {
+  	global $wpdb;
+    $sql = "SELECT post_id FROM {$wpdb->postmeta} " . "WHERE meta_key='ibge' AND meta_value='%s'";
+    $sql = $wpdb->prepare($sql,$_GET['ibge']);
+    $post_id = $wpdb->get_var($sql);
+    if ($post_id) {
+      $permalink = get_permalink($post_id);
+      if ($permalink) {
+        wp_safe_redirect($permalink,301);
+        exit;
+      }
+    }
+  }
+}
+add_action('parse_request','ibge_redirect',0);  // 0=before (most) 'parse_request' calls
 	
 ?>
