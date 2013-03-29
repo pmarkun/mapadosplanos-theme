@@ -181,7 +181,7 @@
 		<!-- Questionário Gestor -->
 
 		<div class="tab-pane <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'active');  ?>" id="parte2">
-			<span class="titulo">Questionário</span>
+			<span class="titulo">Questionário :: <?php echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></span>
 			<hr />
 			<table class="table table-bordered">
 				<tr>
@@ -204,22 +204,41 @@
 					<th>Seu município possui Plano de Educação em vigência?</th>
 					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
 				</tr>
-				<tr>
-					<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
-					<td><span class="resposta label label-info ibge-Sim ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
-				</tr>
-				<tr>
-					<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano07_complano'); ?>"><?php echo types_render_field('qs_plano07_complano'); ?></span></td>
-				</tr>
-				<tr>
-					<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_complano'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Houve investimento em comunicação sobre o processo de elaboração do Plano de Educação?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano09'); ?>"><?php echo types_render_field('qs_plano09'); ?></span></td>
-				</tr>
+				
+				<?php if ($custom_fields['wpcf-qs_etapa01'][0] == "Sim") { ?>
+				<!-- Tem plano -->
+					<tr>
+						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
+						<td><span class="resposta label label-info ibge-Sim ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
+					</tr>
+					<tr>
+						<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano07_complano'); ?>"><?php echo types_render_field('qs_plano07_complano'); ?></span></td>
+					</tr>
+					<tr>
+						<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_complano'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
+					</tr>
+					<tr>
+						<th>Houve investimento em comunicação sobre o processo de elaboração do Plano de Educação?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano09'); ?>"><?php echo types_render_field('qs_plano09'); ?></span></td>
+					</tr>
+				<?php } elseif ($custom_fields['wpcf-qs_etapa01'][0] == "Elaboração") { ?>
+					<!-- Plano em elaboração -->
+					<tr>
+						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
+						<td><span class="resposta label label-info ibge-Sim ?>"><?php echo types_render_field('qs_plano06_elaboracao'); ?></span></td>
+					</tr>
+					<tr>
+						<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano07_elaboracao'); ?>"><?php echo types_render_field('qs_plano07_complano'); ?></span></td>
+					</tr>
+					<tr>
+						<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_elaboracao'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
+					</tr>
+				<?php } ?>
+
 				<tr>
 					<th>Houve assessoria no processo de elaboração do Plano de Educação? </th>
 					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano12'); ?>"><?php echo types_render_field('qs_plano12'); ?></span></td>
