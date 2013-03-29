@@ -42,4 +42,17 @@ Na pasta de plugins:
        
 # Como preparar os arquivos
 
-Importar o `data/users.csv` usando o plugin Import users from csv. Isso vai importar todos os munícipios como nome de usuário atribuindo como senha o código do IBGE.
+1) Importar o conteúdo do arquivo `embedded-types/settings.xml` no plugin Types.
+
+Opcionalmente você pode apenas descomentar a linha no `functions.php`.
+
+2) Importar o `data/wp_munic2011_users.csv` usando o plugin Import users from csv. 
+
+Isso vai importar todos os munícipios como nome de usuário atribuindo como senha o código do IBGE.
+
+3) Importar o `data/wp_munic2011_posts.csv` usando o plugin WP CSV.
+
+Isso vai importar todos os munícipios e suas respostas no IBGE Munic 2011 como posts do tipo `municipio`.
+
+*Atenção* talvez seja necessário alterar o `memory_limit` e o `max_execution_time` nas configurações do Apache.
+
