@@ -185,8 +185,72 @@
 			<hr />
 			<table class="table table-bordered">
 				<tr>
-					<th>Tem plano?</th>
-					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0]; ?></span></td>
+					<th>Possui sistema municial de ensino?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Possui Conselho Municipal em Atividade?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano02'); ?>"><?php echo types_render_field('qs_plano02'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Possui plano de carreira para o magistério?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano03'); ?>"><?php echo types_render_field('qs_plano03'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Secretário de educação é ordenador de despesas?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano04'); ?>"><?php echo types_render_field('qs_plano04'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Seu município possui Plano de Educação em vigência?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
+					<td><span class="resposta label label-info ibge-Sim ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
+				</tr>
+				<tr>
+					<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano07_complano'); ?>"><?php echo types_render_field('qs_plano07_complano'); ?></span></td>
+				</tr>
+				<tr>
+					<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_complano'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Houve investimento em comunicação sobre o processo de elaboração do Plano de Educação?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano09'); ?>"><?php echo types_render_field('qs_plano09'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Houve assessoria no processo de elaboração do Plano de Educação? </th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano12'); ?>"><?php echo types_render_field('qs_plano12'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Em caso afirmativo, informe quem foram os assessores:</th>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+				</tr>
+				<tr>
+					<th>Quais das instituições/entidades que atuam no município participaram da elaboração do plano de educação?</th>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+				</tr>
+				<tr>
+					<th>Dos segmentos da comunidade escolar descritos abaixo, quais participaram da elaboração do Plano de Educação de seu município?</th>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+				</tr>
+				<tr>
+					<th>Houve participação de crianças e adolescentes na elaboração do Plano de Educação?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano21'); ?>"><?php echo types_render_field('qs_plano21'); ?></span></td>
+				</tr>
+				<tr>
+					<th>Em que ano desta gestão (2013-2016) seu município pretente avaliar o Plano de Educação?</th>
+					<td><span class="resposta label label-info"><?php echo(types_render_field('qs_plano23', array('raw'=>'true'))); ?></span></td>
+				</tr>
+				<tr>
+					<th>A quem cabe a avaliação da implantação das metas do Plano de Educação de seu município?</th>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+				</tr>
+				<tr>
+					<th>Seu município já respondeu a alguma demanda baseada na lei de acesso à informação pública (lei 12.527/2011) com relação à área de educação?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano26'); ?>"><?php echo types_render_field('qs_plano26') ?></span></td>
 				</tr>
 			</table>
 		</div>

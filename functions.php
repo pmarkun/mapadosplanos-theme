@@ -1,6 +1,6 @@
 <?php
 
-require_once(dirname(__FILE__).'/embedded-types/types.php');
+//require_once(dirname(__FILE__).'/embedded-types/types.php');
 define('child_template_directory', dirname(get_bloginfo('stylesheet_url')));
 
 // AJAX SEARCH
@@ -119,5 +119,15 @@ function redirect_var($public_query_vars) {
 	return $public_query_vars;
 	}
 
+
+//Helper functions for checkbox
+
+function types_render_checkboxes($checkboxes, $classes) {
+	$html = '';
+	foreach (unserialize($checkboxes) as $key => $value) {
+		$html = $html . '<span class="' . $classes . '">' . $value . '</span>';
+	}
+	return $html;
+}
 
 ?>

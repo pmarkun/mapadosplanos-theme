@@ -656,6 +656,9 @@ footer[role="contentinfo"] a:hover {
 	background-color: #466200 !important;
 }
 
+.resposta.label { 
+	white-space:normal;
+}
 
 /* =Main content
 -------------------------------------------------------------- */
