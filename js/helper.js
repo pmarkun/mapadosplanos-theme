@@ -69,8 +69,6 @@ $(document).ready(function () {
 				$("#autocomplete").html(results);
 				$("#autocomplete a").hover(null, function() {
                     map.ease.location({ lat: this.dataset.lat, lon: this.dataset.lng }).zoom(6).optimal();
-                    console.log(this.dataset.lat);
-                    console.log(this.dataset.lng);
                     return false;
 				});
 				
@@ -78,6 +76,9 @@ $(document).ready(function () {
 				    map.ease.location({ lat: -13.32, lon: -51.15 }).zoom(4).optimal();
                     return false;
 				});
+                $('#autocomplete').mouseleave(function() {
+                    $("#autocomplete").html('');
+                });
 				
 			}
 		});
