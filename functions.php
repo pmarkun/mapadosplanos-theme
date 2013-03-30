@@ -45,21 +45,6 @@ function quicksearch() {
 
 }
 
-// JAVASCRIPT and CSS LOADING
-
-function acaoeducativa_scripts_basic() {
-	wp_register_script( 'leaflet', child_template_directory . '/js/leaflet/leaflet.js' );  
-    wp_enqueue_script( 'leaflet' );
-}  
-
-function acaoeducativa_styles_basic() {
-	wp_register_style( 'leaflet', child_template_directory . '/js/leaflet/leaflet.css' );  
-    wp_enqueue_style( 'leaflet' );	
-}
-add_action( 'wp_enqueue_scripts', 'acaoeducativa_scripts_basic' );  
-add_action( 'wp_enqueue_scripts', 'acaoeducativa_styles_basic' );  
-
-
 //Front Page Widget Big
 register_sidebar( array(
 		'name' => __( 'Front Page Big', 'twentytwelve' ),

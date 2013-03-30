@@ -26,15 +26,24 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
 <?php wp_head(); ?>
-<script src="<?php echo child_template_directory ?>/js/jquery-1.8.3.min.js" type="text/javascript"></script>
-<script src="<?php echo child_template_directory ?>/js/helper.js" type="text/javascript"></script>
+<!-- Jquery -->
+<script src="<?php echo child_template_directory ?>/vendor/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
 
 <!--Bootstrap-->
-<script src="<?php echo child_template_directory ?>/js/bootstrap-transition.js" type="text/javascript"></script>
-<script src="<?php echo child_template_directory ?>/js/bootstrap-carousel.js" type="text/javascript"></script>
-<script src="<?php echo child_template_directory ?>/js/bootstrap-tab.js" type="text/javascript"></script>
+<script src="<?php echo child_template_directory ?>/vendor/bootstrap/bootstrap-transition.js" type="text/javascript"></script>
+<script src="<?php echo child_template_directory ?>/vendor/bootstrap/bootstrap-carousel.js" type="text/javascript"></script>
+<script src="<?php echo child_template_directory ?>/vendor/bootstrap/bootstrap-tab.js" type="text/javascript"></script>
+
+<!--Mapbox-->
+<script src="<?php echo child_template_directory ?>/vendor/mapbox/mapbox.js" type="text/javascript"></script>
+<!-- Other scripts -->
+<script src="<?php echo child_template_directory ?>/js/helper.js" type="text/javascript"></script>
 <script src="<?php echo child_template_directory ?>/js/scripts.js" type="text/javascript"></script>
-<link rel="stylesheet"  href="<?php echo child_template_directory ?>/bootstrap.css" type="text/css" media="all" />
+
+<!-- css -->
+<link rel="stylesheet"  href="<?php echo child_template_directory ?>/vendor/bootstrap/bootstrap.css" type="text/css" media="all" />
+<link rel="stylesheet"  href="<?php echo child_template_directory ?>/vendor/mapbox/mapbox.css" type="text/css" media="all" />
+
 <link rel="stylesheet"  href="<?php echo child_template_directory ?>/acaoeducativa.css" type="text/css" media="all" />
 <link rel="shortcut icon" type="image/x-icon" href="<?php echo child_template_directory ?>/favicon.png" />
 

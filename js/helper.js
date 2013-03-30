@@ -1,51 +1,23 @@
 $(document).ready(function () {
-	
-    //mapbox start
-    var municipios = L.tileLayer('http://b.tiles.mapbox.com/v3/acaoeducativa.mapadosplanos/{z}/{x}/{y}.png', {
-    });
-    var estados = L.tileLayer('http://b.tiles.mapbox.com/v3/acaoeducativa.mapadosplanos-estados/{z}/{x}/{y}.png', {
-    });
-    
-    var brasil = new L.LatLng(-13.3255, -51.1523);
-    var map = L.map('map', {
-	center: new L.LatLng(-13.3255, -51.1523),
-	zoom: 4,
-	maxZoom: 7,
-	minZoom: 4,
-	//maxBounds: [[-78.3105,-38.0654], [-26.8945,7.3625]],
-	layers: [estados, municipios]
-       });
-    
-    var baseMaps = {
-    "Estados": estados,
-    "Munícipios": municipios
-    };
 
-    L.control.layers(baseMaps, null,{ collapsed: false }).addTo(map);
+    // here we use an interactive layer with the mapbox.layer shortcut, which
+    // requires us to use a callback for when the layer is loaded, and then
+    // to refresh the map's interactivity
 
-    var info = L.control();
+    // If you're creating a new interactive layer, follow the tooltips docs:
+    // http://mapbox.com/tilemill/docs/crashcourse/tooltips/
+    var map = mapbox.map('map');
+    map.zoom(4).center({ lat: -13.32, lon: -51.15 });
+    map.addLayer(mapbox.layer().id('acaoeducativa.mapadosplanos', function() {
+        // this function runs after the layer examples.map-8ced9urs is loaded
+        // from MapBox and we know what interactive features are supported.
+        map.interaction.auto();
+    }));
 
-    info.onAdd = function (map) {
-	this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-	this.update();
-	return this._div;
-    };
+    // Attribute map
+    map.ui.attribution.add()
+        .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
 
-    // method that we will use to update the control based on feature properties passed
-    info.update = function (props) {
-	this._div.innerHTML = '<h2>Planos de Educação</h2><div class="legenda"><div class="leg_elaboracao"><span class="marker"></span><span>Em elaboração</span></div><div class="leg_complano"><span class="marker"></span><span>Com plano</span></div><div class="leg_semplano"><span class="marker"></span><span>Sem plano</span></div><div class="leg_gestor"><span class="marker"></span><span>Resposta do/a gestor/a</span></div></div>'
-    };
-
-    info.setPosition("bottomleft");
-    info.addTo(map);
-
-
-
-    municipios.bringToFront();
-    estados.bringToBack();
-
-    //mapbox end
-    
     //autosearchbox start
     $('#s').keyup(function(e) {
         clearTimeout($.data(this, 'timer'));
