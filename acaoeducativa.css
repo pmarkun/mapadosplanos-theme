@@ -138,49 +138,6 @@ img {
 .search .media .pull-left {
   margin-right: 20px;
 }
-/*Novo header*/
-#map img {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-.header-image {
-  margin: 5px 0 0 0;
-}
-#page {
-  margin-top: 30px;
-  padding: 0 !important;
-}
-
-#main {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-#masthead {
-  padding: 5px 20px 5px;
-  background: rgba(116, 162, 0, 0.8);
-  /*position: fixed;*/
-  /*top: 20px;*/
-  width: 960px;
-  z-index: 9000;
-  -webkit-box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.3);
-  box-shadow: 0px 2px 2px rgba(50, 50, 50, 0.3);
-}
-#masthead td {
-  vertical-align: middle;
-}
-#masthead #site-navigation {
-  margin-left: 20px;
-  margin-top: 0;
-}
-#masthead #tdheader {
-  width: 250px;
-}
-
-.entry-title {
-  color: #F95F00;
-}
 
 /* FAT SIDEBAR */
 .fat-widgets {
@@ -216,7 +173,6 @@ width: 39% !important;
 margin: 0 0 24px;
 /*border:1px solid blue;*/
 }
-
 
 /* Mapa da Home */
 /* Interface de switch */
@@ -265,4 +221,50 @@ margin: 0 0 24px;
   max-width:200px;
   list-style:none;
   z-index:99;
+}
+
+/* HEADER */
+#page {
+  margin-top: 30px;
+  padding: 0 !important;
+}
+
+#main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#masthead {
+  padding:0;
+  width:960px;
+  height:140px;
+  z-index: 9000;
+}
+
+#masthead #site-logo {
+  width:120px;
+  height:120px;
+  background:#fff url('/wp-content/themes/mapadosplanos-theme/img/logo-small.jpg') no-repeat center center;
+  background-size:120px 120px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:50px;
+  float:left;
+}
+
+#masthead #site-navigation {
+  padding-left:10px;
+  padding-right:10px;
+  width:720px;
+  height:40px;
+  margin-top:40px;
+  margin-bottom:20px;
+  margin-right:20px;
+  background-color: #00a4db;
+  float:right;
+}
+
+/* BODY */
+body {
+  background-color: #f7fafe;
 }
