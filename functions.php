@@ -32,7 +32,7 @@ function quicksearch() {
 			$lat = get_post_meta($post->ID, "lat", true);
 			$lng = get_post_meta($post->ID, "lng", true);
 			echo '<li>';
-			echo '<a href="'.$post->guid.'" data-lat="' . $lat . '" data-lng=' . $lng . '">'.$post->post_title.'</a>';
+			echo '<a href="'.$post->guid.'" data-lat="' . $lat . '" data-lng="' . $lng . '">'.$post->post_title.'</a>';
 			echo '</li>';
 			$x++;
 		}
