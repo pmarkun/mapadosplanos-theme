@@ -11,7 +11,18 @@
 	<?php 
 	    global $custom_fields;
 	    $custom_fields = get_post_custom(the_ID());
-	?></div>
+	    global $estapa;
+	    if ($custom_fields['wpcf-qs_etapa01'][0] == "Sim") {
+	    	$etapa = 'complano';
+	    }
+	    elseif ($custom_fields['wpcf-qs_etapa01'][0] == "Elaboração") {
+	     	$etapa = 'elaboracao';
+    	}
+     	elseif ($custom_fields['wpcf-qs_etapa01'][0] == "Não") {
+	      	$etapa = 'semplano';
+      	}
+	?>
+	</div>
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
@@ -63,13 +74,14 @@
 		<ul class="nav nav-tabs">
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
-  			<li class="disabled"><a href="#parte3" data-toggle="tab">Sociedade</a></li>  			
+  			<!-- <li class="disabled"><a href="#parte3" data-toggle="tab">Sociedade</a></li> -->
 		</ul>
 
 		
 		<!-- TABS -->
 		<div class="tab-content">
-			<div class="tab-pane <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'active' : '');  ?>" id="parte1">
+			<!-- IBGE -->
+			<div class="tab-pane <?php echo ($etapa != "complano" && $etapa != "elaboracao" ? 'active' : '');  ?>" id="parte1">
 				<span class="titulo">IBGE Munic 2011</span>
 				<hr />
 				<table class="table table-bordered">
@@ -112,10 +124,10 @@
 						    endif;
 				    ?>
 					</td>
-				</tr>
-			</table>
+					</tr>
+				</table>
 			
-			<table class="table table-bordered">
+				<table class="table table-bordered">
 				<tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>
 				<tr>
 					<td>Sistema Municipal de Ensino</td>
@@ -145,18 +157,18 @@
 					<td>Conselho do Transporte Escolar</td>
 					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a186'][0]; ?>"><?php echo $custom_fields['wpcf-a186'][0] ?></span></td>
 				</tr>
-			</table>
+				</table>
 
-			<table class="table table-bordered">
+				<table class="table table-bordered">
 				<tr>
 					<th>No município, há programa ou ações de educação em direitos humanos??</th>
 				</tr>
 				<tr>
 					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a489'][0]; ?>"><?php echo $custom_fields['wpcf-a489'][0] ?></span></td>
 				</tr>
-			</table>
+				</table>
 
-			<table class="table table-bordered">
+				<table class="table table-bordered">
 				<tr>
 					<th colspan="2">Na rede municipal de ensino há programas e ações de:</th>
 				</tr>
@@ -166,24 +178,24 @@
 				<tr>
 					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['A190'][0]; ?>"><?php echo $custom_fields['A190'][0] ?></span></td>
 				</tr>
-			</table>
+				</table>
 
-			<table class="table table-bordered">
+				<table class="table table-bordered">
 				<tr>
 					<th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th>
 				</tr>
 				<tr>
 					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0] ?></span></td>
 				</tr>
-			</table>
-		</div>
-
-		<!-- Questionário Gestor -->
-
-		<div class="tab-pane <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'active');  ?>" id="parte2">
-			<span class="titulo">Questionário :: <?php echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></span>
-			<hr />
-			<table class="table table-bordered">
+				</table>
+			</div>
+		
+			<!-- Questionário Gestor -->
+			<?php if ($etapa == "complano" || $etapa == "elaboracao") : ?>
+			<div class="tab-pane active" id="parte2">
+				<span class="titulo">Questionário :: <?php echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></span>
+				<hr />
+				<table class="table table-bordered">
 				<tr>
 					<th>Possui sistema municial de ensino?</th>
 					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
@@ -271,18 +283,24 @@
 					<th>Seu município já respondeu a alguma demanda baseada na lei de acesso à informação pública (lei 12.527/2011) com relação à área de educação?</th>
 					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano26'); ?>"><?php echo types_render_field('qs_plano26') ?></span></td>
 				</tr>
-			</table>
-		</div>
+				</table>
+			</div>
+			
+			<?php elseif ($etapa != "complano" || $etapa != "elaboracao") : ?>
+			<div class="tab-pane" id="parte2">
+				<p>Sic dolor! Conteúdo para incentivar a preencher o questionário.</p>
+				<h2><a href="wp-admin/post.php?post=<?php echo the_ID();?>&action=edit">Preencha o questionário.</a></h2>
+			</div>
 
-		<!-- Questionário Sociedade -->
-
-		<div class="tab-pane" id="parte3">
-			Sic dolor!
-		</div>
+			<?php endif; ?>
+			<!-- Questionário Sociedade -->
+			<!--
+			<div class="tab-pane" id="parte3">
+				Sic dolor!
+			</div>
+			-->
 	</div>
 
-
-        
         <?php endif; ?>
 		<!-- FIM DA EXIBICAO DOS CUSTOMFIELDS -->
 				
