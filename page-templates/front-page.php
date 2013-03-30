@@ -77,3 +77,4 @@ get_header(); ?>
 
 <?php get_sidebar('front'); ?>
 <?php get_footer(); ?>
+<script> markers = <?php echo get_markers_json(); ?>;</script>

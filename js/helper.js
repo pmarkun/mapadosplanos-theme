@@ -47,6 +47,19 @@ $(document).ready(function () {
         // Attribute map
         map.ui.attribution.add()
             .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
+    
+        //Place markers
+        var markerLayer = mapbox.markers.layer();
+        map.addLayer(markerLayer);
+        for (var i = 0; i < markers.length; i++) {
+            var m = markers[i];
+            var p = {
+                geometry: {
+                    coordinates: [m.lng, m.lat]
+                }
+            };
+            markerLayer.add_feature(p);
+        }
     });
 
     //autosearchbox start
