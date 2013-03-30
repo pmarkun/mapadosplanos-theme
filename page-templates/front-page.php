@@ -30,6 +30,10 @@ get_header(); ?>
 				<div class="entry-content">
 					<!-- <?php the_content(); ?> -->
 					<div id="map" class="img-polaroid">
+						<ul id="map-ui">
+							<a href='#' id='acaoeducativa.mapadosplanos' class='active'>Munícipios</a>
+							<a href='#' id='acaoeducativa.mapadosplanos-estados'>Estados</a>
+						</ul>
 						<div class="map-legends">
     						<div class="map-legend">
         						<h2>Planos de Educação</h2>

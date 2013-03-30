@@ -216,3 +216,53 @@ width: 39% !important;
 margin: 0 0 24px;
 /*border:1px solid blue;*/
 }
+
+
+/* Mapa da Home */
+/* Interface de switch */
+
+#map-ui {
+  position:absolute;
+  top:10px;left:10px;
+  list-style:none;
+  margin:0;padding:0;
+  z-index:99;
+  }
+  #map-ui a {
+    font:normal 13px/18px 'Helvetica Neue',Helvetica,sans-serif;
+    background:#FFF;
+    color:#3C4E5A;
+    display:block;
+    margin:0;padding:0;
+    border:1px solid #BBB;
+    border-bottom-width:0;
+    max-width:80px;
+    padding:10px;
+    text-decoration:none;
+    }
+  #map-ui a:hover { background:#ECF5FA; }
+  #map-ui li:last-child a {
+    border-bottom-width:1px;
+    -webkit-border-radius:0 0 3px 3px;
+            border-radius:0 0 3px 3px;
+    }
+  #map-ui li:first-child a {
+    -webkit-border-radius:3px 3px 0 0;
+            border-radius:3px 3px 0 0;
+          }
+  #map-ui a.active {
+    background:#3887BE;
+    border-color:#3887BE;
+    border-top-color:#FFF;
+    color:#FFF;
+    }
+
+/* Legenda */
+.map-legends {
+  position:absolute;
+  bottom:10px;left:10px;
+  max-height:200px;
+  max-width:200px;
+  list-style:none;
+  z-index:99;
+}

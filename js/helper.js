@@ -6,17 +6,48 @@ $(document).ready(function () {
 
     // If you're creating a new interactive layer, follow the tooltips docs:
     // http://mapbox.com/tilemill/docs/crashcourse/tooltips/
-    var map = mapbox.map('map');
-    map.zoom(4).center({ lat: -13.32, lon: -51.15 });
-    map.addLayer(mapbox.layer().id('acaoeducativa.mapadosplanos', function() {
-        // this function runs after the layer examples.map-8ced9urs is loaded
-        // from MapBox and we know what interactive features are supported.
-        map.interaction.auto();
-    }));
+    mapbox.load(['acaoeducativa.mapadosplanos', 'acaoeducativa.mapadosplanos-estados'], function(data) {
 
-    // Attribute map
-    map.ui.attribution.add()
-        .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
+        map = mapbox.map('map');
+        var layers = document.getElementById('map-ui').getElementsByTagName('a');
+
+        map.zoom(4).center({ lat: -13.32, lon: -51.15 });
+        
+        map.addLayer(data[0].layer);
+
+        map.addLayer(data[1].layer);
+        map.interaction.auto();
+
+        for (var i = 0; i < layers.length; i++) {
+          layer = layers[i];
+          if (layer.className != 'active') {
+              map.getLayer(layer.id).disable();
+          }
+          
+          layer.onclick = function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+              // If the layer that has been clicked on is not already enabled,
+              // enable it and also disable any other active layers in the layerswitcher
+              if (!(map.getLayer(this.id).enabled)) {
+                  for (var i = 0; i < layers.length; i++) {
+                      if (map.getLayer(layers[i].id).enabled) {
+                          map.getLayer(layers[i].id).disable();
+                          layers[i].className = '';
+                      }
+                  }
+                  map.getLayer(this.id).enable();
+                  this.className = 'active';
+                  map.interaction.refresh();
+                }
+            };
+        }
+
+
+        // Attribute map
+        map.ui.attribution.add()
+            .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
+    });
 
     //autosearchbox start
     $('#s').keyup(function(e) {
@@ -36,12 +67,16 @@ $(document).ready(function () {
 			data:'action=ae_search&s='+existingString,
 			success:function(results) {
 				$("#autocomplete").html(results);
-				$("#autocomplete a").hover(function() {
-				    map.setView([this.dataset.lat, this.dataset.lng], 6);
+				$("#autocomplete a").hover(null, function() {
+                    map.ease.location({ lat: this.dataset.lat, lon: this.dataset.lng }).zoom(6).optimal();
+                    console.log(this.dataset.lat);
+                    console.log(this.dataset.lng);
+                    return false;
 				});
 				
 				$("#autocomplete ul").hover(null, function() {
-				    map.setView(brasil, 4);
+				    map.ease.location({ lat: -13.32, lon: -51.15 }).zoom(4).optimal();
+                    return false;
 				});
 				
 			}
