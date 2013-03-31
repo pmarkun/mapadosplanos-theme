@@ -47,6 +47,35 @@ $(document).ready(function () {
         // Attribute map
         map.ui.attribution.add()
             .content('<a href="http://mapbox.com/about/maps">Terms &amp; Feedback</a>');
+    
+        //Place markers
+        var markerLayer = mapbox.markers.layer();
+        mapbox.markers.interaction(markerLayer).remove()
+        map.addLayer(markerLayer);
+        for (var i = 0; i < markers.length; i++) {
+            var m = markers[i];
+            var color;
+            if (m.qs_etapa01=='Sim') {
+                color='#7eed0d';
+            }
+            else if (m.qs_etapa01=='Elaboração') {
+                color='#0d7eed';
+            }
+            else if (m.qs_etapa01=='Não') {
+                color='#ed0d7e';
+            }
+            var p = {
+                geometry: {
+                    coordinates: [m.lng, m.lat]
+                },
+                properties: {
+                    'marker-color': color,
+                    'marker-size': 'small',
+                    'marker-symbol': 'library'
+                }
+            };
+            markerLayer.add_feature(p);
+        }
     });
 
     //autosearchbox start

@@ -196,5 +196,30 @@ function ibge_redirect() {
   }
 }
 add_action('parse_request','ibge_redirect',0);  // 0=before (most) 'parse_request' calls
-	
+
+function get_markers_json() {
+	global $wpdb;
+	$limit=10;
+	//dar um tweak nisso
+    $querystr = "
+		SELECT post_id 
+		FROM $wpdb->postmeta
+		WHERE meta_key='wpcf-qs_etapa01';
+	 ";
+
+ 	$metaposts = $wpdb->get_results($querystr, OBJECT);
+ 	$json = '[';
+ 	foreach ($metaposts as $p) {
+ 		$post = get_post_custom($p->post_id);
+ 		$json = $json . '{';
+ 		$json = $json . 'ibge:"' . $post['ibge'][0] . '",';
+ 		$json = $json . 'lat:"' . $post['lat'][0] . '",';
+ 		$json = $json . 'lng:"' . $post['lng'][0] . '",';
+ 		$json = $json . 'qs_etapa01:"' . $post['wpcf-qs_etapa01'][0] . '"';
+ 		$json = $json . '},';
+ 	}
+ 	$json = $json . '{}]';
+ 	return $json;
+}
+
 ?>
