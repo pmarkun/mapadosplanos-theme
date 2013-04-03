@@ -244,7 +244,7 @@ margin: 0 0 24px;
 #masthead #site-logo {
   width:120px;
   height:120px;
-  background:#fff url('/wordpress/wp-content/themes/mapadosplanos-theme/img/logo-small.jpg') no-repeat center center;
+  background:#fff url('img/logo-small.jpg') no-repeat center center;
   background-size:120px 120px;
   margin-top:20px;
   margin-left:20px;

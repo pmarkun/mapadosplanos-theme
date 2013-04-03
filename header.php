@@ -65,7 +65,7 @@
 
 		<header id="masthead" class="site-header" role="banner">
 
-		<div id="site-logo"></div>
+		<a href="<?php echo get_site_url(); ?>" id="site-logo"></a>
 		
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
