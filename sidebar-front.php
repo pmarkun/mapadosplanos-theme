@@ -15,7 +15,7 @@
  *
  * If none of the sidebars have widgets, then let's bail early.
  */
-if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
+if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) &&! is_active_sidebar( 'frontpage-big' ) && ! is_active_sidebar('frontpage-below-big'))
 	return;
 
 // If we get this far, we have widgets. Let do this.
@@ -37,5 +37,11 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
 	<div class="second front-widgets">
 		<?php dynamic_sidebar( 'sidebar-3' ); ?>
 	</div><!-- .second -->
+	<?php endif; ?>
+
+	<?php if ( is_active_sidebar( 'frontpage-below-big' ) ) : ?>
+	<div class="fat-widgets">
+		<?php dynamic_sidebar( 'frontpage-below-big' ); ?>
+	</div><!-- .first -->
 	<?php endif; ?>
 </div><!-- #secondary -->
