@@ -1476,15 +1476,14 @@ img#wpstats {
 	.main-navigation li a {
 		border-bottom: 0;
 		color: #eee;
-		line-height: 3.692307692;
 		text-transform: uppercase;
+		max-width: 100px;
 	}
 	.main-navigation li a:hover {
 		color: #fff;
 	}
 	.main-navigation li {
-		margin: 0 40px 0 0;
-		margin: 0 2.857142857rem 0 0;
+		margin: 0 10px 0 0;
 		position: relative;
 	}
 	.main-navigation li ul {

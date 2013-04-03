@@ -244,24 +244,40 @@ margin: 0 0 24px;
 #masthead #site-logo {
   width:120px;
   height:120px;
-  background:#fff url('/wp-content/themes/mapadosplanos-theme/img/logo-small.jpg') no-repeat center center;
+  background:#fff url('/wordpress/wp-content/themes/mapadosplanos-theme/img/logo-small.jpg') no-repeat center center;
   background-size:120px 120px;
-  margin-top:10px;
-  margin-bottom:10px;
-  margin-left:50px;
+  margin-top:20px;
+  margin-left:20px;
   float:left;
 }
 
 #masthead #site-navigation {
-  padding-left:10px;
-  padding-right:10px;
-  width:720px;
-  height:40px;
-  margin-top:40px;
-  margin-bottom:20px;
-  margin-right:20px;
+  height: 60px;
+  width:760px;
+  margin-top:75px;
+  margin-right: 20px;
   background-color: #00a4db;
   float:right;
+}
+
+#masthead li {
+   font-size: 13px;
+   height:auto;
+}
+
+#masthead li a {
+   margin-top:10px;
+   padding-left:10px;
+   padding-bottom: 15px;
+   text-align: center;
+}
+
+#masthead .sub-menu li a {
+    margin-top:0px;
+}
+
+#masthead li li {
+    height: auto;
 }
 
 /* BODY */
