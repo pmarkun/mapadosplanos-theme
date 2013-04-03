@@ -6,43 +6,43 @@ $(document).ready(function () {
 
     // If you're creating a new interactive layer, follow the tooltips docs:
     // http://mapbox.com/tilemill/docs/crashcourse/tooltips/
-    mapbox.load(['acaoeducativa.mapadosplanos', 'acaoeducativa.mapadosplanos-estados'], function(data) {
+    mapbox.load(['acaoeducativa.mapadosplanos-estados', 'acaoeducativa.mapadosplanos'], function(data) {
 
         map = mapbox.map('map');
-        var layers = document.getElementById('map-ui').getElementsByTagName('a');
 
         map.zoom(4).center({ lat: -13.32, lon: -51.15 });
         map.setZoomRange(4, 10);
         map.setPanLimits([{ lat: -34.1618, lon: -75.0146 }, { lat:6.0532 , lon: -31.8603 }]);
-        map.addLayer(data[0].layer);
-
         map.addLayer(data[1].layer);
+        map.getLayer(data[1].id).disable();
+        map.addLayer(data[0].layer);
+        map.getLayer(data[0].id).disable();
+        map.getLayer(data[1].id).enable();
         map.interaction.auto();
 
-        for (var i = 0; i < layers.length; i++) {
-          layer = layers[i];
-          if (layer.className != 'active') {
-              map.getLayer(layer.id).disable();
-          }
-          
-          layer.onclick = function(e) {
-              e.preventDefault();
-              e.stopPropagation();
-              // If the layer that has been clicked on is not already enabled,
-              // enable it and also disable any other active layers in the layerswitcher
-              if (!(map.getLayer(this.id).enabled)) {
-                  for (var i = 0; i < layers.length; i++) {
-                      if (map.getLayer(layers[i].id).enabled) {
-                          map.getLayer(layers[i].id).disable();
-                          layers[i].className = '';
-                      }
-                  }
-                  map.getLayer(this.id).enable();
-                  this.className = 'active';
-                  map.interaction.refresh();
-                }
-            };
-        }
+        //Layer Switcher
+        $.each($("#map-ui a"), function(index, layer) {
+          $(layer).click(function (e) {
+            e.preventDefault();
+            if (!map.getLayer(layer.id).enabled) {
+              $.each($("#map-ui a"), function(i, l) {
+                if (map.getLayer(l.id).enabled) {
+                  map.getLayer(l.id).disable();
+                  $(l).removeClass("active");    
+                };
+              });
+              map.getLayer(layer.id).enable();
+              $(layer).addClass("active");
+            }
+            console.log(layer.id);
+            if (layer.id === "acaoeducativa.mapadosplanos-estados") {
+              map.zoom(4, true);
+              map.interaction.refresh();
+            }
+            map.interaction.refresh();
+          });
+        });
+
 
 
         // Attribute map
