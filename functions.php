@@ -50,7 +50,17 @@ register_sidebar( array(
 		'name' => __( 'Front Page Big', 'twentytwelve' ),
 		'id' => 'frontpage-big',
 		'description' => __( 'Front Page Big', 'twentytwelve' ),
-		'before_widget' => '<div id="%1$s" class="span2 widget %2$s">',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="widget-title">',
+		'after_title' => '</h5>',
+	) );
+
+register_sidebar( array(
+		'name' => __( 'Front Page Big Below', 'twentytwelve' ),
+		'id' => 'frontpage-below-big',
+		'description' => __( 'Front Page Big Below', 'twentytwelve' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h5 class="widget-title">',
 		'after_title' => '</h5>',

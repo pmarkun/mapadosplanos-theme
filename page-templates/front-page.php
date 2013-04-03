@@ -29,35 +29,8 @@ get_header(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="entry-content">
 					<!-- <?php the_content(); ?> -->
-					<div id="map" class="img-polaroid">
-						<ul id="map-ui">
-							<a href='#' id='acaoeducativa.mapadosplanos' class='active'>Munícipios</a>
-							<a href='#' id='acaoeducativa.mapadosplanos-estados'>Estados</a>
-						</ul>
-						<div class="map-legends">
-    						<div class="map-legend">
-        						<h2>Planos de Educação</h2>
-        						<div class="legenda">
-        							<div class="leg_elaboracao">
-        								<span class="marker"></span>
-        								<span>Em elaboração</span>
-        							</div>
-    								<div class="leg_complano">
-    									<span class="marker"></span>
-    									<span>Com plano</span>
-    								</div>
-    								<div class="leg_semplano">
-    									<span class="marker"></span>
-    									<span>Sem plano</span>
-    								</div>
-    								<div class="leg_gestor">
-    									<span class="marker"></span>
-    									<span>Resposta do/a gestor/a</span>
-    								</div>
-    							</div>
-    						</div>
-						</div>
-					</div>
+					<?php get_template_part( 'mapbox' ); ?>
+					
 					<?php if ( is_active_sidebar( 'frontpage-below-map' ) ) : ?>
 						<div class="below-map front-widgets">
 							<?php dynamic_sidebar( 'frontpage-below-map' ); ?>
