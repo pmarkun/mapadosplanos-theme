@@ -239,6 +239,7 @@ margin: 0 0 24px;
   width:960px;
   height:140px;
   z-index: 9000;
+
 }
 
 #masthead #site-logo {
@@ -251,13 +252,21 @@ margin: 0 0 24px;
   float:left;
 }
 
+header #searchform {
+	width: 400px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
 #masthead #site-navigation {
   height: 60px;
   width:760px;
-  margin-top:75px;
+  margin-top:20px;
   margin-right: 20px;
   background-color: #00a4db;
   float:right;
+  border-top: 1px solid #FFF;
 }
 
 #masthead li {
@@ -266,7 +275,7 @@ margin: 0 0 24px;
 }
 
 #masthead li a {
-   margin-top:10px;
+   padding-top:10px;
    padding-left:10px;
    padding-bottom: 15px;
    text-align: center;
@@ -418,4 +427,10 @@ body {
 .noticia-secundaria {
 	margin-top: 20px;
 	border-bottom: 1px solid #EEE;
+}
+
+/* BUSCA */
+
+#searchform input {
+	padding: 4px 6px;
 }
