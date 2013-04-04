@@ -17,7 +17,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content', 'page' ); ?>
 				<?php  
-					echo "<h4>Para preencher o questionário com as informações seu município, faça login aqui</h4><p>Informando os dados do seu município, vocẽ automaticamente estará concordando com os <a href='#'>termos de uso</a> do site.</p>"
+					echo "<h4>Para preencher o questionário com as informações do seu município, faça login aqui</h4><p>Informando os dados do seu município, vocẽ automaticamente estará concordando com os <a href='#'>termos de uso</a> do site.</p>"
 				?>
 				<?php
 				$redirect_url = get_query_var('redirect');
