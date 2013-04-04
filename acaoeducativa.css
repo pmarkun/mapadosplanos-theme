@@ -456,3 +456,14 @@ body {
 	margin-top: 20px;
 	border-bottom: 1px solid #EEE;
 }
+
+/*Sobreposição dos valores dos elementos*/
+
+a, a:visited {
+	color:#02A9E0; 
+}
+
+a:hover, a:active {
+	color: #017094;
+}
+
