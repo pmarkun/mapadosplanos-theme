@@ -21,6 +21,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) &&
 // If we get this far, we have widgets. Let do this.
 ?>
 <div id="secondary" class="widget-area" role="complementary">
+	<?php if(function_exists('wp_content_slider')) { wp_content_slider(); } ?>
 	<?php if ( is_active_sidebar( 'frontpage-big' ) ) : ?>
 	<div class="fat-widgets">
 		<?php dynamic_sidebar( 'frontpage-big' ); ?>
