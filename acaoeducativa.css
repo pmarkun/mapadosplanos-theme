@@ -285,8 +285,6 @@ body {
   background-color: #f7fafe;
 }
 
-
-
 /* Categorias */
 .category-sticky h1 {
   font-size:16px;
@@ -333,4 +331,18 @@ body {
 .category h1 {
   padding:10px;
   margin:0px;
+}
+
+/* HOME */
+
+.frontpage-blurb {
+    background:#fff url('img/blurb.png') no-repeat top left;
+    color: #555;
+    font-size: 14px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.below-map {
+    margin-top: 20px;
 }
