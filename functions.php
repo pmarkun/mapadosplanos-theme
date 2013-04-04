@@ -207,6 +207,8 @@ function ibge_redirect() {
 }
 add_action('parse_request','ibge_redirect',0);  // 0=before (most) 'parse_request' calls
 
+
+//Pega os Markers novos do DB
 function get_markers_json() {
 	global $wpdb;
 	$limit=10;
@@ -230,6 +232,13 @@ function get_markers_json() {
  	}
  	$json = $json . '{}]';
  	return $json;
+}
+
+
+//Adiciona imagens pras categorias
+if ( function_exists( 'add_theme_support' ) ) { 
+	add_image_size( 'category-sticky', 640, 480, true);
+	add_image_size( 'category-regular', 160, 120, true);
 }
 
 ?>
