@@ -434,3 +434,7 @@ body {
 #searchform input {
 	padding: 4px 6px;
 }
+
+#autocomplete {
+	display: none;
+}
