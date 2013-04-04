@@ -179,10 +179,11 @@ margin: 0 0 24px;
 
 #map-ui {
   position:absolute;
-  top:10px;left:10px;
+  top:360px;left:315px;
   list-style:none;
   margin:0;padding:0;
   z-index:99;
+  border-bottom: 1px solid #BBB;
   }
   #map-ui a {
     font:normal 13px/18px 'Helvetica Neue',Helvetica,sans-serif;
@@ -209,10 +210,10 @@ margin: 0 0 24px;
   #map-ui a.active {
     background:#3887BE;
     border-color:#3887BE;
-    border-top-color:#FFF;
     color:#FFF;
     }
-
+    
+    
 /* Legenda */
 .map-legends {
   position:absolute;
