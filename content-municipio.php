@@ -74,7 +74,7 @@
 		<ul class="nav nav-tabs">
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
-  			<!-- <li class="disabled"><a href="#parte3" data-toggle="tab">Sociedade</a></li> -->
+  			<li><a href="#parte3" data-toggle="tab">Sociedade</a></li>
 		</ul>
 
 		
@@ -294,11 +294,15 @@
 
 			<?php endif; ?>
 			<!-- Questionário Sociedade -->
-			<!--
+			
+			
 			<div class="tab-pane" id="parte3">
-				Sic dolor!
+			<?php 
+				if (function_exists('mapadosplanos_submit_form')) {
+					mapadosplanos_submit_form(get_the_ID()); 
+				} 
+			?>
 			</div>
-			-->
 	</div>
 
         <?php endif; ?>
