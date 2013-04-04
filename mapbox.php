@@ -15,23 +15,22 @@
 	</ul>
 	<div class="map-legends">
 		<div class="map-legend">
-			<h2>Planos de Educação</h2>
 			<div class="legenda">
 				<div class="leg_elaboracao">
 					<span class="marker"></span>
-					<span>Em elaboração</span>
+					<span>&nbsp;Plano em elaboração</span>
 				</div>
 				<div class="leg_complano">
 					<span class="marker"></span>
-					<span>Com plano</span>
+					<span>&nbsp;Com plano</span>
 				</div>
 				<div class="leg_semplano">
 					<span class="marker"></span>
-					<span>Sem plano</span>
+					<span>&nbsp;Sem plano</span>
 				</div>
 				<div class="leg_gestor">
 					<span class="marker"></span>
-					<span>Resposta do/a gestor/a</span>
+					<span>&nbsp;Resposta do/a gestor/a</span>
 				</div>
 			</div>
 		</div>

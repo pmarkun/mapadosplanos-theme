@@ -179,7 +179,7 @@ margin: 0 0 24px;
 
 #map-ui {
   position:absolute;
-  top:360px;left:315px;
+  bottom:20px;right:10px;
   list-style:none;
   margin:0;padding:0;
   z-index:99;
@@ -212,17 +212,45 @@ margin: 0 0 24px;
     border-color:#3887BE;
     color:#FFF;
     }
-    
-    
+   
 /* Legenda */
 .map-legends {
   position:absolute;
-  bottom:10px;left:10px;
+  bottom:20px;left:10px;
   max-height:200px;
   max-width:200px;
   list-style:none;
   z-index:99;
 }
+
+.leg_elaboracao .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat ;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
+.leg_complano .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat ;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
+.leg_semplano .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat ;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
+.leg_gestor .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
 
 /* HEADER */
 #page {
