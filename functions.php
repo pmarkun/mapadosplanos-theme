@@ -45,6 +45,20 @@ function quicksearch() {
 
 }
 
+function mapadosplanos_search_override($query) {
+    if ($query->is_search) {
+    	if(isset($_GET['search-type'])) {
+    		$query->set('post_type',array('municipio'));
+    	}
+    	else {
+        	$query->set('post_type',array('post'));
+    	}
+    }
+	return $query;
+}
+
+add_filter('pre_get_posts','mapadosplanos_search_override');
+
 //Front Page Widget Big
 register_sidebar( array(
 		'name' => __( 'Front Page Big', 'twentytwelve' ),
