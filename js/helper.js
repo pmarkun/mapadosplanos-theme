@@ -80,7 +80,7 @@ $(document).ready(function () {
     });
 
     //autosearchbox start
-    $('#s').keyup(function(e) {
+    $('#s-munic').keyup(function(e) {
         clearTimeout($.data(this, 'timer'));
         if (e.keyCode == 13)
           search(true);
@@ -89,7 +89,7 @@ $(document).ready(function () {
     });
     
     function search(force) {
-        var existingString = $("#s").val();
+        var existingString = $("#s-munic").val();
         if (!force && existingString.length < 3) return; //wasn't enter, not > 2 char
         $.ajax({
 			url:"wp-admin/admin-ajax.php",
