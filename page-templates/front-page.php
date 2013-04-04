@@ -23,7 +23,7 @@ get_header(); ?>
 				<?php echo $blurb; ?>
 				</div>
 				<?php endif; ?>
-			<?php get_template_part( 'searchform' ); ?>
+			<?php get_template_part( 'searchform-munic' ); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
