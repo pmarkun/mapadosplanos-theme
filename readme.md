@@ -39,6 +39,7 @@ Na pasta de plugins:
     wget http://downloads.wordpress.org/plugin/import-users-from-csv.0.5.1.zip
     wget http://downloads.wordpress.org/plugin/wp-csv.1.3.6.zip
     wget http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.4.2.8.zip
+    wget http://downloads.wordpress.org/plugin/content-slide.zip
        
 # Como preparar os arquivos
 

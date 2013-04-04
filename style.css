@@ -620,27 +620,6 @@ footer[role="contentinfo"] a:hover {
 /* =Dani
 -------------------------------------------------------------- */
 
-.widget h5.widget-title{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.widget_wp_carousel_widget {
-	margin-left:0px !important;
-	z-index: 0;
-}
-
-.widget_wp_carousel_widget .nivo-caption p {
-	font-size: 18px;
-	line-height: 20px;
-	font-family: 'Open Sans', helvetica, arial;
-}
-
-.page-template-page-templateslogin-box-php .site-content article {
-	margin-bottom: 0 !important;
-	border-bottom: 0 !important;
-}
-
 .ibge-Não {
 	background-color: #EE023A !important;
 }
