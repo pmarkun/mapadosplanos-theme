@@ -620,13 +620,6 @@ footer[role="contentinfo"] a:hover {
 /* =Dani
 -------------------------------------------------------------- */
 
-.frontpage-blurb {
-	background-color: #EBEBEB;
-	padding: 10px 5px 10px 5px;
-	margin-bottom: 15px;
-	border: solid 1px #CCCCCC;
-}
-
 .widget h5.widget-title{
 	margin-top: 5px;
 	margin-bottom: 5px;

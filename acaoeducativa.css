@@ -284,3 +284,12 @@ margin: 0 0 24px;
 body {
   background-color: #f7fafe;
 }
+
+.frontpage-blurb {
+    background:#fff url('img/blurb.png') no-repeat top left;
+    color: #555;
+    font-size: 14px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
