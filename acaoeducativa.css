@@ -179,10 +179,11 @@ margin: 0 0 24px;
 
 #map-ui {
   position:absolute;
-  top:10px;left:10px;
+  bottom:20px;right:10px;
   list-style:none;
   margin:0;padding:0;
   z-index:99;
+  border-bottom: 1px solid #BBB;
   }
   #map-ui a {
     font:normal 13px/18px 'Helvetica Neue',Helvetica,sans-serif;
@@ -209,19 +210,47 @@ margin: 0 0 24px;
   #map-ui a.active {
     background:#3887BE;
     border-color:#3887BE;
-    border-top-color:#FFF;
     color:#FFF;
     }
-
+   
 /* Legenda */
 .map-legends {
   position:absolute;
-  bottom:10px;left:10px;
+  bottom:20px;left:10px;
   max-height:200px;
   max-width:200px;
   list-style:none;
   z-index:99;
 }
+
+.leg_elaboracao .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat ;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
+.leg_complano .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat ;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
+.leg_semplano .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat ;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
+.leg_gestor .marker {
+	padding-left: 20px;
+	background:#CCC no-repeat;
+	background-size:8px 8px;
+	background-position: left top;
+}
+
 
 /* HEADER */
 #page {
@@ -427,14 +456,4 @@ body {
 .noticia-secundaria {
 	margin-top: 20px;
 	border-bottom: 1px solid #EEE;
-}
-
-/* BUSCA */
-
-#searchform input {
-	padding: 4px 6px;
-}
-
-#autocomplete {
-	display: none;
 }
