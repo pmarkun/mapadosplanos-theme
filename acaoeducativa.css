@@ -347,6 +347,10 @@ body {
     margin-top: 20px;
 }
 
+.template-front-page article {
+	border: 0;
+}
+
 .noticia-principal {
 	margin-top: 10px;
 }
