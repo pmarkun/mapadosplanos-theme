@@ -139,6 +139,14 @@ function types_render_checkboxes($checkboxes, $classes) {
 	return $html;
 }
 
+
+// Customizing Login
+
+function mapadosplanos_login_stylesheet() { ?>
+    <link rel="stylesheet" id="custom_wp_admin_css"  href="<?php echo get_bloginfo( 'stylesheet_directory' ) . '/style-login.css'; ?>" type="text/css" media="all" />
+	<?php }
+add_action( 'login_enqueue_scripts', 'mapadosplanos_login_stylesheet' );
+
 //Cleaning up admin area
 
 function remove_menu_items() {
