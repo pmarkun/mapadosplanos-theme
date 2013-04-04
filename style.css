@@ -1757,10 +1757,6 @@ img#wpstats {
     position:absolute;
     z-index:100;
  	color:#555;
- 	border:3px solid #eee;
-	-webkit-box-shadow: 2px 2px 2px rgba(50, 50, 50, 0.3);
-	-moz-box-shadow:    2px 2px 2px rgba(50, 50, 50, 0.3);
-	box-shadow:         2px 2px 2px rgba(50, 50, 50, 0.3);
 }
 #autocomplete ul {
         margin: 0;
