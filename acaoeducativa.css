@@ -428,13 +428,3 @@ body {
 	margin-top: 20px;
 	border-bottom: 1px solid #EEE;
 }
-
-/* BUSCA */
-
-#searchform input {
-	padding: 4px 6px;
-}
-
-#autocomplete {
-	display: none;
-}

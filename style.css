@@ -1740,9 +1740,18 @@ img#wpstats {
     margin: 0 auto 10px auto;
 }
 
+#searchform input {
+	padding: 4px 6px;
+}
+
 #s {
     width: 75%;
     margin: 0 auto;
+}
+
+#s-munic {
+	width: 75%;
+	margin: 0 auto;
 }
 
 #searchsubmit {
