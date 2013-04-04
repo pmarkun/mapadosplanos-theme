@@ -225,21 +225,21 @@ margin: 0 0 24px;
 
 .leg_elaboracao .marker {
 	padding-left: 20px;
-	background:#CCC no-repeat ;
+	background:#02A9E0 no-repeat ;
 	background-size:8px 8px;
 	background-position: left top;
 }
 
 .leg_complano .marker {
 	padding-left: 20px;
-	background:#CCC no-repeat ;
+	background:#A9E002 no-repeat ;
 	background-size:8px 8px;
 	background-position: left top;
 }
 
 .leg_semplano .marker {
 	padding-left: 20px;
-	background:#CCC no-repeat ;
+	background:#E002A9 no-repeat ;
 	background-size:8px 8px;
 	background-position: left top;
 }
