@@ -70,7 +70,6 @@
         	<?php echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' ); ?>
 		<hr />
 
-
 		<ul class="nav nav-tabs">
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
@@ -93,34 +92,34 @@
 					<?php
 						//Exibe os niveis do plano
 						if ($custom_fields['wpcf-a173'][0] == "Sim") :
-						    echo "<span class='label label-info'>Ensino fundamental</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Ensino fundamental</span>";
 						    endif;
 						if ($custom_fields['wpcf-a174'][0] == "Sim") :
-						    echo "<span class='label label-info'>Infantil</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Infantil</span>";
 						    endif;
 						if ($custom_fields['wpcf-a175'][0] == "Sim") :
-						    echo "<span class='label label-info'>EJA</span>";
+						    echo "<span class='label label-info ibge-Neutro'>EJA</span>";
 						    endif;
 						if ($custom_fields['wpcf-a176'][0] == "Sim") :
-						    echo "<span class='label label-info'>Especial</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Especial</span>";
 						    endif;
 						if ($custom_fields['wpcf-a177'][0] == "Sim") :
-						    echo "<span class='label label-info'>Ensino médio</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Ensino médio</span>";
 						    endif;
 						if ($custom_fields['wpcf-a178'][0] == "Sim") :
-						    echo "<span class='label label-info'>Profissional</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Profissional</span>";
 						    endif;
 						if ($custom_fields['wpcf-a179'][0] == "Sim") :
-						    echo "<span class='label label-info'>Ensino superior</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Ensino superior</span>";
 						    endif;
 						if ($custom_fields['wpcf-a180'][0] == "Sim") :
-						    echo "<span class='label label-info'>No campo</span>";
+						    echo "<span class='label label-info ibge-Neutro'>No campo</span>";
 						    endif;
 						if ($custom_fields['wpcf-a181'][0] == "Sim") :
-						    echo "<span class='label label-info'>Indigena</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Indigena</span>";
 						    endif;
 						if ($custom_fields['wpcf-a182'][0] == "Sim") :
-						    echo "<span class='label label-info'>Ambiental</span>";
+						    echo "<span class='label label-info ibge-Neutro'>Ambiental</span>";
 						    endif;
 				    ?>
 					</td>
@@ -176,7 +175,7 @@
 					<td>Combate à discriminação</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a168'][0]; ?>"><?php echo $custom_fields['wpcf-a168'][0] ?></span></td>
 				</tr>
 				<tr>
-					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['A190'][0]; ?>"><?php echo $custom_fields['A190'][0] ?></span></td>
+					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a190'][0]; ?>"><?php echo $custom_fields['wpcf-a190'][0] ?></span></td>
 				</tr>
 				</table>
 
@@ -221,7 +220,7 @@
 				<!-- Tem plano -->
 					<tr>
 						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
-						<td><span class="resposta label label-info ibge-Sim ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
+						<td><span class="resposta label label-info ibge-Aberto ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
 					</tr>
 					<tr>
 						<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
@@ -257,19 +256,19 @@
 				</tr>
 				<tr>
 					<th>Em caso afirmativo, informe quem foram os assessores:</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
 					<th>Quais das instituições/entidades que atuam no município participaram da elaboração do plano de educação?</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
 					<th>Dos segmentos da comunidade escolar descritos abaixo, quais participaram da elaboração do Plano de Educação de seu município?</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
 					<th>Houve participação de crianças e adolescentes na elaboração do Plano de Educação?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano21'); ?>"><?php echo types_render_field('qs_plano21'); ?></span></td>
+					<td><span class="resposta label label-info ibge-Aberto ?>"><?php echo types_render_field('qs_plano21'); ?></span></td>
 				</tr>
 				<tr>
 					<th>Em que ano desta gestão (2013-2016) seu município pretente avaliar o Plano de Educação?</th>
@@ -277,7 +276,7 @@
 				</tr>
 				<tr>
 					<th>A quem cabe a avaliação da implantação das metas do Plano de Educação de seu município?</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Sim multi'); ?></td>
+					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
 					<th>Seu município já respondeu a alguma demanda baseada na lei de acesso à informação pública (lei 12.527/2011) com relação à área de educação?</th>
