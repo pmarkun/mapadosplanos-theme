@@ -47,7 +47,8 @@ $(document).ready(function () {
           });
         });
 
-
+        // Zoomer
+        map.ui.zoomer.add();
 
         // Attribute map
         map.ui.attribution.add()
