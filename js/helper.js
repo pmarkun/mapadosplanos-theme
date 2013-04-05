@@ -56,10 +56,11 @@ $(document).ready(function () {
     
         //Place markers
         var markerLayer = mapbox.markers.layer();
-        mapbox.markers.interaction(markerLayer).remove()
+        mapbox.markers.interaction(markerLayer).add();
         map.addLayer(markerLayer);
         for (var i = 0; i < markers.length; i++) {
             var m = markers[i];
+            console.log(m);
             var color;
             if (m.qs_etapa01=='Sim') {
                 color='#7eed0d';
@@ -77,7 +78,8 @@ $(document).ready(function () {
                 properties: {
                     'marker-color': color,
                     'marker-size': 'small',
-                    'marker-symbol': 'library'
+                    'marker-symbol': 'library', 
+                    'href': './?ibge=' + m.ibge
                 }
             };
             markerLayer.add_feature(p);
