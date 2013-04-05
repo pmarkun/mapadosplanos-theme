@@ -16,18 +16,11 @@
 	<div class="map-legends">
 		<div class="map-legend">
 			<div class="legenda">
-				<div class="leg_elaboracao">
-					<span class="marker"></span>
-					<span>&nbsp;Plano em elaboração</span>
-				</div>
 				<div class="leg_complano">
 					<span class="marker"></span>
-					<span>&nbsp;Com plano</span>
+					<span>&nbsp;Tem plano (IBGE 2011)</span>
 				</div>
-				<div class="leg_semplano">
-					<span class="marker"></span>
-					<span>&nbsp;Sem plano</span>
-				</div>
+
 				<div class="leg_gestor">
 					<span class="marker"></span>
 					<span>&nbsp;Resposta do/a gestor/a</span>
