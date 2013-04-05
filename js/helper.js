@@ -10,20 +10,28 @@ $(document).ready(function () {
 
         map = mapbox.map('map');
 
+        // add static baselayer
+        map.addLayer(mapbox.layer().id('aj.map-rdkqhq6e', function() {
+            map.interaction.auto(); 
+        }));
+
         map.zoom(4).center({ lat: -13.32, lon: -54.15 });
         map.setZoomRange(4, 10);
         map.setPanLimits([{ lat: -34.1618, lon: -75.0146 }, { lat:6.0532 , lon: -31.8603 }]);
-        map.addLayer(data[1].layer);
-        map.getLayer(data[1].id).disable();
-        map.addLayer(data[0].layer);
+        map.addLayer(data[1].layer, function() {
+            map.interaction.auto();
+        });
+        map.addLayer(data[0].layer, function () {
+            map.interaction.auto();
+        });
         map.getLayer(data[0].id).disable();
         map.getLayer(data[1].id).enable();
-        map.interaction.auto();
 
         //Layer Switcher
         $.each($("#map-ui a"), function(index, layer) {
           $(layer).click(function (e) {
             e.preventDefault();
+            e.stopPropagation();
             if (!map.getLayer(layer.id).enabled) {
               $.each($("#map-ui a"), function(i, l) {
                 if (map.getLayer(l.id).enabled) {
@@ -35,6 +43,7 @@ $(document).ready(function () {
               $(layer).addClass("active");
             }
             map.interaction.refresh();
+            map.draw();
           });
         });
 
