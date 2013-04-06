@@ -383,6 +383,28 @@ body {
 }
 
 /* Categorias */
+
+.category .archive-header{
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.archive-title {
+  font-size: 22px;
+  background-color: transparent;
+  clear: both;
+  color: #333;
+  display: block;
+  font-weight: normal;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  overflow-y: visible;
+  text-rendering: optimizelegibility;
+  vertical-align: baseline;
+}
+
 .category-sticky h1 {
   font-size:16px;
   font-weight: bold;
@@ -390,37 +412,38 @@ body {
 
 .category-sticky img {
   width:640px;
-  height:480px;
+  height:320px;
 }
 
 .category-regular h1 {
-  font-size:11px;
+  font-size:15px;
 }
 .category-regular img {
-  width:256px;
-  height:192px;
+  width:300px;
+  height:150px;
 }
 
 .category-sticky {
   float:left; /* important */
   position:relative; /* important(so we can absolutely position the description div */
   clear:both;
+  margin-bottom:20px !important;
 }
 
 .category-regular {
   float:left;
   position:relative; /* important(so we can absolutely position the description div */
-  margin-right:40px;
+  margin:11px !important;
 }
 .category .category-title-wrapper {
   position:absolute; /* absolute position (so we can position it where we want)*/
-  bottom:0px; /* position will be on bottom */
+  bottom:29px; /* position will be on bottom */
   left:0px;
   width:100%;
   /* styling bellow */
   background-color:black;
-  font-family: 'tahoma';
-  font-size:15px;
+  font-family: 'Trebuchet MS', Helvetica;
+  font-size:18px;
   color:white;
   opacity:0.6; /* transparency */
   filter:alpha(opacity=60); /* IE transparency */
@@ -518,4 +541,10 @@ a:hover, a:active {
 
 .site-content article {
 	border-bottom:0;
+}
+
+/*Hack do Content slider*/
+
+.cs-title {
+	width: 99% !important;
 }

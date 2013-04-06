@@ -179,7 +179,6 @@ img {
 /* Small headers */
 .archive-title,
 .page-title,
-.widget-title,
 .entry-content th,
 .comment-content th {
 	font-size: 11px;
@@ -188,6 +187,12 @@ img {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #636363;
+}
+
+.widget-title {
+	font-size: 18px;
+	color:#333;
+	margin-bottom: 10px !important;
 }
 
 /* Shared Post Format styling */
