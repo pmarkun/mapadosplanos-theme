@@ -257,10 +257,24 @@ function get_markers_json() {
 }
 
 
-//Adiciona imagens pras categorias
+//Categorias
+
+//Arruma sort order das categorias
+function mapasdosplanos_categories_order( $query ) {
+	$last_sticky = get_option( 'sticky_posts' );
+    if ( $query->is_category() && $query->is_main_query() ) {
+        $query->set( 'ignore_sticky_posts', 1 );
+        $query->set('post__not_in', array_slice($last_sticky,-1));
+    }
+}
+add_action( 'pre_get_posts', 'mapasdosplanos_categories_order' );
+
+//Adiciona tipos de imagem
 if ( function_exists( 'add_theme_support' ) ) { 
 	add_image_size( 'category-sticky', 640, 480, true);
 	add_image_size( 'category-regular', 160, 120, true);
 }
+
+
 
 ?>
