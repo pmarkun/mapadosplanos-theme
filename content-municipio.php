@@ -66,12 +66,12 @@
 
 		<!-- EXIBICAO DOS CUSTOMFIELDS -->
 		<div id="fichaae" class="well fichas">
-			<span class="titulo" >Respostas do município </span>
-        	<?php echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' ); ?>
+			<span class="titulo" >Dados e informações do Plano de Educação do seu município </span><br>
+        	<?php echo edit_post_link('[Se você é gestor/a, clique aqui para responder o questionário]', '<span class="edit-link">', '</span>' ); ?>
 		<hr />
 
 		<ul class="nav nav-tabs">
-  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">IBGE</a></li>
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
   			<li><a href="#parte3" data-toggle="tab">Sociedade</a></li>
 		</ul>
