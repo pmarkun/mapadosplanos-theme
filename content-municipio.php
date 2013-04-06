@@ -92,34 +92,34 @@
 					<?php
 						//Exibe os niveis do plano
 						if ($custom_fields['wpcf-a173'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Ensino fundamental</span>";
+						    echo "<span class='label label-info ibge-Multi'>Ensino fundamental</span>";
 						    endif;
 						if ($custom_fields['wpcf-a174'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Infantil</span>";
+						    echo "<span class='label label-info ibge-Multi'>Infantil</span>";
 						    endif;
 						if ($custom_fields['wpcf-a175'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>EJA</span>";
+						    echo "<span class='label label-info ibge-Multi'>EJA</span>";
 						    endif;
 						if ($custom_fields['wpcf-a176'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Especial</span>";
+						    echo "<span class='label label-info ibge-Multi'>Especial</span>";
 						    endif;
 						if ($custom_fields['wpcf-a177'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Ensino médio</span>";
+						    echo "<span class='label label-info ibge-Multi'>Ensino médio</span>";
 						    endif;
 						if ($custom_fields['wpcf-a178'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Profissional</span>";
+						    echo "<span class='label label-info ibge-Multi'>Profissional</span>";
 						    endif;
 						if ($custom_fields['wpcf-a179'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Ensino superior</span>";
+						    echo "<span class='label label-info ibge-Multi'>Ensino superior</span>";
 						    endif;
 						if ($custom_fields['wpcf-a180'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>No campo</span>";
+						    echo "<span class='label label-info ibge-Multi'>No campo</span>";
 						    endif;
 						if ($custom_fields['wpcf-a181'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Indigena</span>";
+						    echo "<span class='label label-info ibge-Multi'>Indigena</span>";
 						    endif;
 						if ($custom_fields['wpcf-a182'][0] == "Sim") :
-						    echo "<span class='label label-info ibge-Neutro'>Ambiental</span>";
+						    echo "<span class='label label-info ibge-Multi'>Ambiental</span>";
 						    endif;
 				    ?>
 					</td>
