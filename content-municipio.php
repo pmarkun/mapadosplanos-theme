@@ -221,7 +221,7 @@
 				<!-- Tem plano -->
 					<tr>
 						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
-						<td><span class="resposta label label-info ibge-Aberto ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
+						<td><span class="resposta label label-info ibge-Multi ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
 					</tr>
 					<tr>
 						<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
@@ -261,7 +261,7 @@
 					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
-					<th>Dos segmentos da comunidade escolar descritos abaixo, quais participaram da elaboração do Plano de Educação de seu município?</th>
+					<th>Dos segmentos da comunidade escolar descritos abaixo, quais participam da elaboração do Plano de Educação de seu município?</th>
 					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
