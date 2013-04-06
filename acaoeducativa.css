@@ -29,7 +29,7 @@ img {
 }
 
 #fichaae {
-  width: 630px;
+  width: 66%;
   float: right;
 }
 #fichaae .nav-tabs .active a {
@@ -292,7 +292,7 @@ header #searchform {
   width:760px;
   margin-top:24px;
   margin-right: 20px;
-  background-color: #02A9E0;
+  background-color: #00aade;
   float:right;
   border-top: 1px soli
   d #FFF;
@@ -319,7 +319,7 @@ header #searchform {
 }
 
 #masthead li ul li a {
-	background-color: #02A9E0;
+	background-color: #00aade;
 }
 
 #masthead li ul li a:hover {
@@ -470,10 +470,13 @@ body {
 /*Sobreposição dos valores dos elementos*/
 
 a, a:visited {
-	color:#02A9E0; 
+	color:#00aade; 
 }
 
 a:hover, a:active {
 	color: #017094;
 }
 
+.site-content article {
+	border-bottom:0;
+}
