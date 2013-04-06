@@ -81,7 +81,7 @@
 		<div class="tab-content">
 			<!-- IBGE -->
 			<div class="tab-pane <?php echo ($etapa != "complano" && $etapa != "elaboracao" ? 'active' : '');  ?>" id="parte1">
-				<span class="titulo">IBGE Munic 2011</span>
+				<span class="titulo">Dados do IBGE</span><br><span>Perfil dos Municípios Brasileiros (Munic/2011)</span>
 				<hr />
 				<table class="table table-bordered">
 					<tr>
