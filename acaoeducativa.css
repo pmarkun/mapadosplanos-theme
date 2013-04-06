@@ -23,9 +23,9 @@ img {
   vertical-align: middle;
   background: #fff;
 }
-#fichaibge table span {
-  display: block;
-  white-space: normal;
+
+#fichaae td {
+	width: 50%
 }
 
 #fichaae {
@@ -56,6 +56,18 @@ img {
 #fichaae .wpcf-field-value {
   border-bottom: 1px dotted #ccc;
   margin-bottom: 10px;
+}
+
+.ibge-Não {
+	background-color: #f5073b;
+}
+
+.ibge-Sim {
+	background-color: #00aade;
+}
+
+.resposta.label { 
+	white-space:normal;
 }
 
 /*.anexos {
