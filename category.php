@@ -30,7 +30,12 @@ get_header(); ?>
 			<?php 
 			/* Start the Sticky Loop */ 
 			$cat = get_query_var('cat');
-			$sticky = array_slice(get_option('sticky_posts'),-1);
+			if (get_option('sticky_posts')) {
+				$sticky = array_slice(get_option('sticky_posts'),-1);
+			}
+			else {
+				$sticky = array();
+			}
 			$stickyquery = new WP_Query( array( 'post__in' => $sticky, 'cat' => $cat) );
 			while ($stickyquery->have_posts()) : $stickyquery->the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class("category-sticky"); ?>>
