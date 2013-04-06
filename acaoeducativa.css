@@ -250,6 +250,28 @@ margin: 0 0 24px;
   background-size: round auto;
 }
 
+/* MapTooltip */
+.map-tooltip .munic {
+  display:block;
+  max-width:128px;
+  float:left;
+}
+
+.map-tooltip .marker-Não {
+  width:24px;
+  height:18px;
+  display:block;
+  float:right;
+  background-image:url('img/plano0.png');
+}
+
+.map-tooltip .marker-Sim {
+  width:24px;
+  height:18px;
+  display:block;
+  float:right;
+  background-image:url('img/plano1.png');
+}
 
 /* HEADER */
 #page {
