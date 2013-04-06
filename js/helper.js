@@ -122,4 +122,10 @@ $(document).ready(function () {
     }
     //autosearchbox end
 
+    //abrir munic no link certo
+    var hash = location.hash
+    , hashPieces = hash.split('?')
+    , activeTab = $('[href=' + hashPieces[0] + ']');
+    activeTab && activeTab.tab('show');
+
 });
