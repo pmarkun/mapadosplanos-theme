@@ -282,8 +282,11 @@
 			
 			<?php elseif ($etapa != "complano" || $etapa != "elaboracao") : ?>
 			<div class="tab-pane" id="parte2">
-				<p>Sic dolor! Conteúdo para incentivar a preencher o questionário.</p>
-				<h2><a href="wp-admin/post.php?post=<?php echo the_ID();?>&action=edit">Preencha o questionário.</a></h2>
+				<span class="titulo">Seu município ainda não respondeu às perguntas sobre o Plano de Educação!</span>
+				<p></p>
+				<p>Se você é gestor, faça seu <a href="wp-admin/post.php?post=<?php echo the_ID();?>&action=edit">login</a> para preencher o questionário, ou veja <a href="gestor">como gestores podem participar</a>.</p>
+				<p>Se você é um membro da sociedade civil, nos informe sobre o processo do Plano de Educação no seu município, preenchendo o questionário na aba Sociedade. Ou saiba mais sobre <a href="sociedade">como a sociedade pode colaborar</a>.
+			
 			</div>
 
 			<?php endif; ?>
