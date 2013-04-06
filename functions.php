@@ -272,7 +272,7 @@ add_action( 'pre_get_posts', 'mapasdosplanos_categories_order' );
 //Adiciona tipos de imagem
 if ( function_exists( 'add_theme_support' ) ) { 
 	add_image_size( 'category-sticky', 640, 480, true);
-	add_image_size( 'category-regular', 160, 120, true);
+	add_image_size( 'category-regular', 256, 192, true);
 }
 
 

@@ -40,7 +40,7 @@ get_header(); ?>
 				the_post_thumbnail('category-sticky', array('class'	=> "category-image"));
 			}
 			else {
-				echo '<img class="category-image" src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" />';
+				echo '<img class="category-image" src="' . get_bloginfo( 'stylesheet_directory' ) . '/img/thumbnail-default-large.png" />';
 			} 
 			?>
 				<div class="category-title-wrapper"><h1 class="category-title"><?php the_title(); ?></h1></div>
@@ -58,7 +58,7 @@ get_header(); ?>
 				the_post_thumbnail('category-regular', array('class'	=> "category-image"));
 			}
 			else {
-				echo '<img class="category-image" src="' . get_bloginfo( 'stylesheet_directory' ) . '/images/thumbnail-default.jpg" />';
+				echo '<img class="category-image" src="' . get_bloginfo( 'stylesheet_directory' ) . '/img/thumbnail-default-small.png" />';
 			}
 			?>
 				
