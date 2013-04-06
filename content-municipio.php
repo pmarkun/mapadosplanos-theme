@@ -188,7 +188,8 @@
 			<!-- Questionário Gestor -->
 			<?php if ($etapa == "complano" || $etapa == "elaboracao") : ?>
 			<div class="tab-pane active" id="parte2">
-				<span class="titulo">Questionário :: <?php echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></span>
+				<span class="titulo">Questionário respondido por gestor/a do município</span><br>
+				<span>Status informado: <b><?php echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></b></span>
 				<hr />
 				<table class="table table-bordered">
 				<tr>
