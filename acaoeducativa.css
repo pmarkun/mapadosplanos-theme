@@ -60,10 +60,17 @@ img {
 
 .ibge-Não {
 	background-color: #f5073b;
+	margin: 2px;
 }
 
 .ibge-Sim {
 	background-color: #00aade;
+	margin: 2px;
+}
+
+.ibge-Multi {
+	background-color: #aaa;
+	margin: 2px;
 }
 
 .resposta.label { 
