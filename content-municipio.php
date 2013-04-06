@@ -217,6 +217,7 @@
 				</tr>
 				
 				<?php if ($custom_fields['wpcf-qs_etapa01'][0] == "Sim") { ?>
+				
 				<!-- Tem plano -->
 					<tr>
 						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
@@ -230,28 +231,25 @@
 						<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
 						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_complano'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
 					</tr>
-					<tr>
-						<th>Houve investimento em comunicação sobre o processo de elaboração do Plano de Educação?</th>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano09'); ?>"><?php echo types_render_field('qs_plano09'); ?></span></td>
-					</tr>
 				<?php } elseif ($custom_fields['wpcf-qs_etapa01'][0] == "Elaboração") { ?>
+				
 					<!-- Plano em elaboração -->
 					<tr>
-						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
-						<td><span class="resposta label label-info ibge-Sim ?>"><?php echo types_render_field('qs_plano06_elaboracao'); ?></span></td>
+						<th>Seu município está elaborando o Plano de Educação?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano06_elaboracao'); ?>"><?php echo types_render_field('qs_plano06_elaboracao'); ?></span></td>
 					</tr>
 					<tr>
-						<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano07_elaboracao'); ?>"><?php echo types_render_field('qs_plano07_complano'); ?></span></td>
+						<th>Em qual momento se encontra o processo de elaboração do Plano de Educação de seu município?</th>
+						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano07_elaboracao'); ?></span></td>
 					</tr>
-					<tr>
-						<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_elaboracao'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
-					</tr>
-				<?php } ?>
 
+				<?php } ?>
+					<tr>
+						<th>Há investimento na comunicação sobre o processo de elaboração do Plano de Educação?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano09'); ?>"><?php echo types_render_field('qs_plano09'); ?></span></td>
+					</tr>
 				<tr>
-					<th>Houve assessoria no processo de elaboração do Plano de Educação? </th>
+					<th>Há assessoria no processo de elaboração do Plano de Educação? </th>
 					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano12'); ?>"><?php echo types_render_field('qs_plano12'); ?></span></td>
 				</tr>
 				<tr>
@@ -267,12 +265,12 @@
 					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
 				</tr>
 				<tr>
-					<th>Houve participação de crianças e adolescentes na elaboração do Plano de Educação?</th>
-					<td><span class="resposta label label-info ibge-Aberto ?>"><?php echo types_render_field('qs_plano21'); ?></span></td>
+					<th>Há participação de crianças e adolescentes na elaboração do Plano de Educação?</th>
+					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano21'); ?>"><?php echo types_render_field('qs_plano21'); ?></span></td>
 				</tr>
 				<tr>
 					<th>Em que ano desta gestão (2013-2016) seu município pretente avaliar o Plano de Educação?</th>
-					<td><span class="resposta label label-info"><?php echo(types_render_field('qs_plano23', array('raw'=>'true'))); ?></span></td>
+					<td><span class="resposta label label-info ibge-<?php echo(types_render_field('qs_plano23', array('raw'=>'true'))); ?>"><?php echo(types_render_field('qs_plano23', array('raw'=>'true'))); ?></span></td>
 				</tr>
 				<tr>
 					<th>A quem cabe a avaliação da implantação das metas do Plano de Educação de seu município?</th>
