@@ -617,22 +617,6 @@ footer[role="contentinfo"] a:hover {
 	color: #21759b;
 }
 
-/* =Dani
--------------------------------------------------------------- */
-
-.ibge-Não {
-	background-color: #EE023A !important;
-}
-
-.ibge-Sim {
-	background-color: #466200 !important;
-}
-
-.resposta.label { 
-	white-space:normal;
-}
-
-
 /* Mapa */
 
 .info {

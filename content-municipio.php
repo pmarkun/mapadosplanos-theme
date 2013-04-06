@@ -66,12 +66,12 @@
 
 		<!-- EXIBICAO DOS CUSTOMFIELDS -->
 		<div id="fichaae" class="well fichas">
-			<span class="titulo" >Respostas do município </span>
-        	<?php echo edit_post_link('[responder]', '<span class="edit-link">', '</span>' ); ?>
+			<span class="titulo" >Dados e informações do Plano de Educação do seu município </span><br>
+        	<?php echo edit_post_link('[Se você é gestor/a, clique aqui para responder o questionário]', '<span class="edit-link">', '</span>' ); ?>
 		<hr />
 
 		<ul class="nav nav-tabs">
-  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Ficha IBGE</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">IBGE</a></li>
   			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
   			<li><a href="#parte3" data-toggle="tab">Sociedade</a></li>
 		</ul>
@@ -81,15 +81,15 @@
 		<div class="tab-content">
 			<!-- IBGE -->
 			<div class="tab-pane <?php echo ($etapa != "complano" && $etapa != "elaboracao" ? 'active' : '');  ?>" id="parte1">
-				<span class="titulo">IBGE Munic 2011</span>
+				<span class="titulo">Dados do IBGE</span><br><span>Perfil dos Municípios Brasileiros (Munic/2011)</span>
 				<hr />
 				<table class="table table-bordered">
 					<tr>
 						<th>Tem plano?</th>
 						<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0]; ?></span></td>
 					</tr>
-					<tr><td colspan="2"><b><div>Modalidades abrangidas</div></b>
-					<?php
+					<tr><th><b><div>Modalidades abrangidas</div></b></th>
+					<td><?php
 						//Exibe os niveis do plano
 						if ($custom_fields['wpcf-a173'][0] == "Sim") :
 						    echo "<span class='label label-info ibge-Multi'>Ensino fundamental</span>";
@@ -160,9 +160,7 @@
 
 				<table class="table table-bordered">
 				<tr>
-					<th>No município, há programa ou ações de educação em direitos humanos??</th>
-				</tr>
-				<tr>
+					<th>No município, há programa ou ações de educação em direitos humanos?</th>
 					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a489'][0]; ?>"><?php echo $custom_fields['wpcf-a489'][0] ?></span></td>
 				</tr>
 				</table>
@@ -182,8 +180,6 @@
 				<table class="table table-bordered">
 				<tr>
 					<th>Na rede municipal de ensino existem escolas aptas a receber pessoas com deficiência?</th>
-				</tr>
-				<tr>
 					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0] ?></span></td>
 				</tr>
 				</table>
