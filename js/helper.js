@@ -11,7 +11,7 @@ $(document).ready(function () {
         map = mapbox.map('map');
 
         // add static baselayer
-        map.addLayer(mapbox.layer().id('world-light', function() {
+        map.addLayer(mapbox.layer().id('world-blank-light', function() {
             map.interaction.auto(); 
         }));
 
