@@ -40,6 +40,7 @@ Na pasta de plugins:
     wget http://downloads.wordpress.org/plugin/wp-csv.1.3.6.zip
     wget http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.4.2.8.zip
     wget http://downloads.wordpress.org/plugin/content-slide.zip
+    wget http://downloads.wordpress.org/plugin/email-alerts.1.2.zip
        
 # Como preparar os arquivos
 
