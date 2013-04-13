@@ -275,6 +275,14 @@ if ( function_exists( 'add_theme_support' ) ) {
 	add_image_size( 'category-regular', 256, 192, true);
 }
 
+//Remove 'site' dos comentários
+add_filter('comment_form_default_fields', 'mapadosplanos_comment_filter');
+function mapadosplanos_comment_filter($fields)
+{
+if(isset($fields['url']))
+unset($fields['url']);
+return $fields;
+}
 
 
 ?>
