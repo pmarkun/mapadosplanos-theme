@@ -153,8 +153,8 @@ function remove_menu_items() {
 	global $menu;
 	global $submenu;
     unset($submenu['edit.php?post_type=municipio'][10]);
-	$restricted = array(__('Posts'),__('Links'), __('Comments'), __('Media'),
-	__('Plugins'), __('Tools'), __('Users'));
+	$restricted = array(__('Dashboard'),__('Posts'),__('Links'), __('Comments'), __('Media'),
+	__('Plugins'), __('Tools'),__('Users'));
 	end ($menu);
 	while (prev($menu)){
 		$value = explode(' ',$menu[key($menu)][0]);
@@ -162,6 +162,8 @@ function remove_menu_items() {
 			unset($menu[key($menu)]);
 		}
 	}
+	//only on 3.1
+	remove_menu_page('profile.php');	
 }
 
 
