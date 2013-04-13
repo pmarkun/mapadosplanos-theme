@@ -20,7 +20,7 @@ get_header(); ?>
 				$blurb;
 				if( $blurb ): ?>
 				<div class="frontpage-blurb">
-				<?php echo $blurb; ?>
+				<?php echo do_shortcode($blurb); ?>
 				</div>
 				<?php endif; ?>
 			<?php get_template_part( 'searchform-munic' ); ?>
