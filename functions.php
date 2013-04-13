@@ -284,5 +284,28 @@ unset($fields['url']);
 return $fields;
 }
 
+//Redirect on save_post
+add_filter('redirect_post_location', 'redirect_to_post_on_publish_or_save');
 
+function redirect_to_post_on_publish_or_save($location)
+{
+    global $post;
+
+    if (
+        !current_user_can('administrator') && current_user_can('edit_published_posts') &&
+        (isset($_POST['publish']) || isset($_POST['save'])) &&
+        preg_match("/post=([0-9]*)/", $location, $match) &&
+        $post &&
+        $post->ID == $match[1] &&
+        (isset($_POST['publish']) || $post->post_status == 'publish') && // Publishing draft or updating published post
+        $post->post_type == 'municipio' &&
+        $pl = get_permalink($post->ID)
+    ) {
+        // Always redirect to the post
+        $location = get_bloginfo('url') . "/obrigado";
+    }
+
+    return $location;
+
+}
 ?>
