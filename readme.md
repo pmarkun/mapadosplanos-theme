@@ -14,11 +14,15 @@ Na pasta de temas:
 # Plugins utilizados
 
 * [Email Alerts](http://wordpress.org/extend/plugins/email-alerts/)
-* [WP Carousel](http://wordpress.org/extend/plugins/wp-carousel/)
 * [mapbox](http://wordpress.org/extend/plugins/mapbox/)
 * [Contact Form 7](http://wordpress.org/extend/plugins/contact-form-7/)
 * [Attachments](http://wordpress.org/extend/plugins/attachments/)
 * [WP CSV](http://wordpress.org/extend/plugins/wp-csv/)
+* [WP-reCAPTCHA](http://wordpress.org/extend/plugins/wp-recaptcha/)
+* [Content Slide](https://github.com/pmarkun/mapadosplanos-content-slide/)
+* [Mapa dos Planos Plugin](https://github.com/pmarkun/mapadosplanos-plugin/)
+* [Types](http://wordpress.org/extend/plugins/types/)
+* [Google Analytics for Wordpress](http://wordpress.org/extend/plugins/google-analytics-for-wordpress/)
 
 Apenas para desenvolvimento:
  
@@ -27,7 +31,6 @@ Apenas para desenvolvimento:
 Apenas para o deploy:
 
 * [WP-SuperCache](http://wordpress.org/extend/plugins/wp-super-cache/)
-* [WP-reCAPTCHA](http://wordpress.org/extend/plugins/wp-recaptcha/)
 
 Na pasta de plugins:
 
@@ -39,8 +42,11 @@ Na pasta de plugins:
     wget http://downloads.wordpress.org/plugin/import-users-from-csv.0.5.1.zip
     wget http://downloads.wordpress.org/plugin/wp-csv.1.3.6.zip
     wget http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.4.2.8.zip
-    wget http://downloads.wordpress.org/plugin/content-slide.zip
     wget http://downloads.wordpress.org/plugin/email-alerts.1.2.zip
+    wget http://downloads.wordpress.org/plugin/types.1.2.2.zip
+    wget http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.4.3.3.zip
+    git clone git://github.com/pmarkun/mapadosplanos-content-slide.git
+    git clone git://github.com/pmarkun/mapadosplanos-plugin.git
        
 # Como preparar os arquivos
 
