@@ -297,6 +297,23 @@
 			
 			
 			<div class="tab-pane" id="parte3">
+				<?php 
+					//Visualização dos questionários. Falta preparar o resto do HTML. Ainda tem um bug nas questões de multipla escolha.
+
+					$resultados = mapadosplanos_select_questionarios(get_the_ID()); 
+					//print_r($resultados);
+					$total = $resultados['post_id'][get_the_ID()];
+				?>
+				<table class="table table-bordered">
+				<td rowspan="4">Plano de Educação</td>
+				<td>
+					<tr><td><div style="background-color:#0000ff;width:<?php echo $resultados['qs_01']['Sim']/$total*100; ?>%">Sim</div></td></tr></td></tr>
+					<tr><td><div style="background-color:#ff0000;width:<?php echo $resultados['qs_01']['Não']/$total*100; ?>%">Não</div></td></tr></td></tr>
+					<tr><td><div style="background-color:#00ff00;width:<?php echo $resultados['qs_01']['Em elaboração']/$total*100; ?>%">Em elaboração</div></td></tr>
+					<tr><td>Não sabe</td></tr>
+				</td>
+				</table>
+					
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 					mapadosplanos_submit_form(get_the_ID()); 
