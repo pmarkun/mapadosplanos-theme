@@ -86,7 +86,7 @@
 				<table class="table table-bordered">
 					<tr>
 						<th>Tem plano?</th>
-						<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a187'][0]; ?>"><?php echo $custom_fields['wpcf-a187'][0]; ?></span></td>
+						<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a172'][0]; ?>"><?php echo $custom_fields['wpcf-a172'][0]; ?></span></td>
 					</tr>
 					<tr><th><b><div>Modalidades abrangidas</div></b></th>
 					<td><?php
@@ -130,7 +130,7 @@
 				<tr><th colspan="2">Instâncias de Gestão Democrática</th></tr>
 				<tr>
 					<td>Sistema Municipal de Ensino</td>
-					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a171'][0]; ?>"><?php echo $custom_fields['wpcf-a171'][0]; ?></span></td>
+					<td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a164'][0]; ?>"><?php echo $custom_fields['wpcf-a164'][0]; ?></span></td>
 				</tr>
 				<tr>
 					<td>Fundo Municipal de Educação</td>
@@ -173,7 +173,10 @@
 					<td>Combate à discriminação</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a168'][0]; ?>"><?php echo $custom_fields['wpcf-a168'][0] ?></span></td>
 				</tr>
 				<tr>
-					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a190'][0]; ?>"><?php echo $custom_fields['wpcf-a190'][0] ?></span></td>
+					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a169'][0]; ?>"><?php echo $custom_fields['wpcf-a169'][0] ?></span></td>
+				</tr>
+				<tr>
+					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a167'][0]; ?>"><?php echo $custom_fields['wpcf-a167'][0] ?></span></td>
 				</tr>
 				</table>
 
