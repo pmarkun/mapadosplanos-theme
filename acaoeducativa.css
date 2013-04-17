@@ -331,22 +331,49 @@ margin: 0 0 24px;
   float:left;
 }
 
-header #searchform {
-	width: 400px;
-	float: right;
+#masthead #tagline {
+	font-size: 15px;
+	float: left;
+	margin-left: 200px;
+	position: absolute;
 	margin-top: 20px;
+}
+
+#masthead #tagline span {
+	margin-left: 30px;
+}
+
+header #searchform {
+	width: 342px;
+	float: right;
+	margin-top: 50px;
 	margin-right: 20px;
+}
+
+header #searchform div {
+	padding: 10px;
+	background-color: #fd6208;
+	border-radius: 10px;
+}
+
+header #searchform div #searchsubmit {
+	width: 18%;
 }
 
 #masthead #site-navigation {
   height: 60px;
   width:760px;
-  margin-top:24px;
+  margin-top: -10px;
   margin-right: 20px;
-  background-color: #00aade;
+  background-color: #fd6208;
   float:right;
-  border-top: 1px soli
-  d #FFF;
+  border-top: 1px solid #FFF;
+  border-radius: 10px;
+}
+
+#masthead #site-navigation li a {
+	color: #f4c307;
+	font-weight: bold;
 }
 
 #masthead li {
@@ -354,8 +381,18 @@ header #searchform {
    height:auto;
 }
 
+#masthead #site-navigation li {
+	border-right: 1px solid #f4c307;
+	height: 60px;
+	padding-right: 10px;
+}
+
+#masthead #site-navigation li:last-child {
+	border: none;
+}
+
 #masthead li a {
-   padding-top:10px;
+   padding-top: 20px;
    padding-left:10px;
    padding-bottom: 15px;
    text-align: center;

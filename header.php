@@ -56,7 +56,7 @@
 
 <body <?php body_class(); ?>>
 
-<?php $header_image = get_header_image();
+	<?php $header_image = get_header_image();
 		if ( ! empty( $header_image ) ) : ?>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
 		<?php endif; ?>
@@ -66,6 +66,29 @@
 		<header id="masthead" class="site-header" role="banner">
 
 		<a href="<?php echo get_site_url(); ?>" id="site-logo"></a>
+		
+		
+		<h1 id="tagline"><?php
+			
+			/*
+			 * Insere o Blurb no header
+			 * 
+			 * Usei um custom-field no página HOME para puxar o texto.
+			 * 
+			 * É necessário alterar o ID pelo valor correto da instalação WP
+			 * 
+			 * A melhor forma para garantir boa apresentação do Blurb exatamente como
+			 * na tela de mockup é PRIMEIRA LINHA<br /><span>SEGUNDA LINHA</span>
+			 * 
+			 * O resultado deve sair assim:
+			 * 
+			 * <h1 id="tagline">Por um plano de educação que queremos<br /> 
+			 * <span> e uma participação que faça a diferença</span>
+			 * 
+			 */
+		 
+			echo get_post_meta( 498, 'tagline	', true); 
+		?></h1>
 		
 		<?php get_search_form(); ?>
 		
