@@ -332,15 +332,22 @@ margin: 0 0 24px;
 }
 
 #masthead #tagline {
-	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 20px;
+	color: #696a69;
 	float: left;
 	margin-left: 200px;
 	position: absolute;
 	margin-top: 20px;
+	width: 400px;
+	line-height: 24px;
 }
 
 #masthead #tagline span {
 	margin-left: 30px;
+	margin-top: -10px;
 }
 
 header #searchform {
@@ -365,14 +372,14 @@ header #searchform div #searchsubmit {
   width:760px;
   margin-top: -10px;
   margin-right: 20px;
-  background-color: #fd6208;
+  background-color: #fd6207;
   float:right;
   border-top: 1px solid #FFF;
   border-radius: 10px;
 }
 
 #masthead #site-navigation li a {
-	color: #f4c307;
+	color: #ede708;
 	font-weight: bold;
 }
 
@@ -382,7 +389,7 @@ header #searchform div #searchsubmit {
 }
 
 #masthead #site-navigation li {
-	border-right: 1px solid #f4c307;
+	border-right: 1px solid #ede708;
 	height: 60px;
 	padding-right: 10px;
 }
@@ -407,11 +414,11 @@ header #searchform div #searchsubmit {
 }
 
 #masthead li ul li a {
-	background-color: #00aade;
+	background-color: #fd6207;
 }
 
 #masthead li ul li a:hover {
-	background-color: #31CBFD;
+	background-color: #fc8946;
 }
 
 /* BODY */
@@ -502,6 +509,48 @@ body {
 
 .below-map {
     margin-top: 20px;
+}
+
+.below-map > div:first-child {
+	background-color: #d6ebf9;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.below-map > div:first-child .widget-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-top: 0;
+	font-size: 14px;
+	color: #3887BE;
+}
+
+.below-map > div:first-child .textwidget {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #838383;
+}
+
+.below-map div:nth-child(2), .below-map div:nth-child(2) a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #5ebb01;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.below-map div:nth-child(3) {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top:10px;
+	color: #2887be;
+}
+
+.below-map div:nth-child(3) a {
+	color: #646464;
 }
 
 .template-front-page article {

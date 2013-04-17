@@ -51,6 +51,7 @@
 <script src="<?php echo child_template_directory ?>/js/css3.js" type="text/javascript"></script>
 <![endif]-->
 
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,600,700' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -68,7 +69,7 @@
 		<a href="<?php echo get_site_url(); ?>" id="site-logo"></a>
 		
 		
-		<h1 id="tagline"><?php
+		<div id="tagline"><?php
 			
 			/*
 			 * Insere o Blurb no header
@@ -87,8 +88,8 @@
 			 * 
 			 */
 		 
-			echo get_post_meta( 498, 'tagline	', true); 
-		?></h1>
+			echo get_post_meta( 498, 'tagline', true); 
+		?></div>
 		
 		<?php get_search_form(); ?>
 		
