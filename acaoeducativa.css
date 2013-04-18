@@ -306,6 +306,7 @@ margin: 0 0 24px;
 #page {
   margin-top: 30px;
   padding: 0 !important;
+  background: #fff url('img/logo-bg-menor.png') top right no-repeat scroll;
 }
 
 #main {
@@ -341,7 +342,7 @@ margin: 0 0 24px;
 	margin-left: 200px;
 	position: absolute;
 	margin-top: 20px;
-	width: 400px;
+	width: 395px;
 	line-height: 24px;
 }
 
