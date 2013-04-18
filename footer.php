@@ -13,14 +13,18 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="row-fluid">
+		<div id="footer-a">
 			<?php if ( is_active_sidebar( 'footer-a' ) ) : ?>
 				<?php dynamic_sidebar( 'footer-a' ); ?>
 			<?php endif; ?>
 		</div>
-		<div class="row-fluid">
+		
+		<div id="footer-b">
 			<?php if ( is_active_sidebar( 'footer-b' ) ) : ?>
 				<?php dynamic_sidebar( 'footer-b' ); ?>
 			<?php endif; ?>
+		</div>
+		
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
