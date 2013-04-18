@@ -72,18 +72,18 @@
 		<div id="tagline"><?php
 			
 			/*
-			 * Insere o Blurb no header
+			 * Insere o Tagline no header
 			 * 
 			 * Usei um custom-field no página HOME para puxar o texto.
 			 * 
 			 * É necessário alterar o ID pelo valor correto da instalação WP
 			 * 
 			 * A melhor forma para garantir boa apresentação do Blurb exatamente como
-			 * na tela de mockup é PRIMEIRA LINHA<br /><span>SEGUNDA LINHA</span>
+			 * na tela de mockup é PRIMEIRA LINHA<span>SEGUNDA LINHA</span>
 			 * 
 			 * O resultado deve sair assim:
 			 * 
-			 * <h1 id="tagline">Por um plano de educação que queremos<br /> 
+			 * <h1 id="tagline">Por um plano de educação que queremos 
 			 * <span> e uma participação que faça a diferença</span>
 			 * 
 			 */
