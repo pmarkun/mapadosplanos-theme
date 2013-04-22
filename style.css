@@ -547,7 +547,11 @@ a:hover {
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
-	display: none;
+    /*border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;*/
+    display: block;
+    text-align: left;
+    width: 100%;
 }
 .main-navigation ul.nav-menu.toggled-on,
 .menu-toggle {
@@ -1429,8 +1433,8 @@ img#wpstats {
 	}
 	.main-navigation li a,
 	.main-navigation li {
-		display: inline-block;
-		text-decoration: none;
+		/*display: inline-block;*/
+        text-decoration: none;
 	}
 	.main-navigation li a {
 		border-bottom: 0;
@@ -1442,16 +1446,18 @@ img#wpstats {
 		color: #fff;
 	}
 	.main-navigation li {
-		margin: 0 10px 0 0;
-		position: relative;
+		margin: 0 auto;
+        position: relative;
 	}
 	.main-navigation li ul {
 		display: none;
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		top: 100%;
+		top: 60px;
 		z-index: 10000;
+		left: 0px;
+		border-top: 1px solid #fff;
 	}
 	.main-navigation li ul ul {
 		top: 0;
