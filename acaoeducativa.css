@@ -377,10 +377,12 @@ margin: 0 0 24px;
 #page {
   margin-top: 30px;
   padding: 0 !important;
-  background: #fff url('img/logo-bg-menor.png') top right no-repeat scroll;
+  background: rgba(256,256,256,0.9) url('img/logo-bg-menor.png') top right no-repeat scroll;
+  background-position: 400px -64px;
 }
 
 #main {
+  clear: both;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -394,12 +396,11 @@ margin: 0 0 24px;
 }
 
 #masthead #site-logo {
-  width:120px;
-  height:120px;
+  width:150px;
+  height:148px;
   background:#fff url('img/logo-small.jpg') no-repeat center center;
-  background-size:120px 120px;
-  margin-top:20px;
-  margin-left:20px;
+  margin-top: 15px;
+  margin-left: 15px;
   float:left;
 }
 
@@ -438,7 +439,18 @@ header #searchform div {
 header #searchform div #searchsubmit {
 	width: 18%;
 }
+#searchform div #searchsubmit {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+}
+#searchform input[type="text"] {
+  font-style: italic;
+  font-family: 'Open Sans';
+}
 
+/* ***** MENU ****** */
 #masthead #site-navigation {
   height: 60px;
   width:760px;
@@ -449,32 +461,45 @@ header #searchform div #searchsubmit {
   border-top: 1px solid #FFF;
   border-radius: 10px;
 }
-
-#masthead #site-navigation li a {
-	color: #fff;
-	font-weight: bold;
+#masthead #site-navigation .nav-menu > ul > li:last-child {
+  border-radius: 0 10px 10px 0;
 }
-
+#masthead #site-navigation .nav-menu > ul > li:first-child {
+  border-radius: 10px 0 0 10px;
+}
+#masthead #site-navigation li a {
+  color: #FFF;
+  vertical-align: middle;
+  font-weight: bold;
+}
+#masthead #site-navigation li a:hover {
+  color: #ede708;
+}
+.nav-menu ul > li{
+  height: 60px;
+}
+.nav-menu ul > li a {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
 #masthead li {
    font-size: 13px;
-   height:auto;
 }
 
 #masthead #site-navigation li {
-	border-right: 1px solid #fff;
-	height: 60px;
-	padding-right: 10px;
+  border-right: 1px solid #fff;
+  margin: 0;
+}
+.nav-menu .children li{
+  border-top: 1px solid #fff;
+}
+.nav-menu .children li a{
+  line-height: 15px;
 }
 
-#masthead #site-navigation li:last-child {
+#masthead #site-navigation .nav-menu > ul > li:last-child {
 	border: none;
-}
-
-#masthead li a {
-   padding-top: 20px;
-   padding-left:10px;
-   padding-bottom: 15px;
-   text-align: center;
 }
 
 #masthead .sub-menu li a {
@@ -489,8 +514,9 @@ header #searchform div #searchsubmit {
 	background-color: #fa0542;
 }
 
-#masthead li ul li a:hover {
-	background-color: #f9819d;
+#masthead li:hover, #masthead li ul li a:hover{
+	background-color: #fd6207;
+  color: #ede708;
 }
 
 /* BODY */
@@ -572,11 +598,10 @@ body {
 /* FRONTPAGE */
 
 .frontpage-blurb {
-    background:#fff url('img/blurb.png') no-repeat top left;
     color: #555;
-    font-size: 14px;
-    padding-left: 30px;
+    font-size: 16px;
     margin-bottom: 15px;
+    padding-right: 30px;
 }
 
 .below-map {
@@ -628,18 +653,20 @@ body {
 .template-front-page article {
 	border: 0;
 }
-
+.categoria{
+  font-size: 18px;
+  font-weight: bold;
+}
 .noticia-principal {
 	margin-top: 10px;
 }
 
 .noticia-principal a.titulo {
 	color: #333;
-	font-size: 14px;
 	font-weight: bold;
 	display: block;
 	margin-bottom: 10px;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 24px;
 }
 
@@ -687,6 +714,9 @@ body {
 	border-bottom: 1px solid #EEE;
 }
 
+#secondary{
+  width: 485px;
+}
 /*Questionário Sociedade*/
 
 #parte3 fieldset {

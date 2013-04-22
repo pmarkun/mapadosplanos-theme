@@ -89,7 +89,8 @@
 			 */
 		 
 			echo get_post_meta( 498, 'tagline', true); 
-		?></div>
+		?>
+		</div>
 		
 		<?php get_search_form(); ?>
 		
