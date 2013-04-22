@@ -191,7 +191,7 @@ img {
 
 .widget-title {
 	font-size: 18px;
-	color:#333;
+	color:#FD6207;
 	margin-bottom: 10px !important;
 }
 
@@ -577,12 +577,10 @@ section[role="banner"] {
 .widget-area .widget li,
 .widget-area .widget .textwidget {
 	font-size: 13px;
-	font-size: 0.928571429rem;
-	line-height: 1.846153846;
+	line-height: 20px;
 }
 .widget-area .widget p {
-	margin-bottom: 24px;
-	margin-bottom: 1.714285714rem;
+	margin-bottom: 10px;
 }
 /*.widget-area .textwidget ul {
 	list-style: disc outside;
@@ -1437,7 +1435,7 @@ img#wpstats {
 	.main-navigation li a {
 		border-bottom: 0;
 		color: #eee;
-		text-transform: uppercase;
+ 		text-transform: uppercase;
 		max-width: 100px;
 	}
 	.main-navigation li a:hover {
@@ -1465,7 +1463,7 @@ img#wpstats {
 	}
 	.main-navigation li ul li a {
 		background: #466200;
-		border-bottom: 1px solid #ededed;
+/*		border-bottom: 1px solid #ededed; */
 		display: block;
 		font-size: 11px;
 		font-size: 0.785714286rem;
