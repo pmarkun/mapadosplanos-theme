@@ -128,4 +128,70 @@ $(document).ready(function () {
     , activeTab = $('[href=' + hashPieces[0] + ']');
     activeTab && activeTab.tab('show');
 
+
+//Quest Soc - condicionais
+
+if ($("body").hasClass("single-municipio")) {
+    //qs_conselho
+    $("input[name='qs_conselho'][value='Sim']").click(function () {
+        $("label[for='qs_conselho_obs']").show();
+        $("input[name='qs_conselho_obs']").show();
+    });
+    $("input[name='qs_conselho'][value='Não']").click(function () {
+        $("label[for='qs_conselho_obs']").hide();
+        $("input[name='qs_conselho_obs']").hide();
+    });
+    
+    //qs_01
+    $("label[for='qs_01_r1'] input").click(function () {
+        $("#fs_qs_01_1").show();
+    });
+    $("label[for='qs_01_r2'] input").click(function () {
+        $("#fs_qs_01_1").hide();
+    });
+    $("label[for='qs_01_r3'] input").click(function () {
+        $("#fs_qs_01_1").show();
+    });
+    $("label[for='qs_01_r4'] input").click(function () {
+        $("#fs_qs_01_1").hide();
+    });
+
+    //qs_01_1
+    $("#fs_qs_01_1 input[name='qs_01_1'][value='Sim']").click(function () {
+        $("#fs_qs_01_1 label[for='qs_01_obs']").show();
+        $("#fs_qs_01_1 input[name='qs_01_obs']").show();
+    });
+    $("#fs_qs_01_1 input[name='qs_01_1'][value='Não']").click(function () {
+        $("#fs_qs_01_1 label[for='qs_01_obs']").hide();
+        $("#fs_qs_01_1 input[name='qs_01_obs']").hide();
+    });
+
+    //qs_03
+    $("#fs_qs_03 input").click(function () {
+        var n = $( "#fs_qs_03 input:checked" ).length;
+        console.log(n);
+        if (n >= 3) {
+            $("#fs_qs_03 input:not(:checked)").attr('disabled', 'true');
+        }
+        else {
+            $("#fs_qs_03 input:not(:checked)").removeAttr("disabled");
+        }
+    });
+
+    //qs_04
+    $("#fs_qs_04 input").click(function () {
+        var n = $( "#fs_qs_04 input:checked" ).length;
+        console.log(n);
+        if (n >= 3) {
+            $("#fs_qs_04 input:not(:checked)").attr('disabled', 'true');
+        }
+        else {
+            $("#fs_qs_04 input:not(:checked)").removeAttr("disabled");
+        }
+    });
+
+}
+
 });
+
+
