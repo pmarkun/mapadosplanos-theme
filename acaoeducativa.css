@@ -468,7 +468,7 @@ header #searchform div #searchsubmit {
   border-radius: 0 10px 10px 0;
 }
 #menu-principal > li:first-child:hover {
-  border-radius: 10px 0 0 0;
+  border-radius: 10px 0 0 10px;
 }
 #masthead #site-navigation li a {
   color: #FFF;
@@ -557,7 +557,7 @@ body {
   font-size: 22px;
   background-color: transparent;
   clear: both;
-  color: #333;
+  color: #00aade;
   display: block;
   font-weight: normal;
   height: 26px;
@@ -567,6 +567,7 @@ body {
   overflow-y: visible;
   text-rendering: optimizelegibility;
   vertical-align: baseline;
+  text-transform: none;
 }
 
 .category-sticky h1 {
@@ -597,24 +598,44 @@ body {
 .category-regular {
   float:left;
   position:relative; /* important(so we can absolutely position the description div */
-  margin:11px !important;
+  /* margin:11px !important; */
 }
+/*
 .category .category-title-wrapper {
-  position:absolute; /* absolute position (so we can position it where we want)*/
-  bottom:29px; /* position will be on bottom */
+  position:absolute; 
+  bottom:29px; 
   left:0px;
   width:100%;
-  /* styling bellow */
+  
   background-color:black;
   font-family: 'Trebuchet MS', Helvetica;
   font-size:18px;
   color:white;
-  opacity:0.6; /* transparency */
-  filter:alpha(opacity=60); /* IE transparency */
+  opacity:0.6;
+  filter:alpha(opacity=60); 
+} */
+.link-categoria p{
+  color: #838383;
+}
+.link-categoria:hover{
+  text-decoration: none;
+}
+.link-categoria em:hover{
+color: black;
+}
+.category-title{
+  color: #646464;
+  line-height: 12px;
+}
+.category-title:hover{
+  color: black;
 }
 .category h1 {
-  padding:10px;
-  margin:0px;
+  padding:0;
+  margin:0;
+}
+article.post-thumb{
+  width: 50%;
 }
 
 /* FRONTPAGE */
