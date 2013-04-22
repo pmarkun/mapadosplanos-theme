@@ -295,6 +295,7 @@
 			
 			
 			<div class="tab-pane" id="parte3">
+				<?php /* REMOVENDO TEMPORARIAMENTE
 				<?php 
 					//Visualização dos questionários. Falta preparar o resto do HTML. Ainda tem um bug nas questões de multipla escolha.
 
@@ -311,7 +312,7 @@
 					<tr><td>Não sabe</td></tr>
 				</td>
 				</table>
-					
+				FIM DA REMOCAO */ ?>
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 					mapadosplanos_submit_form(get_the_ID()); 
