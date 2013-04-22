@@ -461,19 +461,19 @@ header #searchform div #searchsubmit {
   border-top: 1px solid #FFF;
   border-radius: 10px;
 }
-#site-navigation .nav-menu > ul > li:last-child a{
+#menu-principal > li:last-child > a:hover{
   border-radius: 0 10px 10px 0;
 }
-#site-navigation .nav-menu > ul > li:first-child a {
-  border-radius: 10px 0 0 10px;
+#menu-principal > li:first-child:hover {
+  border-radius: 10px 0 0 0;
 }
 #masthead #site-navigation li a {
   color: #FFF;
   vertical-align: middle;
   font-weight: bold;
 }
-#masthead #site-navigation li a:hover {
-  color: #ede708;
+#masthead #site-navigation li:hover, #masthead li:hover, #masthead li ul li a:hover {
+  background-color: #FA396A;
 }
 .nav-menu ul > li{
   height: 60px;
@@ -496,11 +496,11 @@ header #searchform div #searchsubmit {
   height: 60px;
   display: table;
   float: left;
-  min-width: 30px;
+  min-width: 40px;
   text-align: left;
   vertical-align: middle;
   position: relative;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 #masthead #site-navigation li:last-child{
   border: none;
@@ -510,6 +510,9 @@ header #searchform div #searchsubmit {
   margin: 0;
   left: 0;
   padding: 0;
+  border-bottom: 1px solid #fff;
+}
+#masthead #site-navigation ul.sub-menu li:last-child{
   border: none;
 }
 .nav-menu .children li{
@@ -533,11 +536,6 @@ header #searchform div #searchsubmit {
 
 #masthead li ul li a {
 	background-color: #fa0542;
-}
-
-#masthead li:hover, #masthead li ul li a:hover{
-	background-color: #fd6207;
-  color: #ede708;
 }
 
 /* BODY */
@@ -696,7 +694,7 @@ body {
 	line-height: 20px;
 }
 
-.noticia-principal a:hover.titulo, a:active.titulo, .noticia-secundaria a.titulo{
+.noticia-principal a:hover.titulo, a:active.titulo, .noticia-secundaria a.titulo:hover{
 	color: #000;
   text-decoration: none;
 }
@@ -714,7 +712,8 @@ body {
 
 .noticia-secundaria {
 	margin-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 0;
+  border-bottom: 1px solid #EEE;
 }
 
 .noticia-secundaria a:hover.titulo-sec, a:active.titulo-sec {
@@ -727,10 +726,6 @@ body {
 	margin-bottom: 10px;
 }
 
-.noticia-secundaria {
-	margin-top: 20px;
-	border-bottom: 1px solid #EEE;
-}
 .noticia-secundaria p{
   margin: 0;
 }

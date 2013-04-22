@@ -583,9 +583,10 @@ section[role="banner"] {
 	font-size: 13px;
 	line-height: 20px;
 }
+/*
 .widget-area .widget p {
 	margin-bottom: 10px;
-}
+} */
 /*.widget-area .textwidget ul {
 	list-style: disc outside;
 	margin: 0 0 24px;
@@ -1450,7 +1451,7 @@ img#wpstats {
         position: relative;
 	}
 	.main-navigation li ul {
-		display: none;
+		visibility: hidden;
 		margin: 0;
 		padding: 0;
 		position: absolute;
@@ -1464,8 +1465,8 @@ img#wpstats {
 		left: 100%;
 	}
 	.main-navigation ul li:hover > ul {
-		border-left: 0;
-		display: block;
+		/* border-left: 0; */
+		visibility: visible;
 	}
 	.main-navigation li ul li a {
 		background: #466200;
@@ -1520,8 +1521,8 @@ img#wpstats {
 	.template-front-page.two-sidebars .widget-area .front-widgets {
 		float: left;
 		width: 51.875%;
-		margin-bottom: 24px;
-		margin-bottom: 1.714285714rem;
+		margin-bottom: 10px;
+		/* margin-bottom: 1.714285714rem; */
 	}
 	.template-front-page .widget-area .widget:nth-child(odd) {
 		clear: right;
