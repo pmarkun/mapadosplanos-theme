@@ -103,8 +103,8 @@ $(document).ready(function () {
 			type:'POST',
 			data:'action=ae_search&s='+existingString,
 			success:function(results) {
-				$("#autocomplete").html(results);
-				$("#autocomplete a").hover(null, function() {
+                $("#autocomplete").html(results);
+				$("#autocomplete a").mouseenter(null, function() {
                     map.ease.location({ lat: this.dataset.lat, lon: this.dataset.lng }).zoom(6).optimal();
                     return false;
 				});
@@ -114,6 +114,7 @@ $(document).ready(function () {
                     return false;
 				});
                 $('#autocomplete').mouseleave(function() {
+                    map.ease.location({ lat: -13.32, lon: -51.15 }).zoom(4).optimal();
                     $("#autocomplete").html('');
                 });
 				
