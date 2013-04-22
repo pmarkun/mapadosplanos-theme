@@ -514,6 +514,9 @@ header #searchform div #searchsubmit {
   left: 0;
   padding: 0;
   border-bottom: 1px solid #fff;
+  border-right: none;
+  border-left: none;
+  border-top: none;
 }
 #masthead #site-navigation ul.sub-menu li:last-child{
   border: none;
@@ -636,6 +639,10 @@ color: black;
 }
 article.post-thumb{
   width: 50%;
+  height: 435px;
+}
+article.post-thumb p{
+  width: 95%;
 }
 
 /* FRONTPAGE */
@@ -803,6 +810,21 @@ a:hover, a:active {
 .cs-title {
 	width: 99% !important;
 }
+
+/* Contato */
+
+div.wpcf7 {
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+}
+.wpcf7 input[type="submit"]{
+  min-width: 80px;
+}
+.wpcf7 input[type="text"], .wpcf7 textarea{
+  width: 100%;
+}
+
 
 
 /* FOOTER */

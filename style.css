@@ -911,13 +911,15 @@ img.aligncenter {
 	border-top: 1px solid #ededed;
 	padding: 6px 10px 6px 0;
 }
+
+/*
 .site-content article {
 	padding-bottom: 24px;
 	padding-bottom: 1.714285714rem;
 	margin-bottom: 72px;
 	margin-bottom: 5.142857143rem;
 	border-bottom: 4px double #ededed;
-}
+} */
 .page-links {
 	clear: both;
 	line-height: 1.714285714;

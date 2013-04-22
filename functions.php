@@ -81,6 +81,15 @@ register_sidebar( array(
 	) );
 
 register_sidebar( array(
+		'name' => __( 'Sidebar Categoria', 'twentytwelve' ),
+		'id' => 'sidebar-categoria-widget',
+		'description' => __( 'Sidebar Categoria', 'twentytwelve' ),
+		'before_widget' => '<div id="%1$s" class="sidebar-categoria %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h5 class="widget-title">',
+		'after_title' => '</h5>',
+	) );
+register_sidebar( array(
 		'name' => __( 'Abaixo do Mapa', 'twentytwelve' ),
 		'id' => 'frontpage-below-map',
 		'description' => __( 'Abaixo do Mapa', 'twentytwelve' ),
