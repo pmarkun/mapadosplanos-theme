@@ -13,17 +13,38 @@
 		<a href='#' id='acaoeducativa.mapadosplanos' class='active'>Munícipios</a>
 		<a href='#' id='acaoeducativa.mapadosplanos-estados'>Estados</a>
 	</ul>
+	<div class="termometro">
+		<span>Termômetro dos planos</span>
+		<div>Estados
+			<div class="progress progress-success progress-striped">
+			  <div class="bar" style="width: 40%"></div>
+			</div>
+		</div>
+		<div>Municípios
+			<div class="progress progress-success progress-striped">
+			  <div class="bar" style="width: 40%"></div>
+			</div>
+		</div>
+	</div>
 	<div class="map-legends">
 		<div class="map-legend">
 			<div class="legenda">
+				<span>Planos de educação</span>
+				<div class="leg_elab">
+					<span class="marker"></span>
+					<span>Em elaboração</span>
+				</div>
+				<div class="leg_semplano">
+					<span class="marker"></span>
+					<span>Com plano</span>
+				</div>
 				<div class="leg_complano">
 					<span class="marker"></span>
-					<span>&nbsp;Tem plano (IBGE 2011)</span>
+					<span>Sem plano</span>
 				</div>
-
 				<div class="leg_gestor">
 					<span class="marker"></span>
-					<span>&nbsp;Resposta do/a gestor/a</span>
+					<span>Resposta do/a gestor/a</span>
 				</div>
 			</div>
 		</div>
