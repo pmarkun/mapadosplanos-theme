@@ -1777,14 +1777,14 @@ img#wpstats {
         display: block;
         padding: .2em .3em;
         text-decoration: none;
-        color: #628800;
-        background-color: rgba(255,255,255, .75);
+        color: #222;
+        background-color: rgba(255,255,255, .85);
         text-align: left;
         border-bottom:1px solid #ddd;
 }
 #autocomplete a:hover{
         color: #fff;
-        background-color: #89AE2D;
+        background-color: #888;
         background-image: none;
 }
 .screen-reader-text {

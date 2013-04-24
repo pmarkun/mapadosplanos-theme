@@ -16,14 +16,17 @@
 	<div class="termometro">
 		<span>Termômetro dos planos</span>
 		<div>Estados
+			<span>25%</span>
 			<div class="progress progress-success progress-striped">
-			  <div class="bar" style="width: 40%"></div>
+			  <div class="bar" style="width: 25%"></div>
 			</div>
 		</div>
 		<div>Municípios
+			<span>25%</span>
 			<div class="progress progress-success progress-striped">
-			  <div class="bar" style="width: 40%"></div>
+			  <div class="bar" style="width: 25%"></div>
 			</div>
+			
 		</div>
 	</div>
 	<div class="map-legends">

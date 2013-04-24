@@ -390,11 +390,11 @@ margin: 0 0 24px;
   position: absolute;
   z-index: 1;
   width: 160px;
-  font-size: 12px;
+  font-size: 10px;
   right: 4px;
   top: 4px;
   background-color: white;
-  padding: 8px 4px;
+  padding: 2px 4px;
   border: 1px solid #bbb;
   box-sizing: border-box;
   background: #fff;
@@ -402,8 +402,19 @@ margin: 0 0 24px;
   border-radius: 3px;
 }
 .termometro .progress{
-  margin: 2px 0;
+  margin: 2px 1px;
   height: 12px;
+  width: 70px;
+  float: right;
+  display: inline;
+}
+.termometro span{
+  float: right;
+}
+.termometro > span{
+  float: none;
+  text-align: center;
+  margin: 0 auto;
 }
 /* HEADER */
 #page {
