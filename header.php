@@ -69,8 +69,21 @@
 		<a href="<?php echo get_site_url(); ?>" id="site-logo"></a>
 		
 		
-		<div id="tagline"><?php
+		<div id="tagline">
 			
+			<h1>
+				<?php
+
+				$texto = get_bloginfo("description");
+				list ($line1, $line2) = split ("-", $texto);
+				
+				echo $line1."<span>".$line2."</span>"
+
+				?>
+
+			</h1>
+
+		<?php
 			/*
 			 * Insere o Tagline no header
 			 * 
@@ -88,7 +101,7 @@
 			 * 
 			 */
 		 
-			echo get_post_meta( 498, 'tagline', true); 
+			// echo get_post_meta( 498, 'tagline', true); 
 		?>
 		</div>
 		

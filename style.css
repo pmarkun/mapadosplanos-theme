@@ -191,7 +191,7 @@ img {
 
 .widget-title {
 	font-size: 18px;
-	color:#333;
+	color:#FD6207;
 	margin-bottom: 10px !important;
 }
 
@@ -547,7 +547,11 @@ a:hover {
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
-	display: none;
+    /*border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;*/
+    display: block;
+    text-align: left;
+    width: 100%;
 }
 .main-navigation ul.nav-menu.toggled-on,
 .menu-toggle {
@@ -577,13 +581,12 @@ section[role="banner"] {
 .widget-area .widget li,
 .widget-area .widget .textwidget {
 	font-size: 13px;
-	font-size: 0.928571429rem;
-	line-height: 1.846153846;
+	line-height: 20px;
 }
+/*
 .widget-area .widget p {
-	margin-bottom: 24px;
-	margin-bottom: 1.714285714rem;
-}
+	margin-bottom: 10px;
+} */
 /*.widget-area .textwidget ul {
 	list-style: disc outside;
 	margin: 0 0 24px;
@@ -908,13 +911,15 @@ img.aligncenter {
 	border-top: 1px solid #ededed;
 	padding: 6px 10px 6px 0;
 }
+
+/*
 .site-content article {
 	padding-bottom: 24px;
 	padding-bottom: 1.714285714rem;
 	margin-bottom: 72px;
 	margin-bottom: 5.142857143rem;
 	border-bottom: 4px double #ededed;
-}
+} */
 .page-links {
 	clear: both;
 	line-height: 1.714285714;
@@ -1431,41 +1436,43 @@ img#wpstats {
 	}
 	.main-navigation li a,
 	.main-navigation li {
-		display: inline-block;
-		text-decoration: none;
+		/*display: inline-block;*/
+        text-decoration: none;
 	}
 	.main-navigation li a {
 		border-bottom: 0;
 		color: #eee;
-		text-transform: uppercase;
+ 		text-transform: uppercase;
 		max-width: 100px;
 	}
 	.main-navigation li a:hover {
 		color: #fff;
 	}
 	.main-navigation li {
-		margin: 0 10px 0 0;
-		position: relative;
+		margin: 0 auto;
+        position: relative;
 	}
 	.main-navigation li ul {
-		display: none;
+		visibility: hidden;
 		margin: 0;
 		padding: 0;
 		position: absolute;
-		top: 100%;
+		top: 60px;
 		z-index: 10000;
+		left: 0px;
+		border-top: 1px solid #fff;
 	}
 	.main-navigation li ul ul {
 		top: 0;
 		left: 100%;
 	}
 	.main-navigation ul li:hover > ul {
-		border-left: 0;
-		display: block;
+		/* border-left: 0; */
+		visibility: visible;
 	}
 	.main-navigation li ul li a {
 		background: #466200;
-		border-bottom: 1px solid #ededed;
+/*		border-bottom: 1px solid #ededed; */
 		display: block;
 		font-size: 11px;
 		font-size: 0.785714286rem;
@@ -1516,8 +1523,8 @@ img#wpstats {
 	.template-front-page.two-sidebars .widget-area .front-widgets {
 		float: left;
 		width: 51.875%;
-		margin-bottom: 24px;
-		margin-bottom: 1.714285714rem;
+		margin-bottom: 10px;
+		/* margin-bottom: 1.714285714rem; */
 	}
 	.template-front-page .widget-area .widget:nth-child(odd) {
 		clear: right;
@@ -1770,14 +1777,14 @@ img#wpstats {
         display: block;
         padding: .2em .3em;
         text-decoration: none;
-        color: #628800;
-        background-color: rgba(255,255,255, .75);
+        color: #222;
+        background-color: rgba(255,255,255, .85);
         text-align: left;
         border-bottom:1px solid #ddd;
 }
 #autocomplete a:hover{
         color: #fff;
-        background-color: #89AE2D;
+        background-color: #888;
         background-image: none;
 }
 .screen-reader-text {

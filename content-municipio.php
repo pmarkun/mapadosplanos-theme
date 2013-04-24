@@ -69,9 +69,9 @@
 			
 
 		<ul class="nav nav-tabs">
-  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">IBGE</a></li>
-  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Questionário</a></li>
-  			<li><a href="#parte3" data-toggle="tab">Sociedade</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Dados Educacionais</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Gestão Municipal</a></li>
+  			<li><a href="#parte3" data-toggle="tab">Sociedade Civil</a></li>
 		</ul>
 
 		
@@ -174,7 +174,7 @@
 					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a169'][0]; ?>"><?php echo $custom_fields['wpcf-a169'][0] ?></span></td>
 				</tr>
 				<tr>
-					<td>Combate à violência</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a167'][0]; ?>"><?php echo $custom_fields['wpcf-a167'][0] ?></span></td>
+					<td>Formação Continuada de professores na educação especial</td> <td><span class="resposta label label-info ibge-<?php echo $custom_fields['wpcf-a167'][0]; ?>"><?php echo $custom_fields['wpcf-a167'][0] ?></span></td>
 				</tr>
 				</table>
 
@@ -295,7 +295,6 @@
 			
 			
 			<div class="tab-pane" id="parte3">
-				<?php /* REMOVENDO TEMPORARIAMENTE
 				<?php 
 					//Visualização dos questionários. Falta preparar o resto do HTML. Ainda tem um bug nas questões de multipla escolha.
 
@@ -312,7 +311,7 @@
 					<tr><td>Não sabe</td></tr>
 				</td>
 				</table>
-				FIM DA REMOCAO */ ?>
+					
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 					mapadosplanos_submit_form(get_the_ID()); 

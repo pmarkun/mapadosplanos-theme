@@ -318,29 +318,34 @@ margin: 0 0 24px;
   position:absolute;
   bottom:20px;left:10px;
   max-height:200px;
-  max-width:200px;
+  max-width:180px;
   list-style:none;
   z-index:99;
+  font-size: 12px;
 }
-
-.leg_elaboracao .marker {
-	padding-left: 20px;
-
-	background-size:8px 8px;
-	background-position: left top;
+.map-legends .map-legend{
+  padding: 2px 8px;
+}
+.legenda > span{
+  font-weight: bold;
+  font-size: 11px;
+}
+.marker {
+  padding-left: 20px;
+  background-size:8px 8px;
+  background-position: left top;
+  margin-right: 5px;
+}
+.leg_elab .marker {
+	background-color: #eee80b;
 }
 
 .leg_complano .marker {
-	padding-left: 20px;
-	background:#7FED0E no-repeat ;
-	background-size:8px 8px;
-	background-position: left top;
+	background:#f1043c no-repeat ;
 }
 
 .leg_semplano .marker {
-	padding-left: 20px;
-	background:#EDF8E9 no-repeat ;
-	background-size:8px 8px;
+	background:#79e60f no-repeat ;
 	background-position: left top;
 }
 
@@ -351,6 +356,12 @@ margin: 0 0 24px;
 }
 
 /* MapTooltip */
+.map-tooltip{
+  padding: 3px 7px;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+}
 .map-tooltip .munic {
   display:block;
   max-width:128px;
@@ -372,7 +383,39 @@ margin: 0 0 24px;
   float:right;
   background-image:url('img/plano1.png');
 }
-
+.termometro > span{
+  font-weight: bold;
+}
+.termometro{
+  position: absolute;
+  z-index: 1;
+  width: 160px;
+  font-size: 10px;
+  right: 4px;
+  top: 4px;
+  background-color: white;
+  padding: 2px 4px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.termometro .progress{
+  margin: 2px 1px;
+  height: 12px;
+  width: 70px;
+  float: right;
+  display: inline;
+}
+.termometro span{
+  float: right;
+}
+.termometro > span{
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+}
 /* HEADER */
 #page {
   margin-top: 30px;
@@ -404,23 +447,26 @@ margin: 0 0 24px;
   float:left;
 }
 
-#masthead #tagline {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	font-size: 20px;
-	color: #696a69;
-	float: left;
-	margin-left: 200px;
-	position: absolute;
-	margin-top: 20px;
-	width: 395px;
-	line-height: 24px;
+#tagline{
+  position: relative;
 }
 
-#masthead #tagline span {
-	margin-left: 30px;
-	margin-top: -10px;
+#tagline h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  color: #696a69;
+  position: absolute;
+  width: 395px;
+  line-height: 24px;
+  top: 20px;
+  text-align: right;
+  right: 400px;
+}
+
+#tagline h1 span{
+  margin-right: -20px;
 }
 
 header #searchform {
@@ -461,10 +507,10 @@ header #searchform div #searchsubmit {
   border-top: 1px solid #FFF;
   border-radius: 10px;
 }
-#masthead #site-navigation .nav-menu > ul > li:last-child {
+#menu-principal > li:last-child > a:hover{
   border-radius: 0 10px 10px 0;
 }
-#masthead #site-navigation .nav-menu > ul > li:first-child {
+#menu-principal > li:first-child:hover {
   border-radius: 10px 0 0 10px;
 }
 #masthead #site-navigation li a {
@@ -472,8 +518,8 @@ header #searchform div #searchsubmit {
   vertical-align: middle;
   font-weight: bold;
 }
-#masthead #site-navigation li a:hover {
-  color: #ede708;
+#masthead #site-navigation li:hover, #masthead li:hover, #masthead li ul li a:hover {
+  background-color: #FA396A;
 }
 .nav-menu ul > li{
   height: 60px;
@@ -486,10 +532,37 @@ header #searchform div #searchsubmit {
 #masthead li {
    font-size: 13px;
 }
+#masthead li a {
+    vertical-align: middle;
+    display: table-cell;
+}
 
 #masthead #site-navigation li {
   border-right: 1px solid #fff;
+  height: 60px;
+  display: table;
+  float: left;
+  min-width: 40px;
+  text-align: left;
+  vertical-align: middle;
+  position: relative;
+  padding: 0 10px;
+}
+#masthead #site-navigation li:last-child{
+  border: none;
+}
+#masthead #site-navigation ul.sub-menu li{
+  width: 150%;
   margin: 0;
+  left: 0;
+  padding: 0;
+  border-bottom: 1px solid #fff;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+#masthead #site-navigation ul.sub-menu li:last-child{
+  border: none;
 }
 .nav-menu .children li{
   border-top: 1px solid #fff;
@@ -514,11 +587,6 @@ header #searchform div #searchsubmit {
 	background-color: #fa0542;
 }
 
-#masthead li:hover, #masthead li ul li a:hover{
-	background-color: #fd6207;
-  color: #ede708;
-}
-
 /* BODY */
 body {
   background-color: #f7fafe;
@@ -535,7 +603,7 @@ body {
   font-size: 22px;
   background-color: transparent;
   clear: both;
-  color: #333;
+  color: #00aade;
   display: block;
   font-weight: normal;
   height: 26px;
@@ -545,6 +613,7 @@ body {
   overflow-y: visible;
   text-rendering: optimizelegibility;
   vertical-align: baseline;
+  text-transform: none;
 }
 
 .category-sticky h1 {
@@ -570,29 +639,54 @@ body {
   position:relative; /* important(so we can absolutely position the description div */
   clear:both;
   margin-bottom:20px !important;
+  width: 96%;
 }
 
 .category-regular {
   float:left;
   position:relative; /* important(so we can absolutely position the description div */
-  margin:11px !important;
+  /* margin:11px !important; */
 }
+/*
 .category .category-title-wrapper {
-  position:absolute; /* absolute position (so we can position it where we want)*/
-  bottom:29px; /* position will be on bottom */
+  position:absolute; 
+  bottom:29px; 
   left:0px;
   width:100%;
-  /* styling bellow */
+  
   background-color:black;
   font-family: 'Trebuchet MS', Helvetica;
   font-size:18px;
   color:white;
-  opacity:0.6; /* transparency */
-  filter:alpha(opacity=60); /* IE transparency */
+  opacity:0.6;
+  filter:alpha(opacity=60); 
+} */
+.link-categoria p{
+  color: #838383;
+}
+.link-categoria:hover{
+  text-decoration: none;
+}
+.link-categoria em:hover{
+color: black;
+}
+.category-title{
+  color: #646464;
+  line-height: 12px;
+}
+.category-title:hover{
+  color: black;
 }
 .category h1 {
-  padding:10px;
-  margin:0px;
+  padding:0;
+  margin:0;
+}
+article.post-thumb{
+  width: 50%;
+  height: 435px;
+}
+article.post-thumb p{
+  width: 95%;
 }
 
 /* FRONTPAGE */
@@ -660,18 +754,24 @@ body {
 .noticia-principal {
 	margin-top: 10px;
 }
-
-.noticia-principal a.titulo {
-	color: #333;
+.noticia-principal a.titulo{
+  font-size: 15px;
+}
+.noticia-secundaria a.titulo{
+  font-size: 13px; 
+}
+.noticia-principal a.titulo, .noticia-secundaria a.titulo {
+	color: #646464;
 	font-weight: bold;
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-size: 15px;
-	line-height: 24px;
+	line-height: 20px;
 }
 
-.noticia-principal a:hover.titulo, a:active.titulo{
+.noticia-principal a:hover.titulo, a:active.titulo, .noticia-secundaria a.titulo:hover{
 	color: #000;
+  text-decoration: none;
 }
 
 .noticia-principal .label {
@@ -687,16 +787,8 @@ body {
 
 .noticia-secundaria {
 	margin-top: 10px;
-	padding-bottom: 10px;
-}
-
-.noticia-secundaria a.titulo {
-	color: #333;
-	font-size: 14px;
-	font-weight: bold;
-	display: block;
-	margin-bottom: 10px;
-
+	padding-bottom: 0;
+  border-bottom: 1px solid #EEE;
 }
 
 .noticia-secundaria a:hover.titulo-sec, a:active.titulo-sec {
@@ -709,14 +801,14 @@ body {
 	margin-bottom: 10px;
 }
 
-.noticia-secundaria {
-	margin-top: 20px;
-	border-bottom: 1px solid #EEE;
+.noticia-secundaria p{
+  margin: 0;
 }
 
 #secondary{
-  width: 485px;
+  margin-right: 10px;
 }
+
 /*Questionário Sociedade*/
 
 #parte3 fieldset {
@@ -763,8 +855,33 @@ a:hover, a:active {
 	width: 99% !important;
 }
 
+/* Contato */
+
+div.wpcf7 {
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+}
+.wpcf7 input[type="submit"]{
+  min-width: 80px;
+}
+.wpcf7 input[type="text"], .wpcf7 textarea{
+  width: 100%;
+}
+
+
 
 /* FOOTER */
+
+/*
+#colophon{
+  padding-top: 40px;
+}
+
+#colophon > div{
+  border-top: 2px solid #FFCB2B;
+}
+*/
 
 #footer-a {
 	float: left;
@@ -782,11 +899,13 @@ a:hover, a:active {
 
 #footer-a .widget-title, #footer-b .widget-title {
 	color: #f1194c;
+  /* position: absolute;
+  margin-top: -30px; */
 }
 
 #footer-a .textwidget, #footer-b .textwidget {
 	border-top: 2px solid #11a4f1;
-	padding-top: 5px;
+  padding-top: 5px;
 } 
 
 #footer-a .textwidget img, #footer-b .textwidget img {

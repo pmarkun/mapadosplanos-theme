@@ -39,7 +39,7 @@ get_header(); ?>
 			$stickyquery = new WP_Query( array( 'post__in' => $sticky, 'cat' => $cat) );
 			while ($stickyquery->have_posts()) : $stickyquery->the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class("category-sticky"); ?>>
-			<a href="<?php echo get_permalink(); ?>">
+			<a class="link-categoria" href="<?php echo get_permalink(); ?>">
 			<?php 
 			if ( has_post_thumbnail() ) {
 				the_post_thumbnail('category-sticky', array('class'	=> "category-image"));
@@ -48,7 +48,9 @@ get_header(); ?>
 				echo '<img class="category-image" src="' . get_bloginfo( 'stylesheet_directory' ) . '/img/thumbnail-default-large.png" />';
 			} 
 			?>
-				<div class="category-title-wrapper"><h1 class="category-title"><?php the_title(); ?></h1></div>
+				<h1 class="category-title"><?php the_title(); ?></h1>
+				<p><?php the_excerpt(); ?></p>
+				<em>Leia mais</em>
 				</a>
 			</article>		
 			<?php endwhile; ?>
@@ -56,8 +58,8 @@ get_header(); ?>
 			/* Start the regular Loop */
 			while (have_posts()) : the_post();  ?>	
 
-			<article id="post-<?php the_ID(); ?>" <?php post_class("category-regular"); ?>>
-				<a href="<?php echo get_permalink(); ?>">
+			<article id="post-<?php the_ID(); ?>" <?php post_class(array("category-regular","post-thumb")); ?>>
+				<a class="link-categoria" href="<?php echo get_permalink(); ?>">
 			<?php 
 			if ( has_post_thumbnail() ) {
 				the_post_thumbnail('category-regular', array('class'	=> "category-image"));
@@ -67,7 +69,9 @@ get_header(); ?>
 			}
 			?>
 				
-				<div class="category-title-wrapper"><h1 class="category-title"><?php the_title(); ?></h1></div>
+				<h1 class="category-title"><?php the_title(); ?></h1>
+				<p><?php the_excerpt(); ?></p>
+				<em>Leia mais</em>
 				</a>
 				</article>		
 			<?php endwhile; ?>
@@ -81,6 +85,12 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</section><!-- #primary -->
+
+	<?php if ( is_active_sidebar( 'sidebar-categoria-widget' ) ) : ?>
+		<div class="categories widget-area">
+			<?php dynamic_sidebar( 'sidebar-categoria-widget' ); ?>
+		</div><!-- .first -->
+	<?php endif; ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
