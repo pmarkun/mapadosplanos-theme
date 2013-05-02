@@ -8,25 +8,13 @@
 ?>
 <?php 
 
+$semplano = do_shortcode( "[mapa_respostas etapa='semplano']" );
+$complano = do_shortcode( "[mapa_respostas etapa='complano']" );
 $elaboracao = do_shortcode( "[mapa_respostas etapa='elaboracao']" );
-$elaboracao = do_shortcode( "[mapa_respostas etapa='complano']" );
-$total = do_shortcode( "[mapa_respostas etapa='total']" );
 
-if ($elaboracao != 0):
-	$porcentagem_elab = $total/$elaboracao*100;
-else:
-	$porcentagem_elab = 0;
-endif;
-if ($elaboracao != 0):
-	$porcentagem_complano = $total/$elaboracao*100;
-else:
-	$porcentagem_complano = 0;
-endif;
-
-$porcentagem_total = $porcentagem_complano + $porcentagem_elab;
+$total = $complano + $semplano + $elaboracao;
 
 ?>
-
 <div id="map" class="img-polaroid">
 	<a href="#" class="zoomer zoomin">+</a>
 	<a href="#" class="zoomer zoomout">-</a>
@@ -37,18 +25,19 @@ $porcentagem_total = $porcentagem_complano + $porcentagem_elab;
 	<div class="termometro">
 		<span>Termômetro dos planos</span>
 		<div>Estados
-			<span><?php echo $porcentagem_total; ?>%</span>
+			<span><?php echo round((10/26)*100); ?>%</span>
 			<div class="progress progress-success progress-striped">
-			  <div class="bar bar_complano" style="width: <?php echo $porcentagem_total; ?>%"></div>
-			  <div class="bar bar_elab" style="width: <?php echo $porcentagem_total; ?>%"></div>
+			  <div class="bar bar_complano" style="width: <?php echo round((10/26)*100, 2); ?>%"></div>
+			  <div class="bar bar_elab" style="width: <?php echo round((0/26)*100, 2); ?>%"></div>
 			</div>
 		</div>
 		<div>Municípios
-			<span><?php echo $porcentagem_total; ?>%</span>
+			<span><?php echo round(($complano+$elaboracao)/$total*100); ?>%</span>
 			<div class="progress progress-success progress-striped">
-			  <div class="bar bar_complano" style="width: <?php echo $porcentagem_total; ?>%"></div>
-			  <div class="bar bar_elab" style="width: <?php echo $porcentagem_total; ?>%"></div>
+			  <div class="bar bar_complano" style="width: <?php echo round(($complano/$total)*100, 2); ?>%"></div>
+			  <div class="bar bar_elab" style="width: <?php echo round(($elaboracao/$total)*100, 2); ?>%"></div>
 			</div>
+		</div>
 			
 		</div>
 	</div>
