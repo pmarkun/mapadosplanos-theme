@@ -336,16 +336,16 @@ margin: 0 0 24px;
   background-position: left top;
   margin-right: 5px;
 }
-.leg_elab .marker {
-	background-color: #eee80b;
+.leg_elab .marker, .bar_elab {
+	background-color: #79e60f !important;
 }
 
-.leg_complano .marker {
-	background:#f1043c no-repeat ;
+.leg_complano .marker, .bar_complano {
+	background:#00a7de no-repeat !important;
 }
 
 .leg_semplano .marker {
-	background:#79e60f no-repeat ;
+	background: #f1043c no-repeat ;
 	background-position: left top;
 }
 
