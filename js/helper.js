@@ -133,6 +133,12 @@ $(document).ready(function () {
 //Quest Soc - condicionais
 
 if ($("body").hasClass("single-municipio")) {
+    //bootstrap
+    $("label[for='qs_conselho_obs']").hide();
+    $("input[name='qs_conselho_obs']").hide();
+    $("#fs_qs_01_1").hide();
+    $("#fs_qs_01_1 label[for='qs_01_obs']").hide();
+
     //qs_conselho
     $("input[name='qs_conselho'][value='Sim']").click(function () {
         $("label[for='qs_conselho_obs']").show();
