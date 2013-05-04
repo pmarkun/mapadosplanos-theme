@@ -283,11 +283,11 @@
 			
 			<?php elseif ($etapa != "complano" || $etapa != "elaboracao") : ?>
 			<div class="tab-pane" id="parte2">
-				<span class="titulo">Seu município ainda não respondeu às perguntas sobre o Plano de Educação!</span>
-				<p></p>
-				<p>Se você é gestor, faça seu <a href="wp-admin/post.php?post=<?php echo the_ID();?>&action=edit">login</a> para preencher o questionário, ou veja <a href="/gestor">como gestores(as) podem participar</a>.</p>
-				<p>Se você é um membro da sociedade civil, nos informe sobre o processo do Plano de Educação no seu município, preenchendo o questionário na aba Sociedade. Ou saiba mais sobre <a href="/sociedade">como a sociedade pode colaborar</a>.
-			
+				<span class="titulo"><p>O(A) Gestor(a) da área de educação de seu município ainda não compartilhou informações sobre o processo de construção do Plano de Educação local.</p></span>
+				<p>Se você é gestor, colabore conosco nesta coleta de informações e <a href="wp-admin/post.php?post=<?php echo the_ID();?>&action=edit">preencha o questionário</a> sobre a elaboração do Plano de Educação do seu Município. </p>
+				<p>É da sociedade civil e quer nos ajudar organize uma campanha em seu município para que a administração local participe desta iniciativa. Você pode usar as redes sociais e mobilizar seus amigos e amigas com os nossos <a href="/cartoes-virtuais">cartões virtuais.</a></p>
+				<p>Confira também como a população e os(as) gestores(as) públicos podem se organizar em outras esferas para garantir a participação de todos(as) na construção  dos planos de educação em <a href="/mobilizacao-popular/">Mobilização Popular</a> e <a href="/processos-participativos/">Processos Participativos</a></p>
+				<p>Faça <a href="/download">download do questionário</a> a ser preenchido pela administração pública e conheça quais são as perguntas desse diagnóstico que tem por objetivo entender como os municípios vêm se preparando para elaborar ou revisar seus Planos de Educação.</p>
 			</div>
 
 			<?php endif; ?>
