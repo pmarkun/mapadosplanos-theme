@@ -319,4 +319,20 @@ function redirect_to_post_on_publish_or_save($location)
     return $location;
 
 }
+
+
+//Redirect to Questionario on Admin
+add_action('load-index.php', 'dashboard_Redirect');
+
+function dashboard_Redirect(){
+	global $current_user;
+	$args = array(
+			'author' => $current_user->ID,
+			'post_type' => 'municipio',
+			'posts_per_page' => 1
+		);
+	$posts = get_posts($args);
+	wp_redirect(admin_url("post.php?post=".$posts[0]->ID."&action=edit"));
+}
+
 ?>
