@@ -39,7 +39,6 @@ $total = $complano + $semplano + $elaboracao;
 			</div>
 		</div>
 			
-		</div>
 	</div>
 	<div class="map-legends">
 		<div class="map-legend">
