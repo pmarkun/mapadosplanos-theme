@@ -152,6 +152,35 @@ h1.entry-title{
 .resposta.label { 
 	white-space:normal;
 }
+#parte3.tab-pane table tr td:first-child{
+  width: 60%;
+}
+
+#parte3 .progress{
+  height: 15px;
+  margin-bottom: 5px;
+  width: 80%;
+  display: inline;
+  float: left;
+}
+
+.bar-container{
+  clear: both;
+}
+
+.bar-container label{
+  float: left;
+  line-height: 15px;
+}
+#parte3 .bar-container .progress{
+  width: 120px;
+  float: right;
+}
+label.bar-porcentagem{
+  float: right;
+  line-height: 15px;
+  margin-left: 2px;
+}
 
 /*.anexos {
     margin-top: 20px;
@@ -337,15 +366,15 @@ margin: 0 0 24px;
   margin-right: 5px;
 }
 .leg_elab .marker, .bar_elab {
-	background-color: #79e60f !important;
+	background: #79e60f no-repeat !important;
 }
 
 .leg_complano .marker, .bar_complano {
 	background:#00a7de no-repeat !important;
 }
 
-.leg_semplano .marker {
-	background: #f1043c no-repeat ;
+.leg_semplano .marker, .bar_semplano {
+	background: #f1043c no-repeat !important;
 	background-position: left top;
 }
 

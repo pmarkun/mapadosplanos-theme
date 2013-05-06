@@ -190,95 +190,91 @@
 			<?php if ($etapa == "complano" || $etapa == "elaboracao") : ?>
 			<div class="tab-pane active" id="parte2">
 				<span class="titulo">Questionário respondido por gestor/a do município</span><br>
-				<span>Status informado: <b><?php echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></b></span>
+				
+				<!-- <span>Status informado: <b><?php //echo ($custom_fields['wpcf-qs_etapa01'][0] == 'Sim' ? 'Tem plano' : 'Plano em elaboração');  ?></b></span> -->
+				
 				<hr />
 				<table class="table table-bordered">
-				<tr>
-					<th>Possui sistema municial de ensino?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Possui Conselho Municipal em Atividade?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano02'); ?>"><?php echo types_render_field('qs_plano02'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Possui plano de carreira para o magistério?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano03'); ?>"><?php echo types_render_field('qs_plano03'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Secretário de educação é ordenador de despesas?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano04'); ?>"><?php echo types_render_field('qs_plano04'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Seu município possui Plano de Educação em vigência?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
-				</tr>
-				
-				<?php if ($custom_fields['wpcf-qs_etapa01'][0] == "Sim") { ?>
-				
-				<!-- Tem plano -->
+					<tr><th colspan="2">Gestão e planejamento da educação</th></tr>
 					<tr>
-						<th>Quando o Plano de Educação foi aprovado pelo Legislativo e entrou em vigência?</th>
-						<td><span class="resposta label label-info ibge-Multi ?>"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
+						<td>Sistema municial de ensino</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
 					</tr>
 					<tr>
-						<th>O Plano de Educação já foi avaliado nos últimos quatro anos?</th>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano07_complano'); ?>"><?php echo types_render_field('qs_plano07_complano'); ?></span></td>
+						<td>Conselho Municipal de Educação</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano02'); ?>"><?php echo types_render_field('qs_plano02'); ?></span></td>
 					</tr>
 					<tr>
-						<th>As metas do Plano de Educação estão contempladas no Plano Plurianual do Município (PPA) e nas leis orçamentárias?</th>
+						<td>Plano de carreira e de remuneração para o magistério</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano03'); ?>"><?php echo types_render_field('qs_plano03'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Secretário(a) é ordenador(a) de despesas</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano04'); ?>"><?php echo types_render_field('qs_plano04'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Já respondeu demanda baseada na Lei de Acesso à Informação</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('XXXXXXXXXX'); ?>"><?php echo types_render_field('XXXXXXX'); ?></span></td>
+					</tr>
+				</table>
+				<table class="table table-bordered">
+					<tr><th colspan="2">Plano de Educação</th></tr>
+					<tr>
+						<td>Tem plano?</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Data de aprovação</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('XXXXX'); ?>"><?php echo types_render_field('XXXXX'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Metas contempladas no Plano Plurianual(PPA) e leis orçamentárias</td>
 						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_complano'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
 					</tr>
-				<?php } elseif ($custom_fields['wpcf-qs_etapa01'][0] == "Elaboração") { ?>
-				
-					<!-- Plano em elaboração -->
-					<tr>
-						<th>Seu município está elaborando o Plano de Educação?</th>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano06_elaboracao'); ?>"><?php echo types_render_field('qs_plano06_elaboracao'); ?></span></td>
-					</tr>
-					<tr>
-						<th>Em qual momento se encontra o processo de elaboração do Plano de Educação de seu município?</th>
-						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano07_elaboracao'); ?></span></td>
-					</tr>
-
-				<?php } ?>
-					<tr>
-						<th>Há investimento na comunicação sobre o processo de elaboração do Plano de Educação?</th>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano09'); ?>"><?php echo types_render_field('qs_plano09'); ?></span></td>
-					</tr>
-				<tr>
-					<th>Há assessoria no processo de elaboração do Plano de Educação? </th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano12'); ?>"><?php echo types_render_field('qs_plano12'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Em caso afirmativo, informe quem foram os assessores:</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
-				</tr>
-				<tr>
-					<th>Quais das instituições/entidades que atuam no município participaram da elaboração do plano de educação?</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
-				</tr>
-				<tr>
-					<th>Dos segmentos da comunidade escolar descritos abaixo, quais participam da elaboração do Plano de Educação de seu município?</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
-				</tr>
-				<tr>
-					<th>Há participação de crianças e adolescentes na elaboração do Plano de Educação?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano21'); ?>"><?php echo types_render_field('qs_plano21'); ?></span></td>
-				</tr>
-				<tr>
-					<th>Em que ano desta gestão (2013-2016) seu município pretente avaliar o Plano de Educação?</th>
-					<td><span class="resposta label label-info ibge-<?php echo(types_render_field('qs_plano23', array('raw'=>'true'))); ?>"><?php echo(types_render_field('qs_plano23', array('raw'=>'true'))); ?></span></td>
-				</tr>
-				<tr>
-					<th>A quem cabe a avaliação da implantação das metas do Plano de Educação de seu município?</th>
-					<td><?php echo types_render_checkboxes($custom_fields['wpcf-qs_plano14'][0], 'resposta label label-info ibge-Multi'); ?></td>
-				</tr>
-				<tr>
-					<th>Seu município já respondeu a alguma demanda baseada na lei de acesso à informação pública (lei 12.527/2011) com relação à área de educação?</th>
-					<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano26'); ?>"><?php echo types_render_field('qs_plano26') ?></span></td>
-				</tr>
 				</table>
+				<table class="table table-bordered">
+					<tr><th colspan="2">Processo de elaboração do Plano de Educação</th></tr>
+					<tr>
+						<td>Investimento em comunicação</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Assessoria externa</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Quais assessores (pergunta ao lado da anterior)</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Instituições participantes</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Participação da comunidade escolar</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Participação de crianças e adolescentes</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+				</table>
+				<table class="table table-bordered">
+					<tr><th colspan="2">Avaliação do plano</th></tr>
+					<tr>
+						<th>Já foi avaliado nos últimos quatro anos?</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<th>Ano desta gestão em que pretende avaliá-lo</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+					<tr>
+						<th>Quem avalia a implantação de suas metas</th>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano05'); ?>"><?php echo types_render_field('qs_plano05'); ?></span></td>
+					</tr>
+				</table>
+
 			</div>
 			
 			<?php elseif ($etapa != "complano" || $etapa != "elaboracao") : ?>
@@ -302,15 +298,292 @@
 					//print_r($resultados);
 					$total = $resultados['post_id'][get_the_ID()];
 				?>
+				<strong>Número de respondentes: X</strong>
+				<table class="table table-bordered tab1">
+					<tr>
+						<th>Plano de Educação</th>
+						<td>
+							<div class="bar-container">
+								<label>Sim</label>
+								<label class="bar-porcentagem">35%</label>
+								<div class="progress">
+								  <div class="bar bar_complano" style="width: 35%;"></div>
+								</div>
+
+							</div>
+							<div class="bar-container">
+								<label>Não</label>
+								<label class="bar-porcentagem">35%</label>
+								<div class="progress">
+								  <div class="bar bar_semplano" style="width: 35%;"></div>
+								</div>
+							</div>
+							<div class="bar-container">
+								<label>Em elaboração</label>
+								<label class="bar-porcentagem">35%</label>
+								<div class="progress">
+								  <div class="bar bar_elab" style="width: 35%;"></div>
+								</div>
+							</div>
+							<div class="bar-container">
+								<label>Não sabe</label>
+								<label class="bar-porcentagem">35%</label>
+								<div class="progress progress-warning">
+								  <div class="bar" style="width: 35%;"></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th>Participação no processo</th>
+						<td>
+							<div class="bar-container">
+								<label>Sim</label>
+								<label class="bar-porcentagem">35%</label>
+								<div class="progress">
+								  <div class="bar bar_complano" style="width: 35%;"></div>
+								</div>
+							</div>
+							<div class="bar-container">
+								<label>Não</label>
+								<label class="bar-porcentagem">35%</label>
+								<div class="progress">
+								  <div class="bar bar_semplano" style="width: 35%;"></div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</table>
+				<table class="table table-bordered">
+					<tr><th colspan="2">Como o Plano pode ajudar a melhorar a educação no município</th></tr>
+					<tr>
+						<td>Permite que boas iniciativas de uma gestão governamental
+							perdurem entre diferentes mandatos</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_complano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Colabora com a construção de parcerias e articulações entre as
+							escolas de diferentes redes no município (municipal, estadual e
+							federal)</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_complano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Permite identificar os problemas a serem enfrentados, ao se realizar
+							um estudo/diagnóstico sobre a situação educacional local</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_complano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Permite o acompanhamento e fiscalização do cumprimento dos
+							objetivos e metas presentes no Plano de Educação</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_complano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Possibilita a participação das escolas (professores/as, funcionários/as, 
+							alunos/as e pais) na definição dos rumos da política educacional local</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_complano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<table class="table table-bordered">
+					<tr><th colspan="2">Principais aspectos que dificultam a participação da 
+						sociedade civil na construção e revisão do</th></tr>
+						<tr><th colspan="2">Plano de Educação no município</th></tr>
+					<tr>
+						<td>Grandes distâncias e dificuldade de locomoção no município</td>
+						<td>
+							<label class="bar-porcentagem">35%</label>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Falta de conhecimento sobre os Planos de Educação</td>
+						<td>
+							<label class="bar-porcentagem">35%</label>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Falta de tempo</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Falta de interesse</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Dificuldade de acesso à informação</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Falta de divulgação dos eventos relacionados ao processo de
+							construção do Plano</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Falta de diálogo entre as escolas e as famílias</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Falta de diálogo entre o poder público e a sociedade</td>
+						<td>
+							<div class="progress">
+							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+				<table class="table table-bordered">
+					<tr><th colspan="2">Principais aspectos que facilitam a participação da 
+						sociedade civil na construção e revisão do
+						Plano de Educação no município</th></tr>
+					<tr>
+						<td>Reuniões na escola e/ou outros espaços públicos existentes na
+							comunidade para discutir o que é um Plano de Educação e por que é
+							importante participar de sua construção</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Ampla divulgação dos eventos realizados para a construção de
+							Planos de Educação</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Facilitação do acesso às informações sobre a situação educacional
+							no município</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Ações realizadas em escolas próximas à residência / local de estudo</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Apoio para transporte</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Apoio para alimentação</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Apoio com o cuidado dos(as) filhos(as) durante os eventos e
+							reuniões</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Envolvimento da escola onde estudo ou onde o(a) filho(a) estuda no
+							processo de construção ou revisão do Plano de Educação</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Envolvimento do poder público local no processo de construção ou
+							revisão do Plano de Educação</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>Participação da população nos espaços destinados à construção do
+							Plano de Educação</td>
+						<td>
+							<div class="progress progress-success">
+							  <div class="bar" style="width: 35%;"></div>
+							</div>
+						</td>
+					</tr>
+				</table>
+
+
+			<!-- tabela que estava antes 
+
 				<table class="table table-bordered">
 				<td rowspan="4">Plano de Educação</td>
 				<td>
-					<tr><td><div style="background-color:#0000ff;width:<?php echo $resultados['qs_01']['Sim']/$total*100; ?>%">Sim</div></td></tr></td></tr>
-					<tr><td><div style="background-color:#ff0000;width:<?php echo $resultados['qs_01']['Não']/$total*100; ?>%">Não</div></td></tr></td></tr>
-					<tr><td><div style="background-color:#00ff00;width:<?php echo $resultados['qs_01']['Em elaboração']/$total*100; ?>%">Em elaboração</div></td></tr>
+					<tr><td><div style="background-color:#0000ff;width:<?php //echo $resultados['qs_01']['Sim']/$total*100; ?>%">Sim</div></td></tr></td></tr>
+					<tr><td><div style="background-color:#ff0000;width:<?php //echo $resultados['qs_01']['Não']/$total*100; ?>%">Não</div></td></tr></td></tr>
+					<tr><td><div style="background-color:#00ff00;width:<?php //echo $resultados['qs_01']['Em elaboração']/$total*100; ?>%">Em elaboração</div></td></tr>
 					<tr><td>Não sabe</td></tr>
 				</td>
 				</table>
+			-->
 					
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
