@@ -447,6 +447,7 @@ margin: 0 0 24px;
 }
 .termometro span{
   float: right;
+  min-width: 20px;
 }
 .termometro > span{
   float: none;
