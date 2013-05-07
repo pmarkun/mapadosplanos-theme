@@ -379,9 +379,17 @@ margin: 0 0 24px;
 }
 
 .leg_gestor .marker {
-	padding-left: 20px;
-	background:url('img/marker.png') no-repeat;
-  background-size: round auto;
+  padding-left: 20px;
+  background: url('img/marker.png') no-repeat;
+  padding-top: 0;
+  height: 25px;
+  margin-bottom: -12px;
+  display: inline-block;
+  margin-right: 2px;
+  overflow: visible;
+}
+.leg_gestor{
+  margin-bottom: 8px;
 }
 
 /* MapTooltip */
