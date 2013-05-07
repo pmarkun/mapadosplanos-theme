@@ -298,38 +298,40 @@
 					//print_r($resultados);
 					$total = $resultados['post_id'][get_the_ID()];
 				?>
-				<strong>Número de respondentes: X</strong>
+				<div id="respostas-sociedade">
+				<p><a href="#questionario-sociedade">Responda o questionário.</a></p>
+				<strong>Número de respondentes: <?php echo $total; ?></strong>
 				<table class="table table-bordered tab1">
 					<tr>
 						<th>Plano de Educação</th>
 						<td>
 							<div class="bar-container">
 								<label>Sim</label>
-								<label class="bar-porcentagem">35%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_01']['Sim']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_complano" style="width: 35%;"></div>
+								  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_01']['Sim']/$total*100?>%;"></div>
 								</div>
 
 							</div>
 							<div class="bar-container">
 								<label>Não</label>
-								<label class="bar-porcentagem">35%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_01']['Não']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_semplano" style="width: 35%;"></div>
+								  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_01']['Não']/$total*100?>%;"></div>
 								</div>
 							</div>
 							<div class="bar-container">
 								<label>Em elaboração</label>
-								<label class="bar-porcentagem">35%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_01']['Em elaboração']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_elab" style="width: 35%;"></div>
+								  <div class="bar bar_elab" style="width: <?php echo $resultados['qs_01']['Em elaboração']/$total*100?>%;"></div>
 								</div>
 							</div>
 							<div class="bar-container">
 								<label>Não sabe</label>
-								<label class="bar-porcentagem">35%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_01']['Não sabe']/$total*100?>%</label>
 								<div class="progress progress-warning">
-								  <div class="bar" style="width: 35%;"></div>
+								  <div class="bar" style="width: <?php echo $resultados['qs_01']['Não sabe']/$total*100?>%;"></div>
 								</div>
 							</div>
 						</td>
@@ -339,16 +341,16 @@
 						<td>
 							<div class="bar-container">
 								<label>Sim</label>
-								<label class="bar-porcentagem">35%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_02']['Sim']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_complano" style="width: 35%;"></div>
+								  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02']['Sim']/$total*100?>%;"></div>
 								</div>
 							</div>
 							<div class="bar-container">
 								<label>Não</label>
-								<label class="bar-porcentagem">35%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_02']['Não']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_semplano" style="width: 35%;"></div>
+								  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_02']['Não']/$total*100?>%;"></div>
 								</div>
 							</div>
 						</td>
@@ -570,26 +572,14 @@
 						</td>
 					</tr>
 				</table>
-
-
-			<!-- tabela que estava antes 
-
-				<table class="table table-bordered">
-				<td rowspan="4">Plano de Educação</td>
-				<td>
-					<tr><td><div style="background-color:#0000ff;width:<?php //echo $resultados['qs_01']['Sim']/$total*100; ?>%">Sim</div></td></tr></td></tr>
-					<tr><td><div style="background-color:#ff0000;width:<?php //echo $resultados['qs_01']['Não']/$total*100; ?>%">Não</div></td></tr></td></tr>
-					<tr><td><div style="background-color:#00ff00;width:<?php //echo $resultados['qs_01']['Em elaboração']/$total*100; ?>%">Em elaboração</div></td></tr>
-					<tr><td>Não sabe</td></tr>
-				</td>
-				</table>
-			-->
-					
+					</div>
+					<div id="questionario-sociedade">
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 					mapadosplanos_submit_form(get_the_ID()); 
 				} 
 			?>
+					</div>
 			</div>
 	</div>
 
