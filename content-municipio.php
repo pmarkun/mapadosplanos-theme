@@ -220,11 +220,11 @@
 						<td>Tem plano?</td>
 						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_etapa01'); ?>"><?php echo types_render_field('qs_etapa01'); ?></span></td>
 					</tr>
+					<?php if ($etapa == 'complano') : ?>
 					<tr>
 						<td>Data de aprovação</td>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano23'); ?>"><?php echo types_render_field('qs_plano23'); ?></span></td>
+						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano06_complano'); ?></span></td>
 					</tr>
-					<?php if ($etapa == 'complano') : ?>
 					<tr>
 						<td>Metas contempladas no Plano Plurianual(PPA) e leis orçamentárias</td>
 						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano08_complano'); ?>"><?php echo types_render_field('qs_plano08_complano'); ?></span></td>
