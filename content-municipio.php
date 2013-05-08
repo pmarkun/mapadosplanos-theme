@@ -576,6 +576,9 @@
 					<div id="questionario-sociedade">
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
+			?>
+				<span class="titulo">Questionário para membros da sociedade civil</span><br><span>Preencha com informações sobre o processo do Plano de Educação no seu município</a></span><hr>
+			<?php
 					mapadosplanos_submit_form(get_the_ID()); 
 				} 
 			?>
