@@ -195,7 +195,7 @@
 					<tr><th colspan="2">Gestão e planejamento da educação</th></tr>
 					<tr>
 						<td>Sistema municial de ensino</td>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_etapa01'); ?>"><?php echo types_render_field('qs_etapa01'); ?></span></td>
 					</tr>
 					<tr>
 						<td>Conselho Municipal de Educação</td>
@@ -244,16 +244,16 @@
 					<?php if ($custom_fields['wpcf-qs_plano12'][0] == 'Sim') : ?>
 					<tr>
 						<td>Quais assessores:</td>
-						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano13'); ?></span></td>
+						<td><?php echo types_render_checkboxes($custom_fields["wpcf-qs_plano13"][0], 'resposta label label-info ibge-Multi'); ?></span></td>
 					</tr>
 					<?php endif; ?>
 					<tr>
 						<td>Instituições participantes</td>
-						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano14'); ?></span></td>
+						<td><?php echo types_render_checkboxes($custom_fields["wpcf-qs_plano14"][0], 'resposta label label-info ibge-Multi'); ?></span></td>
 					</tr>
 					<tr>
 						<td>Participação da comunidade escolar</td>
-						<td><span class="resposta label label-info ibge-multi"><?php echo types_render_field('qs_plano15'); ?></span></td>
+						<td><?php echo types_render_checkboxes($custom_fields["wpcf-qs_plano15"][0], 'resposta label label-info ibge-Multi'); ?></span></td>
 					</tr>
 					<tr>
 						<td>Participação de crianças e adolescentes</td>
@@ -274,7 +274,7 @@
 					</tr>
 					<tr>
 						<th>Quem avalia a implantação de suas metas</th>
-						<td><span class="resposta label label-info ibge-multi ?>"><?php echo types_render_field('qs_plano24'); ?></span></td>
+						<td><?php echo types_render_checkboxes($custom_fields["wpcf-qs_plano24"][0], 'resposta label label-info ibge-Multi'); ?></span></td>
 					</tr>
 				</table>
 
