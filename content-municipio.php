@@ -195,7 +195,7 @@
 					<tr><th colspan="2">Gestão e planejamento da educação</th></tr>
 					<tr>
 						<td>Sistema municial de ensino</td>
-						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_etapa01'); ?></span></td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
 					</tr>
 					<tr>
 						<td>Conselho Municipal de Educação</td>
