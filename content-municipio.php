@@ -585,7 +585,7 @@
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 			?>
-				<span class="titulo">Questionário para membros da sociedade civil</span><br><span>Preencha com informações sobre o processo do Plano de Educação no seu município</a></span><hr>
+				<span>Este pequeno cadastro foi criado para que possamos conhecê-lo(a) melhor e estimular o debate sobre a construção e revisão de Planos de Educação. Vamos refletir sobre este processo em seu município? Bom trabalho!</span><br><br>
 			<?php
 					mapadosplanos_submit_form(get_the_ID()); 
 				} 
