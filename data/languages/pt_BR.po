@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 3.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-05-02 10:17-0300\n"
+"PO-Revision-Date: 2013-05-08 01:30-0600\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5160,7 +5160,7 @@ msgstr "Inglês=en,Dinamarquês=da,Holandês=nl,Finlandês=fi,Francês=fr,Alemã
 #: wp-includes/script-loader.php:289
 #: wp-includes/script-loader.php:382
 msgid "Update"
-msgstr "Salvar"
+msgstr "Enviar"
 
 #: wp-includes/class-wp-editor.php:664
 #: wp-includes/js/tinymce/langs/wp-langs.php:121
