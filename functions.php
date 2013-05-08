@@ -156,6 +156,13 @@ function mapadosplanos_login_stylesheet() { ?>
 	<?php }
 add_action( 'login_enqueue_scripts', 'mapadosplanos_login_stylesheet' );
 
+function mapadosplanos_login_footer() { ?>
+	<script type='text/javascript' src='<?php echo get_bloginfo( 'stylesheet_directory' ) . '/js/wp-login.js'; ?>'></script>
+
+	<?php }
+
+	add_filter('login_footer', 'mapadosplanos_login_footer');
+
 //Cleaning up admin area
 
 function remove_menu_items() {
