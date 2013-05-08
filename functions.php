@@ -170,7 +170,7 @@ function remove_menu_items() {
 	global $submenu;
     unset($submenu['edit.php?post_type=municipio'][10]);
 	$restricted = array(__('Dashboard'),__('Posts'),__('Links'), __('Comments'), __('Media'),
-	__('Plugins'), __('Tools'),__('Users'));
+	__('Plugins'), __('Tools'),__('Users'), "Contato");
 	end ($menu);
 	while (prev($menu)){
 		$value = explode(' ',$menu[key($menu)][0]);
@@ -179,7 +179,7 @@ function remove_menu_items() {
 		}
 	}
 	//only on 3.1
-	remove_menu_page('profile.php');	
+	remove_menu_page('profile.php');
 }
 
 
@@ -218,6 +218,7 @@ function mapadosplanos_remove_post_meta_boxes() {
 	remove_meta_box('wpcf-marketing', 'municipio', 'side');
 	remove_meta_box('munic2011', 'municipio', 'normal');
 }
+
 
 
 if ( !is_super_admin() ) {
