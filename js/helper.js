@@ -199,6 +199,20 @@ if ($("body").hasClass("single-municipio")) {
 
 }
 
+    //Login Form
+    if ($("body").hasClass("page-template-page-templateslogin-box-php")) {
+        $("#loginform-custom :input").prop("disabled", "disabled");
+        $("#termo-checkbox").click(function ()
+            {
+                if (!$(this).attr("checked")) {
+                    $("#loginform-custom :input").prop("disabled", "disabled");
+                }
+                else {
+                    $("#loginform-custom :input").removeAttr("disabled");
+                }
+            });
+    }
+
 });
 
 
