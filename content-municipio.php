@@ -297,8 +297,13 @@
 					$resultados = mapadosplanos_select_questionarios(get_the_ID()); 
 					//print_r($resultados);
 					$total = $resultados['post_id'][get_the_ID()];
+					$respondido = 'nao-respondido';
+
+					if ($total > 0) {
+						$respondido = 'respondido';
+					}
 				?>
-				<div id="respostas-sociedade">
+				<div id="respostas-sociedade" class="<?php echo $respondido; ?>">
 				<p><a href="#questionario-sociedade">Responda o questionário.</a></p>
 				<strong>Número de respondentes: <?php echo $total; ?></strong>
 				<table class="table table-bordered tab1">

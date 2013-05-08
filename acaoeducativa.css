@@ -951,3 +951,13 @@ div.wpcf7 {
 	border-radius: 0;
 	box-shadow: none;
 }
+
+
+/* Condicional de resposta da sociedade */
+#respostas-sociedade.nao-respondido {
+  display:none;
+}
+
+#respostas-sociedade.respondido {
+  display:block;
+}
