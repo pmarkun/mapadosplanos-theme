@@ -395,8 +395,8 @@ margin: 0 0 24px;
 /* MapTooltip */
 .map-tooltip{
   padding: 3px 7px;
-  top: 10px;
-  right: 10px;
+  top: 66px;
+  right: 4px;
   font-size: 12px;
 }
 .map-tooltip .munic {
