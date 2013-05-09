@@ -532,6 +532,11 @@ header #searchform div #searchsubmit {
 #searchform input[type="text"] {
   font-style: italic;
   font-family: 'Open Sans';
+  /*box-shadow: none;*/
+  border: 1px solid #aaa;
+}
+#searchform input[type="text"] {
+
 }
 
 /* ***** MENU ****** */
@@ -960,4 +965,15 @@ div.wpcf7 {
 
 #respostas-sociedade.respondido {
   display:block;
+}
+
+.lista-busca{
+  float: left;
+  width: 600px;
+}
+.lista-busca #content article{
+  border-bottom: 0;
+  float: left;
+  width: 150px;
+  height: 200px;
 }

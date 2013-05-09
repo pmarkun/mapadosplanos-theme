@@ -17,8 +17,8 @@ $total = $complano + $semplano + $elaboracao;
 if ($total > 0) {
 $totalmunicipio = round(($complano+$elaboracao)/$total*100);
 
-$complano = round(($complano/$total)*100, 2);
-$elab = round(($elaboracao/$total)*100, 2);
+$complano = round(($complano/$total)*100, 0);
+$elab = round(($elaboracao/$total)*100, 0);
 } else {$totalmunicipio = 0;};
 $semplano = 100 - $totalmunicipio;
 
@@ -35,9 +35,9 @@ $semplano = 100 - $totalmunicipio;
 		<div>Estados
 			<span><?php echo round((10/26)*100); ?>%</span>
 			<div class="progress progress-success progress-striped">
-			  <div class="bar bar_complano" style="width: <?php echo round((10/26)*100, 2); ?>%"></div>
-			  <div class="bar bar_elab" style="width: <?php echo round((0/26)*100, 2); ?>%"></div>
-			  <div class="bar bar_semplano" style="width: <?php echo round((16/26)*100, 2); ?>%"></div>
+			  <div class="bar bar_complano" style="width: <?php echo round((10/26)*100, 0); ?>%"></div>
+			  <div class="bar bar_elab" style="width: <?php echo round((0/26)*100, 0); ?>%"></div>
+			  <div class="bar bar_semplano" style="width: <?php echo round((16/26)*100, 0); ?>%"></div>
 			</div>
 		</div>
 		<div>Municípios
