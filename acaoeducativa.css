@@ -969,7 +969,7 @@ div.wpcf7 {
 
 .lista-busca{
   float: left;
-  width: 600px;
+  width: 600px !important;
 }
 .lista-busca #content article{
   border-bottom: 0;
