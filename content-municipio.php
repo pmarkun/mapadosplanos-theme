@@ -349,16 +349,16 @@
 						<td>
 							<div class="bar-container">
 								<label>Sim</label>
-								<label class="bar-porcentagem"><?php echo $resultados['qs_02']['Sim']/$total*100?>%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_01_1']['Sim']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02']['Sim']/$total*100?>%;"></div>
+								  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_01_1']['Sim']/$total*100?>%;"></div>
 								</div>
 							</div>
 							<div class="bar-container">
 								<label>Não</label>
-								<label class="bar-porcentagem"><?php echo $resultados['qs_02']['Não']/$total*100?>%</label>
+								<label class="bar-porcentagem"><?php echo $resultados['qs_01_1']['Não']/$total*100?>%</label>
 								<div class="progress">
-								  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_02']['Não']/$total*100?>%;"></div>
+								  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_01_1']['Não']/$total*100?>%;"></div>
 								</div>
 							</div>
 						</td>
@@ -371,7 +371,7 @@
 							perdurem entre diferentes mandatos</td>
 						<td>
 							<div class="progress">
-							  <div class="bar bar_complano" style="width: 35%;"></div>
+							  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02_1']/$total/5*100; ?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -381,7 +381,7 @@
 							federal)</td>
 						<td>
 							<div class="progress">
-							  <div class="bar bar_complano" style="width: 35%;"></div>
+							  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02_2']/$total/5*100; ?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -390,7 +390,7 @@
 							um estudo/diagnóstico sobre a situação educacional local</td>
 						<td>
 							<div class="progress">
-							  <div class="bar bar_complano" style="width: 35%;"></div>
+							  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02_3']/$total/5*100; ?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -399,7 +399,7 @@
 							objetivos e metas presentes no Plano de Educação</td>
 						<td>
 							<div class="progress">
-							  <div class="bar bar_complano" style="width: 35%;"></div>
+							  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02_4']/$total/5*100; ?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -408,7 +408,7 @@
 							alunos/as e pais) na definição dos rumos da política educacional local</td>
 						<td>
 							<div class="progress">
-							  <div class="bar bar_complano" style="width: 35%;"></div>
+							  <div class="bar bar_complano" style="width: <?php echo $resultados['qs_02_5']/$total/5*100; ?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -515,7 +515,7 @@
 							no município</td>
 						<td>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Facilitação do acesso às informações sobre a situação educacional no município']/$total*100 ?>%;"></div>
 							</div>
 						</td>
 					</tr>
