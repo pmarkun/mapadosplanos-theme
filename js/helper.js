@@ -63,10 +63,10 @@ $(document).ready(function () {
             console.log(m);
             var color;
             if (m.qs_etapa01=='Sim') {
-                color='#7eed0d';
+                color='#0d7eed';
             }
             else if (m.qs_etapa01=='Elaboração') {
-                color='#0d7eed';
+                color='#7eed0d';
             }
             else if (m.qs_etapa01=='Não') {
                 color='#ed0d7e';
