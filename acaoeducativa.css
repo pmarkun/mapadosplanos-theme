@@ -395,8 +395,8 @@ margin: 0 0 24px;
 /* MapTooltip */
 .map-tooltip{
   padding: 3px 7px;
-  top: 10px;
-  right: 10px;
+  top: 66px;
+  right: 4px;
   font-size: 12px;
 }
 .map-tooltip .munic {
@@ -969,7 +969,7 @@ div.wpcf7 {
 
 .lista-busca{
   float: left;
-  width: 600px;
+  width: 600px !important;
 }
 .lista-busca #content article{
   border-bottom: 0;
