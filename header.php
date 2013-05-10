@@ -28,6 +28,7 @@
 <?php wp_head(); ?>
 <!-- Jquery -->
 <script src="<?php echo child_template_directory ?>/vendor/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="<?php echo child_template_directory ?>/vendor/jquery/jquery.h5validate.js" type="text/javascript"></script>
 
 <!--Bootstrap-->
 <script src="<?php echo child_template_directory ?>/vendor/bootstrap/bootstrap-transition.js" type="text/javascript"></script>

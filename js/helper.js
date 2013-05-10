@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    //h5 validator
+    $('form').h5Validate();
 
     // here we use an interactive layer with the mapbox.layer shortcut, which
     // requires us to use a callback for when the layer is loaded, and then
