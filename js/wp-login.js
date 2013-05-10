@@ -1,5 +1,5 @@
 jQuery(document).ready(function () {
-	jQuery("#loginform :input").prop("disabled", "disabled");
+	jQuery("#wp-submit").prop("disabled", "disabled");
 	var termodeuso;
 	termodeuso = jQuery('<input id="termo-checkbox" type="checkbox" NAME="termo-de-uso" VALUE="agree">');
 	termodeuso.click(function ()
