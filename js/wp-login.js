@@ -5,11 +5,11 @@ jQuery(document).ready(function () {
 	termodeuso.click(function ()
             {
                 if (!jQuery(this).attr("checked")) {
-                    jQuery("#loginform :input").prop("disabled", "disabled");
+                    jQuery("#wp-submit").prop("disabled", "disabled");
                     jQuery(this).removeAttr("disabled");
                 }
                 else {
-                    jQuery("#loginform :input").removeAttr("disabled");
+                    jQuery("#wp-submit").removeAttr("disabled");
                     jQuery(this).removeAttr("disabled");
                 }
             });
