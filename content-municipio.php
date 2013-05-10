@@ -416,29 +416,29 @@
 
 				<table class="table table-bordered">
 					<tr><th colspan="2">Principais aspectos que dificultam a participação da 
-						sociedade civil na construção e revisão do</th></tr>
-						<tr><th colspan="2">Plano de Educação no município</th></tr>
+						sociedade civil na construção e revisão do Plano de Educação no município</th></tr>
 					<tr>
 						<td>Grandes distâncias e dificuldade de locomoção no município</td>
 						<td>
-							<label class="bar-porcentagem">35%</label>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03_1']['Grandes distâncias e dificuldade de locomoção no município']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_1']['Não']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de conhecimento sobre os Planos de Educação</td>
 						<td>
-							<label class="bar-porcentagem">35%</label>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03_2']['Falta de conhecimento sobre os Planos de Educação']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_1']['Não']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de tempo</td>
 						<td>
+						    <label class="bar-porcentagem"><?php echo $resultados['qs_03_3']['Falta de tempo']/$total*100?>%</label>
 							<div class="progress">
 							  <div class="bar bar_semplano" style="width: 35%;"></div>
 							</div>
@@ -447,16 +447,18 @@
 					<tr>
 						<td>Falta de interesse</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03_4']['Falta de interesse']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_4']['Falta de tempo']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Dificuldade de acesso à informação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03_5']['Dificuldade de acesso à informação']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_5']['Dificuldade de acesso à informação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -464,24 +466,28 @@
 						<td>Falta de divulgação dos eventos relacionados ao processo de
 							construção do Plano</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03_6']['Falta de divulgação dos eventos relacionados ao processo de construção do Plano']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_6']['Falta de divulgação dos eventos relacionados ao processo de
+							construção do Plano']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de diálogo entre as escolas e as famílias</td>
 						<td>
+						    <label class="bar-porcentagem"><?php echo $resultados['qs_03_7']['Falta de diálogo entre as escolas e as famílias']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_7']['Falta de diálogo entre as escolas e as famílias']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de diálogo entre o poder público e a sociedade</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03_8']['Falta de diálogo entre o poder público e a sociedade']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03_8']['Falta de diálogo entre o poder público e a sociedade']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -580,6 +586,7 @@
 						</td>
 					</tr>
 				</table>
+				<hr>
 					</div>
 					<div id="questionario-sociedade">
 			<?php 
