@@ -416,47 +416,49 @@
 
 				<table class="table table-bordered">
 					<tr><th colspan="2">Principais aspectos que dificultam a participação da 
-						sociedade civil na construção e revisão do</th></tr>
-						<tr><th colspan="2">Plano de Educação no município</th></tr>
+						sociedade civil na construção e revisão do Plano de Educação no município</th></tr>
 					<tr>
 						<td>Grandes distâncias e dificuldade de locomoção no município</td>
 						<td>
-							<label class="bar-porcentagem">35%</label>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Grandes distâncias e dificuldade de locomoção no município']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Grandes distâncias e dificuldade de locomoção no município']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de conhecimento sobre os Planos de Educação</td>
 						<td>
-							<label class="bar-porcentagem">35%</label>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de conhecimento sobre os Planos de Educação']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de conhecimento sobre os Planos de Educação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de tempo</td>
 						<td>
+						    <label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de tempo']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de tempo']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de interesse</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de interesse']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de interesse']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Dificuldade de acesso à informação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Dificuldade de acesso à informação']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Dificuldade de acesso à informação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -464,24 +466,27 @@
 						<td>Falta de divulgação dos eventos relacionados ao processo de
 							construção do Plano</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de divulgação dos eventos relacionados ao processo de construção do Plano']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de divulgação dos eventos relacionados ao processo de construção do Plano']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de diálogo entre as escolas e as famílias</td>
 						<td>
+						    <label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de diálogo entre as escolas e as famílias']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de diálogo entre as escolas e as famílias']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Falta de diálogo entre o poder público e a sociedade</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de diálogo entre o poder público e a sociedade']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: 35%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de diálogo entre o poder público e a sociedade']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -492,12 +497,11 @@
 						sociedade civil na construção e revisão do
 						Plano de Educação no município</th></tr>
 					<tr>
-						<td>Reuniões na escola e/ou outros espaços públicos existentes na
-							comunidade para discutir o que é um Plano de Educação e por que é
-							importante participar de sua construção</td>
+						<td>Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -505,8 +509,9 @@
 						<td>Ampla divulgação dos eventos realizados para a construção de
 							Planos de Educação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Ampla divulgação dos eventos realizados para a construção de Planos de Educação']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Ampla divulgação dos eventos realizados para a construção de Planos de Educação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -514,6 +519,7 @@
 						<td>Facilitação do acesso às informações sobre a situação educacional
 							no município</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Facilitação do acesso às informações sobre a situação educacional no município']/$total*100?>%</label>
 							<div class="progress progress-success">
 							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Facilitação do acesso às informações sobre a situação educacional no município']/$total*100 ?>%;"></div>
 							</div>
@@ -522,24 +528,27 @@
 					<tr>
 						<td>Ações realizadas em escolas próximas à residência / local de estudo</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Ações realizadas em escolas próximas à residência / local de estudo']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Ações realizadas em escolas próximas à residência / local de estudo']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Apoio para transporte</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Apoio para transporte']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Apoio para transporte']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<td>Apoio para alimentação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Apoio para alimentação']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Apoio para alimentação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -547,8 +556,9 @@
 						<td>Apoio com o cuidado dos(as) filhos(as) durante os eventos e
 							reuniões</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Apoio com o cuidado dos(as) filhos(as) durante os eventos e reuniões']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Apoio com o cuidado dos(as) filhos(as) durante os eventos e reuniões']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -556,36 +566,38 @@
 						<td>Envolvimento da escola onde estudo ou onde o(a) filho(a) estuda no
 							processo de construção ou revisão do Plano de Educação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Envolvimento da escola onde estudo ou onde o(a) filho(a) estuda no processo de construção ou revisão do Plano de Educação']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Envolvimento da escola onde estudo ou onde o(a) filho(a) estuda no processo de construção ou revisão do Plano de Educação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
-						<td>Envolvimento do poder público local no processo de construção ou
-							revisão do Plano de Educação</td>
+						<td>Envolvimento do poder público local no processo de construção ou revisão do Plano de Educação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Envolvimento do poder público local no processo de construção ou revisão do Plano de Educação']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Envolvimento do poder público local no processo de construção ou revisão do Plano de Educação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 					<tr>
-						<td>Participação da população nos espaços destinados à construção do
-							Plano de Educação</td>
+						<td>Participação da população nos espaços destinados à construção do Plano de Educação</td>
 						<td>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Participação da população nos espaços destinados à construção do Plano de Educação']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: 35%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Participação da população nos espaços destinados à construção do Plano de Educação']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
 				</table>
+				<hr><br>
 					</div>
 					<div id="questionario-sociedade">
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 			?>
-				<span>Este pequeno cadastro foi criado para que possamos conhecê-lo(a) melhor e estimular o debate sobre a construção e revisão de Planos de Educação. Vamos refletir sobre este processo em seu município? Bom trabalho!</span><br><br>
+			<span>Este pequeno cadastro foi criado para que possamos conhecê-lo(a) melhor e estimular o debate sobre a construção e revisão de Planos de Educação. Vamos refletir sobre este processo em seu município? Bom trabalho!</span><br><br>
 			<?php
 					mapadosplanos_submit_form(get_the_ID()); 
 				} 
