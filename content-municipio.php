@@ -498,12 +498,9 @@
 						sociedade civil na construção e revisão do
 						Plano de Educação no município</th></tr>
 					<tr>
-						<td>Reuniões na escola e/ou outros espaços públicos existentes na
-							comunidade para discutir o que é um Plano de Educação e por que é
-							importante participar de sua construção</td>
+						<td>Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção</td>
 						<td>
-							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é
-							importante participar de sua construção']/$total*100?>%</label>
+							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção']/$total*100?>%</label>
 							<div class="progress progress-success">
 							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é
 							importante participar de sua construção']/$total*100?>%;"></div>
