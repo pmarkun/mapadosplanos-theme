@@ -449,7 +449,7 @@
 						<td>
 							<label class="bar-porcentagem"><?php echo $resultados['qs_03']['Falta de interesse']/$total*100?>%</label>
 							<div class="progress">
-							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de tempo']/$total*100?>%;"></div>
+							  <div class="bar bar_semplano" style="width: <?php echo $resultados['qs_03']['Falta de interesse']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
@@ -502,8 +502,7 @@
 						<td>
 							<label class="bar-porcentagem"><?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção']/$total*100?>%</label>
 							<div class="progress progress-success">
-							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é
-							importante participar de sua construção']/$total*100?>%;"></div>
+							  <div class="bar" style="width: <?php echo $resultados['qs_04']['Reuniões na escola e/ou outros espaços públicos existentes na comunidade para discutir o que é um Plano de Educação e por que é importante participar de sua construção']/$total*100?>%;"></div>
 							</div>
 						</td>
 					</tr>
