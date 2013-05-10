@@ -40,6 +40,9 @@
 <!-- Other scripts -->
 <script src="<?php echo child_template_directory ?>/js/helper.js" type="text/javascript"></script>
 <script src="<?php echo child_template_directory ?>/js/scripts.js" type="text/javascript"></script>
+<script type="text/javascript">
+var templateUrl = '<?= get_bloginfo("url"); ?>';
+</script>
 
 <!-- css -->
 <link rel="stylesheet"  href="<?php echo child_template_directory ?>/vendor/bootstrap/bootstrap.css" type="text/css" media="all" />

@@ -321,7 +321,7 @@ function redirect_to_post_on_publish_or_save($location)
         $pl = get_permalink($post->ID)
     ) {
         // Always redirect to the post
-        $location = get_bloginfo('url') . "/obrigado";
+        $location = get_bloginfo('url') . "/obrigado&post=" . $post->ID;
     }
 
     return $location;
@@ -342,5 +342,18 @@ function dashboard_Redirect(){
 	$posts = get_posts($args);
 	wp_redirect(admin_url("post.php?post=".$posts[0]->ID."&action=edit"));
 }
+
+//Shortcode para Voltar ao post
+//[foo]
+function mapadosplanos_shortcode_voltapost( $atts ){
+    // get attibutes and set defaults
+        extract(shortcode_atts(array(
+                'texto' => 'Voltar para página do Munícipio'
+       ), $atts));
+ 	   return "<a href='#' id='voltaPost'>".$texto."</a>";
+}
+
+add_shortcode( 'voltaPost', 'mapadosplanos_shortcode_voltapost' );
+
 
 ?>

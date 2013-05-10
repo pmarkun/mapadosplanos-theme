@@ -1,3 +1,9 @@
+function GetParam(name) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+    );
+} 
+
 $(document).ready(function () {
     //h5 validator
     $('form').h5Validate();
@@ -214,6 +220,13 @@ if ($("body").hasClass("single-municipio")) {
                 }
             });
     }
+
+
+   //Url to return to post
+   if (GetParam('post') != 'null') {
+    var source = templateUrl + '/index.php?p=' + GetParam('post');
+    $("#voltaPost").attr("href", source );
+   }
 
 });
 
