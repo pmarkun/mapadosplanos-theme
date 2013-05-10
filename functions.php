@@ -321,7 +321,7 @@ function redirect_to_post_on_publish_or_save($location)
         $pl = get_permalink($post->ID)
     ) {
         // Always redirect to the post
-        $location = get_bloginfo('url') . "/obrigado&post=" . $post->ID;
+        $location = get_bloginfo('url') . "/obrigado?post=" . $post->ID;
     }
 
     return $location;
