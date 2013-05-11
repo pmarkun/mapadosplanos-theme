@@ -69,8 +69,8 @@
 			
 
 		<ul class="nav nav-tabs">
-  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Dados Educacionais</a></li>
-  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Gestão Municipal</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" && $custom_fields['wpcf-qs_etapa01'][0] != "Não" ? 'class="active"' : '');  ?>><a href="#parte1" data-toggle="tab">Dados Educacionais</a></li>
+  			<li <?php echo ($custom_fields['wpcf-qs_etapa01'][0] != "Sim" && $custom_fields['wpcf-qs_etapa01'][0] != "Elaboração" && $custom_fields['wpcf-qs_etapa01'][0] != "Não" ? '' : 'class="active"');  ?>><a href="#parte2" data-toggle="tab">Gestão Municipal</a></li>
   			<li><a href="#parte3" data-toggle="tab">Sociedade Civil</a></li>
 		</ul>
 
@@ -78,7 +78,7 @@
 		<!-- TABS -->
 		<div class="tab-content">
 			<!-- IBGE -->
-			<div class="tab-pane <?php echo ($etapa != "complano" && $etapa != "elaboracao" ? 'active' : '');  ?>" id="parte1">
+			<div class="tab-pane <?php echo ($etapa != "complano" && $etapa != "elaboracao" && $etapa != "semplano" ? 'active' : '');  ?>" id="parte1">
 				<span class="titulo">Dados do IBGE</span><br><span>Perfil dos Municípios Brasileiros (Munic/2011)</span>
 				<hr />
 				<table class="table table-bordered">
@@ -187,8 +187,8 @@
 			</div>
 		
 			<!-- Questionário Gestor -->
+			<div class="tab-pane <?php echo ($etapa == "complano" || $etapa == "elaboracao" || $etapa == "semplano" ? 'active' : '');  ?>" id="parte2">
 			<?php if ($etapa == "complano" || $etapa == "elaboracao") : ?>
-			<div class="tab-pane active" id="parte2">
 				<span class="titulo">Questionário respondido por gestor/a do município</span><br>
 				<hr />
 				<table class="table table-bordered">
@@ -279,17 +279,42 @@
 				</table>
 
 			</div>
-			
-			<?php elseif ($etapa != "complano" || $etapa != "elaboracao") : ?>
-			<div class="tab-pane" id="parte2">
+
+			<?php elseif ($etapa == 'semplano') : ?>
+				<span class="titulo">Questionário respondido por gestor/a do município</span><br>
+				<hr />
+				<table class="table table-bordered">
+					<tr><th colspan="2">Gestão e planejamento da educação</th></tr>
+					<tr>
+						<td>Sistema municial de ensino</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano01'); ?>"><?php echo types_render_field('qs_plano01'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Conselho Municipal de Educação</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano02'); ?>"><?php echo types_render_field('qs_plano02'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Plano de carreira e de remuneração para o magistério</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano03'); ?>"><?php echo types_render_field('qs_plano03'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Secretário(a) é ordenador(a) de despesas</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano04'); ?>"><?php echo types_render_field('qs_plano04'); ?></span></td>
+					</tr>
+					<tr>
+						<td>Já respondeu demanda baseada na Lei de Acesso à Informação</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano26'); ?>"><?php echo types_render_field('qs_plano26'); ?></span></td>
+					</tr>
+				</table>
+			<?php else : ?>
 				<span class="titulo"><p>O(A) Gestor(a) da área de educação de seu município ainda não compartilhou informações sobre o processo de construção do Plano de Educação local.</p></span>
-				<p>Se você é gestor, colabore conosco nesta coleta de informações e <a href="<?php bloginfo('wpurl');?>/wp-admin/post.php?p=<?php the_ID(); ?>&action=edit">preencha o questionário</a> sobre a elaboração do Plano de Educação do seu Município. </p>
+				<p>Se você é gestor, colabore conosco nesta coleta de informações e <a href="<?php bloginfo('wpurl');?>/wp-admin/post.php?post=<?php the_ID(); ?>&action=edit">preencha o questionário</a> sobre a elaboração do Plano de Educação do seu Município. </p>
 				<p>É da sociedade civil e quer nos ajudar organize uma campanha em seu município para que a administração local participe desta iniciativa. Você pode usar as redes sociais e mobilizar seus amigos e amigas com os nossos <a href="/cartoes-virtuais">cartões virtuais.</a></p>
 				<p>Confira também como a população e os(as) gestores(as) públicos podem se organizar em outras esferas para garantir a participação de todos(as) na construção  dos planos de educação em <a href="/mobilizacao-popular/">Mobilização Popular</a> e <a href="/processos-participativos/">Processos Participativos</a></p>
 				<p>Faça <a href="/download">download do questionário</a> a ser preenchido pela administração pública e conheça quais são as perguntas desse diagnóstico que tem por objetivo entender como os municípios vêm se preparando para elaborar ou revisar seus Planos de Educação.</p>
-			</div>
 
 			<?php endif; ?>
+			</div>
 			<!-- Questionário Sociedade -->
 			
 			
