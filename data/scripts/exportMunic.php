@@ -51,7 +51,7 @@ function map_keys($a) {
 }
 
 function writecsv($results) {
-    $fileName = 'somefile.csv';
+    $fileName = 'municipios.csv';
      
     header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
     header('Content-Description: File Transfer');
@@ -80,7 +80,6 @@ function writecsv($results) {
     // Make sure nothing else is sent, our file is done
     exit;
 }
-
 
  ?>
 <?php
