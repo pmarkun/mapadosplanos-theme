@@ -622,7 +622,7 @@
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 			?>
-			<span>Este pequeno cadastro foi criado para que possamos conhecê-lo(a) melhor e estimular o debate sobre a construção e revisão de Planos de Educação. Vamos refletir sobre este processo em seu município? Bom trabalho!</span><br><p style="color: #F11D4F;">*campos obrigatórios</p><br>
+			
 			<?php
 					mapadosplanos_submit_form(get_the_ID()); 
 				} 
