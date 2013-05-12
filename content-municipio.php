@@ -306,6 +306,20 @@
 						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_plano26'); ?>"><?php echo types_render_field('qs_plano26'); ?></span></td>
 					</tr>
 				</table>
+				<table class="table table-bordered">
+					<tr><th colspan="2">Plano de Educação</th></tr>
+					<tr>
+						<td>Tem plano?</td>
+						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_etapa01'); ?>"><?php echo types_render_field('qs_etapa01'); ?></span></td>
+					</tr>
+					<?php if ($etapa == 'complano') : ?>
+					<tr>
+						<td>Ano desta gestão em que pretende elaborá-lo</td>
+						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano23'); ?></span></td>
+					</tr>
+					</table>
+					<?php endif; ?>
+				</table>
 			<?php else : ?>
 				<span class="titulo"><p>O(A) Gestor(a) da área de educação de seu município ainda não compartilhou informações sobre o processo de construção do Plano de Educação local.</p></span>
 				<p>Se você é gestor, colabore conosco nesta coleta de informações e <a href="<?php bloginfo('wpurl');?>/wp-admin/post.php?post=<?php the_ID(); ?>&action=edit">preencha o questionário</a> sobre a elaboração do Plano de Educação do seu Município. </p>
@@ -622,7 +636,7 @@
 			<?php 
 				if (function_exists('mapadosplanos_submit_form')) {
 			?>
-			<span>Este pequeno cadastro foi criado para que possamos conhecê-lo(a) melhor e estimular o debate sobre a construção e revisão de Planos de Educação. Vamos refletir sobre este processo em seu município? Bom trabalho!</span><br><br>
+			
 			<?php
 					mapadosplanos_submit_form(get_the_ID()); 
 				} 
