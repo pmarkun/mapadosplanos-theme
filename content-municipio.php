@@ -278,8 +278,6 @@
 					</tr>
 				</table>
 
-			</div>
-
 			<?php elseif ($etapa == 'semplano') : ?>
 				<span class="titulo">Questionário respondido por gestor/a do município</span><br>
 				<hr />
