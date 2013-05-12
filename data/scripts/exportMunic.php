@@ -92,8 +92,8 @@ include_once $path . '/wp-includes/wp-db.php';
 include_once $path . '/wp-includes/pluggable.php';
 
     global $wpdb;
-    if ( !is_super_admin() ) {
-      die("You don't have the power! Login :)");
+    if ( $_GET["export"] != 'true') {
+      die("You don't have the power! :)");
     }
 
     //$query = $wpdb->get_results("SELECT * FROM " . $wpdb->prefix . "mapadosplanos_quest", ARRAY_A);
@@ -122,8 +122,14 @@ include_once $path . '/wp-includes/pluggable.php';
     //Populating
     foreach ($posts as $key => $post) {
       $posts[$key] = $post + $array_model;
+      ksort($posts[$key]);
     }
   
-    echo json_encode($posts);
-    //writecsv($posts);
+    
+    if ($_GET["type"] == "csv") {
+      writecsv($posts);
+    }
+    else if ($_GET["type"] == "json") {
+      echo json_encode($posts);
+    }
 ?>
