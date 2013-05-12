@@ -312,13 +312,11 @@
 						<td>Tem plano?</td>
 						<td><span class="resposta label label-info ibge-<?php echo types_render_field('qs_etapa01'); ?>"><?php echo types_render_field('qs_etapa01'); ?></span></td>
 					</tr>
-					<?php if ($etapa == 'complano') : ?>
 					<tr>
 						<td>Ano desta gestão em que pretende elaborá-lo</td>
 						<td><span class="resposta label label-info ibge-Multi"><?php echo types_render_field('qs_plano23'); ?></span></td>
 					</tr>
 					</table>
-					<?php endif; ?>
 				</table>
 			<?php else : ?>
 				<span class="titulo"><p>O(A) Gestor(a) da área de educação de seu município ainda não compartilhou informações sobre o processo de construção do Plano de Educação local.</p></span>
