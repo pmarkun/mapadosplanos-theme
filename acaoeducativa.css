@@ -971,7 +971,7 @@ div.wpcf7 {
   float: left;
   width: 600px !important;
 }
-.lista-busca #content article{
+.lista-busca #content article.municipio{
   border-bottom: 0;
   float: left;
   width: 150px;
