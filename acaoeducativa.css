@@ -180,6 +180,7 @@ label.bar-porcentagem{
   float: right;
   line-height: 15px;
   margin-left: 2px;
+  min-width: 30px;
 }
 
 /*.anexos {
@@ -458,6 +459,7 @@ margin: 0 0 24px;
 #page {
   margin-top: 30px;
   padding: 0 !important;
+  background: #ffffff url('img/logo-bg-menor.png') top right no-repeat scroll;
   background: rgba(256,256,256,0.9) url('img/logo-bg-menor.png') top right no-repeat scroll;
   background-position: 400px -64px;
 }
@@ -632,6 +634,7 @@ header #searchform div #searchsubmit {
 
 /* BODY */
 body {
+  background-color: #f5f5f5;
   background-color: #f7fafe;
 }
 
@@ -901,14 +904,16 @@ a:hover, a:active {
 /* Contato */
 
 div.wpcf7 {
-  margin: 0 auto;
   padding: 0;
-  width: 60%;
+  width: 90%;
 }
 .wpcf7 input[type="submit"]{
   min-width: 80px;
 }
-.wpcf7 input[type="text"], .wpcf7 textarea{
+.wpcf7 input[type="text"]{
+  width: 60%;
+}
+.wpcf7 textarea{
   width: 100%;
 }
 
