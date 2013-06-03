@@ -718,7 +718,8 @@ color: black;
 }
 .category-title{
   color: #646464;
-  line-height: 12px;
+  line-height: 20px;
+  line-height: 1.2em;
 }
 .category-title:hover{
   color: black;
