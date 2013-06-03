@@ -347,7 +347,7 @@
 					}
 				?>
 				<div id="respostas-sociedade" class="<?php echo $respondido; ?>">
-				<p><a href="#questionario-sociedade">Responda o questionário.</a></p>
+				<p>O Portal De Olho nos Planos é também um espaço de troca de experiências e você tem lugar especial neste instrumento. Quer colaborar conosco neste levantamento sobre a construção e revisão dos planos de educação em sua cidade? <a href="#questionario-sociedade">Responda aqui o questionário</a> e compartilhe sua opinião sobre este processo de mobilização em defesa de uma educação de qualidade.</p>
 				<strong>Número de respondentes: <?php echo $total; ?></strong>
 				<table class="table table-bordered tab1">
 					<tr>
