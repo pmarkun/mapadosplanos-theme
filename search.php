@@ -44,6 +44,7 @@ get_header(); ?>
 
 				<div class="entry-content">
 					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentytwelve' ); ?></p>
+					<p><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Voltar para a busca no mapa</a></p>
 					<?php get_search_form(); ?>
 				</div><!-- .entry-content -->
 			</article><!-- #post-0 -->
