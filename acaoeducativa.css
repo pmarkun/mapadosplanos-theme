@@ -983,3 +983,14 @@ div.wpcf7 {
   width: 150px;
   height: 200px;
 }
+
+
+/* Siderbar Munic */
+.munic-sidebar {
+  float:left;
+  width:25%;
+}
+
+.munic-sidebar #mapa {
+  margin-bottom:25px;
+}
